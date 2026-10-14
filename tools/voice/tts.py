@@ -1,7 +1,7 @@
 """Voiceover for the daily run: the episode's *_voiceover.txt read by Qwen3-TTS on CPU.
 
 config/voice.json picks the voice: "speaker" = one of the CustomVoice model's built-in speakers (the channel default:
-an English male, "Ryan"; no reference clip needed), or "refAudio" + "refText" = a voice clone with the Base model.
+an English male, "Aiden"; no reference clip needed), or "refAudio" + "refText" = a voice clone with the Base model.
 
 Usage: python tools/voice/tts.py <voiceover.txt> <out.wav> [--config config/voice.json]
 

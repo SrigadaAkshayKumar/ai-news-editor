@@ -1,8 +1,8 @@
 {
   "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
-  "speaker": "Ryan",
+  "speaker": "Aiden",
   "language": "English",
-  "_speakerNote": "Built-in English male speakers: Ryan (dynamic, rhythmic) or Aiden (sunny American, clear midrange). To clone a voice instead: model Qwen/Qwen3-TTS-12Hz-0.6B-Base + refAudio/refText (a clip you have the rights to, in Drive inbox/brand/), and drop speaker.",
+  "_speakerNote": "This channel uses a built-in voice, no cloning. Aiden = clear American male (neutral, widely understood: the default for a global audience). Ryan = the other built-in English male (more energetic). Change only 'speaker' to switch.",
   "seed": 1234,
   "chunkMinWords": 45,
   "chunkMaxWords": 160,

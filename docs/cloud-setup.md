@@ -7,7 +7,8 @@ makes today's episode:
    stories, checks every figure against its source, and writes the script, the voiceover text and
    `dNN_…_stories.json` (each story's companies and people, for the thumbnail).
 2. **Voice** (`tools/voice/tts.py`): a built-in English male Qwen3-TTS speaker (`config/voice.json` → `speaker`,
-   default `Ryan`; the other English male is `Aiden`) reads the voiceover on CPU. No reference clip needed. About
+   default `Aiden`, a clear American male voice that a global audience understands easily; the other
+   English male is `Ryan`, more energetic) reads the voiceover on CPU. No voice cloning, no reference clip. About
    30–40 minutes for a 6 minute voiceover. Script and voice are saved to the episode's Drive folder.
 3. **Edit** (`daily-run` skill): edit (newsroom look, story counter, real sources on screen), `verify`, the
    roundup thumbnail, Shorts, metadata. Everything goes to Drive.
