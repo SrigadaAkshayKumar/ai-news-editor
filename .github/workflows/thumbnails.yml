@@ -1,0 +1,117 @@
+# Re-make the daily roundup thumbnail (fixed text + date + the day's logos and people from the Drive library) for an
+# episode already edited. Run by hand: Actions → Thumbnails → Run workflow → project (e.g. d12-ai-tech-news-14-oct-2026).
+# Output: Drive AI-News/output/<project>/thumbnails/ (A.png, A-feed.png preview, thumbnails.md).
+# If the episode is already on YouTube (youtube-uploaded.json in Drive), the recommended one (main.txt) is put on the
+# uploaded video right away; its publish schedule is not touched. Untick "apply" to only make the files.
+name: Thumbnails
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project folder in projects/, e.g. d12-ai-tech-news-14-oct-2026"
+        required: true
+      apply:
+        description: "If the video is already on YouTube, put the recommended thumbnail on it"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  thumbnails:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-News' }}
+      P: ${{ inputs.project }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System packages + rclone
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg fonts-noto-core fonts-noto-color-emoji
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Google Drive login
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Check the project
+        run: |
+          test -f "projects/$P/project.json" || { echo "::error::no projects/$P in the repo"; exit 1; }
+          # the episode's metadata (title options) lives next to the video in Drive
+          rclone copy "$DRIVE/output/$P" "projects/$P/output" --include "metadata.md" --include "credits.md" \
+            --include "youtube.json" --include "youtube-uploaded.json" -v
+          # the logo/people library and the episodes' stories.json (the cast)
+          rclone copy "$DRIVE/inbox/library" inbox/library -v || true
+          rclone copy "$DRIVE/inbox/faceless" inbox/faceless --include "*_stories.json" --include "*_script.md" -v || true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Write .env (Gemini scenes; stock photos as the fallback)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: for k in GEMINI_API_KEY GEMINI_IMAGE_MODEL PEXELS_API_KEY PIXABAY_API_KEY; do echo "$k=${!k}" >> .env; done
+
+      - name: Make the thumbnail with Claude Code
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "Unattended, nobody will answer questions. Use the youtube-thumbnail skill, section 5c (the daily
+          roundup template: fixed text, the episode's date, the cast of logos and people from inbox/library via
+          tools/library.mjs) for project $P. The cast comes from the episode's *_stories.json (its folder is in
+          projects/$P/project.json source.original). Read the PNG and the feed preview, fix and re-render anything
+          clipped or crowded, then write projects/$P/output/thumbnails/thumbnails.md and
+          projects/$P/output/thumbnails/main.txt (A). Do not commit or push." \
+            --dangerously-skip-permissions --output-format stream-json --verbose > claude-thumbs-log.jsonl
+          ls "projects/$P/output/thumbnails/"*.png
+
+      - name: Gemini report
+        if: always()
+        run: |
+          AI="projects/$P/work/thumb/ai"
+          {
+            echo "### Gemini scenes"
+            if [ -f "$AI/prompts.json" ]; then
+              node -e 'for (const x of require(process.argv[1])) console.log(`- ${x.file} (${x.model}): ${x.prompt}`)' "$PWD/$AI/prompts.json"
+            else echo "- none generated"; fi
+            [ -f "$AI/errors.log" ] && { echo; echo '```'; cat "$AI/errors.log"; echo '```'; }
+            echo; echo "### spec.json"; echo '```json'; cat "projects/$P/output/thumbnails/spec.json" 2>/dev/null; echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload to Drive
+        run: |
+          [ -d inbox/library ] && rclone copy inbox/library "$DRIVE/inbox/library" --exclude "_candidates/**" -v || true
+          rclone copy "projects/$P/output/thumbnails" "$DRIVE/output/$P/thumbnails" -v
+          # every Gemini candidate, so the owner can see what was picked from
+          [ -d "projects/$P/work/thumb/ai" ] && rclone copy "projects/$P/work/thumb/ai" "$DRIVE/output/$P/thumbnails/gemini" -v || true
+
+      - name: Put the thumbnail on the uploaded video
+        if: inputs.apply && hashFiles(format('projects/{0}/output/youtube-uploaded.json', inputs.project)) != ''
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          node tools/youtube.mjs "$P" --set-thumbnail
+          rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
+
+      - name: Keep the Claude log (Drive)
+        if: always()
+        run: |
+          [ -f claude-thumbs-log.jsonl ] && rclone copy claude-thumbs-log.jsonl "$DRIVE/output/_logs/thumbs-$P-$(date -u +%Y%m%d-%H%M)" || true

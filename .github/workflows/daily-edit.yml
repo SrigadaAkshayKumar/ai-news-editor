@@ -1,0 +1,282 @@
+# Unattended daily AI & Tech news roundup: Google Drive inbox → script from the last 24 hours of news (daily-script
+# skill) → voice (built-in English male Qwen3-TTS speaker on CPU, tools/voice/tts.py) → Claude Code edits it
+# (daily-run skill) + the roundup thumbnail from the logo/people library → verify → Shorts (AI-clipper) → Google
+# Drive output. Media never touches git; only the edit's decision
+# files are committed. Claude's transcripts go to Drive, not to run artifacts: this repo is public.
+# One-time setup (secrets, Drive layout, voice reference, schedule): docs/cloud-setup.md
+name: Daily edit
+
+on:
+  schedule:
+    - cron: "47 2 * * *" # 02:47 UTC = 08:17 IST, every day: the news window is the 24 h before this (off the busy :00/:30 marks)
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode folder, e.g. d03 (empty = the next unfinished one, skipped if one finished in the last 12 h)"
+        required: false
+      brief:
+        description: "Style words for this run (empty = brief.txt in the episode folder, else config/daily.json)"
+        required: false
+
+concurrency:
+  group: daily-edit
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-News' }}
+      # Conservative render settings (they were set for the 2 vCPU / 7 GB private runner; public repos get 4 / 16 GB)
+      REMOTION_CONCURRENCY: "2"
+      RENDER_MIN_FREE_GB: "1.5"
+      HYPERFRAMES_WORKERS: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System packages + rclone
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg fonts-noto-core fonts-noto-color-emoji cmake sox
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Google Drive login
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          test -n "$RCLONE_CONF" || { echo "::error::secret RCLONE_CONF is missing (docs/cloud-setup.md)"; exit 1; }
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Pull the inbox from Drive
+        run: rclone copy "$DRIVE/inbox" inbox --exclude "README.md" -v
+
+      - name: Plan the episode
+        id: plan
+        env:
+          EPISODE: ${{ inputs.episode }}
+        run: |
+          # a run queued behind another one starts from an older commit: read the newest state
+          git fetch -q --depth 1 origin "$GITHUB_REF_NAME" && git checkout FETCH_HEAD -- config/daily-state.json
+          node tools/daily.mjs next $EPISODE
+
+      - name: Nothing to do
+        if: steps.plan.outputs.episode == 'none'
+        env:
+          REASON: ${{ steps.plan.outputs.reason }}
+        run: |
+          echo "Nothing to do: $REASON" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/setup-node@v4
+        if: steps.plan.outputs.episode != 'none'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            remotion/package-lock.json
+            hyperframes/package-lock.json
+            AI-clipper/package-lock.json
+
+      - uses: actions/setup-python@v5
+        if: steps.plan.outputs.episode != 'none'
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        if: steps.plan.outputs.episode != 'none'
+        run: |
+          npm ci
+          (cd remotion && npm ci)
+          (cd hyperframes && npm ci)
+          (cd AI-clipper && npm ci)
+          pip install -q opencv-python-headless numpy
+          npm install -g @anthropic-ai/claude-code
+
+      - name: Write the script
+        id: script
+        if: steps.plan.outputs.needs == 'script'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EPISODE: ${{ steps.plan.outputs.episode }}
+          DIR: ${{ steps.plan.outputs.dir }}
+        run: |
+          claude -p "This is the unattended daily script step: use the daily-script skill.
+          Next episode: $EPISODE (folder $DIR; it does not exist yet when the planned series has run out)
+          Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')" \
+            --dangerously-skip-permissions --output-format stream-json --verbose > claude-script-log.jsonl
+          node tools/daily.mjs script-check
+
+      - name: Today's episode
+        id: ep
+        if: steps.plan.outputs.episode != 'none'
+        env:
+          EPISODE: ${{ steps.script.outputs.episode || steps.plan.outputs.episode }}
+          NEEDS: ${{ steps.script.outputs.needs || steps.plan.outputs.needs }}
+          DIR: ${{ steps.script.outputs.dir || steps.plan.outputs.dir }}
+          VOICEOVER: ${{ steps.script.outputs.voiceover || steps.plan.outputs.voiceover }}
+        run: |
+          printf 'episode=%s\nneeds=%s\ndir=%s\nvoiceover=%s\n' "$EPISODE" "$NEEDS" "$DIR" "$VOICEOVER" >> "$GITHUB_OUTPUT"
+          echo "**$EPISODE** needs: $NEEDS" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Voice (Qwen3-TTS on CPU, config/voice.json)
+        if: steps.ep.outputs.needs == 'voice'
+        env:
+          EPISODE: ${{ steps.ep.outputs.episode }}
+          DIR: ${{ steps.ep.outputs.dir }}
+          VOICEOVER: ${{ steps.ep.outputs.voiceover }}
+        run: |
+          python -m venv ~/.venv-tts
+          ~/.venv-tts/bin/pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          ~/.venv-tts/bin/pip install -q qwen-tts==0.1.1 soundfile
+          ~/.venv-tts/bin/python tools/voice/tts.py "$VOICEOVER" "$DIR/$EPISODE-voice.wav"
+
+      - name: Save the script + voice to Drive
+        # also after a failed voice step: keep a script that took a research run to write
+        if: always() && (steps.script.outcome == 'success' || steps.ep.outputs.needs == 'voice')
+        env:
+          DIR: ${{ steps.ep.outputs.dir }}
+        run: rclone copy "$DIR" "$DRIVE/$DIR" -v
+
+      - name: Pick the episode
+        id: pick
+        if: steps.plan.outputs.episode != 'none'
+        env:
+          EPISODE: ${{ steps.ep.outputs.episode }}
+          BRIEF_IN: ${{ inputs.brief }}
+        run: |
+          node tools/daily.mjs next $EPISODE | tee pick.json
+          grep -q '"needs": "edit"' pick.json || { echo "::error::$EPISODE has no voiceover audio to edit"; exit 1; }
+          if [ -n "$BRIEF_IN" ]; then echo "brief=$(echo "$BRIEF_IN" | tr '\n' ' ')" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Cache whisper.cpp
+        if: steps.pick.outputs.episode != 'none'
+        uses: actions/cache@v4
+        with:
+          path: ~/.whisper.cpp
+          key: whisper-cpp-v1.9.2-${{ runner.os }}
+
+      - name: Build whisper.cpp (first run only)
+        if: steps.pick.outputs.episode != 'none'
+        run: |
+          if [ ! -x ~/.whisper.cpp/bin/whisper-cli ]; then
+            git clone -q --depth 1 --branch v1.9.2 https://github.com/ggml-org/whisper.cpp /tmp/whisper.cpp
+            cmake -S /tmp/whisper.cpp -B /tmp/whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF -DWHISPER_BUILD_TESTS=OFF
+            cmake --build /tmp/whisper.cpp/build -j --target whisper-cli
+            mkdir -p ~/.whisper.cpp/bin && cp /tmp/whisper.cpp/build/bin/whisper-cli ~/.whisper.cpp/bin/
+          fi
+          echo "WHISPER_CLI_PATH=$HOME/.whisper.cpp/bin/whisper-cli" >> "$GITHUB_ENV"
+
+      - name: Write .env
+        if: steps.pick.outputs.episode != 'none'
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          OPENVERSE_TOKEN: ${{ secrets.OPENVERSE_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          for k in ELEVENLABS_API_KEY GEMINI_API_KEY GEMINI_IMAGE_MODEL PEXELS_API_KEY PIXABAY_API_KEY OPENVERSE_TOKEN YOUTUBE_API_KEY; do
+            echo "$k=${!k}" >> .env
+          done
+
+      - name: Edit with Claude Code
+        if: steps.pick.outputs.episode != 'none'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EPISODE: ${{ steps.pick.outputs.episode }}
+          AUDIO: ${{ steps.pick.outputs.audio }}
+          BRIEF: ${{ steps.pick.outputs.brief }}
+          LOOK: ${{ steps.pick.outputs.look }}
+          LOOK_STYLE: ${{ steps.pick.outputs.look_style }}
+          LOOK_BRIEF: ${{ steps.pick.outputs.look_brief }}
+        run: |
+          echo "Edit look: **$LOOK** ($LOOK_STYLE)" >> "$GITHUB_STEP_SUMMARY"
+          claude -p "This is the unattended daily run: use the daily-run skill.
+          Episode: $EPISODE
+          Voiceover: $AUDIO
+          Look for this episode: $LOOK (--style $LOOK_STYLE): $LOOK_BRIEF
+          Brief override: ${BRIEF:-none, use config/daily.json}" \
+            --dangerously-skip-permissions --output-format stream-json --verbose > claude-log.jsonl
+
+      # new logos/cut-outs fetched for today's thumbnail: keep them for tomorrow (Drive, never git)
+      - name: Save the thumbnail library to Drive
+        if: always() && steps.pick.outputs.episode != 'none'
+        run: if [ -d inbox/library ]; then rclone copy inbox/library "$DRIVE/inbox/library" --exclude "_candidates/**" -v; fi
+
+      - name: Check the result
+        id: check
+        if: steps.pick.outputs.episode != 'none'
+        run: node tools/daily.mjs check
+
+      - name: Upload to Drive
+        if: steps.check.outcome == 'success'
+        env:
+          P: ${{ steps.check.outputs.project }}
+          SHORTS: ${{ steps.check.outputs.shorts_dir }}
+        run: |
+          rclone copy "projects/$P/output" "$DRIVE/output/$P" -v
+          rclone copy "$SHORTS" "$DRIVE/output/$P/shorts" -v
+          rclone copy "AI-clipper/jobs/$P/clips.json" "$DRIVE/output/$P/shorts" -v
+          if [ -f daily-script-report.md ]; then rclone copy daily-script-report.md "$DRIVE/output/$P" -v; fi
+
+      - name: Upload to YouTube (scheduled)
+        id: youtube
+        if: steps.check.outcome == 'success' && vars.YOUTUBE_UPLOAD != 'off'
+        # a failed upload must not lose the edit: the video is already in Drive and gets recorded below
+        continue-on-error: true
+        env:
+          P: ${{ steps.check.outputs.project }}
+          SHORTS: ${{ steps.check.outputs.shorts_dir }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if [ -z "$YT_REFRESH_TOKEN" ] || ! node -e 'process.exit(require("./config/daily.json").youtube?.enabled ? 0 : 1)'; then
+            echo "YouTube upload off (no YT_REFRESH_TOKEN secret, or youtube.enabled is false)" >> "$GITHUB_STEP_SUMMARY"; exit 0
+          fi
+          node tools/youtube.mjs "$P" --shorts "$SHORTS"
+          rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
+
+      - name: Record + commit the edit decisions
+        if: steps.check.outcome == 'success'
+        env:
+          P: ${{ steps.check.outputs.project }}
+          LOOK: ${{ steps.pick.outputs.look }}
+        run: |
+          node tools/daily.mjs done --look "$LOOK"
+          git config user.name "daily-edit bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "projects/$P" config/daily-state.json
+          git commit -m "daily: $P"
+          # the edit leaves other tracked files modified (not committed); keep them out of the rebase
+          git pull --rebase --autostash -q && git push
+
+      - name: Failure report to Drive
+        if: failure() && steps.plan.outputs.episode != 'none'
+        env:
+          EPISODE: ${{ steps.ep.outputs.episode || steps.plan.outputs.episode }}
+        run: |
+          dir="$DRIVE/output/_failed/$EPISODE-$(date -u +%Y%m%d-%H%M)"
+          for f in daily-script-report.md daily-script.json daily-report.md daily-run.json; do [ -f "$f" ] && rclone copy "$f" "$dir"; done
+          echo "Run failed; report (if any) in $dir and the workflow log." >> "$GITHUB_STEP_SUMMARY"
+
+      # Not a run artifact: this repo is public, and artifacts of a public repo can be downloaded by anyone.
+      - name: Keep the Claude logs (Drive)
+        if: always() && steps.plan.outputs.episode != 'none'
+        env:
+          EPISODE: ${{ steps.ep.outputs.episode || steps.plan.outputs.episode }}
+        run: |
+          dir="$DRIVE/output/_logs/$EPISODE-$(date -u +%Y%m%d-%H%M)"
+          for f in claude-script-log.jsonl claude-log.jsonl daily-script-report.md daily-script.json daily-report.md daily-run.json; do
+            [ -f "$f" ] && rclone copy "$f" "$dir"
+          done
+          find inbox -name '*.tts.json' -newer package.json -exec rclone copy {} "$dir" \; || true

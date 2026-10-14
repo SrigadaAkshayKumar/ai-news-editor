@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+  "speaker": "Ryan",
+  "language": "English",
+  "_speakerNote": "Built-in English male speakers: Ryan (dynamic, rhythmic) or Aiden (sunny American, clear midrange). To clone a voice instead: model Qwen/Qwen3-TTS-12Hz-0.6B-Base + refAudio/refText (a clip you have the rights to, in Drive inbox/brand/), and drop speaker.",
+  "seed": 1234,
+  "chunkMinWords": 45,
+  "chunkMaxWords": 160,
+  "pauseSeconds": 0.5,
+  "wordsPerSecond": 3.2,
+  "durationTolerance": [
+    0.6,
+    1.6
+  ],
+  "retries": 2
+}

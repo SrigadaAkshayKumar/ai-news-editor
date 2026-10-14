@@ -1,0 +1,22 @@
+{
+  "name": "AI News Daily",
+  "shortName": "AI News Daily",
+  "nameIsPlaceholder": true,
+  "handle": "",
+  "channelId": "",
+  "audience": "People who follow tech and AI (developers, students, founders, curious professionals, India and worldwide) and want one short daily catch-up of what actually happened in the last 24 hours",
+  "titleFormula": "AI & Tech News: What Happened in the Last 24 Hours | <D Mon YYYY> | <2-3 biggest names or stories>",
+  "titleExamples": [
+    "AI & Tech News: What Happened in the Last 24 Hours | 14 Oct 2026 | OpenAI, Google, Anthropic"
+  ],
+  "thumbnail": {
+    "template": "roundup",
+    "kicker": "AI & Tech · Daily",
+    "lines": ["What happened", "in the last", "*24 hours*"],
+    "dateFormat": "D Mon YYYY"
+  },
+  "accent": "#00d1ff",
+  "links": [],
+  "intro": "inbox/brand/Intro.mp4",
+  "notes": "Daily tech + AI news roundup, English, neutral male narrator (built-in TTS speaker). Tone: calm, fast, factual news anchor; no hype words, no 'guys'. CTA: one comment question + subscribe for tomorrow's roundup. The channel name is a placeholder until the owner decides: change name/shortName here and in config/daily.json's brief. Intro is used only when the file exists in Drive."
+}

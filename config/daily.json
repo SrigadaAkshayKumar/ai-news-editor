@@ -1,0 +1,35 @@
+{
+  "series": "inbox/faceless/AI_News_Daily",
+  "brand": "ai-news",
+  "freshNews": true,
+  "minHoursBetween": 12,
+  "mode": "faceless",
+  "formats": "16:9",
+  "noCaptions": true,
+  "bgm": false,
+  "brief": "AI News Daily roundup: 16:9 YouTube, no captions, brand intro after the cold open (when inbox/brand/Intro.mp4 exists), a story counter so viewers know where they are (chapter rail, 'Story 3 of 8'), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English",
+  "shorts": {
+    "framing": "black"
+  },
+  "looks": {
+    "avoidRecent": 1,
+    "untagged": "newsroom",
+    "list": [
+      {
+        "name": "newsroom",
+        "style": "broadcast",
+        "brief": "daily news-desk look, the same every day so the channel is recognisable: news screenshots and NewsCards lead (the real source of each story), a story counter / chapter rail, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; a wipe whoosh + hit on every story change, soft ticks elsewhere"
+      }
+    ]
+  },
+  "youtube": {
+    "enabled": false,
+    "publishDelayDays": 0,
+    "publishTime": "18:00",
+    "shortsCount": 3,
+    "shortsGapMinutes": 60,
+    "categoryId": "28",
+    "language": "en",
+    "syntheticMedia": false
+  }
+}
