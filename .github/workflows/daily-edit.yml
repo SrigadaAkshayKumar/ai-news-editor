@@ -17,6 +17,13 @@ on:
       brief:
         description: "Style words for this run (empty = brief.txt in the episode folder, else config/daily.json)"
         required: false
+      sample:
+        description: "Test sample: its own folder (sample-<time>), not counted as an episode, decisions not committed"
+        type: boolean
+        default: false
+      publish:
+        description: "Upload to YouTube for this run at this IST time, e.g. 2026-10-18 18:00 (even while youtube.enabled is false)"
+        required: false
       note:
         description: "Run note for the script AND the edit, e.g. a test sample: \"1-minute test: cold open + 4 quick stories, one Short\""
         required: false
@@ -78,10 +85,11 @@ jobs:
         id: plan
         env:
           EPISODE: ${{ inputs.episode }}
+          SAMPLE: ${{ inputs.sample }}
         run: |
           # a run queued behind another one starts from an older commit: read the newest state
           git fetch -q --depth 1 origin "$GITHUB_REF_NAME" && git checkout FETCH_HEAD -- config/daily-state.json
-          node tools/daily.mjs next $EPISODE
+          if [ "$SAMPLE" = "true" ]; then node tools/daily.mjs next --sample; else node tools/daily.mjs next $EPISODE; fi
 
       - name: Nothing to do
         if: steps.plan.outputs.episode == 'none'
@@ -257,20 +265,28 @@ jobs:
         # a failed upload must not lose the edit: the video is already in Drive and gets recorded below
         continue-on-error: true
         env:
+          PUBLISH: ${{ inputs.publish }}
           P: ${{ steps.check.outputs.project }}
           SHORTS: ${{ steps.check.outputs.shorts_dir }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
-          if [ -z "$YT_REFRESH_TOKEN" ] || ! node -e 'process.exit(require("./config/daily.json").youtube?.enabled ? 0 : 1)'; then
-            echo "YouTube upload off (no YT_REFRESH_TOKEN secret, or youtube.enabled is false)" >> "$GITHUB_STEP_SUMMARY"; exit 0
+          if [ -z "$YT_REFRESH_TOKEN" ]; then
+            echo "YouTube upload off (no YT_REFRESH_TOKEN secret)" >> "$GITHUB_STEP_SUMMARY"; exit 0
           fi
-          node tools/youtube.mjs "$P" --shorts "$SHORTS"
+          if [ -n "$PUBLISH" ]; then
+            # a publish time typed for this run uploads even while the daily upload is off
+            node tools/youtube.mjs "$P" --shorts "$SHORTS" --publish "$PUBLISH"
+          elif node -e 'process.exit(require("./config/daily.json").youtube?.enabled ? 0 : 1)'; then
+            node tools/youtube.mjs "$P" --shorts "$SHORTS"
+          else
+            echo "YouTube upload off (youtube.enabled is false)" >> "$GITHUB_STEP_SUMMARY"; exit 0
+          fi
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
 
       - name: Record + commit the edit decisions
-        if: steps.check.outcome == 'success'
+        if: steps.check.outcome == 'success' && steps.plan.outputs.sample != 'true'
         env:
           P: ${{ steps.check.outputs.project }}
           LOOK: ${{ steps.pick.outputs.look }}

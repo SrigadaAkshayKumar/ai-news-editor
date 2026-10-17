@@ -15,6 +15,8 @@
 //                                     Without a named episode it answers "none" when an episode finished less than
 //                                     config.minHoursBetween hours ago: GitHub's schedule fires hours late and the
 //                                     backup start may already have made today's episode.
+//   node tools/daily.mjs next --sample   a test episode outside the series numbering: folder sample-YYYYMMDD-HHMM (UTC),
+//                                     needs script, never recorded by done, ignores minHoursBetween.
 //   node tools/daily.mjs script-check reads daily-script.json (written by the daily-script skill), confirms the
 //                                     episode's script + voiceover are complete. Exit 1 = stop the run.
 //   node tools/daily.mjs check        reads daily-run.json (written by Claude at the end of the run), confirms the
@@ -97,6 +99,13 @@ const lookFields = (episode) => {
   return look ? { look: look.name, look_style: look.style, look_brief: look.brief } : {};
 };
 
+const isSample = (name) => /^sample-[\w-]+$/i.test(name || "");
+
+if (cmd === "next" && flags.sample) {
+  const episode = `sample-${new Date().toISOString().slice(0, 16).replace(/[-:]/g, "").replace("T", "-")}`;
+  output({ episode, needs: "script", dir: rel(config.series, episode), audio: "", voiceover: "", brief: "", sample: "true", ...lookFields(episode) });
+  process.exit(0);
+}
 if (cmd === "next") {
   const last = state.done.map((d) => Date.parse(d.at)).filter(Number.isFinite).sort((a, b) => a - b).at(-1);
   const hours = last ? (Date.now() - last) / 3.6e6 : Infinity;
@@ -107,7 +116,9 @@ if (cmd === "next") {
   // a news channel has no planned series: the folder appears with the first episode (and is empty on a new Drive)
   if (!existsSync(series)) mkdirSync(series, { recursive: true });
   const episodes = listEpisodes();
-  const pick = arg ? episodes.find((e) => e.toLowerCase() === arg.toLowerCase()) : episodes.find((e) => !finished(e));
+  const pick = arg
+    ? (isSample(arg) && existsSync(join(series, arg)) ? arg : episodes.find((e) => e.toLowerCase() === arg.toLowerCase()))
+    : episodes.find((e) => !finished(e));
   if (arg && !pick) die(`no episode folder ${arg} in ${config.series}`);
   if (!pick) {
     if (config.freshNews === false) {
@@ -135,7 +146,7 @@ if (cmd === "next") {
   if (!existsSync(SCRIPT_RESULT)) die("daily-script.json missing — the script step did not finish");
   const r = readJson(SCRIPT_RESULT);
   if (r.status !== "ok") die(`the script step reported status "${r.status}": ${r.notes || "see daily-script-report.md"}`);
-  if (!/^d\d+$/i.test(r.episode || "") || !existsSync(join(series, r.episode))) die(`daily-script.json names no episode folder: ${r.episode}`);
+  if (!(/^d\d+$/i.test(r.episode || "") || isSample(r.episode)) || !existsSync(join(series, r.episode))) die(`daily-script.json names no episode folder: ${r.episode}`);
   const vo = voiceoverOf(r.episode);
   if (!vo) die(`${r.episode} has no *_voiceover.txt`);
   if (!scriptOf(r.episode)) die(`${r.episode} has no *_script.md`);
@@ -163,6 +174,7 @@ if (cmd === "next") {
   output({ project: r.project, shorts_dir: shortsDir.replace(/\\/g, "/"), finals: finals.join(" "), shorts: shorts.length });
 } else if (cmd === "done") {
   const r = readJson(RESULT);
+  if (isSample(r.episode)) { console.log(`${r.episode} is a sample: not recorded`); process.exit(0); }
   state.done = state.done.filter((d) => d.episode !== r.episode);
   const look = typeof flags.look === "string" && flags.look ? { look: flags.look } : {};
   state.done.push({ episode: r.episode, project: r.project, ...look, at: new Date().toISOString() });
