@@ -51,9 +51,21 @@ jobs:
           test -n "$RCLONE_CONF" || { echo "::error::secret RCLONE_CONF is missing (docs/cloud-setup.md)"; exit 1; }
           mkdir -p ~/.config/rclone
           printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          f=~/.config/rclone/rclone.conf
+          if ! grep -q '^\[gdrive\]' "$f"; then
+            if grep -q '^\[' "$f"; then
+              # only the section names, never the values (they hold the token)
+              echo "::error::RCLONE_CONF has no [gdrive] section; it has: $(grep '^\[' "$f" | tr '\n' ' '). Rename that line to [gdrive] in the secret."; exit 1
+            fi
+            # pasted without its first line: the values alone are the gdrive remote
+            sed -i '1i [gdrive]' "$f"; echo "::warning::RCLONE_CONF had no section line; assumed [gdrive]"
+          fi
+          grep -q '^type *= *drive' "$f" || { echo "::error::RCLONE_CONF has no 'type = drive' line (copy the whole [gdrive] section)"; exit 1; }
+          rclone lsd gdrive: --max-depth 1 >/dev/null || { echo "::error::rclone cannot reach Google Drive with RCLONE_CONF (token expired or wrong account?)"; exit 1; }
 
       - name: Pull the inbox from Drive
-        run: rclone copy "$DRIVE/inbox" inbox --exclude "README.md" -v
+        # a new Drive folder may not have inbox/ yet: start empty instead of failing
+        run: rclone mkdir "$DRIVE/inbox" && rclone copy "$DRIVE/inbox" inbox --exclude "README.md" -v
 
       - name: Plan the episode
         id: plan
