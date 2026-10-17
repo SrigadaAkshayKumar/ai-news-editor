@@ -17,6 +17,9 @@ on:
       brief:
         description: "Style words for this run (empty = brief.txt in the episode folder, else config/daily.json)"
         required: false
+      note:
+        description: "Run note for the script AND the edit, e.g. a test sample: \"1-minute test: cold open + 4 quick stories, one Short\""
+        required: false
 
 concurrency:
   group: daily-edit
@@ -121,10 +124,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           EPISODE: ${{ steps.plan.outputs.episode }}
           DIR: ${{ steps.plan.outputs.dir }}
+          NOTE: ${{ inputs.note }}
         run: |
           claude -p "This is the unattended daily script step: use the daily-script skill.
           Next episode: $EPISODE (folder $DIR; it does not exist yet when the planned series has run out)
-          Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')" \
+          Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')
+          Run note from the owner (overrides the skill's length and story count where they clash): ${NOTE:-none}" \
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-script-log.jsonl
           node tools/daily.mjs script-check
 
@@ -214,13 +219,15 @@ jobs:
           LOOK: ${{ steps.pick.outputs.look }}
           LOOK_STYLE: ${{ steps.pick.outputs.look_style }}
           LOOK_BRIEF: ${{ steps.pick.outputs.look_brief }}
+          NOTE: ${{ inputs.note }}
         run: |
           echo "Edit look: **$LOOK** ($LOOK_STYLE)" >> "$GITHUB_STEP_SUMMARY"
           claude -p "This is the unattended daily run: use the daily-run skill.
           Episode: $EPISODE
           Voiceover: $AUDIO
           Look for this episode: $LOOK (--style $LOOK_STYLE): $LOOK_BRIEF
-          Brief override: ${BRIEF:-none, use config/daily.json}" \
+          Brief override: ${BRIEF:-none, use config/daily.json}
+          Run note from the owner: ${NOTE:-none}" \
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-log.jsonl
 
       # new logos/cut-outs fetched for today's thumbnail: keep them for tomorrow (Drive, never git)
