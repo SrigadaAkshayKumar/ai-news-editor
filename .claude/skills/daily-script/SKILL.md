@@ -1,6 +1,6 @@
 ---
 name: daily-script
-description: The UNATTENDED script step of the daily run in GitHub Actions — research the last 24 hours of tech and AI news and write today's roundup episode (script + voiceover + stories.json with the companies and people for the thumbnail), ready for the voice step. A planned episode folder that already exists in the series comes first. Use only when the prompt says it is the daily script step (or the user asks to rehearse it locally).
+description: The UNATTENDED script step of the daily run in GitHub Actions — research the last 24 hours of technology news (software, AI, hardware) and write today's roundup episode (script + voiceover + stories.json with the companies and people for the thumbnail), ready for the voice step. A planned episode folder that already exists in the series comes first. Use only when the prompt says it is the daily script step (or the user asks to rehearse it locally).
 ---
 
 # Daily script step (no human in the loop)
@@ -35,9 +35,13 @@ voice), then the `daily-run` skill edits it. Nobody reads the script before it i
   and regulator pages (MeitY, PIB, FTC, EU Commission), exchange filings, and reputable outlets (Reuters, AP,
   Bloomberg, The Verge, TechCrunch, Ars Technica, Wired, CNBC, Financial Times, The Economic Times, Mint,
   Moneycontrol, The Hindu BusinessLine). Never a social post or an aggregator as the source.
-- **Pick 6–10 stories** that a tech/AI follower would be annoyed to have missed: launches and model releases,
-  funding/acquisitions/earnings that move the industry, policy and regulation, big outages/security incidents,
-  research that changes what tools can do, India tech and AI news with real weight. Skip rumours, minor app
+- **Pick 6–10 stories** that a tech follower would be annoyed to have missed, across the **three beats**:
+  - **Software:** OS and app releases, developer tools and platforms, big outages, security breaches and patches.
+  - **AI:** model releases, AI products, research that changes what tools can do, AI policy.
+  - **Hardware:** chips and semiconductors, phones, PCs, devices, data centres, launches and supply news.
+  Plus funding/acquisitions/earnings that move the industry, regulation, and India tech news with real weight.
+  **Balance:** when the day has them, at least one software and one hardware story; AI at most about half the
+  stories, so the channel stays a tech channel, not an AI-only one. Skip rumours, minor app
   updates, listicles and anything already covered in the last three episodes without a new development.
 - **Order:** the biggest story first (it is the cold open's lead and the title's lead), then mix weights so the
   middle does not sag; end on a lighter or forward-looking story.
@@ -45,7 +49,7 @@ voice), then the `daily-run` skill edits it. Nobody reads the script before it i
 
 ## 3. Shape (copy exactly)
 
-- **S00 · Cold open** (60–90 words): "Here is what happened in tech and A.I. in the last twenty four hours." then the
+- **S00 · Cold open** (60–90 words): "Here is what happened in tech in the last twenty four hours." then the
   three biggest headlines in one line each, then "Let's get into it."
 - **S01 … SNN · one story each** (70–130 words): what happened (who, what, when) → the one number or detail that
   matters → why it matters to the viewer, in plain words. No filler, no "in today's fast-moving world".
@@ -79,7 +83,7 @@ voice), then the `daily-run` skill edits it. Nobody reads the script before it i
 ## 6. The files
 
 **`dNN_<slug>_script.md`** (the edit follows it as its direction pass):
-`# Day NN · AI & Tech News, <D Mon YYYY>`, then the item table: Post date, Title (the brand's `titleFormula`,
+`# Day NN · Tech News, <D Mon YYYY>`, then the item table: Post date, Title (the brand's `titleFormula`,
 ≤ 100 characters, the 2–3 biggest names), Alt title, Length, Thumbnail (the cast: which logos and people, from
 `stories.json`). Then a **sources list**: one line per story with every figure, its outlet/official page, the
 date, and the link. Then per scene `### S01 · <short headline>`, a ```` ```vo ```` block (identical to the

@@ -144,7 +144,7 @@ the **cast** of the day's biggest stories — up to 3 cut-out **people** and up 
 4. Spec `output/thumbnails/spec.json` with ONE variant, most important person first:
    ```json
    {"accent": "<brand accent>", "brand": "<brand shortName, upper case>", "variants": [
-     {"name": "A", "template": "roundup", "kicker": "AI & Tech · Daily", "lines": ["What happened", "in the last", "*24 hours*"],
+     {"name": "A", "template": "roundup", "kicker": "Software · AI · Hardware", "lines": ["What happened", "in the last", "*24 hours*"],
       "date": "14 Oct 2026", "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg", "assets/library/google.svg"]}]}
    ```
    `node tools/thumb-design.mjs <p> output/thumbnails/spec.json` → Read `A.png` and `A-feed.png`: faces

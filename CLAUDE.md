@@ -1,6 +1,6 @@
 # AI-news-editor
 
-A daily **AI & Tech news roundup** channel (English, built-in male TTS voice; name not final — working name
+A daily **tech news roundup** channel (software, AI and hardware) (English, built-in male TTS voice; name not final — working name
 "AI News Daily", `config/brands/ai-news.json`). Copied from `ai-video-editor` (Crack IT) and run separately: own
 Drive folder (`AI-News`), secrets, schedule and YouTube channel. Engine fixes from there can be brought over by hand.
 

@@ -1,4 +1,4 @@
-# Daily AI & Tech news roundup: one-time setup
+# Daily tech news roundup (software, AI, hardware): one-time setup
 
 Every day at 08:17 IST, `.github/workflows/daily-edit.yml` runs on GitHub. It pulls the inbox from Google Drive and
 makes today's episode:

@@ -1,6 +1,6 @@
 ---
 name: daily-run
-description: The UNATTENDED daily run in GitHub Actions — edit one daily AI & Tech news roundup end to end with nobody to ask, finalize and verify it, cut YouTube Shorts from it with AI-clipper, write the upload metadata, and leave daily-run.json + daily-report.md for the workflow to check and upload to Google Drive. Use only when the prompt says it is the daily run (or the user asks to rehearse it locally).
+description: The UNATTENDED daily run in GitHub Actions — edit one daily tech news roundup (software, AI, hardware) end to end with nobody to ask, finalize and verify it, cut YouTube Shorts from it with AI-clipper, write the upload metadata, and leave daily-run.json + daily-report.md for the workflow to check and upload to Google Drive. Use only when the prompt says it is the daily run (or the user asks to rehearse it locally).
 ---
 
 # Daily run (no human in the loop)

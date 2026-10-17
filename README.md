@@ -1,4 +1,4 @@
-# AI News Editor: an autonomous daily AI & Tech news channel
+# AI News Editor: an autonomous daily tech news channel (software, AI, hardware)
 
 An AI agent that runs a faceless YouTube news channel end to end. Every morning a GitHub Actions run:
 
