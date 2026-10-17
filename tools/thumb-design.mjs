@@ -6,7 +6,7 @@
 //   node tools/thumb-design.mjs --demo <out-dir>           → one of each template with sample text
 // spec.json: {"accent": "#00d1ff", "brand": "CHANNEL NAME", "variants": [
 //   {"name": "A", "template": "roundup", "kicker": "AI & Tech · Daily", "lines": ["What happened", "in the last", "*24 hours*"],
-//    "date": "14 Oct 2026", "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg"]},
+//    "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg"]},
 //   {"name": "A", "template": "headline", "kicker": "4 reasons · 2026", "lines": ["Selected.", "*Not* joined."]},
 //   {"name": "B", "template": "stat", "kicker": "Cognizant", "number": "25,000", "caption": "hired. Still waiting?", "trend": "down"},
 //   {"name": "C", "template": "versus", "kicker": "Freshers 2026", "left": {"label": "Selected", "value": "YES"},
@@ -18,8 +18,8 @@
 //                                          narrows to make room (tools/thumbnail.mjs cutout makes the PNG)
 //   "scene": "work/thumb/ai/A-1.png"       a full-bleed photo (tools/gemini-image.mjs) graded dark on the left for
 //                                          the type; the subject stays on the right third (headline / stat)
-// roundup (the daily news template): the fixed `lines` + a `date` badge on the left; on the right up to 3 cut-out
-// `people` (most important first, in front) and up to 4 `logos` on white plates (tools/library.mjs supplies both).
+// roundup (the daily news template): the fixed `lines` (+ an optional `date` badge) on the left; on the right up to 3
+// cut-out `people` (most important first, in front, each with a white outline) and up to 4 `logos` on white plates (tools/library.mjs supplies both).
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -106,10 +106,12 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
   text-transform:uppercase;padding:12px 24px;border:3px solid var(--a);border-radius:14px;background:rgba(11,13,18,.6);
   box-shadow:0 0 34px color-mix(in srgb,var(--a) 30%,transparent)}
 .date i{width:14px;height:14px;border-radius:50%;background:var(--a);box-shadow:0 0 16px var(--a)}
-.cast{position:absolute;right:0;bottom:0;width:600px;height:var(--ch);display:flex;flex-direction:row-reverse;align-items:flex-end;
+.cast{position:absolute;right:0;bottom:0;width:640px;height:var(--ch);display:flex;flex-direction:row-reverse;align-items:flex-end;
   justify-content:flex-start;z-index:1}
 .cast img{height:100%;max-width:var(--cw);object-fit:contain;object-position:bottom;margin-left:-70px;
-  filter:drop-shadow(-12px 0 24px color-mix(in srgb,var(--a) 30%,transparent)) drop-shadow(0 26px 36px rgba(0,0,0,.6))}
+  /* a white sticker outline (four hard 0-blur shadows), then the accent glow and the drop shadow */
+  filter:drop-shadow(5px 0 0 #fff) drop-shadow(-5px 0 0 #fff) drop-shadow(0 5px 0 #fff) drop-shadow(0 -5px 0 #fff)
+    drop-shadow(-12px 0 24px color-mix(in srgb,var(--a) 30%,transparent)) drop-shadow(0 26px 36px rgba(0,0,0,.6))}
 .cast img:first-child{margin-left:0}
 .logos{position:absolute;right:52px;top:48px;display:flex;gap:14px;z-index:3}
 .logos .plate{padding:10px 16px;border-radius:14px}
@@ -165,9 +167,10 @@ function variantHtml(v, accent, brand, base) {
     const people = (v.people || []).slice(0, 3);
     const logos = (v.logos || []).slice(0, 4);
     const right = people.length || logos.length;
-    const fs = Math.min(...lines.map((l) => fit(l, right ? 570 : 1060, 150)));
+    const fs = Math.min(...lines.map((l) => fit(l, right ? 540 : 1060, 150)));
     const castH = [0, 600, 540, 480][people.length];
-    const castW = [0, 600, 380, 290][people.length];
+    // n faces overlap by 70 px and stay inside the 640 px cast box, clear of the text column (68 + 540 px)
+    const castW = [0, 640, 355, 260][people.length];
     // the first person is the story's lead: drawn last (row-reverse puts it rightmost, in front)
     const cast = people.length ? `<div class="cast" style="--ch:${castH}px;--cw:${castW}px">${people.map((p, i) => `<img src="${asset(p)}" style="z-index:${9 - i}">`).join("")}</div><div class="person-fade" style="width:100%"></div>` : "";
     const big = !people.length;
@@ -206,7 +209,7 @@ if (flags.demo) {
     { name: "headline", template: "headline", kicker: "4 reasons · 2026", lines: ["Selected.", "*Not* joined."] },
     { name: "stat", template: "stat", kicker: "Cognizant · 2026", number: "25,000", caption: "freshers hired.<br>*Still waiting?*", trend: "down" },
     { name: "versus", template: "versus", kicker: "Freshers 2026", left: { label: "Selected", value: "Yes" }, right: { label: "Joining date", value: "?" } },
-    { name: "roundup", template: "roundup", kicker: "AI & Tech · Daily", lines: ["What happened", "in the last", "*24 hours*"], date: "14 Oct 2026" },
+    { name: "roundup", template: "roundup", kicker: "AI & Tech · Daily", lines: ["What happened", "in the last", "*24 hours*"] },
   ];
   for (const v of demo) render(variantHtml({ ...v, caption: v.caption?.replace("<br>", " ") }, "#00d1ff", "CHANNEL NAME"), join(outDir, `${v.name}.png`));
 } else {

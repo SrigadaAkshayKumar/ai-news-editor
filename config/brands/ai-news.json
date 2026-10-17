@@ -15,8 +15,7 @@
       "What happened",
       "in the last",
       "*24 hours*"
-    ],
-    "dateFormat": "D Mon YYYY"
+    ]
   },
   "accent": "#ff3b30",
   "links": [],

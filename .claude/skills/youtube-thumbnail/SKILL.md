@@ -120,13 +120,22 @@ Rules:
 
 Every daily episode gets the SAME thumbnail design, so the channel is recognisable in the feed: the brand's fixed
 text (`config/brands/ai-news.json` → `thumbnail.lines`, e.g. "What happened / in the last / *24 hours*"), the
-`kicker`, and a **date badge** with today's date (`thumbnail.dateFormat`, "14 Oct 2026"). Only the right side changes:
-the **cast** of the day's biggest stories — up to 3 cut-out **people** and up to 4 company **logos**.
+`kicker`, **no date** (the title carries it; a date makes the thumbnail look stale a day later). Only the right
+side changes: the **cast** of the day's biggest stories — up to 3 cut-out **people** (each drawn with a white
+outline) and up to 4 company **logos**. **A recognisable face is the strongest part of the thumbnail**: every
+episode gets at least one person when the day allows it.
 
 1. **Choose the cast** from the episode's `*_stories.json`: rank companies and people by the summed `weight` of the
    stories they appear in. Take the top 1–3 people and the top 2–4 companies (fewer is fine; a logo of a company
    whose CEO is already in the cast is still welcome if the story is about the company). Skip `reported: true`
    stories when ranking people: never put a face next to an unconfirmed claim about them.
+   - **Big names first:** among people of similar weight, prefer the most widely recognised (Jensen Huang, Sam
+     Altman, Sundar Pichai, Satya Nadella, Tim Cook, Elon Musk, Mark Zuckerberg, Dario Amodei, Lisa Su …) over a
+     less known executive.
+   - **No person in `stories.json`:** use the **current** CEO (or founder-leader) of the lead story's company when
+     that story is the company's own confirmed news (a launch, results, a deal it announced), e.g. an NVIDIA chip
+     launch → Jensen Huang. Check today's CEO; never for a `reported` story, a lawsuit or a breach blamed on a
+     person. Still none → logos only.
 2. **The library** (`inbox/library/`, synced with Drive, never in git): `node tools/library.mjs list`. For each
    cast member not in it yet:
    - logo: `node tools/library.mjs search logo "OpenAI"` → Read `inbox/library/_candidates/sheet.png`, pick the
@@ -145,10 +154,11 @@ the **cast** of the day's biggest stories — up to 3 cut-out **people** and up 
    ```json
    {"accent": "<brand accent>", "brand": "<brand shortName, upper case>", "variants": [
      {"name": "A", "template": "roundup", "kicker": "Software · AI · Hardware", "lines": ["What happened", "in the last", "*24 hours*"],
-      "date": "14 Oct 2026", "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg", "assets/library/google.svg"]}]}
+      "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg", "assets/library/google.svg"]}]}
    ```
    `node tools/thumb-design.mjs <p> output/thumbnails/spec.json` → Read `A.png` and `A-feed.png`: faces
-   recognisable at feed size, logos not crushed, nothing over the text or the date. Too crowded → drop the weakest
+   recognisable at feed size, the white outline clean all round each person (no white blocks from a bad
+   cut-out), logos not crushed, nothing over the text. Too crowded → drop the weakest
    cast member and render again.
 5. `thumbnails.md`: the cast and why, each image's source and licence.
 

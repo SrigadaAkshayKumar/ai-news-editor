@@ -19,7 +19,7 @@ on:
         type: boolean
         default: false
       publish_at:
-        description: "Main video publish time, IST, e.g. 2026-10-15 16:00 (empty = next day 18:00). Shorts: same day, hourly after it"
+        description: "Main video publish time, IST, e.g. 2026-10-15 16:00 (empty = config/daily.json's slot, 20:30 IST). Shorts: same day, hourly after it"
         required: false
       no_thumbnail:
         description: "Keep YouTube's auto thumbnail (set one later)"
@@ -38,6 +38,10 @@ jobs:
     timeout-minutes: 60
     env:
       DRIVE: gdrive:${{ vars.DRIVE_ROOT || 'AI-News' }}
+      # Claude's model and effort: repository variables CLAUDE_MODEL (a model ID or alias; empty = the account's
+      # default) and CLAUDE_EFFORT (low | medium | high | xhigh | max; empty = medium)
+      CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+      CLAUDE_EFFORT: ${{ vars.CLAUDE_EFFORT || 'medium' }}
       P: ${{ inputs.project }}
     steps:
       - uses: actions/checkout@v4
@@ -92,7 +96,7 @@ jobs:
           .claude/skills/youtube-metadata/SKILL.md describe: the SEO title (70-100 chars), the description (chapters,
           sources, hashtags; no stock-footage credits), tags filling about 430-490 characters. If projects/$P/output/thumbnails/ has A.png/B.png/C.png, set \"thumbnail\" to the
           one thumbnails.md recommends (path relative to the project, e.g. output/thumbnails/A.png). Only write that file." \
-            --dangerously-skip-permissions --output-format stream-json --verbose > claude-youtube-log.jsonl
+            ${CLAUDE_MODEL:+--model "$CLAUDE_MODEL"} --effort "$CLAUDE_EFFORT" --dangerously-skip-permissions --output-format stream-json --verbose > claude-youtube-log.jsonl
           node -e 'const j=require("./projects/"+process.env.P+"/output/youtube.json"); if(!j.title||!j.description) process.exit(1)'
 
       - name: Upload + schedule
