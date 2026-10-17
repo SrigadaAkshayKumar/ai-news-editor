@@ -123,6 +123,7 @@ jobs:
           (cd AI-clipper && npm ci)
           pip install -q opencv-python-headless numpy
           npm install -g @anthropic-ai/claude-code
+          echo "Claude Code $(claude --version)" | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Write the script
         id: script
@@ -139,6 +140,7 @@ jobs:
           Today: $(TZ=Asia/Kolkata date '+%A %d %B %Y, %H:%M IST')
           Run note from the owner (overrides the skill's length and story count where they clash): ${NOTE:-none}" \
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-script-log.jsonl
+          echo "Script step model: $(jq -r 'select(.type=="system" and .subtype=="init") | .model' claude-script-log.jsonl | head -1)" | tee -a "$GITHUB_STEP_SUMMARY"
           node tools/daily.mjs script-check
 
       - name: Today's episode
@@ -237,6 +239,7 @@ jobs:
           Brief override: ${BRIEF:-none, use config/daily.json}
           Run note from the owner: ${NOTE:-none}" \
             --dangerously-skip-permissions --output-format stream-json --verbose > claude-log.jsonl
+          echo "Edit step model: $(jq -r 'select(.type=="system" and .subtype=="init") | .model' claude-log.jsonl | head -1)" | tee -a "$GITHUB_STEP_SUMMARY"
 
       # new logos/cut-outs fetched for today's thumbnail: keep them for tomorrow (Drive, never git)
       - name: Save the thumbnail library to Drive
