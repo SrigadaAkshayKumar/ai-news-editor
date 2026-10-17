@@ -17,7 +17,7 @@ Claude Code is the editor. Two kinds of input, two deliverables each:
 **Unattended daily run** (GitHub Actions, Google Drive in/out, 08:17 IST): `.github/workflows/daily-edit.yml` →
 `daily-script` skill (the last 24 h of tech/AI news → 6–10 story roundup: script + voiceover + `stories.json`) →
 `tools/voice/tts.py` (built-in Qwen3-TTS speaker "Aiden", clear American male, on CPU; no cloning, `config/voice.json`) → `daily-run` skill (edit +
-the `roundup` thumbnail: fixed text, date, the day's logos and people from `inbox/library/` via `tools/library.mjs`)
+the `roundup` thumbnail: fixed text, the day's logos and outlined people from `inbox/library/` via `tools/library.mjs`)
 → `tools/daily.mjs` (next / script-check / check / done) → `tools/youtube.mjs` (scheduled upload, off until set up),
 standing brief `config/daily.json`; setup in `docs/cloud-setup.md`. The repo is public: no media, library images or
 keys in git.
@@ -57,7 +57,7 @@ source ─ transcribe ─ cut (EDL, boundary audit) ─ work/cleancut.mp4|wav + 
 | SFX | repo `assets/sfx` + HyperFrames set + Openverse CC0 | `tools/sfx.mjs` |
 | Mix + levels | ffmpeg (sidechain duck, measured levels) | `tools/mix.mjs`, `tools/lib/audio.mjs` |
 | Thumbnail / Reels cover | real face frame + cut-out + Remotion `Thumbnail` | `tools/thumbnail.mjs` |
-| Thumbnail, daily roundup | fixed HTML/CSS template + date + Wikimedia logos / cut-out people (library in Drive) | `tools/thumb-design.mjs` (`roundup`), `tools/library.mjs` |
+| Thumbnail, daily roundup | fixed HTML/CSS template + Wikimedia logos / cut-out people (library in Drive) | `tools/thumb-design.mjs` (`roundup`), `tools/library.mjs` |
 | Thumbnail, one-topic faceless | Gemini image API scene + HTML/CSS type in headless Chrome | `tools/gemini-image.mjs`, `tools/thumb-design.mjs` |
 
 ## Commands (repo root)

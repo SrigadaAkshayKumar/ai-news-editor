@@ -39,8 +39,8 @@ AI-News/
 ```
 
 - **The thumbnail** is the same design every day (`config/brands/ai-news.json` → `thumbnail`): "What happened in
-  the last 24 hours", today's date, and on the right the day's biggest companies (logos) and people (cut-out
-  photos). Logos and photos come from Wikimedia Commons / Wikidata with free licences only, via
+  the last 24 hours", no date, and on the right the day's biggest companies (logos) and people (cut-out
+  photos with a white outline; at least one well-known face whenever the day's stories allow). Logos and photos come from Wikimedia Commons / Wikidata with free licences only, via
   `tools/library.mjs`. Each one is fetched once and then reused. To seed the library yourself with the companies and people
   you expect every week, run locally with the Drive inbox synced:
   `node tools/library.mjs search person "Sam Altman"` → look at `inbox/library/_candidates/sheet.png` →
@@ -69,6 +69,11 @@ Check it with `rclone lsd gdrive:AI-News`, then copy the whole `[gdrive]` sectio
 | `GEMINI_API_KEY` | optional; only for one-topic thumbnail variants |
 | `ELEVENLABS_API_KEY` | not needed (English goes through local whisper) |
 
+**Variables** (same page, *Variables* tab): `CLAUDE_MODEL` = the model ID or alias every Claude step runs on (empty =
+the account's default) and `CLAUDE_EFFORT` = `low` | `medium` | `high` | `xhigh` | `max` (empty = `medium`). The run
+page prints the model and effort each step used. A bigger model uses the subscription's limits faster: if a run
+stops on a usage limit, pick a smaller model or a lower effort.
+
 **This repo is public.** Keys live only in your local `.env` (git-ignored) and in these secrets. Run logs are
 public, so Claude's transcripts go to Drive (`output/_logs/`).
 
@@ -83,8 +88,9 @@ public, so Claude's transcripts go to Drive (`output/_logs/`).
    accounts list each channel). The refresh token is for that channel only.
 3. Secrets in this repo: `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`. Verify the channel's phone number
    (custom thumbnails need it).
-4. Set `"enabled": true`. The main video is scheduled for **18:00 IST the same day** (`publishDelayDays: 0`), and
-   the Shorts go out one an hour apart after it. Category: Science & Technology (`28`).
+4. Set `"enabled": true`. The main video is scheduled for **20:30 IST = 15:00 UTC the same day** (`publishDelayDays: 0`,
+   `publishTime` in IST), a slot for a global audience: evening in India, late afternoon in Europe, late morning on the
+   US East Coast (early morning on the West Coast). The Shorts go out one an hour apart after it. Category: Science & Technology (`28`).
 
 Until the Cloud project passes YouTube's API audit, API uploads stay Private and you set *Scheduled* in Studio.
 

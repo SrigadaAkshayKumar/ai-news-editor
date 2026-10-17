@@ -26,7 +26,7 @@ Software, AI and hardware: new launches, model releases, chips and gadgets, big 
 
 Every story comes with its source in the description. Unconfirmed reports are labelled as reported.
 
-New video every day at 6:00 PM IST (12:30 UTC).
+New video every day at 15:00 UTC (8:30 PM IST).
 
 Narration is an AI voice reading a script researched and written for this channel.
 
