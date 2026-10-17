@@ -169,7 +169,7 @@ function variantHtml(v, accent, brand, base) {
     const castH = [0, 600, 540, 480][people.length];
     const castW = [0, 600, 380, 290][people.length];
     // the first person is the story's lead: drawn last (row-reverse puts it rightmost, in front)
-    const cast = people.length ? `<div class="cast" style="--ch:${castH}px;--cw:${castW}px">${people.map((p, i) => `<img src="${asset(p)}" style="z-index:${9 - i}">`).join("")}</div><div class="person-fade"></div>` : "";
+    const cast = people.length ? `<div class="cast" style="--ch:${castH}px;--cw:${castW}px">${people.map((p, i) => `<img src="${asset(p)}" style="z-index:${9 - i}">`).join("")}</div><div class="person-fade" style="width:100%"></div>` : "";
     const big = !people.length;
     const lh = big ? (logos.length > 2 ? 56 : 84) : 40;
     const lw = big ? (logos.length > 2 ? 170 : 260) : 130;
