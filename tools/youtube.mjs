@@ -104,7 +104,7 @@ async function upload(token, file, snippet, publishAt) {
 async function testUpload(file) {
   if (!existsSync(file)) die(`not found: ${file}`);
   const v = await upload(await accessToken(), file,
-    { title: "Upload test - delete me", description: "Test upload from the AI News Daily pipeline. Safe to delete.", tags: ["test"] }, null);
+    { title: "Upload test - delete me", description: "Test upload from the 24 Hours in Tech pipeline. Safe to delete.", tags: ["test"] }, null);
   const lines = ["### YouTube test upload", "", `- Video: https://youtube.com/shorts/${v.id} (Private)`,
     `- Channel: **${v.snippet?.channelTitle || "?"}** (id ${v.snippet?.channelId || "?"}, https://www.youtube.com/channel/${v.snippet?.channelId || ""})`,
     `- Status: ${v.status?.privacyStatus} / upload ${v.status?.uploadStatus}`, "",

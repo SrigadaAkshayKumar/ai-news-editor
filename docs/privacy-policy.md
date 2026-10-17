@@ -1,9 +1,8 @@
-# Privacy policy: AI News Daily Uploader
+# Privacy policy: 24 Hours in Tech Uploader
 
 *Last updated: 14 October 2026*
 
-AI News Daily Uploader is a private automation tool. Its only user is the owner of the AI News Daily YouTube channel
-(working name), and it is part of this open-source project (<https://github.com/SrigadaAkshayKumar/ai-news-editor>).
+24 Hours in Tech Uploader is a private automation tool. Its only user is the owner of the 24 Hours in Tech YouTube channel, and it is part of this open-source project (<https://github.com/SrigadaAkshayKumar/ai-news-editor>).
 It uploads the channel's own videos to that channel and schedules them. It has no other users and no sign-up.
 
 ## What it accesses

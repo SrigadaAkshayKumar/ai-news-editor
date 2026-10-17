@@ -1,22 +1,25 @@
 {
-  "name": "AI News Daily",
-  "shortName": "AI News Daily",
-  "nameIsPlaceholder": true,
-  "handle": "",
+  "name": "24 Hours in Tech",
+  "shortName": "24 Hours in Tech",
+  "handle": "@24HoursInTech",
   "channelId": "",
   "audience": "People who follow technology — software, AI and hardware (developers, students, founders, curious professionals, India and worldwide) and want one short daily catch-up of what actually happened in the last 24 hours",
-  "titleFormula": "<the day's 2-3 biggest stories or names> | Tech News Last 24 Hours | <D Mon YYYY>",
+  "titleFormula": "<the day's 2-3 biggest stories or names> | 24 Hours in Tech | <D Mon YYYY>",
   "titleExamples": [
-    "OpenAI's New Model, Apple M5 Macs & Windows Outage | Tech News Last 24 Hours | 14 Oct 2026"
+    "OpenAI's New Model, Apple M5 Macs & Windows Outage | 24 Hours in Tech | 14 Oct 2026"
   ],
   "thumbnail": {
     "template": "roundup",
     "kicker": "Software · AI · Hardware",
-    "lines": ["What happened", "in the last", "*24 hours*"],
+    "lines": [
+      "What happened",
+      "in the last",
+      "*24 hours*"
+    ],
     "dateFormat": "D Mon YYYY"
   },
-  "accent": "#00d1ff",
+  "accent": "#ff3b30",
   "links": [],
   "intro": "inbox/brand/Intro.mp4",
-  "notes": "Daily technology news roundup: software, AI and hardware, English, neutral male narrator (built-in TTS speaker). Tone: calm, fast, factual news anchor; no hype words, no 'guys'. CTA: one comment question + subscribe for tomorrow's roundup. The channel name is a placeholder until the owner decides: change name/shortName here and in config/daily.json's brief. Intro is used only when the file exists in Drive."
+  "notes": "Daily technology news roundup: software, AI and hardware, English, neutral male narrator (built-in TTS speaker). Tone: calm, fast, factual news anchor; no hype words, no 'guys'. CTA: one comment question + subscribe for tomorrow's roundup. Intro is used only when the file exists in Drive."
 }

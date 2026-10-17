@@ -69,7 +69,7 @@ doesn't say otherwise):**
   query (company + drive/role + year, "salary", "how to apply", "eligibility"), no repeated words, no emoji, every
   part true to the video. Never over 100 (it is cut).
 - **Daily news roundup** (`config/brands/ai-news.json`): the title is the brand's `titleFormula`, the same every
-  day except the date and the 2–3 biggest names, e.g. `OpenAI's New Model, Apple M5 Macs & Windows Outage | Tech News Last 24 Hours | 14 Oct 2026` (shorten the names part to stay ≤ 100). Description line 1: the day's three
+  day except the date and the 2–3 biggest names, e.g. `OpenAI's New Model, Apple M5 Macs & Windows Outage | 24 Hours in Tech | 14 Oct 2026` (shorten the names part to stay ≤ 100). Description line 1: the day's three
   headlines in one sentence; then one chapter per story (`M:SS Story headline`), then "Sources" (one link per
   story), then the thumbnail photo credits from `work/credits.json` (Wikimedia photos are CC BY / CC BY-SA:
   attribution required). Tags: the companies, products and people in `stories.json`, "ai news today", "tech news

@@ -7,7 +7,7 @@
   "formats": "16:9",
   "noCaptions": true,
   "bgm": false,
-  "brief": "AI News Daily roundup: 16:9 YouTube, no captions, brand intro after the cold open (when inbox/brand/Intro.mp4 exists), a story counter so viewers know where they are (chapter rail, 'Story 3 of 8'), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English",
+  "brief": "24 Hours in Tech roundup: 16:9 YouTube, no captions, brand intro after the cold open (when inbox/brand/Intro.mp4 exists), a story counter so viewers know where they are (chapter rail, 'Story 3 of 8'), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English",
   "shorts": {
     "framing": "black"
   },

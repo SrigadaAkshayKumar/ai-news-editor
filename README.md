@@ -13,7 +13,7 @@ An AI agent that runs a faceless YouTube news channel end to end. Every morning 
 Everything lands in Google Drive (and on YouTube, scheduled, once enabled). It runs on free tiers (GitHub Actions and
 Google Drive); the only paid part is a Claude subscription.
 
-Channel name: **not final yet** (working name "AI News Daily", in `config/brands/ai-news.json`).
+Channel: **24 Hours in Tech** (`@24HoursInTech`, profile in `config/brands/ai-news.json`).
 
 This repo started as a copy of [ai-video-editor](https://github.com/SrigadaAkshayKumar/ai-video-editor) (the
 Crack IT channel's pipeline) and runs separately from it.
