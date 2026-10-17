@@ -15,7 +15,7 @@ on:
         type: boolean
         default: false
       force:
-        description: "Upload again even if youtube-uploaded.json says it is already on YouTube"
+        description: "Upload everything again even if youtube-uploaded.json says it is already on YouTube (default: upload only what is missing)"
         type: boolean
         default: false
       publish_at:
@@ -77,7 +77,8 @@ jobs:
           mkdir -p "AI-clipper/jobs/$P"
           [ -f "AI-clipper/output/$P/clips.json" ] && cp "AI-clipper/output/$P/clips.json" "AI-clipper/jobs/$P/clips.json" || true
           if [ -f "projects/$P/output/youtube-uploaded.json" ] && [ "${{ inputs.force }}" != "true" ]; then
-            echo "::error::$P is already uploaded (youtube-uploaded.json in Drive). Tick 'force' to upload again."; exit 1
+            # finish what an earlier upload started; a fully uploaded episode is skipped, never duplicated
+            echo "RESUME=1" >> "$GITHUB_ENV"; echo "$P has youtube-uploaded.json: resuming (only what is missing goes up). Tick 'force' to upload everything again."
           fi
 
       - uses: actions/setup-node@v4
@@ -111,6 +112,7 @@ jobs:
           ARGS=(--shorts "AI-clipper/output/$P")
           [ -n "$PUBLISH_AT" ] && ARGS+=(--publish "$PUBLISH_AT")
           [ "$NO_THUMBNAIL" = "true" ] && ARGS+=(--no-thumbnail)
+          [ -n "$RESUME" ] && ARGS+=(--resume)
           node tools/youtube.mjs "$P" "${ARGS[@]}"
           rclone copy "projects/$P/output/youtube-uploaded.json" "$DRIVE/output/$P" -v
           rclone copy "projects/$P/output/youtube.json" "$DRIVE/output/$P" -v

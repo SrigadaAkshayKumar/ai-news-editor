@@ -4,6 +4,8 @@
 //   node tools/youtube.mjs <project> [--shorts AI-clipper/output/<slug>] [--dry-run]
 //        [--publish "2026-10-15 16:00"]   main video at this IST time (Shorts the same day, see below)
 //        [--no-thumbnail]               leave YouTube's auto thumbnail (set one later with --set-thumbnail)
+//        [--resume]                     skip what output/youtube-uploaded.json already lists (a retry after a
+//                                       half-finished upload: no duplicate videos, the Shorts keep the first schedule)
 //   node tools/youtube.mjs --test <file.mp4>   one Private test upload (no schedule): proves the login works and
 //                                              prints which channel it went to
 //   node tools/youtube.mjs <project> --set-thumbnail [file]   put a (new) thumbnail on the video already uploaded
@@ -19,7 +21,7 @@
 // Writes projects/<p>/output/youtube-uploaded.json (ids, links, publish times) and a summary for the run page.
 import { appendFileSync, existsSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync } from "node:fs";
 import { tmpdir } from "node:os";
-import { extname, join } from "node:path";
+import { basename, extname, join } from "node:path";
 import { PROJECTS, ROOT, die, parseCli, readJson, run, writeJson } from "./lib/common.mjs";
 
 const { positional, flags } = parseCli();
@@ -38,13 +40,14 @@ const meta = readJson(metaFile);
 
 // ---- schedule -------------------------------------------------------------------------------------------------
 const IST = 5.5 * 3.6e6;
-/** "HH:MM" IST on (today IST + days) → Date; pushed a day later while it is less than an hour away. */
+/** "HH:MM" IST on (today IST + days) → Date. A run that finishes after the slot publishes SOON_MIN minutes from now
+ *  (a little late beats a day late); it is never pushed to the next day. */
+const SOON_MIN = 20;
 function istSlot(days, hhmm) {
   const [h, m] = hhmm.split(":").map(Number);
   const now = new Date(Date.now() + IST);
-  let t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + days, h, m) - IST;
-  while (t < Date.now() + 3.6e6) t += 864e5;
-  return new Date(t);
+  const t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + days, h, m) - IST;
+  return new Date(Math.max(t, Date.now() + SOON_MIN * 6e4));
 }
 
 // ---- text limits (YouTube rejects the whole upload otherwise) ----------------------------------------------------
@@ -173,7 +176,11 @@ function publishFlag() {
   if (t < Date.now() + 3.6e6) die(`--publish ${flags.publish} IST is in the past or less than an hour away`);
   return t;
 }
-const mainAt = publishFlag();
+// --resume: what a previous, interrupted attempt already put on YouTube (matched by file name)
+const upFile = join(out, "youtube-uploaded.json");
+const done = flags.resume && existsSync(upFile) ? readJson(upFile).videos || [] : [];
+const doneVideo = done.find((r) => r.kind === "video");
+const mainAt = doneVideo ? new Date(doneVideo.publishAt) : publishFlag();
 /** Shorts: the same day as the main video, one every shortsGapMinutes after it (so the video is already public
  *  when each Short goes out and can be its "Related video"). */
 const shortAt = (i) => new Date(mainAt.getTime() + (i + 1) * cfg.shortsGapMinutes * 6e4);
@@ -204,10 +211,14 @@ if (shortsDir && existsSync(shortsDir) && existsSync(jobFile) && cfg.shortsCount
 for (const p of plan) if (!p.snippet.title) die(`no title for ${p.file}`);
 
 // ---- go -------------------------------------------------------------------------------------------------------
-const results = [];
+const results = [...done];
 const token = dryRun ? null : await accessToken();
-let videoUrl = "";
+let videoUrl = doneVideo?.url || "";
 for (const p of plan) {
+  if (done.some((r) => r.file === basename(p.file))) {
+    console.log(`${p.kind} ${basename(p.file)}: already uploaded (--resume), skipped`);
+    continue;
+  }
   if (dryRun) {
     results.push({ kind: p.kind, file: p.file, title: p.snippet.title, publishAt: p.publishAt.toISOString(), tags: p.snippet.tags.length });
     continue;
@@ -216,13 +227,15 @@ for (const p of plan) {
   const url = p.kind === "short" ? `https://youtube.com/shorts/${id}` : `https://youtu.be/${id}`;
   if (p.kind === "video") videoUrl = url;
   const thumb = p.thumbnail && existsSync(p.thumbnail) ? await setThumbnail(token, id, p.thumbnail) : undefined;
-  results.push({ kind: p.kind, id, url, title: p.snippet.title, publishAt: p.publishAt.toISOString(),
+  results.push({ kind: p.kind, file: basename(p.file), id, url, title: p.snippet.title, publishAt: p.publishAt.toISOString(),
     // what YouTube actually stored: no publishAt here = the API project is not audited, the video stays Private
     youtubeStatus: { privacy: status?.privacyStatus, publishAt: status?.publishAt || null }, thumbnail: thumb });
+  // saved after every upload, so a retry with --resume continues from here
+  writeJson(upFile, { uploadedAt: new Date().toISOString(), videos: results });
   console.log(`${p.kind} ${url} → publishes ${p.publishAt.toISOString()} (${p.snippet.title}); YouTube stored: ${status?.privacyStatus}, publishAt ${status?.publishAt || "NONE"}`);
 }
 
-if (!dryRun) writeJson(join(out, "youtube-uploaded.json"), { uploadedAt: new Date().toISOString(), videos: results });
+if (!dryRun) writeJson(upFile, { uploadedAt: new Date().toISOString(), videos: results });
 const istText = (iso) => new Date(Date.parse(iso) + IST).toISOString().slice(0, 16).replace("T", " ") + " IST";
 const lines = ["### YouTube", "", "| | Title | Publishes | YouTube stored | Thumbnail |", "|---|---|---|---|---|",
   ...results.map((r) => `| ${r.url ? `[${r.kind}](${r.url})` : r.kind} | ${r.title} | ${istText(r.publishAt)} | ${r.youtubeStatus ? `${r.youtubeStatus.privacy}, ${r.youtubeStatus.publishAt ? "scheduled " + istText(r.youtubeStatus.publishAt) : "NO schedule"}` : ""} | ${r.thumbnail || (r.kind === "video" ? "YouTube auto" : "")} |`), "",

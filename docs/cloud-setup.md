@@ -104,6 +104,14 @@ a realistic fake event). A synthetic narrator voice for a news summary is usuall
 - `cron: "47 2 * * *"` = 08:17 IST. The script's news window is the 24 h before the run starts. GitHub can start
   scheduled runs late. A run with no episode named does nothing when an episode finished less than
   `minHoursBetween` (12) hours ago, so a late schedule plus a manual start never make two episodes in a row.
+- **Backup start** `cron: "17 6 * * *"` = 11:47 IST: when the 08:17 run failed or GitHub dropped it, this one makes the
+  episode (ready by about 15:00 IST); otherwise it stops after a minute. Day plan, IST: 08:17 news run → ~11:30 done →
+  11:47 backup (normally idle) → 15:03 Crack IT's run (other repo; different runners, so even an overlap is fine for
+  GitHub, but both use the same Claude subscription, so their Claude parts are kept hours apart) → 20:30 publish.
+- **Never a day late:** an upload that happens after 20:30 IST publishes 20 minutes later, not the next day. The
+  upload tries 3 times, 5 minutes apart, and resumes instead of duplicating; if it still fails the run turns red
+  (GitHub emails you) with the video safe in Drive: run **Upload to YouTube** for that project (it uploads only what is
+  missing).
 - Run one now: **Actions → Daily edit → Run workflow**.
 - Runner: `ubuntu-latest`, 4 CPUs / 16 GB (public repo, free minutes). One episode takes about 2–3 h.
 - Every judgment call is in `daily-script-report.md` (stories, sources for every figure) and `daily-report.md`
