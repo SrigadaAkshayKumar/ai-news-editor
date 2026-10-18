@@ -64,7 +64,7 @@ voiceover and the brief. After you stop, the workflow runs `node tools/daily.mjs
    **Title:** the brand's `titleFormula` (`config/brands/ai-news.json`): the fixed "What Happened in the Last 24
    Hours" phrase, today's date, and the 2–3 biggest names from `stories.json`.
    **Thumbnails:** before writing `youtube.json`, make the daily **roundup** thumbnail with the `youtube-thumbnail`
-   skill, section 5c (fixed text + today's date + the day's logos and people from `inbox/library/`, fetched with
+   skill, section 5c (a dramatic hook from today's script, no date, no kicker + the day's logos and people from `inbox/library/`, fetched with
    `tools/library.mjs` when new), and point `thumbnail` at `output/thumbnails/A.png`. Plain text, no
    markdown, no `<` or `>`. The Shorts go up from `clips.json` (their `title`, `description`, `hashtags`), the same
    day as the video; no "full video" link in their descriptions (the owner links the Related video in Studio).
@@ -78,5 +78,12 @@ voiceover and the brief. After you stop, the workflow runs `node tools/daily.mjs
    - `daily-report.md`: what was made, every judgment call (cuts, substitutions, numbers checked and against what
      source), anything the user should look at or listen to before posting, and the Shorts table.
    Copy `daily-report.md` into `projects/<p>/output/` too, so it lands in Drive next to the video.
+
+**Launch video** (run note says LAUNCH; `daily-script.json` has `"kind": "launch"`): edit it like an episode, ~60–80 s,
+same newsroom look, the channel name and the daily time on screen at the end. **No Shorts** (skip step 3; leave
+`"shorts"` out of `daily-run.json`). Thumbnail: the 5c template with a hook about the channel itself (e.g.
+"Tech news, / *every day*") and the logos from `stories.json`, no people. `youtube.json`: a channel-trailer title
+(e.g. "24 Hours in Tech: The Day's Tech News in Minutes | Software, AI & Hardware"), a description that says what the
+channel posts and when (daily, 8:30 PM IST / 15:00 UTC), and channel keywords as tags. No chapters.
 
 Do not commit, push or upload — the workflow does that after `check` passes.

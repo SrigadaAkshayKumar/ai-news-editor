@@ -26,6 +26,24 @@ voice), then the `daily-run` skill edits it. Nobody reads the script before it i
    its `*_stories.json` if missing (section 6), check its facts are still current, and stop there.
 2. **Otherwise (the normal day): a fresh roundup** in a new folder, the number the prompt gives.
 
+## 1b. The channel launch video (only when the run note says LAUNCH)
+
+A one-off introduction, run as a **sample** (it never becomes a numbered episode), so viewers and YouTube's
+recommendations learn what the channel is. Instead of a roundup, write in the sample folder:
+- **Voiceover, 130–200 words (about 60–80 seconds)**, same voice rules as section 5: a cold hook (tech moves
+  fast; you can't read everything), what the channel is (every day, the biggest software, AI and hardware stories
+  of the last 24 hours in about five to seven minutes), what makes it worth trusting (the original sources on
+  screen and in the description, unconfirmed news labelled "reported", no hype), when (every day at eight thirty
+  P.M. India time, fifteen hundred U.T.C.), and one CTA (subscribe so tomorrow's roundup finds you). No made-up
+  numbers about the channel, no promises of specific stories.
+- **Script** with the same file names and structure (`### S00 · Hook`, `### S01 · What this is`, `### SZZ · Subscribe`),
+  vo blocks equal to the voiceover, and **Screen** notes: the channel name big, a sample story counter, a NewsCard
+  look, logos of the companies the channel covers as text or b-roll searches, the publish time on screen.
+- **`stories.json`**: `{"date": "<today>", "kind": "launch", "stories": [{"n": 1, "headline": "Channel launch",
+  "weight": 5, "companies": ["OpenAI", "Google", "Apple", "NVIDIA", "Microsoft"], "people": [], "source": "",
+  "reported": false}]}` (logos only: nobody is in the news here).
+- `daily-script.json` with `"kind": "launch"`, `"stories": 1`. Then stop.
+
 ## 2. The news window and the pick
 
 - **Window: the last 24 hours** before the prompt's time (IST). A story older than 24 h is in only when there is a

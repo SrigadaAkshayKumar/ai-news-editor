@@ -19,6 +19,8 @@
 //                                     needs script, never recorded by done, ignores minHoursBetween.
 //   node tools/daily.mjs script-check reads daily-script.json (written by the daily-script skill), confirms the
 //                                     episode's script + voiceover are complete. Exit 1 = stop the run.
+//                                     kind "launch" (the channel intro, a sample run): no 4-story minimum, ≥ 80 words,
+//                                     and `check` does not require Shorts.
 //   node tools/daily.mjs check        reads daily-run.json (written by Claude at the end of the run), confirms the
 //                                     final video passes verify and the Shorts exist. Exit 1 = do not upload.
 //   node tools/daily.mjs done [--look name]  records the episode (and its look) in config/daily-state.json
@@ -150,13 +152,15 @@ if (cmd === "next") {
   const vo = voiceoverOf(r.episode);
   if (!vo) die(`${r.episode} has no *_voiceover.txt`);
   if (!scriptOf(r.episode)) die(`${r.episode} has no *_script.md`);
+  const launch = r.kind === "launch"; // the channel launch / intro video: no news stories, shorter
+  if (launch && !isSample(r.episode)) die("a launch video runs as a sample (it is not a numbered episode)");
   const storiesFile = storiesOf(r.episode) || die(`${r.episode} has no *_stories.json (the thumbnail needs it)`);
   const stories = readJson(join(series, r.episode, storiesFile)).stories || [];
-  if (stories.length < 4) die(`${storiesFile} lists only ${stories.length} stories`);
+  if (!launch && stories.length < 4) die(`${storiesFile} lists only ${stories.length} stories`);
   const text = readFileSync(join(series, r.episode, vo), "utf8");
   if (PLACEHOLDER.test(text) || /[{}]/.test(text)) die(`${vo} still has a placeholder or brace — the voice would read it out`);
   const words = text.split(/\s+/).filter(Boolean).length;
-  if (words < 150) die(`${vo} has only ${words} words`);
+  if (words < (launch ? 80 : 150)) die(`${vo} has only ${words} words`);
   output({ episode: r.episode, needs: needsOf(r.episode), dir: rel(config.series, r.episode), voiceover: rel(config.series, r.episode, vo), words });
 } else if (cmd === "check") {
   if (!existsSync(RESULT)) die("daily-run.json missing — the edit did not finish");
@@ -170,7 +174,8 @@ if (cmd === "next") {
   if (v.status !== 0 || !/structure ok/.test(v.stdout)) die("verify did not pass — not uploading");
   const shortsDir = join("AI-clipper", "output", r.shorts || r.project);
   const shorts = existsSync(join(ROOT, shortsDir)) ? readdirSync(join(ROOT, shortsDir)).filter((n) => n.endsWith(".mp4")) : [];
-  if (config.shorts !== false && !shorts.length) die(`no Shorts in ${shortsDir}`);
+  const launch = existsSync(SCRIPT_RESULT) && readJson(SCRIPT_RESULT).kind === "launch"; // no Shorts for the launch video
+  if (config.shorts !== false && !launch && !shorts.length) die(`no Shorts in ${shortsDir}`);
   output({ project: r.project, shorts_dir: shortsDir.replace(/\\/g, "/"), finals: finals.join(" "), shorts: shorts.length });
 } else if (cmd === "done") {
   const r = readJson(RESULT);

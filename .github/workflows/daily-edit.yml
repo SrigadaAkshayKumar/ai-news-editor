@@ -266,8 +266,9 @@ jobs:
           SHORTS: ${{ steps.check.outputs.shorts_dir }}
         run: |
           rclone copy "projects/$P/output" "$DRIVE/output/$P" -v
-          rclone copy "$SHORTS" "$DRIVE/output/$P/shorts" -v
-          rclone copy "AI-clipper/jobs/$P/clips.json" "$DRIVE/output/$P/shorts" -v
+          # a launch video has no Shorts
+          if [ -d "$SHORTS" ]; then rclone copy "$SHORTS" "$DRIVE/output/$P/shorts" -v; fi
+          if [ -f "AI-clipper/jobs/$P/clips.json" ]; then rclone copy "AI-clipper/jobs/$P/clips.json" "$DRIVE/output/$P/shorts" -v; fi
           if [ -f daily-script-report.md ]; then rclone copy daily-script-report.md "$DRIVE/output/$P" -v; fi
 
       - name: Upload to YouTube (scheduled)

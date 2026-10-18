@@ -5,7 +5,7 @@
 //   node tools/thumb-design.mjs <project> <spec.json>      → projects/<p>/output/thumbnails/<name>.png + <name>-feed.png
 //   node tools/thumb-design.mjs --demo <out-dir>           → one of each template with sample text
 // spec.json: {"accent": "#00d1ff", "brand": "CHANNEL NAME", "variants": [
-//   {"name": "A", "template": "roundup", "kicker": "AI & Tech · Daily", "lines": ["What happened", "in the last", "*24 hours*"],
+//   {"name": "A", "template": "roundup", "lines": ["Nvidia's", "*$5 trillion*", "day"],
 //    "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg"]},
 //   {"name": "A", "template": "headline", "kicker": "4 reasons · 2026", "lines": ["Selected.", "*Not* joined."]},
 //   {"name": "B", "template": "stat", "kicker": "Cognizant", "number": "25,000", "caption": "hired. Still waiting?", "trend": "down"},
@@ -209,7 +209,7 @@ if (flags.demo) {
     { name: "headline", template: "headline", kicker: "4 reasons · 2026", lines: ["Selected.", "*Not* joined."] },
     { name: "stat", template: "stat", kicker: "Cognizant · 2026", number: "25,000", caption: "freshers hired.<br>*Still waiting?*", trend: "down" },
     { name: "versus", template: "versus", kicker: "Freshers 2026", left: { label: "Selected", value: "Yes" }, right: { label: "Joining date", value: "?" } },
-    { name: "roundup", template: "roundup", kicker: "AI & Tech · Daily", lines: ["What happened", "in the last", "*24 hours*"] },
+    { name: "roundup", template: "roundup", lines: ["Nvidia's", "*$5 trillion*", "day"] },
   ];
   for (const v of demo) render(variantHtml({ ...v, caption: v.caption?.replace("<br>", " ") }, "#00d1ff", "CHANNEL NAME"), join(outDir, `${v.name}.png`));
 } else {

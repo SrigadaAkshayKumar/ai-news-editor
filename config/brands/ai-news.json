@@ -10,12 +10,7 @@
   ],
   "thumbnail": {
     "template": "roundup",
-    "kicker": "Software · AI · Hardware",
-    "lines": [
-      "What happened",
-      "in the last",
-      "*24 hours*"
-    ]
+    "lines": "hook: 2-3 short dramatic lines from the day's lead story, written fresh every episode (youtube-thumbnail skill 5c)"
   },
   "accent": "#ff3b30",
   "links": [],

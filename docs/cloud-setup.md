@@ -38,8 +38,8 @@ AI-News/
     _failed/…  _logs/…
 ```
 
-- **The thumbnail** is the same design every day (`config/brands/ai-news.json` → `thumbnail`): "What happened in
-  the last 24 hours", no date, and on the right the day's biggest companies (logos) and people (cut-out
+- **The thumbnail** is the same design every day (`config/brands/ai-news.json` → `thumbnail`) with new words: a
+  dramatic hook from the day's script (no fixed slogan, no date), and on the right the day's biggest companies (logos) and people (cut-out
   photos with a white outline; at least one well-known face whenever the day's stories allow). Logos and photos come from Wikimedia Commons / Wikidata with free licences only, via
   `tools/library.mjs`. Each one is fetched once and then reused. To seed the library yourself with the companies and people
   you expect every week, run locally with the Drive inbox synced:
@@ -94,10 +94,12 @@ public, so Claude's transcripts go to Drive (`output/_logs/`).
 
 Until the Cloud project passes YouTube's API audit, API uploads stay Private and you set *Scheduled* in Studio.
 
-**Synthetic voice:** the narration is a built-in AI voice reading a news script over real footage and screenshots.
-YouTube asks creators to disclose realistic altered or synthetic content (a real person made to say something,
-a realistic fake event). A synthetic narrator voice for a news summary is usually not in that category, so
-`syntheticMedia` is `false`. Set it to `true` if you'd rather label it, and check YouTube's current policy.
+**Altered or synthetic content label:** the uploader leaves it **unset** (no `syntheticMedia` in
+`config/daily.json`), so you set it yourself in Studio. Add `"syntheticMedia": true` (or `false`) under `youtube` to
+have every upload set it.
+
+**Late runs:** a video uploaded after its 20:30 IST slot goes up **Public at once** (Shorts hourly after it); it is
+never moved to the next day.
 
 ## 5. Schedule, cost, limits
 
@@ -108,7 +110,7 @@ a realistic fake event). A synthetic narrator voice for a news summary is usuall
   episode (ready by about 15:00 IST); otherwise it stops after a minute. Day plan, IST: 08:17 news run → ~11:30 done →
   11:47 backup (normally idle) → 15:03 Crack IT's run (other repo; different runners, so even an overlap is fine for
   GitHub, but both use the same Claude subscription, so their Claude parts are kept hours apart) → 20:30 publish.
-- **Never a day late:** an upload that happens after 20:30 IST publishes 20 minutes later, not the next day. The
+- **Never a day late:** an upload that happens after 20:30 IST goes up Public at once, not the next day. The
   upload tries 3 times, 5 minutes apart, and resumes instead of duplicating; if it still fails the run turns red
   (GitHub emails you) with the video safe in Drive: run **Upload to YouTube** for that project (it uploads only what is
   missing).

@@ -17,7 +17,7 @@ Claude Code is the editor. Two kinds of input, two deliverables each:
 **Unattended daily run** (GitHub Actions, Google Drive in/out, 08:17 IST): `.github/workflows/daily-edit.yml` →
 `daily-script` skill (the last 24 h of tech/AI news → 6–10 story roundup: script + voiceover + `stories.json`) →
 `tools/voice/tts.py` (built-in Qwen3-TTS speaker "Aiden", clear American male, on CPU; no cloning, `config/voice.json`) → `daily-run` skill (edit +
-the `roundup` thumbnail: fixed text, the day's logos and outlined people from `inbox/library/` via `tools/library.mjs`)
+the `roundup` thumbnail: a hook from the script, the day's logos and outlined people from `inbox/library/` via `tools/library.mjs`)
 → `tools/daily.mjs` (next / script-check / check / done) → `tools/youtube.mjs` (scheduled upload, 20:30 IST),
 standing brief `config/daily.json`; setup in `docs/cloud-setup.md`. The repo is public: no media, library images or
 keys in git.
