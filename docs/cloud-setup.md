@@ -77,9 +77,9 @@ stops on a usage limit, pick a smaller model or a lower effort.
 **This repo is public.** Keys live only in your local `.env` (git-ignored) and in these secrets. Run logs are
 public, so Claude's transcripts go to Drive (`output/_logs/`).
 
-## 4. YouTube upload (off until you set it up)
+## 4. YouTube upload (on: every episode is scheduled for 20:30 IST)
 
-`config/daily.json` → `youtube.enabled` is `false`: videos go to Drive only. When the channel exists:
+`config/daily.json` → `youtube.enabled` is `true` (set `false` to send videos to Drive only). Setup, done once:
 
 1. Make a Google Cloud project for this channel (or reuse Crack IT's OAuth client: one client can authorise any
    channel you own), enable *YouTube Data API v3*, create a **Desktop app** OAuth client with scope `youtube.upload`, and

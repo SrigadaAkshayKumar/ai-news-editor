@@ -42,7 +42,7 @@ flowchart LR
 | **Thumbnail** | Fixed text + the day's cast: logos and cut-out photos of public figures, free-licensed from Wikimedia, fetched once and kept in a Drive library | `tools/library.mjs`, `tools/thumb-design.mjs` (`roundup` template) |
 | **Shorts** | Self-contained moments as 9:16 clips | `AI-clipper/` |
 | **Package** | Title from a fixed formula + date + top names, chapters per story, sources, tags | Claude Code skill `youtube-metadata` |
-| **Deliver / publish** | Drive, then a scheduled YouTube upload (off until set up) | rclone, YouTube Data API, `tools/youtube.mjs` |
+| **Deliver / publish** | Drive, then a scheduled YouTube upload (20:30 IST) | rclone, YouTube Data API, `tools/youtube.mjs` |
 
 ### Design choices
 

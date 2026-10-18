@@ -23,7 +23,7 @@
     ]
   },
   "youtube": {
-    "enabled": false,
+    "enabled": true,
     "publishDelayDays": 0,
     "publishTime": "20:30",
     "shortsCount": 3,
