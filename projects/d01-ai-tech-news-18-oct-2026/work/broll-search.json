@@ -1,0 +1,205 @@
+{
+  "provider": "pixabay",
+  "query": "server room",
+  "orientation": "landscape",
+  "results": [
+    {
+      "id": 377885,
+      "provider": "pixabay",
+      "duration": 43,
+      "width": 1920,
+      "height": 1080,
+      "thumb": "https://cdn.pixabay.com/video/2026/09/21/377885_medium.jpg",
+      "page": "https://pixabay.com/videos/id-377885/",
+      "creator": "mignic",
+      "creatorUrl": "https://pixabay.com/users/mignic-3804101/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377885_tiny.mp4",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377885_small.mp4",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377885_medium.mp4",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377885_large.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": 377883,
+      "provider": "pixabay",
+      "duration": 40,
+      "width": 1920,
+      "height": 1080,
+      "thumb": "https://cdn.pixabay.com/video/2026/09/21/377883_medium.jpg",
+      "page": "https://pixabay.com/videos/id-377883/",
+      "creator": "mignic",
+      "creatorUrl": "https://pixabay.com/users/mignic-3804101/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377883_tiny.mp4",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377883_small.mp4",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377883_medium.mp4",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377883_large.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": 377884,
+      "provider": "pixabay",
+      "duration": 52,
+      "width": 1920,
+      "height": 1080,
+      "thumb": "https://cdn.pixabay.com/video/2026/09/21/377884_medium.jpg",
+      "page": "https://pixabay.com/videos/id-377884/",
+      "creator": "mignic",
+      "creatorUrl": "https://pixabay.com/users/mignic-3804101/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377884_tiny.mp4",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377884_small.mp4",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377884_medium.mp4",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377884_large.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": 377880,
+      "provider": "pixabay",
+      "duration": 31,
+      "width": 1920,
+      "height": 1080,
+      "thumb": "https://cdn.pixabay.com/video/2026/09/21/377880_medium.jpg",
+      "page": "https://pixabay.com/videos/id-377880/",
+      "creator": "mignic",
+      "creatorUrl": "https://pixabay.com/users/mignic-3804101/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377880_tiny.mp4",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377880_small.mp4",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377880_medium.mp4",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377880_large.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": 377882,
+      "provider": "pixabay",
+      "duration": 34,
+      "width": 1920,
+      "height": 1080,
+      "thumb": "https://cdn.pixabay.com/video/2026/09/21/377882_medium.jpg",
+      "page": "https://pixabay.com/videos/id-377882/",
+      "creator": "mignic",
+      "creatorUrl": "https://pixabay.com/users/mignic-3804101/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377882_tiny.mp4",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377882_small.mp4",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377882_medium.mp4",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2026/09/21/377882_large.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": 14900,
+      "provider": "pixabay",
+      "duration": 24,
+      "width": 3840,
+      "height": 2160,
+      "thumb": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_medium.jpg",
+      "page": "https://pixabay.com/videos/id-14900/",
+      "creator": "cipnt",
+      "creatorUrl": "https://pixabay.com/users/cipnt-8130977/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_tiny.mp4",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_small.mp4",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_medium.mp4",
+          "width": 2560,
+          "height": 1440
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.mp4",
+          "width": 3840,
+          "height": 2160
+        }
+      ]
+    }
+  ]
+}

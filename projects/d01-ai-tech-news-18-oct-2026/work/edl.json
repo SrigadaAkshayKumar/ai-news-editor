@@ -1,0 +1,64 @@
+{
+  "notes": "Clean TTS read: every script line spoken once, no retakes (prompt-free whisper pass agrees). Dead air trimmed to 0.33s for a punchy news pace; held beats (0.6s) at each story change for the wipe + hit. w654 'and' is whisper's mislabel of the tail of 'systems' \u2014 real silence 280.30-280.75, 'And a lighter one' starts 280.78 \u2014 held whole so the 'And' onset is not clipped.",
+  "keepPauseMax": 0.33,
+  "edgePad": 0.08,
+  "textFixes": {
+    "w101": "Anthropic",
+    "w551": "defence",
+    "w587": "Cogknit",
+    "w598": "Cogknit",
+    "w622": "Cogknit",
+    "w666": "GT",
+    "w667": "SUV",
+    "w703": "Electrek",
+    "w789": "Anthropic's"
+  },
+  "holds": [
+    {
+      "after": "w71",
+      "max": 0.6
+    },
+    {
+      "after": "w196",
+      "max": 0.6
+    },
+    {
+      "after": "w321",
+      "max": 0.6
+    },
+    {
+      "after": "w433",
+      "max": 0.6
+    },
+    {
+      "after": "w548",
+      "max": 0.6
+    },
+    {
+      "after": "w654",
+      "max": 0.7
+    },
+    {
+      "after": "w742",
+      "max": 0.6
+    },
+    {
+      "after": "w660",
+      "max": 1.1
+    },
+    {
+      "after": "w180",
+      "max": 0.7
+    }
+  ],
+  "cuts": [
+    {
+      "time": "283.99-284.36",
+      "reason": "dead air between 'finish.' and 'unveiled' (whisper timed 'Mercedes-AMG' 0.7s late; the true pause is 284.0-284.4, so trim there, not across AMG)"
+    },
+    {
+      "time": "76.6-76.88",
+      "reason": "dead air between 'leaders' and 'are' (whisper started 'are' 0.2s late at 77.16; real onset 76.95 \u2014 trim before it)"
+    }
+  ]
+}

@@ -1,0 +1,1350 @@
+{
+  "style": "broadcast",
+  "rail": "top",
+  "overlays": [
+    {
+      "start": 0,
+      "duration": 3.1,
+      "type": "title_slide",
+      "text": "24 Hours in Tech",
+      "eyebrow": "Sunday · 18 Oct 2026",
+      "style_hint": "Software · AI · Hardware",
+      "value": "24"
+    },
+    {
+      "start": 3.6,
+      "duration": 3.8,
+      "type": "keyword_chip",
+      "text": "Jack Clark · Anthropic",
+      "side": "right"
+    },
+    {
+      "start": 7.7,
+      "duration": 4.75,
+      "type": "number_roll",
+      "value": 50,
+      "suffix": "%",
+      "text": "bigger US economy by 2030?"
+    },
+    {
+      "start": 13,
+      "duration": 2.6,
+      "type": "keyword_chip",
+      "text": "Meta · “train” removed",
+      "side": "right"
+    },
+    {
+      "start": 15.9,
+      "duration": 2.1,
+      "type": "keyword_chip",
+      "text": "after publisher backlash",
+      "side": "right"
+    },
+    {
+      "start": 18.6,
+      "duration": 3.6,
+      "type": "keyword_chip",
+      "text": "Nvidia · RTX 5090",
+      "side": "right"
+    },
+    {
+      "start": 22.45,
+      "duration": 4.4,
+      "type": "big_statement",
+      "text": "Not discontinued. Missing from shelves.",
+      "eyebrow": "Missing"
+    },
+    {
+      "start": 26.95,
+      "duration": 1.6,
+      "type": "keyword_chip",
+      "text": "6 stories today",
+      "side": "right"
+    },
+    {
+      "start": 28.65,
+      "duration": 3.28,
+      "type": "chapter_open",
+      "text": "AI and a $44T economy",
+      "eyebrow": "Story 1 of 6",
+      "railLabel": "of 6 · Clark at the IMF",
+      "numeral": "01",
+      "section": 0
+    },
+    {
+      "start": 32.3,
+      "duration": 2.9,
+      "type": "keyword_chip",
+      "text": "IMF–World Bank meetings · Bangkok",
+      "side": "right"
+    },
+    {
+      "start": 35.4,
+      "duration": 2.85,
+      "type": "keyword_chip",
+      "text": "Reported by Reuters · 17 Oct",
+      "side": "right"
+    },
+    {
+      "start": 38.55,
+      "duration": 4.5,
+      "type": "term_card",
+      "side": "right",
+      "text": "One internal model",
+      "eyebrow": "Anthropic scenario",
+      "items": [
+        {
+          "label": "Only “under certain conditions”"
+        }
+      ]
+    },
+    {
+      "start": 43.3,
+      "duration": 5,
+      "type": "number_roll",
+      "value": 50,
+      "suffix": "%",
+      "text": "US output growth by 2030 · scenario"
+    },
+    {
+      "start": 48.5,
+      "duration": 5.1,
+      "type": "bar_chart",
+      "side": "right",
+      "text": "US output, $ trillion",
+      "items": [
+        {
+          "label": "Today (just over)",
+          "value": 30
+        },
+        {
+          "label": "2030 scenario",
+          "value": 44
+        }
+      ]
+    },
+    {
+      "start": 53.75,
+      "duration": 2.4,
+      "type": "quote_pull",
+      "text": "“Sounds very outlandish, I know.”",
+      "eyebrow": "Jack Clark, Anthropic · via Reuters"
+    },
+    {
+      "start": 56.5,
+      "duration": 5.1,
+      "type": "lower_third",
+      "text": "“Unusual and serious rules” for AI",
+      "eyebrow": "Clark's ask to governments"
+    },
+    {
+      "start": 62.2,
+      "duration": 4.6,
+      "type": "side_note",
+      "text": "Window for safeguards: “a small number of years”",
+      "side": "right"
+    },
+    {
+      "start": 67.1,
+      "duration": 4.4,
+      "type": "big_statement",
+      "text": "Reuters: Anthropic is preparing to go public",
+      "eyebrow": "public"
+    },
+    {
+      "start": 71.75,
+      "duration": 5.1,
+      "type": "fact_band",
+      "items": [
+        {
+          "label": "Upside",
+          "sublabel": "a much bigger economy"
+        },
+        {
+          "label": "Risks",
+          "sublabel": "rules and safeguards"
+        }
+      ]
+    },
+    {
+      "start": 77,
+      "duration": 3.28,
+      "type": "chapter_open",
+      "text": "Meta drops “train”",
+      "eyebrow": "Story 2 of 6",
+      "railLabel": "of 6 · Meta's crawling terms",
+      "numeral": "02",
+      "section": 1
+    },
+    {
+      "start": 80.7,
+      "duration": 2.9,
+      "type": "keyword_chip",
+      "text": "After publisher backlash",
+      "side": "right"
+    },
+    {
+      "start": 83.9,
+      "duration": 3.4,
+      "type": "keyword_chip",
+      "text": "Sites linked to Meta business users",
+      "side": "right"
+    },
+    {
+      "start": 87.9,
+      "duration": 2.7,
+      "type": "keyword_chip",
+      "text": "The earlier draft",
+      "side": "right"
+    },
+    {
+      "start": 92.4,
+      "duration": 2.35,
+      "type": "keyword_chip",
+      "text": "“…research, train…”",
+      "side": "right"
+    },
+    {
+      "start": 95,
+      "duration": 3.9,
+      "type": "comparison",
+      "side": "right",
+      "left": {
+        "label": "Earlier draft",
+        "text": "provide, develop, improve, research, train"
+      },
+      "right": {
+        "label": "Now",
+        "text": "“train” removed"
+      }
+    },
+    {
+      "start": 99.3,
+      "duration": 4.95,
+      "type": "lower_third",
+      "text": "Only ever about ads and business products",
+      "eyebrow": "Meta says"
+    },
+    {
+      "start": 104.55,
+      "duration": 4.75,
+      "type": "timeline",
+      "side": "left",
+      "text": "Meta commercial terms",
+      "current": 1,
+      "items": [
+        {
+          "label": "17 Oct",
+          "sublabel": "wording changed"
+        },
+        {
+          "label": "30 Oct",
+          "sublabel": "terms take effect"
+        }
+      ]
+    },
+    {
+      "start": 109.8,
+      "duration": 2.7,
+      "type": "keyword_chip",
+      "text": "News/Media Alliance",
+      "side": "right"
+    },
+    {
+      "start": 112.7,
+      "duration": 2.15,
+      "type": "keyword_chip",
+      "text": "“Not expressly banned”",
+      "side": "right"
+    },
+    {
+      "start": 115.25,
+      "duration": 5.75,
+      "type": "big_statement",
+      "text": "The fine print on AI training is being read",
+      "eyebrow": "read"
+    },
+    {
+      "start": 121.35,
+      "duration": 3.28,
+      "type": "chapter_open",
+      "text": "RTX 5090: not dead",
+      "eyebrow": "Story 3 of 6",
+      "railLabel": "of 6 · Nvidia's missing GPU",
+      "numeral": "03",
+      "section": 2
+    },
+    {
+      "start": 125,
+      "duration": 2.45,
+      "type": "keyword_chip",
+      "text": "Nvidia: not discontinued",
+      "side": "right"
+    },
+    {
+      "start": 127.85,
+      "duration": 3.6,
+      "type": "lower_third",
+      "text": "Jeff Fisher",
+      "eyebrow": "Senior VP, Nvidia · to Taiwanese media"
+    },
+    {
+      "start": 131.7,
+      "duration": 3.4,
+      "type": "quote_pull",
+      "text": "“NVIDIA will keep shipping it.”",
+      "eyebrow": "Jeff Fisher, Nvidia · translated, via Hardware Busters"
+    },
+    {
+      "start": 135.6,
+      "duration": 4.8,
+      "type": "keyword_chip",
+      "text": "Reports: new chips dried up",
+      "side": "right"
+    },
+    {
+      "start": 140.7,
+      "duration": 7.2,
+      "type": "checklist",
+      "text": "Where is the RTX 5090?",
+      "items": [
+        {
+          "label": "In Nvidia's US store",
+          "state": "no"
+        },
+        {
+          "label": "At Micro Center",
+          "state": "no"
+        },
+        {
+          "label": "Nvidia: will keep shipping",
+          "state": "yes"
+        }
+      ]
+    },
+    {
+      "start": 148.4,
+      "duration": 3.2,
+      "type": "keyword_chip",
+      "text": "Tom's Hardware · Hardware Busters",
+      "side": "right"
+    },
+    {
+      "start": 152.2,
+      "duration": 2.55,
+      "type": "keyword_chip",
+      "text": "Amazon third-party: ~$8,500",
+      "side": "right"
+    },
+    {
+      "start": 155,
+      "duration": 5.1,
+      "type": "bar_chart",
+      "side": "left",
+      "text": "RTX 5090 price, US$",
+      "items": [
+        {
+          "label": "Official",
+          "value": 1999
+        },
+        {
+          "label": "Amazon 3rd-party",
+          "value": 8500
+        }
+      ]
+    },
+    {
+      "start": 160.5,
+      "duration": 4.2,
+      "type": "keyword_chip",
+      "text": "Supply “constrained”",
+      "side": "right"
+    },
+    {
+      "start": 165,
+      "duration": 3.2,
+      "type": "big_statement",
+      "text": "Not discontinued ≠ available",
+      "eyebrow": "available"
+    },
+    {
+      "start": 168.35,
+      "duration": 3.28,
+      "type": "chapter_open",
+      "text": "Fewer juniors, more meetings",
+      "eyebrow": "Story 4 of 6",
+      "railLabel": "of 6 · Anthropic's jobs data",
+      "numeral": "04",
+      "section": 3
+    },
+    {
+      "start": 172,
+      "duration": 1.85,
+      "type": "keyword_chip",
+      "text": "Anthropic report · 16 Oct",
+      "side": "right"
+    },
+    {
+      "start": 174.3,
+      "duration": 3.8,
+      "type": "keyword_chip",
+      "text": "TechCrunch · 17 Oct",
+      "side": "right"
+    },
+    {
+      "start": 178.4,
+      "duration": 7.2,
+      "type": "bar_chart",
+      "side": "right",
+      "text": "Junior share of technical staff, %",
+      "items": [
+        {
+          "label": "Early 2025",
+          "value": 21
+        },
+        {
+          "label": "Now",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "start": 185.8,
+      "duration": 5.9,
+      "type": "comparison",
+      "side": "left",
+      "left": {
+        "label": "Before",
+        "text": "27% of technical hires junior"
+      },
+      "right": {
+        "label": "Now",
+        "text": "9% of technical hires junior"
+      }
+    },
+    {
+      "start": 191.9,
+      "duration": 6.6,
+      "type": "number_roll",
+      "value": 5,
+      "suffix": "×",
+      "text": "code commits per engineer vs six months earlier"
+    },
+    {
+      "start": 200.9,
+      "duration": 3.25,
+      "type": "keyword_chip",
+      "text": "+20% time in meetings",
+      "side": "right"
+    },
+    {
+      "start": 204.4,
+      "duration": 4,
+      "type": "quote_pull",
+      "text": "“Human attention and judgement” are becoming a “bottleneck”",
+      "eyebrow": "Anthropic report · via TechCrunch"
+    },
+    {
+      "start": 208.75,
+      "duration": 4,
+      "type": "side_note",
+      "text": "One company's data",
+      "side": "right"
+    },
+    {
+      "start": 213,
+      "duration": 4.25,
+      "type": "big_statement",
+      "text": "A signal for entry-level hiring",
+      "eyebrow": "entry-level"
+    },
+    {
+      "start": 217.45,
+      "duration": 3.28,
+      "type": "chapter_open",
+      "text": "Zen buys into AI",
+      "eyebrow": "Story 5 of 6",
+      "railLabel": "of 6 · Zen Technologies + Cogknit",
+      "numeral": "05",
+      "section": 4
+    },
+    {
+      "start": 221.2,
+      "duration": 3.2,
+      "type": "keyword_chip",
+      "text": "Majority stake · AI company",
+      "side": "right"
+    },
+    {
+      "start": 224.7,
+      "duration": 5.4,
+      "type": "keyword_chip",
+      "text": "Board approval · NSE filing",
+      "side": "right"
+    },
+    {
+      "start": 230.45,
+      "duration": 9.1,
+      "type": "fact_band",
+      "items": [
+        {
+          "label": "51.98%",
+          "sublabel": "stake in Cogknit Semantics"
+        },
+        {
+          "label": "₹135.15 cr",
+          "sublabel": "cash, at most"
+        }
+      ]
+    },
+    {
+      "start": 239.95,
+      "duration": 6.05,
+      "type": "lower_third",
+      "text": "Cogknit Semantics",
+      "eyebrow": "Bengaluru · AI battlefield management"
+    },
+    {
+      "start": 246.3,
+      "duration": 3.2,
+      "type": "timeline",
+      "side": "right",
+      "text": "Zen + Cogknit",
+      "current": 1,
+      "items": [
+        {
+          "label": "17 Oct",
+          "sublabel": "board approval"
+        },
+        {
+          "label": "13 Dec",
+          "sublabel": "expected completion"
+        }
+      ]
+    },
+    {
+      "start": 250.2,
+      "duration": 4.65,
+      "type": "keyword_chip",
+      "text": "FY26 turnover: ₹0.48 crore",
+      "side": "right"
+    },
+    {
+      "start": 255.15,
+      "duration": 7.3,
+      "type": "matrix_grid",
+      "text": "Zen Technologies",
+      "items": [
+        {
+          "label": "Training simulators"
+        },
+        {
+          "label": "Anti-drone systems"
+        },
+        {
+          "label": "+ AI software"
+        }
+      ]
+    },
+    {
+      "start": 262.6,
+      "duration": 3.28,
+      "type": "chapter_open",
+      "text": "AMG's 1,153 hp EV",
+      "eyebrow": "Story 6 of 6",
+      "railLabel": "of 6 · Mercedes-AMG GT SUV",
+      "numeral": "06",
+      "section": 1
+    },
+    {
+      "start": 266.3,
+      "duration": 4.1,
+      "type": "keyword_chip",
+      "text": "Mercedes-AMG GT SUV · unveiled 17 Oct",
+      "side": "right"
+    },
+    {
+      "start": 270.7,
+      "duration": 5.4,
+      "type": "number_roll",
+      "value": 1153,
+      "suffix": " hp",
+      "text": "GT 63, peak output"
+    },
+    {
+      "start": 276.5,
+      "duration": 2.7,
+      "type": "keyword_chip",
+      "text": "3 axial-flux motors",
+      "side": "right"
+    },
+    {
+      "start": 281.3,
+      "duration": 1.55,
+      "type": "keyword_chip",
+      "text": "710 kW charging",
+      "side": "right"
+    },
+    {
+      "start": 284.5,
+      "duration": 2.65,
+      "type": "keyword_chip",
+      "text": "10–80% in ~12 min",
+      "side": "right"
+    },
+    {
+      "start": 287.45,
+      "duration": 7.2,
+      "type": "fact_band",
+      "items": [
+        {
+          "label": "Summer 2027",
+          "sublabel": "first cars at US dealers"
+        },
+        {
+          "label": "Price",
+          "sublabel": "not announced"
+        }
+      ]
+    },
+    {
+      "start": 294.9,
+      "duration": 3.1,
+      "type": "word_swap",
+      "from": "Horsepower",
+      "to": "Charging",
+      "text": "The real story"
+    },
+    {
+      "start": 298.2,
+      "duration": 4.05,
+      "type": "big_statement",
+      "text": "Charging networks will have to keep up",
+      "eyebrow": "keep"
+    },
+    {
+      "start": 302.45,
+      "duration": 3.3,
+      "type": "chapter_open",
+      "text": "That was the day",
+      "eyebrow": "24 Hours in Tech",
+      "railLabel": "",
+      "numeral": "",
+      "section": 0
+    },
+    {
+      "start": 305.85,
+      "duration": 8.45,
+      "type": "matrix_grid",
+      "text": "AI today",
+      "items": [
+        {
+          "label": "The economy"
+        },
+        {
+          "label": "Jobs"
+        },
+        {
+          "label": "Publishers"
+        },
+        {
+          "label": "GPU prices"
+        }
+      ]
+    },
+    {
+      "start": 314.5,
+      "duration": 7.2,
+      "type": "poll_prompt",
+      "text": "Does the drop in junior hiring change what you plan to learn?",
+      "eyebrow": "Today's question · tell us in the comments",
+      "items": [
+        {
+          "label": "Yes",
+          "value": 50
+        },
+        {
+          "label": "No",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "start": 321.9,
+      "duration": 3.12,
+      "type": "big_statement",
+      "text": "Subscribe for tomorrow's roundup",
+      "eyebrow": "Subscribe"
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3.2,
+      "kind": "graphic",
+      "grade": "neutral",
+      "transition": "cut"
+    },
+    {
+      "start": 3.2,
+      "end": 7.6,
+      "kind": "news",
+      "url": "https://www.cnbc.com/2026/10/17/ai-us-gdp-anthropics-clark.html",
+      "source": "CNBC · Reuters",
+      "headline": "AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.12,
+        "y": 0.125,
+        "w": 0.68,
+        "h": 0.085
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 7.6,
+      "end": 12.55,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 12.55,
+      "end": 18.2,
+      "kind": "news",
+      "url": "https://thenextweb.com/news/meta-drops-train-from-its-website-crawling-terms-after-backlash",
+      "source": "The Next Web",
+      "headline": "Meta drops 'train' from its website-crawling terms after backlash",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.13,
+        "y": 0.078,
+        "w": 0.74,
+        "h": 0.065
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 18.2,
+      "end": 22.4,
+      "kind": "news",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
+      "source": "Tom's Hardware",
+      "headline": "Nvidia reportedly insists the RTX 5090 isn't dead despite severe shortages and removed listings at multiple retailers",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.17,
+        "y": 0.21,
+        "w": 0.44,
+        "h": 0.085
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 22.4,
+      "end": 28.65,
+      "kind": "graphic",
+      "grade": "noir",
+      "transition": "cut"
+    },
+    {
+      "start": 28.65,
+      "end": 31.95,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "whip"
+    },
+    {
+      "start": 31.95,
+      "end": 38.4,
+      "kind": "news",
+      "url": "https://www.cnbc.com/2026/10/17/ai-us-gdp-anthropics-clark.html",
+      "source": "CNBC · Reuters",
+      "headline": "AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.12,
+        "y": 0.125,
+        "w": 0.68,
+        "h": 0.085
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 38.4,
+      "end": 43.2,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 43.2,
+      "end": 48.4,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 48.4,
+      "end": 53.7,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "$44T",
+        "label": "2030 scenario"
+      }
+    },
+    {
+      "start": 53.7,
+      "end": 56.2,
+      "kind": "graphic",
+      "grade": "noir",
+      "transition": "cut"
+    },
+    {
+      "start": 56.2,
+      "end": 61.8,
+      "kind": "broll",
+      "src": "assets/broll/city-night.mp4",
+      "media_start": 0.5,
+      "motion": "pan_right",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 61.8,
+      "end": 67,
+      "kind": "news",
+      "url": "https://www.cnbc.com/2026/10/17/ai-us-gdp-anthropics-clark.html",
+      "source": "CNBC · Reuters",
+      "headline": "AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.19,
+        "y": 0.505,
+        "w": 0.64,
+        "h": 0.06
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 67,
+      "end": 71.6,
+      "kind": "graphic",
+      "grade": "noir",
+      "transition": "cut"
+    },
+    {
+      "start": 71.6,
+      "end": 77,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "IPO",
+        "label": "reported"
+      }
+    },
+    {
+      "start": 77,
+      "end": 80.3,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "whip"
+    },
+    {
+      "start": 80.3,
+      "end": 87.5,
+      "kind": "news",
+      "url": "https://thenextweb.com/news/meta-drops-train-from-its-website-crawling-terms-after-backlash",
+      "source": "The Next Web",
+      "headline": "Meta drops 'train' from its website-crawling terms after backlash",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.13,
+        "y": 0.078,
+        "w": 0.74,
+        "h": 0.065
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 87.5,
+      "end": 94.9,
+      "kind": "news",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "source": "The Verge",
+      "headline": "Meta removes language that may have allowed it to scrape news sites",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.18,
+        "y": 0.505,
+        "w": 0.43,
+        "h": 0.08
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 94.9,
+      "end": 99,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "train",
+        "label": "removed"
+      }
+    },
+    {
+      "start": 99,
+      "end": 104.4,
+      "kind": "broll",
+      "src": "assets/broll/code-laptop.mp4",
+      "media_start": 0.5,
+      "motion": "ken_out",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 104.4,
+      "end": 109.4,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "30 Oct",
+        "label": "terms take effect"
+      }
+    },
+    {
+      "start": 109.4,
+      "end": 115,
+      "kind": "news",
+      "url": "https://thenextweb.com/news/meta-drops-train-from-its-website-crawling-terms-after-backlash",
+      "source": "The Next Web",
+      "headline": "Meta drops 'train' from its website-crawling terms after backlash",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.2,
+        "y": 0.875,
+        "w": 0.6,
+        "h": 0.06
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 115,
+      "end": 121.35,
+      "kind": "broll",
+      "src": "assets/broll/printing-press.mp4",
+      "media_start": 0.5,
+      "motion": "ken_in",
+      "grade": "noir",
+      "transition": "cut"
+    },
+    {
+      "start": 121.35,
+      "end": 124.65,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "whip"
+    },
+    {
+      "start": 124.65,
+      "end": 127.6,
+      "kind": "news",
+      "url": "https://hwbusters.com/news/nvidia-says-the-rtx-5090-isnt-discontinued-but-supply-is-tight-and-street-prices-hit-8500/",
+      "source": "Hardware Busters",
+      "headline": "NVIDIA Says the RTX 5090 Isn't Discontinued, but Supply Is Tight and Street Prices Hit $8,500",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.03,
+        "y": 0.44,
+        "w": 0.6,
+        "h": 0.035
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 127.6,
+      "end": 131.6,
+      "kind": "broll",
+      "src": "assets/broll/taipei-skyline.mp4",
+      "media_start": 0.5,
+      "motion": "pan_left",
+      "grade": "warm",
+      "transition": "cut"
+    },
+    {
+      "start": 131.6,
+      "end": 135.2,
+      "kind": "graphic",
+      "grade": "noir",
+      "transition": "cut"
+    },
+    {
+      "start": 135.2,
+      "end": 140.6,
+      "kind": "news",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
+      "source": "Tom's Hardware",
+      "headline": "Nvidia reportedly insists the RTX 5090 isn't dead despite severe shortages and removed listings at multiple retailers",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.17,
+        "y": 0.21,
+        "w": 0.44,
+        "h": 0.085
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 140.6,
+      "end": 148,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 148,
+      "end": 154.9,
+      "kind": "news",
+      "url": "https://hwbusters.com/news/nvidia-says-the-rtx-5090-isnt-discontinued-but-supply-is-tight-and-street-prices-hit-8500/",
+      "source": "Hardware Busters",
+      "headline": "NVIDIA Says the RTX 5090 Isn't Discontinued, but Supply Is Tight and Street Prices Hit $8,500",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.03,
+        "y": 0.825,
+        "w": 0.62,
+        "h": 0.035
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 154.9,
+      "end": 160.2,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "$8,500",
+        "label": "vs $1,999 official"
+      }
+    },
+    {
+      "start": 160.2,
+      "end": 164.9,
+      "kind": "broll",
+      "src": "assets/broll/gpu-fan.mp4",
+      "media_start": 0.5,
+      "motion": "ken_in",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 164.9,
+      "end": 168.35,
+      "kind": "graphic",
+      "grade": "noir",
+      "transition": "cut"
+    },
+    {
+      "start": 168.35,
+      "end": 171.65,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "whip"
+    },
+    {
+      "start": 171.65,
+      "end": 174,
+      "kind": "news",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "Anthropic",
+      "headline": "How employment is changing at Anthropic",
+      "date": "16 Oct 2026",
+      "highlight": {
+        "x": 0.12,
+        "y": 0.09,
+        "w": 0.76,
+        "h": 0.04
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 174,
+      "end": 178.3,
+      "kind": "news",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "TechCrunch",
+      "headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.49,
+        "y": 0.26,
+        "w": 0.4,
+        "h": 0.09
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 178.3,
+      "end": 185.7,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "21% → 14%",
+        "label": "junior share, technical teams"
+      }
+    },
+    {
+      "start": 185.7,
+      "end": 191.8,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "27% → 9%",
+        "label": "junior share of technical hires"
+      }
+    },
+    {
+      "start": 191.8,
+      "end": 198.6,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 198.6,
+      "end": 204.3,
+      "kind": "broll",
+      "src": "assets/broll/team-meeting.mp4",
+      "media_start": 0.5,
+      "motion": "ken_out",
+      "grade": "neutral",
+      "transition": "cut"
+    },
+    {
+      "start": 204.3,
+      "end": 208.5,
+      "kind": "graphic",
+      "grade": "noir",
+      "transition": "cut"
+    },
+    {
+      "start": 208.5,
+      "end": 212.9,
+      "kind": "broll",
+      "src": "assets/broll/dev-office.mp4",
+      "media_start": 0.5,
+      "motion": "pan_right",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 212.9,
+      "end": 217.45,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 217.45,
+      "end": 220.75,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "whip"
+    },
+    {
+      "start": 220.75,
+      "end": 230.3,
+      "kind": "news",
+      "url": "https://businessupturn.com/business/zen-technologies-to-acquire-majority-stake-in-cogknit-semantics-for-rs-135-15-crore/",
+      "source": "Business Upturn",
+      "headline": "Zen Technologies to acquire majority stake in Cogknit Semantics for Rs. 135.15 crore",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.05,
+        "y": 0.068,
+        "w": 0.6,
+        "h": 0.042
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 230.3,
+      "end": 239.7,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "51.98%",
+        "label": "Cogknit Semantics"
+      }
+    },
+    {
+      "start": 239.7,
+      "end": 246.2,
+      "kind": "broll",
+      "src": "assets/broll/drone.mp4",
+      "media_start": 0.5,
+      "motion": "static",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 246.2,
+      "end": 249.6,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "13 Dec",
+        "label": "expected close"
+      }
+    },
+    {
+      "start": 249.6,
+      "end": 255,
+      "kind": "news",
+      "url": "https://businessupturn.com/business/zen-technologies-to-acquire-majority-stake-in-cogknit-semantics-for-rs-135-15-crore/",
+      "source": "Business Upturn",
+      "headline": "Zen Technologies to acquire majority stake in Cogknit Semantics for Rs. 135.15 crore",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.05,
+        "y": 0.705,
+        "w": 0.62,
+        "h": 0.03
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 255,
+      "end": 262.6,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 262.6,
+      "end": 265.9,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "whip"
+    },
+    {
+      "start": 265.9,
+      "end": 270.6,
+      "kind": "news",
+      "url": "https://electrek.co/2026/10/17/mercedes-amg-gt-suv-electric-1153-hp-710-kw-charging/",
+      "source": "Electrek",
+      "headline": "Electric Mercedes-AMG GT SUV unveiled with 1,153 hp and 710 kW charging",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.06,
+        "y": 0.218,
+        "w": 0.52,
+        "h": 0.045
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 270.6,
+      "end": 276.2,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut"
+    },
+    {
+      "start": 276.2,
+      "end": 283,
+      "kind": "news",
+      "url": "https://electrek.co/2026/10/17/mercedes-amg-gt-suv-electric-1153-hp-710-kw-charging/",
+      "source": "Electrek",
+      "headline": "Electric Mercedes-AMG GT SUV unveiled with 1,153 hp and 710 kW charging",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.06,
+        "y": 0.485,
+        "w": 0.56,
+        "h": 0.035
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 283,
+      "end": 287.3,
+      "kind": "news",
+      "url": "https://insideevs.com/news/812320/amg-gt-suv-ev-reveal/",
+      "source": "InsideEVs",
+      "headline": "AMG's New Electric SUV Has 1,153 HP. The Charging Specs Are Even Wilder",
+      "date": "17 Oct 2026",
+      "highlight": {
+        "x": 0.15,
+        "y": 0.183,
+        "w": 0.64,
+        "h": 0.06
+      },
+      "transition": "cut"
+    },
+    {
+      "start": 287.3,
+      "end": 294.8,
+      "kind": "graphic",
+      "grade": "cool",
+      "transition": "cut",
+      "card": {
+        "value": "2027",
+        "label": "first US dealer deliveries"
+      }
+    },
+    {
+      "start": 294.8,
+      "end": 298.1,
+      "kind": "graphic",
+      "grade": "warm",
+      "transition": "cut"
+    },
+    {
+      "start": 298.1,
+      "end": 302.45,
+      "kind": "graphic",
+      "grade": "warm",
+      "transition": "cut"
+    },
+    {
+      "start": 302.45,
+      "end": 305.75,
+      "kind": "graphic",
+      "grade": "neutral",
+      "transition": "whip"
+    },
+    {
+      "start": 305.75,
+      "end": 314.4,
+      "kind": "graphic",
+      "grade": "neutral",
+      "transition": "cut"
+    },
+    {
+      "start": 314.4,
+      "end": 321.8,
+      "kind": "graphic",
+      "grade": "neutral",
+      "transition": "cut"
+    },
+    {
+      "start": 321.8,
+      "end": 325.07,
+      "kind": "graphic",
+      "grade": "neutral",
+      "transition": "cut"
+    }
+  ],
+  "camera_moves": []
+}

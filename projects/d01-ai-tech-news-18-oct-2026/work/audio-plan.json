@@ -1,0 +1,428 @@
+{
+  "music_cues": [],
+  "sfx_events": [
+    {
+      "time": 0,
+      "sfx": "impact",
+      "reason": "cold open: title slide lands on frame 0"
+    },
+    {
+      "time": 3.65,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Jack Clark · Anthropic”",
+      "gain": 0.85
+    },
+    {
+      "time": 7.4,
+      "sfx": "sub_drop",
+      "reason": "number_roll reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 13.05,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Meta · “train” removed”",
+      "gain": 0.85
+    },
+    {
+      "time": 15.95,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “after publisher backlash”",
+      "gain": 0.85
+    },
+    {
+      "time": 18.65,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Nvidia · RTX 5090”",
+      "gain": 0.85
+    },
+    {
+      "time": 22.5,
+      "sfx": "impact",
+      "reason": "punchline big_statement “Not discontinued. Missing from shelves.”"
+    },
+    {
+      "time": 27,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “6 stories today”",
+      "gain": 0.85
+    },
+    {
+      "time": 28.2,
+      "sfx": "whoosh",
+      "reason": "story change wipe into “AI and a $44T economy”"
+    },
+    {
+      "time": 28.67,
+      "sfx": "impact",
+      "reason": "story change hit: Story 1 of 6 “AI and a $44T economy”"
+    },
+    {
+      "time": 32.35,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “IMF–World Bank meetings · Bangkok”",
+      "gain": 0.85
+    },
+    {
+      "time": 35.45,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Reported by Reuters · 17 Oct”",
+      "gain": 0.85
+    },
+    {
+      "time": 38.25,
+      "sfx": "sub_drop",
+      "reason": "term_card reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 43,
+      "sfx": "sub_drop",
+      "reason": "number_roll reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 48.2,
+      "sfx": "sub_drop",
+      "reason": "bar_chart reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 53.8,
+      "sfx": "reveal",
+      "reason": "quote_pull reveal"
+    },
+    {
+      "time": 56.55,
+      "sfx": "click",
+      "reason": "soft tick: lower_third ““Unusual and serious rules” for AI”",
+      "gain": 0.85
+    },
+    {
+      "time": 62.25,
+      "sfx": "pop",
+      "reason": "soft tick: side_note “Window for safeguards: “a small number of years””",
+      "gain": 0.85
+    },
+    {
+      "time": 67.15,
+      "sfx": "impact",
+      "reason": "punchline big_statement “Reuters: Anthropic is preparing to go public”"
+    },
+    {
+      "time": 71.45,
+      "sfx": "sub_drop",
+      "reason": "fact_band reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 76.55,
+      "sfx": "whoosh",
+      "reason": "story change wipe into “Meta drops “train””"
+    },
+    {
+      "time": 77.02,
+      "sfx": "impact",
+      "reason": "story change hit: Story 2 of 6 “Meta drops “train””"
+    },
+    {
+      "time": 80.75,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “After publisher backlash”",
+      "gain": 0.85
+    },
+    {
+      "time": 87.95,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “The earlier draft”",
+      "gain": 0.85
+    },
+    {
+      "time": 92.45,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip ““…research, train…””",
+      "gain": 0.85
+    },
+    {
+      "time": 94.7,
+      "sfx": "sub_drop",
+      "reason": "comparison reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 99.35,
+      "sfx": "click",
+      "reason": "soft tick: lower_third “Only ever about ads and business products”",
+      "gain": 0.85
+    },
+    {
+      "time": 104.25,
+      "sfx": "sub_drop",
+      "reason": "timeline reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 109.85,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “News/Media Alliance”",
+      "gain": 0.85
+    },
+    {
+      "time": 112.75,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip ““Not expressly banned””",
+      "gain": 0.85
+    },
+    {
+      "time": 115.3,
+      "sfx": "reveal",
+      "reason": "big_statement reveal"
+    },
+    {
+      "time": 120.9,
+      "sfx": "whoosh",
+      "reason": "story change wipe into “RTX 5090: not dead”"
+    },
+    {
+      "time": 121.37,
+      "sfx": "impact",
+      "reason": "story change hit: Story 3 of 6 “RTX 5090: not dead”"
+    },
+    {
+      "time": 125.05,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Nvidia: not discontinued”",
+      "gain": 0.85
+    },
+    {
+      "time": 127.9,
+      "sfx": "pop",
+      "reason": "soft tick: lower_third “Jeff Fisher”",
+      "gain": 0.85
+    },
+    {
+      "time": 131.75,
+      "sfx": "reveal",
+      "reason": "quote_pull reveal"
+    },
+    {
+      "time": 135.65,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Reports: new chips dried up”",
+      "gain": 0.85
+    },
+    {
+      "time": 140.4,
+      "sfx": "sub_drop",
+      "reason": "checklist reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 148.45,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Tom's Hardware · Hardware Busters”",
+      "gain": 0.85
+    },
+    {
+      "time": 152.25,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “Amazon third-party: ~$8,500”",
+      "gain": 0.85
+    },
+    {
+      "time": 154.7,
+      "sfx": "sub_drop",
+      "reason": "bar_chart reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 160.55,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Supply “constrained””",
+      "gain": 0.85
+    },
+    {
+      "time": 165.05,
+      "sfx": "impact",
+      "reason": "punchline big_statement “Not discontinued ≠ available”"
+    },
+    {
+      "time": 167.9,
+      "sfx": "whoosh",
+      "reason": "story change wipe into “Fewer juniors, more meetings”"
+    },
+    {
+      "time": 168.37,
+      "sfx": "impact",
+      "reason": "story change hit: Story 4 of 6 “Fewer juniors, more meetings”"
+    },
+    {
+      "time": 172.05,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Anthropic report · 16 Oct”",
+      "gain": 0.85
+    },
+    {
+      "time": 174.35,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “TechCrunch · 17 Oct”",
+      "gain": 0.85
+    },
+    {
+      "time": 178.1,
+      "sfx": "sub_drop",
+      "reason": "bar_chart reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 185.5,
+      "sfx": "sub_drop",
+      "reason": "comparison reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 191.6,
+      "sfx": "sub_drop",
+      "reason": "number_roll reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 200.95,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “+20% time in meetings”",
+      "gain": 0.85
+    },
+    {
+      "time": 204.45,
+      "sfx": "reveal",
+      "reason": "quote_pull reveal"
+    },
+    {
+      "time": 208.8,
+      "sfx": "click",
+      "reason": "soft tick: side_note “One company's data”",
+      "gain": 0.85
+    },
+    {
+      "time": 213.05,
+      "sfx": "reveal",
+      "reason": "big_statement reveal"
+    },
+    {
+      "time": 217,
+      "sfx": "whoosh",
+      "reason": "story change wipe into “Zen buys into AI”"
+    },
+    {
+      "time": 217.47,
+      "sfx": "impact",
+      "reason": "story change hit: Story 5 of 6 “Zen buys into AI”"
+    },
+    {
+      "time": 221.25,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “Majority stake · AI company”",
+      "gain": 0.85
+    },
+    {
+      "time": 224.75,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Board approval · NSE filing”",
+      "gain": 0.85
+    },
+    {
+      "time": 230.15,
+      "sfx": "sub_drop",
+      "reason": "fact_band reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 240,
+      "sfx": "click",
+      "reason": "soft tick: lower_third “Cogknit Semantics”",
+      "gain": 0.85
+    },
+    {
+      "time": 246,
+      "sfx": "sub_drop",
+      "reason": "timeline reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 250.25,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “FY26 turnover: ₹0.48 crore”",
+      "gain": 0.85
+    },
+    {
+      "time": 254.85,
+      "sfx": "sub_drop",
+      "reason": "matrix_grid reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 262.15,
+      "sfx": "whoosh",
+      "reason": "story change wipe into “AMG's 1,153 hp EV”"
+    },
+    {
+      "time": 262.62,
+      "sfx": "impact",
+      "reason": "story change hit: Story 6 of 6 “AMG's 1,153 hp EV”"
+    },
+    {
+      "time": 266.35,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “Mercedes-AMG GT SUV · unveiled 17 Oct”",
+      "gain": 0.85
+    },
+    {
+      "time": 270.4,
+      "sfx": "sub_drop",
+      "reason": "number_roll reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 276.55,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “3 axial-flux motors”",
+      "gain": 0.85
+    },
+    {
+      "time": 281.35,
+      "sfx": "pop",
+      "reason": "soft tick: keyword_chip “710 kW charging”",
+      "gain": 0.85
+    },
+    {
+      "time": 284.55,
+      "sfx": "click",
+      "reason": "soft tick: keyword_chip “10–80% in ~12 min”",
+      "gain": 0.85
+    },
+    {
+      "time": 287.15,
+      "sfx": "sub_drop",
+      "reason": "fact_band reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 294.95,
+      "sfx": "impact",
+      "reason": "punchline word_swap “The real story”"
+    },
+    {
+      "time": 298.25,
+      "sfx": "reveal",
+      "reason": "big_statement reveal"
+    },
+    {
+      "time": 302,
+      "sfx": "whoosh",
+      "reason": "story change wipe into “That was the day”"
+    },
+    {
+      "time": 302.47,
+      "sfx": "impact",
+      "reason": "story change hit: 24 Hours in Tech “That was the day”"
+    },
+    {
+      "time": 305.55,
+      "sfx": "sub_drop",
+      "reason": "matrix_grid reframes the frame (split/corner/band)"
+    },
+    {
+      "time": 314.55,
+      "sfx": "reveal",
+      "reason": "poll_prompt reveal"
+    },
+    {
+      "time": 321.95,
+      "sfx": "reveal",
+      "reason": "big_statement reveal"
+    }
+  ]
+}
