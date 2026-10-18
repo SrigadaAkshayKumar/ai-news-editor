@@ -96,7 +96,7 @@ The narration is a synthetic voice. YouTube's "altered or synthetic content" lab
 content that could mislead (a real person made to say something, a realistic fake event). A synthetic narrator
 reading a researched news script over real footage and screenshots usually does not need it, but **disclosing
 is the safe default for an all-AI-voice channel**: the description above already says it, and the uploader can
-set the label on every upload (`syntheticMedia: true` in `config/daily.json`). Recommended: turn it on.
+set the label on every upload (`"syntheticMedia": true` in `config/daily.json`). For now it is left unset: set it in Studio.
 
 ## 8. Monetisation (later)
 

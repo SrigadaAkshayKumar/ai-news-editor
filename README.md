@@ -6,7 +6,7 @@ An AI agent that runs a faceless YouTube news channel end to end. Every morning 
 2. Records the voiceover with a built-in English male TTS voice (Qwen3-TTS, on CPU).
 3. Edits a finished 16:9 video: newsroom look, story counter, news screenshots of the real sources, motion
    graphics, sound design.
-4. Makes the daily thumbnail: the same "What happened in the last 24 hours" design, and the logos of
+4. Makes the daily thumbnail: the channel's design with a dramatic hook from the day's script, and the logos of
    the companies and photos of the people in the day's biggest stories.
 5. Cuts YouTube Shorts from it and writes the upload metadata.
 
@@ -39,10 +39,10 @@ flowchart LR
 | **Script** | 6–10 stories from the last 24 h, biggest first; every figure from an official source or two reputable outlets; `stories.json` names each story's companies and people | Claude Code skill `daily-script` |
 | **Voice** | A built-in English male speaker with a clear American accent (`Aiden`; no voice cloning), paragraph chunks, each checked against the expected speaking time | Qwen3-TTS 0.6B CustomVoice, `tools/voice/tts.py` |
 | **Edit** | Transcribe → clean cut → direction pass → visual plan → render → SFX mix → master at -14 LUFS → `verify` | Claude Code skills + Remotion + HyperFrames + ffmpeg |
-| **Thumbnail** | Fixed text + the day's cast: logos and cut-out photos of public figures, free-licensed from Wikimedia, fetched once and kept in a Drive library | `tools/library.mjs`, `tools/thumb-design.mjs` (`roundup` template) |
+| **Thumbnail** | A hook from the day's script + the day's cast: logos and cut-out photos of public figures, free-licensed from Wikimedia, fetched once and kept in a Drive library | `tools/library.mjs`, `tools/thumb-design.mjs` (`roundup` template) |
 | **Shorts** | Self-contained moments as 9:16 clips | `AI-clipper/` |
 | **Package** | Title from a fixed formula + date + top names, chapters per story, sources, tags | Claude Code skill `youtube-metadata` |
-| **Deliver / publish** | Drive, then a scheduled YouTube upload (off until set up) | rclone, YouTube Data API, `tools/youtube.mjs` |
+| **Deliver / publish** | Drive, then a scheduled YouTube upload (20:30 IST) | rclone, YouTube Data API, `tools/youtube.mjs` |
 
 ### Design choices
 

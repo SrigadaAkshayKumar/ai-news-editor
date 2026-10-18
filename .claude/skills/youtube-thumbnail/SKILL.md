@@ -116,14 +116,21 @@ Rules:
 - Write `output/thumbnails/thumbnails.md`: each variant's idea and text, and which one to use as the main thumbnail
   (the others go into Test & Compare).
 
-## 5c. The daily news roundup (this channel's default): one fixed template, today's cast
+## 5c. The daily news roundup (this channel's default): one template, today's hook and cast
 
-Every daily episode gets the SAME thumbnail design, so the channel is recognisable in the feed: the brand's fixed
-text (`config/brands/ai-news.json` → `thumbnail.lines`, e.g. "What happened / in the last / *24 hours*"), the
-`kicker`, **no date** (the title carries it; a date makes the thumbnail look stale a day later). Only the right
-side changes: the **cast** of the day's biggest stories — up to 3 cut-out **people** (each drawn with a white
-outline) and up to 4 company **logos**. **A recognisable face is the strongest part of the thumbnail**: every
-episode gets at least one person when the day allows it.
+Every daily episode uses the SAME design (the `roundup` template, brand accent, brand name), so the channel is
+recognisable in the feed, but the **words are new every day**: a dramatic **hook** from that day's script, never a
+routine line like "What happened in the last 24 hours". **No kicker** (no "Software · AI · Hardware" label) and
+**no date** (the title carries it). The right side is the **cast** of the day's biggest stories: up to 3 cut-out
+**people** (each drawn with a white outline) and up to 4 company **logos**. **A recognisable face is the strongest
+part of the thumbnail**: every episode gets at least one person when the day allows it.
+
+0. **Write the hook** (`lines`): 2–3 short lines, about 3–6 words in all, each line ≤ 14 characters, one or two key
+   words marked `*…*` for the accent highlight. Take it from the lead story or the cold open's sharpest moment:
+   the number, the stake, the surprise ("Nvidia's *$5 trillion* day", "Apple *pulls* the plug", "*40 techs* banned?").
+   It must be true to the script: no claim the video doesn't make, no number it doesn't say, a `reported` story
+   phrased as a question or "report:", never words put in a person's mouth (no quote marks next to a face). Write
+   2–3 candidates in `thumbnails.md`, pick the one that makes someone curious enough to click, and render it.
 
 1. **Choose the cast** from the episode's `*_stories.json`: rank companies and people by the summed `weight` of the
    stories they appear in. Take the top 1–3 people and the top 2–4 companies (fewer is fine; a logo of a company
@@ -153,14 +160,14 @@ episode gets at least one person when the day allows it.
 4. Spec `output/thumbnails/spec.json` with ONE variant, most important person first:
    ```json
    {"accent": "<brand accent>", "brand": "<brand shortName, upper case>", "variants": [
-     {"name": "A", "template": "roundup", "kicker": "Software · AI · Hardware", "lines": ["What happened", "in the last", "*24 hours*"],
+     {"name": "A", "template": "roundup", "lines": ["Nvidia's", "*$5 trillion*", "day"],
       "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg", "assets/library/google.svg"]}]}
    ```
    `node tools/thumb-design.mjs <p> output/thumbnails/spec.json` → Read `A.png` and `A-feed.png`: faces
    recognisable at feed size, the white outline clean all round each person (no white blocks from a bad
    cut-out), logos not crushed, nothing over the text. Too crowded → drop the weakest
    cast member and render again.
-5. `thumbnails.md`: the cast and why, each image's source and licence.
+5. `thumbnails.md`: the hook candidates and the pick, the cast and why, each image's source and licence.
 
 Rules: editorial use only — a real person's photo appears only because they are in today's news; never add text
 next to a face that puts words in their mouth, never imply a person endorses anything, no caricature or edits

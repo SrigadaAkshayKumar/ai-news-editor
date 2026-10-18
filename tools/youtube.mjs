@@ -14,8 +14,9 @@
 // Reads projects/<p>/output/youtube.json (written by the daily-run skill):
 //   {"title": "…", "description": "…", "tags": ["…"], "thumbnail": "output/thumbnail.png" (optional)}
 // and the Shorts' AI-clipper/jobs/<p>/clips.json (title, description, hashtags per clip id; files NN-*.mp4).
-// Schedule and limits: config/daily.json → youtube. Every upload goes up Private with a publishAt time, so YouTube
+// Schedule and limits: config/daily.json → youtube. An upload before its slot goes up Private with a publishAt time, so YouTube
 // publishes it by itself; nothing goes public before that time, and the owner can still change or cancel it in Studio.
+// After its slot (a late run) the main video goes up Public at once and the Shorts follow hourly from then.
 // Note: until the Google Cloud project passes YouTube's API audit, YouTube keeps API uploads Private (no publishAt).
 // Auth: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (tools/youtube-auth.mjs makes the refresh token once).
 // Writes projects/<p>/output/youtube-uploaded.json (ids, links, publish times) and a summary for the run page.
@@ -30,7 +31,7 @@ const testFile = typeof flags.test === "string" ? flags.test : null;
 if (!project && !testFile) die("usage: node tools/youtube.mjs <project> [--shorts dir] [--dry-run] | --test <file.mp4>");
 const dryRun = !!flags["dry-run"];
 const cfg = { publishDelayDays: 1, publishTime: "18:00", shortsCount: 3, shortsGapMinutes: 60, categoryId: "27",
-  language: "en", syntheticMedia: false, ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
+  language: "en", ...(readJson(join(ROOT, "config", "daily.json")).youtube || {}) };
 if (testFile) await testUpload(testFile);
 if (flags["set-thumbnail"]) await setThumbnailOnly(project);
 const out = join(PROJECTS, project, "output");
@@ -40,14 +41,14 @@ const meta = readJson(metaFile);
 
 // ---- schedule -------------------------------------------------------------------------------------------------
 const IST = 5.5 * 3.6e6;
-/** "HH:MM" IST on (today IST + days) → Date. A run that finishes after the slot publishes SOON_MIN minutes from now
- *  (a little late beats a day late); it is never pushed to the next day. */
-const SOON_MIN = 20;
+/** "HH:MM" IST on (today IST + days) → Date. A run that finishes after the slot (or within LATE_MIN of it) gets
+ *  null: the video goes up Public right away instead of being scheduled; it is never pushed to the next day. */
+const LATE_MIN = 10;
 function istSlot(days, hhmm) {
   const [h, m] = hhmm.split(":").map(Number);
   const now = new Date(Date.now() + IST);
   const t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + days, h, m) - IST;
-  return new Date(Math.max(t, Date.now() + SOON_MIN * 6e4));
+  return t < Date.now() + LATE_MIN * 6e4 ? null : new Date(t);
 }
 
 // ---- text limits (YouTube rejects the whole upload otherwise) ----------------------------------------------------
@@ -83,8 +84,11 @@ async function accessToken() {
 async function upload(token, file, snippet, publishAt) {
   const body = {
     snippet: { ...snippet, categoryId: cfg.categoryId, defaultLanguage: cfg.language, defaultAudioLanguage: cfg.language },
-    status: { privacyStatus: "private", ...(publishAt ? { publishAt: publishAt.toISOString() } : {}),
-      selfDeclaredMadeForKids: false, containsSyntheticMedia: cfg.syntheticMedia },
+    // publishAt = scheduled (Private until then); none = Public now (a late run must not publish late)
+    status: { privacyStatus: publishAt ? "private" : "public", ...(publishAt ? { publishAt: publishAt.toISOString() } : {}),
+      selfDeclaredMadeForKids: false,
+      // the "altered or synthetic content" label is only sent when config/daily.json sets it; unset = left to Studio
+      ...(typeof cfg.syntheticMedia === "boolean" ? { containsSyntheticMedia: cfg.syntheticMedia } : {}) },
   };
   const size = readFileSync(file).length;
   const start = await fetch("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status", {
@@ -173,17 +177,22 @@ function publishFlag() {
   if (!flags.publish) return istSlot(cfg.publishDelayDays, cfg.publishTime);
   const m = String(flags.publish).match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{1,2}):(\d{2})$/) || die(`--publish "YYYY-MM-DD HH:MM" (IST), got ${flags.publish}`);
   const t = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]) - IST);
-  if (t < Date.now() + 3.6e6) die(`--publish ${flags.publish} IST is in the past or less than an hour away`);
+  if (t < Date.now() + LATE_MIN * 6e4) {
+    console.log(`--publish ${flags.publish} IST has passed (or is minutes away): uploading Public now`);
+    return null;
+  }
   return t;
 }
 // --resume: what a previous, interrupted attempt already put on YouTube (matched by file name)
 const upFile = join(out, "youtube-uploaded.json");
 const done = flags.resume && existsSync(upFile) ? readJson(upFile).videos || [] : [];
 const doneVideo = done.find((r) => r.kind === "video");
+// null = late: the main video goes Public now and the Shorts follow hourly from now
 const mainAt = doneVideo ? new Date(doneVideo.publishAt) : publishFlag();
+const mainBase = mainAt || new Date();
 /** Shorts: the same day as the main video, one every shortsGapMinutes after it (so the video is already public
  *  when each Short goes out and can be its "Related video"). */
-const shortAt = (i) => new Date(mainAt.getTime() + (i + 1) * cfg.shortsGapMinutes * 6e4);
+const shortAt = (i) => new Date(mainBase.getTime() + (i + 1) * cfg.shortsGapMinutes * 6e4);
 const finals = readdirSync(out).filter((n) => /^final-16x9.*\.mp4$/.test(n));
 if (!finals.length) die(`no final-16x9*.mp4 in ${out}`);
 const plan = [{
@@ -220,19 +229,19 @@ for (const p of plan) {
     continue;
   }
   if (dryRun) {
-    results.push({ kind: p.kind, file: p.file, title: p.snippet.title, publishAt: p.publishAt.toISOString(), tags: p.snippet.tags.length });
+    results.push({ kind: p.kind, file: p.file, title: p.snippet.title, publishAt: (p.publishAt || new Date()).toISOString(), tags: p.snippet.tags.length });
     continue;
   }
   const { id, status } = await upload(token, p.file, p.snippet, p.publishAt);
   const url = p.kind === "short" ? `https://youtube.com/shorts/${id}` : `https://youtu.be/${id}`;
   if (p.kind === "video") videoUrl = url;
   const thumb = p.thumbnail && existsSync(p.thumbnail) ? await setThumbnail(token, id, p.thumbnail) : undefined;
-  results.push({ kind: p.kind, file: basename(p.file), id, url, title: p.snippet.title, publishAt: p.publishAt.toISOString(),
+  results.push({ kind: p.kind, file: basename(p.file), id, url, title: p.snippet.title, publishAt: (p.publishAt || new Date()).toISOString(),
     // what YouTube actually stored: no publishAt here = the API project is not audited, the video stays Private
     youtubeStatus: { privacy: status?.privacyStatus, publishAt: status?.publishAt || null }, thumbnail: thumb });
   // saved after every upload, so a retry with --resume continues from here
   writeJson(upFile, { uploadedAt: new Date().toISOString(), videos: results });
-  console.log(`${p.kind} ${url} → publishes ${p.publishAt.toISOString()} (${p.snippet.title}); YouTube stored: ${status?.privacyStatus}, publishAt ${status?.publishAt || "NONE"}`);
+  console.log(`${p.kind} ${url} → ${p.publishAt ? `publishes ${p.publishAt.toISOString()}` : "PUBLIC now (late run)"} (${p.snippet.title}); YouTube stored: ${status?.privacyStatus}, publishAt ${status?.publishAt || "NONE"}`);
 }
 
 if (!dryRun) writeJson(upFile, { uploadedAt: new Date().toISOString(), videos: results });

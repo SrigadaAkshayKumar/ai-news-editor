@@ -23,13 +23,12 @@
     ]
   },
   "youtube": {
-    "enabled": false,
+    "enabled": true,
     "publishDelayDays": 0,
     "publishTime": "20:30",
     "shortsCount": 3,
     "shortsGapMinutes": 60,
     "categoryId": "28",
-    "language": "en",
-    "syntheticMedia": false
+    "language": "en"
   }
 }
