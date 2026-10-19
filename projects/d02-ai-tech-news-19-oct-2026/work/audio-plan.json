@@ -1,0 +1,424 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title slide lands on frame 0"
+  },
+  {
+   "time": 3.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Anthropic · 5% of shares to a fund”"
+  },
+  {
+   "time": 7.25,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “OpenAI · humanoid robot”"
+  },
+  {
+   "time": 12.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Chips · longest slide since the crisis”"
+  },
+  {
+   "time": 16.95,
+   "sfx": "whoosh",
+   "reason": "story change wipe into “Anthropic's public benefit fund”"
+  },
+  {
+   "time": 17.42,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 6 “Anthropic's public benefit fund”"
+  },
+  {
+   "time": 21.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “5% of shares · TechCrunch”"
+  },
+  {
+   "time": 23.650000000000002,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Needs stockholder approval”"
+  },
+  {
+   "time": 26.6,
+   "sfx": "sub_drop",
+   "reason": "number_roll reframes the frame"
+  },
+  {
+   "time": 31.150000000000002,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Milestones: in coming months”"
+  },
+  {
+   "time": 34.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Anthropic · 18 Oct”"
+  },
+  {
+   "time": 37.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Wholly owned company, not a charity”"
+  },
+  {
+   "time": 40.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “No equity used for lobbying”"
+  },
+  {
+   "time": 42.8,
+   "sfx": "sub_drop",
+   "reason": "fact_band reframes the frame"
+  },
+  {
+   "time": 47.8,
+   "sfx": "sub_drop",
+   "reason": "number_roll reframes the frame"
+  },
+  {
+   "time": 52.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Who decides? Not said yet”"
+  },
+  {
+   "time": 55.349999999999994,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Governance details: later”"
+  },
+  {
+   "time": 57.95,
+   "sfx": "whoosh",
+   "reason": "story change wipe into “OpenAI's humanoid robot”"
+  },
+  {
+   "time": 58.42,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 6 “OpenAI's humanoid robot”"
+  },
+  {
+   "time": 62.449999999999996,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Engadget · 17 Oct”"
+  },
+  {
+   "time": 65.55,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Sources podcast”"
+  },
+  {
+   "time": 68.1,
+   "sfx": "impact",
+   "reason": "punchline quote_pull"
+  },
+  {
+   "time": 73.55,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Fortune interview”"
+  },
+  {
+   "time": 76.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip ““A cool demo in 2027””"
+  },
+  {
+   "time": 79.25,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Streets: a few years later”"
+  },
+  {
+   "time": 82.2,
+   "sfx": "sub_drop",
+   "reason": "checklist reframes the frame"
+  },
+  {
+   "time": 87.5,
+   "sfx": "sub_drop",
+   "reason": "number_roll reframes the frame"
+  },
+  {
+   "time": 91.2,
+   "sfx": "sub_drop",
+   "reason": "fact_band reframes the frame"
+  },
+  {
+   "time": 97.15,
+   "sfx": "whoosh",
+   "reason": "story change wipe into “Chip stocks slide”"
+  },
+  {
+   "time": 97.62,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 6 “Chip stocks slide”"
+  },
+  {
+   "time": 101.85,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Stocktwits · 16 Oct”"
+  },
+  {
+   "time": 105.55,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “SOX: 8th straight daily loss”"
+  },
+  {
+   "time": 109.1,
+   "sfx": "sub_drop",
+   "reason": "stat_trio reframes the frame"
+  },
+  {
+   "time": 117.55,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Worries over AI spending”"
+  },
+  {
+   "time": 120.25,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Rate expectations rising”"
+  },
+  {
+   "time": 122.55,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Memory-chip competition”"
+  },
+  {
+   "time": 124.5,
+   "sfx": "sub_drop",
+   "reason": "number_roll reframes the frame"
+  },
+  {
+   "time": 130.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Index still up ~60% this year”"
+  },
+  {
+   "time": 135.35000000000002,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “5th 10% correction of the year”"
+  },
+  {
+   "time": 138.55,
+   "sfx": "whoosh",
+   "reason": "story change wipe into “Disney hires Character.AI staff”"
+  },
+  {
+   "time": 139.02,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 6 “Disney hires Character.AI staff”"
+  },
+  {
+   "time": 143.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “TechCrunch · 18 Oct”"
+  },
+  {
+   "time": 146.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Character.AI filed for bankruptcy”"
+  },
+  {
+   "time": 149.45000000000002,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Offers to at least 60 staff”"
+  },
+  {
+   "time": 153.1,
+   "sfx": "sub_drop",
+   "reason": "number_roll reframes the frame"
+  },
+  {
+   "time": 158.3,
+   "sfx": "sub_drop",
+   "reason": "term_card reframes the frame"
+  },
+  {
+   "time": 165.55,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Disney: $20M for some assets”"
+  },
+  {
+   "time": 169.85000000000002,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “High costs · legal risk”"
+  },
+  {
+   "time": 175.45000000000002,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Lawsuit over a teen's death”"
+  },
+  {
+   "time": 178.35000000000002,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Child-safety investigations”"
+  },
+  {
+   "time": 180.55,
+   "sfx": "whoosh",
+   "reason": "story change wipe into “Postgres 19 slips”"
+  },
+  {
+   "time": 181.02,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 6 “Postgres 19 slips”"
+  },
+  {
+   "time": 185.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “The Register · 16 Oct”"
+  },
+  {
+   "time": 187.85000000000002,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Was due: late Sep / early Oct”"
+  },
+  {
+   "time": 190.55,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Now: around 19 Nov”"
+  },
+  {
+   "time": 193.6,
+   "sfx": "sub_drop",
+   "reason": "timeline reframes the frame"
+  },
+  {
+   "time": 199.25,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “8–10 features → Postgres 20”"
+  },
+  {
+   "time": 203.35000000000002,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “EDB's Peter Eisentraut”"
+  },
+  {
+   "time": 206.55,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “AI-assisted review finds more”"
+  },
+  {
+   "time": 209.75,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Not caused by “vibe coding””"
+  },
+  {
+   "time": 214,
+   "sfx": "sub_drop",
+   "reason": "lower_third reframes the frame"
+  },
+  {
+   "time": 222.05,
+   "sfx": "whoosh",
+   "reason": "story change wipe into “Taiwan targets chip smuggling”"
+  },
+  {
+   "time": 222.52,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 6 “Taiwan targets chip smuggling”"
+  },
+  {
+   "time": 226.35000000000002,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Startup Fortune · 16 Oct”"
+  },
+  {
+   "time": 228.75,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Reported · Bloomberg”"
+  },
+  {
+   "time": 231.85000000000002,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Minister Kung Ming-hsin”"
+  },
+  {
+   "time": 234.45000000000002,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “AI servers + cutting-edge chips → controlled list”"
+  },
+  {
+   "time": 239,
+   "sfx": "sub_drop",
+   "reason": "flow_diagram reframes the frame"
+  },
+  {
+   "time": 244.85000000000002,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Reported · not yet in force”"
+  },
+  {
+   "time": 247.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Criminal offense · Foreign Trade Act”"
+  },
+  {
+   "time": 251.25,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip “Penalties: not set out”"
+  },
+  {
+   "time": 253.3,
+   "sfx": "impact",
+   "reason": "punchline big_statement"
+  },
+  {
+   "time": 260.2,
+   "sfx": "impact",
+   "reason": "punchline big_statement"
+  },
+  {
+   "time": 267.4,
+   "sfx": "reveal",
+   "reason": "viewer question"
+  },
+  {
+   "time": 276.3,
+   "sfx": "impact",
+   "reason": "punchline big_statement"
+  }
+ ]
+}

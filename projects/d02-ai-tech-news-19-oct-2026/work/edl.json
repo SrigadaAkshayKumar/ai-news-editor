@@ -1,0 +1,11 @@
+{
+  "notes": "Clean TTS read: every script line spoken once, no retakes. Dead air trimmed to 0.33s; 0.6s held beats at each story change for the wipe + hit. Whisper misreads (Open A.I.'s, 'propensity-assisted'=A.I.-assisted, 'Kong Ming-Sain'=Kung Ming-hsin) are STT only; the audio is fine.",
+  "keepPauseMax": 0.33,
+  "edgePad": 0.08,
+  "textFixes": {"w23":"A.I.'s","w24":"","w540":"AI-assisted","w612":"Kung","w613":"Ming-hsin","w471":"","w472":"AI.","w535":"EDB's","w625":"controlled","w709":"Anthropic's","w726":"Subscribe"},
+  "holds": [
+    {"after":"w53","max":0.6},{"after":"w168","max":0.6},{"after":"w275","max":0.6},
+    {"after":"w377","max":0.6},{"after":"w484","max":0.6},{"after":"w588","max":0.6},{"after":"w680","max":0.7}
+  ],
+  "cuts": []
+}

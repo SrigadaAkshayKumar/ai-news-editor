@@ -1,0 +1,42 @@
+[
+  {
+    "file": "assets/library/anthropic.svg",
+    "title": "File:Anthropic logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthropic_logo.svg",
+    "license": "Public domain",
+    "author": "Anthropic",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/openai.svg",
+    "title": "File:OpenAI logo 2025 (wordmark).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg",
+    "license": "Public domain",
+    "author": "OpenAI",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/nvidia.svg",
+    "title": "File:Nvidia logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg",
+    "license": "Public domain",
+    "author": "Nvidia",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/disney.svg",
+    "title": "File:The Walt Disney company logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Walt_Disney_company_logo.svg",
+    "license": "Public domain",
+    "author": "Disney Enterprises, Inc.",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/sam-altman.png",
+    "title": "File:Sam Altman speaking at TED (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED_(cropped).jpg",
+    "license": "CC BY 2.0",
+    "author": "Steve Jurvetson",
+    "note": "photo of a public figure; editorial use, background removed"
+  }
+]

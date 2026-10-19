@@ -1,0 +1,58 @@
+{
+  "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund": {
+    "source": "TechCrunch",
+    "headline": "Anthropic says it's committing 5% of its shares to a public benefit fund",
+    "date": "18 Oct 2026",
+    "path": "assets/news/techcrunch_com_anthropic_says_its_committing_5_of_its_shares_to_a_publ.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_anthropic_says_its_committing_5_of_its_shares_to_a_publ_mobile.png"
+  },
+  "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/": {
+    "source": "Engadget",
+    "headline": "OpenAI will build a humanoid robot, Sam Altman confirms",
+    "date": "17 Oct 2026",
+    "path": "assets/news/engadget_com_openai_humanoid_robot_sam_altman_statement_real_challenge.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/engadget_com_openai_humanoid_robot_sam_altman_statement_real_challenge_mobile.png"
+  },
+  "https://stocktwits.com/news-articles/Markets/Equity/semiconductor-stocks-sox-losing-streak-2-trillion-ai-selloff/cZxKaOoRBsy": {
+    "source": "Stocktwits",
+    "headline": "Semiconductor stocks: SOX losing streak, $2 trillion AI selloff",
+    "date": "16 Oct 2026",
+    "path": "assets/news/stocktwits_com_czxkaoorbsy.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/stocktwits_com_czxkaoorbsy_mobile.png"
+  },
+  "https://www.anthropic.com/news/public-benefit-fund": {
+    "source": "Anthropic",
+    "headline": "Anthropic public benefit fund",
+    "date": "18 Oct 2026",
+    "path": "assets/news/anthropic_com_public_benefit_fund.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/anthropic_com_public_benefit_fund_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/": {
+    "source": "TechCrunch",
+    "headline": "Disney agrees to hire the majority of Character.AI's workforce",
+    "date": "18 Oct 2026",
+    "path": "assets/news/techcrunch_com_disney_agrees_to_hire_the_majority_of_character_ais_wor.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_disney_agrees_to_hire_the_majority_of_character_ais_wor_mobile.png"
+  },
+  "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471": {
+    "source": "The Register",
+    "headline": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+    "date": "16 Oct 2026",
+    "path": "assets/news/theregister_com_5303471.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/theregister_com_5303471_mobile.png"
+  },
+  "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/": {
+    "source": "Startup Fortune · Bloomberg",
+    "headline": "Taiwan will make it a crime to smuggle AI chips into China",
+    "date": "16 Oct 2026",
+    "path": "assets/news/startupfortune_com_taiwan_will_make_it_a_crime_to_smuggle_ai_chips_int.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/startupfortune_com_taiwan_will_make_it_a_crime_to_smuggle_ai_chips_int_mobile.png"
+  }
+}

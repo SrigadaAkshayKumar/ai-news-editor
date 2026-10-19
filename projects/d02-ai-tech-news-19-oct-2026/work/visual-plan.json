@@ -1,0 +1,1083 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 2.6,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Monday · 19 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Anthropic · 5% of shares to a fund",
+   "side": "right"
+  },
+  {
+   "start": 7.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "OpenAI · humanoid robot",
+   "side": "right"
+  },
+  {
+   "start": 12.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Chips · longest slide since the crisis",
+   "side": "right"
+  },
+  {
+   "start": 17.4,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Anthropic's benefit fund",
+   "eyebrow": "Story 1 of 6",
+   "railLabel": "of 6 · Anthropic's fund",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 21,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "5% of shares · TechCrunch",
+   "side": "right"
+  },
+  {
+   "start": 23.6,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Needs stockholder approval",
+   "side": "right"
+  },
+  {
+   "start": 26.6,
+   "duration": 4.4,
+   "type": "number_roll",
+   "value": 2,
+   "suffix": "%",
+   "text": "added each time value rises 50%"
+  },
+  {
+   "start": 31.1,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Milestones: in coming months",
+   "side": "right"
+  },
+  {
+   "start": 34,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Anthropic · 18 Oct",
+   "side": "right"
+  },
+  {
+   "start": 37,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Wholly owned company, not a charity",
+   "side": "right"
+  },
+  {
+   "start": 40,
+   "duration": 1.7,
+   "type": "keyword_chip",
+   "text": "No equity used for lobbying",
+   "side": "right"
+  },
+  {
+   "start": 42.8,
+   "duration": 4.2,
+   "type": "matrix_grid",
+   "text": "Already pledged",
+   "items": [
+    {
+     "label": "Co-founders"
+    },
+    {
+     "label": "Employee donation match"
+    }
+   ]
+  },
+  {
+   "start": 47.8,
+   "duration": 3.5,
+   "type": "number_roll",
+   "value": 20,
+   "suffix": "%",
+   "text": "of shares to the public good"
+  },
+  {
+   "start": 52,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Who decides? Not said yet",
+   "side": "right"
+  },
+  {
+   "start": 55.3,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Governance details: later",
+   "side": "right"
+  },
+  {
+   "start": 58.4,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "OpenAI's humanoid robot",
+   "eyebrow": "Story 2 of 6",
+   "railLabel": "of 6 · OpenAI's robot",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 62.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Engadget · 17 Oct",
+   "side": "right"
+  },
+  {
+   "start": 65.5,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Sources podcast",
+   "side": "right"
+  },
+  {
+   "start": 68.1,
+   "duration": 4.8,
+   "type": "quote_pull",
+   "text": "“We will.”",
+   "eyebrow": "Sam Altman, OpenAI · Sources podcast, via Engadget"
+  },
+  {
+   "start": 73.5,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Fortune interview",
+   "side": "right"
+  },
+  {
+   "start": 76.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "“A cool demo in 2027”",
+   "side": "right"
+  },
+  {
+   "start": 79.2,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Streets: a few years later",
+   "side": "right"
+  },
+  {
+   "start": 82.2,
+   "duration": 5,
+   "type": "checklist",
+   "text": "What OpenAI hasn't said",
+   "items": [
+    {
+     "label": "What the demo will show",
+     "state": "no"
+    },
+    {
+     "label": "What the robot looks like",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 87.5,
+   "duration": 3.4,
+   "type": "number_roll",
+   "value": 27,
+   "text": "robotics openings listed"
+  },
+  {
+   "start": 91.2,
+   "duration": 6.2,
+   "type": "flow_diagram",
+   "text": "OpenAI robot goals",
+   "items": [
+    {
+     "label": "Near term",
+     "sublabel": "help skilled workers build infrastructure"
+    },
+    {
+     "label": "Later",
+     "sublabel": "a personal robot"
+    }
+   ]
+  },
+  {
+   "start": 97.6,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Chip stocks slide",
+   "eyebrow": "Story 3 of 6",
+   "railLabel": "of 6 · Chip slide",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 101.8,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Stocktwits · 16 Oct",
+   "side": "right"
+  },
+  {
+   "start": 105.5,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "SOX: 8th straight daily loss",
+   "side": "right"
+  },
+  {
+   "start": 109.1,
+   "duration": 7.7,
+   "type": "stat_trio",
+   "items": [
+    {
+     "value": 12,
+     "label": "percent fall, 7 sessions"
+    },
+    {
+     "value": 2,
+     "sublabel": "$",
+     "label": "trillion value erased"
+    },
+    {
+     "value": 8,
+     "label": "losing days in a row"
+    }
+   ]
+  },
+  {
+   "start": 117.5,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Worries over AI spending",
+   "side": "right"
+  },
+  {
+   "start": 120.2,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Rate expectations rising",
+   "side": "right"
+  },
+  {
+   "start": 122.5,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "Memory-chip competition",
+   "side": "right"
+  },
+  {
+   "start": 124.5,
+   "duration": 4.7,
+   "type": "number_roll",
+   "value": 11,
+   "suffix": "%",
+   "text": "Nvidia below its high"
+  },
+  {
+   "start": 130,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Index still up ~60% this year",
+   "side": "right"
+  },
+  {
+   "start": 135.3,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "5th 10% correction of the year",
+   "side": "right"
+  },
+  {
+   "start": 139,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Disney hires Character.AI staff",
+   "eyebrow": "Story 4 of 6",
+   "railLabel": "of 6 · Disney · Character.AI",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 143,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "TechCrunch · 18 Oct",
+   "side": "right"
+  },
+  {
+   "start": 146.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Character.AI filed for bankruptcy",
+   "side": "right"
+  },
+  {
+   "start": 149.4,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Offers to at least 60 staff",
+   "side": "right"
+  },
+  {
+   "start": 153.1,
+   "duration": 4.8,
+   "type": "number_roll",
+   "value": 60,
+   "text": "offers · about $60M a year"
+  },
+  {
+   "start": 158.3,
+   "duration": 6.5,
+   "type": "term_card",
+   "side": "right",
+   "text": "Stalking horse bid",
+   "eyebrow": "So-called",
+   "items": [
+    {
+     "label": "Another buyer can still outbid"
+    }
+   ]
+  },
+  {
+   "start": 165.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Disney: $20M for some assets",
+   "side": "right"
+  },
+  {
+   "start": 169.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "High costs · legal risk",
+   "side": "right"
+  },
+  {
+   "start": 175.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Lawsuit over a teen's death",
+   "side": "right"
+  },
+  {
+   "start": 178.3,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Child-safety investigations",
+   "side": "right"
+  },
+  {
+   "start": 181,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Postgres 19 slips",
+   "eyebrow": "Story 5 of 6",
+   "railLabel": "of 6 · Postgres 19",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 185.2,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "The Register · 16 Oct",
+   "side": "right"
+  },
+  {
+   "start": 187.8,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Was due: late Sep / early Oct",
+   "side": "right"
+  },
+  {
+   "start": 190.5,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Now: around 19 Nov",
+   "side": "right"
+  },
+  {
+   "start": 193.6,
+   "duration": 5.2,
+   "type": "timeline",
+   "side": "left",
+   "text": "PostgreSQL 19 release",
+   "current": 1,
+   "items": [
+    {
+     "label": "Late Sep",
+     "sublabel": "original target"
+    },
+    {
+     "label": "19 Nov",
+     "sublabel": "now expected"
+    }
+   ]
+  },
+  {
+   "start": 199.2,
+   "duration": 3.7,
+   "type": "keyword_chip",
+   "text": "8–10 features → Postgres 20",
+   "side": "right"
+  },
+  {
+   "start": 203.3,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "EDB's Peter Eisentraut",
+   "side": "right"
+  },
+  {
+   "start": 206.5,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "AI-assisted review finds more",
+   "side": "right"
+  },
+  {
+   "start": 209.7,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Not caused by “vibe coding”",
+   "side": "right"
+  },
+  {
+   "start": 214,
+   "duration": 7,
+   "type": "lower_third",
+   "text": "Graph queries",
+   "eyebrow": "Flagged in September: likely to ship with unfixable bugs"
+  },
+  {
+   "start": 222.5,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Taiwan targets chip smuggling",
+   "eyebrow": "Story 6 of 6",
+   "railLabel": "of 6 · Taiwan's chip rules",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 226.3,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Startup Fortune · 16 Oct",
+   "side": "right"
+  },
+  {
+   "start": 228.7,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Reported · Bloomberg",
+   "side": "right"
+  },
+  {
+   "start": 231.8,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "Minister Kung Ming-hsin",
+   "side": "right"
+  },
+  {
+   "start": 234.4,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "AI servers + cutting-edge chips → controlled list",
+   "side": "right"
+  },
+  {
+   "start": 239,
+   "duration": 5.3,
+   "type": "flow_diagram",
+   "text": "Taiwan's export controls",
+   "items": [
+    {
+     "label": "Today",
+     "sublabel": "named blacklist: Huawei, SMIC"
+    },
+    {
+     "label": "New rules",
+     "sublabel": "every Chinese buyer"
+    }
+   ]
+  },
+  {
+   "start": 244.8,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "Reported · not yet in force",
+   "side": "right"
+  },
+  {
+   "start": 247.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Criminal offense · Foreign Trade Act",
+   "side": "right"
+  },
+  {
+   "start": 251.2,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Penalties: not set out",
+   "side": "right"
+  },
+  {
+   "start": 253.3,
+   "duration": 6.3,
+   "type": "big_statement",
+   "text": "One more compliance layer",
+   "eyebrow": "layer"
+  },
+  {
+   "start": 260.2,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "6 stories · 24 hours",
+   "eyebrow": "That was the day"
+  },
+  {
+   "start": 267.4,
+   "duration": 7.8,
+   "type": "poll_prompt",
+   "text": "Is a public benefit fund a real answer to AI job disruption?",
+   "eyebrow": "Today's question · tell us in the comments",
+   "items": [
+    {
+     "label": "Real answer",
+     "value": 50
+    },
+    {
+     "label": "Mostly a signal",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "start": 276.3,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "Subscribe for tomorrow's roundup",
+   "eyebrow": "Subscribe"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "end": 2.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 2.7,
+   "end": 6.9,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+   "source": "TechCrunch",
+   "headline": "Anthropic says it's committing 5% of its shares to a public benefit fund",
+   "date": "18 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.455,
+    "w": 0.5,
+    "h": 0.02
+   }
+  },
+  {
+   "start": 6.9,
+   "end": 11.8,
+   "kind": "news",
+   "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+   "source": "Engadget",
+   "headline": "OpenAI is building a humanoid robot, but the body isn't the real challenge",
+   "date": "17 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.066,
+    "y": 0.055,
+    "w": 0.5,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 11.8,
+   "end": 16.2,
+   "kind": "news",
+   "url": "https://stocktwits.com/news-articles/Markets/Equity/semiconductor-stocks-sox-losing-streak-2-trillion-ai-selloff/cZxKaOoRBsy",
+   "source": "Stocktwits",
+   "headline": "Chip Stocks' On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+   "date": "16 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.37,
+    "y": 0.075,
+    "w": 0.43,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 16.2,
+   "end": 17.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 17.4,
+   "end": 20.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 20.7,
+   "end": 26.5,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+   "source": "TechCrunch",
+   "headline": "Anthropic says it's committing 5% of its shares to a public benefit fund",
+   "date": "18 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.525,
+    "w": 0.48,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 26.5,
+   "end": 33.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "2%",
+    "label": "added per +50% value"
+   }
+  },
+  {
+   "start": 33.8,
+   "end": 41.8,
+   "kind": "news",
+   "url": "https://www.anthropic.com/news/public-benefit-fund",
+   "source": "Anthropic",
+   "headline": "Investing in the public benefit",
+   "date": "18 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.27,
+    "y": 0.704,
+    "w": 0.47,
+    "h": 0.046
+   }
+  },
+  {
+   "start": 41.8,
+   "end": 47.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 47.2,
+   "end": 51.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "~20%",
+    "label": "of shares to public good"
+   }
+  },
+  {
+   "start": 51.4,
+   "end": 58.4,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+   "source": "TechCrunch",
+   "headline": "Anthropic says it's committing 5% of its shares to a public benefit fund",
+   "date": "18 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.715,
+    "w": 0.48,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 58.4,
+   "end": 62,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 62,
+   "end": 68,
+   "kind": "news",
+   "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+   "source": "Engadget",
+   "headline": "OpenAI is building a humanoid robot, but the body isn't the real challenge",
+   "date": "17 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.563,
+    "w": 0.52,
+    "h": 0.065
+   }
+  },
+  {
+   "start": 68,
+   "end": 73.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 73.2,
+   "end": 81.5,
+   "kind": "news",
+   "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+   "source": "Engadget",
+   "headline": "OpenAI is building a humanoid robot, but the body isn't the real challenge",
+   "date": "17 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.637,
+    "w": 0.52,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 81.5,
+   "end": 87.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 87.4,
+   "end": 91,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "27",
+    "label": "robotics openings"
+   }
+  },
+  {
+   "start": 91,
+   "end": 97.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 97.6,
+   "end": 101.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 101.4,
+   "end": 109,
+   "kind": "news",
+   "url": "https://stocktwits.com/news-articles/Markets/Equity/semiconductor-stocks-sox-losing-streak-2-trillion-ai-selloff/cZxKaOoRBsy",
+   "source": "Stocktwits",
+   "headline": "Chip Stocks' On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+   "date": "16 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.37,
+    "y": 0.134,
+    "w": 0.43,
+    "h": 0.026
+   }
+  },
+  {
+   "start": 109,
+   "end": 117,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "-12%",
+    "label": "seven sessions"
+   }
+  },
+  {
+   "start": 117,
+   "end": 124.2,
+   "kind": "news",
+   "url": "https://stocktwits.com/news-articles/Markets/Equity/semiconductor-stocks-sox-losing-streak-2-trillion-ai-selloff/cZxKaOoRBsy",
+   "source": "Stocktwits",
+   "headline": "Chip Stocks' On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+   "date": "16 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.37,
+    "y": 0.835,
+    "w": 0.45,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 124.2,
+   "end": 129.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "-11%",
+    "label": "Nvidia below its high"
+   }
+  },
+  {
+   "start": 129.4,
+   "end": 139,
+   "kind": "news",
+   "url": "https://stocktwits.com/news-articles/Markets/Equity/semiconductor-stocks-sox-losing-streak-2-trillion-ai-selloff/cZxKaOoRBsy",
+   "source": "Stocktwits",
+   "headline": "Chip Stocks' On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+   "date": "16 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.37,
+    "y": 0.59,
+    "w": 0.43,
+    "h": 0.035
+   }
+  },
+  {
+   "start": 139,
+   "end": 142.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 142.6,
+   "end": 153,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+   "source": "TechCrunch",
+   "headline": "Disney agrees to hire the majority of Character.AI's workforce",
+   "date": "18 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.425,
+    "w": 0.5,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 153,
+   "end": 158,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "60",
+    "label": "offers · ~$60M a year"
+   }
+  },
+  {
+   "start": 158,
+   "end": 165,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 165,
+   "end": 172.7,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+   "source": "TechCrunch",
+   "headline": "Disney agrees to hire the majority of Character.AI's workforce",
+   "date": "18 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.488,
+    "w": 0.52,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 172.7,
+   "end": 181,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+   "source": "TechCrunch",
+   "headline": "Disney agrees to hire the majority of Character.AI's workforce",
+   "date": "18 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.64,
+    "w": 0.52,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 181,
+   "end": 184.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 184.8,
+   "end": 193.5,
+   "kind": "news",
+   "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+   "source": "The Register",
+   "headline": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+   "date": "16 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.22,
+    "w": 0.82,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 193.5,
+   "end": 203,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 203,
+   "end": 213.4,
+   "kind": "news",
+   "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+   "source": "The Register",
+   "headline": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+   "date": "16 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.235,
+    "y": 0.443,
+    "w": 0.46,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 213.4,
+   "end": 222.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 222.5,
+   "end": 226,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 226,
+   "end": 233.8,
+   "kind": "news",
+   "url": "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/",
+   "source": "Startup Fortune · Bloomberg",
+   "headline": "Taiwan will make it a crime to smuggle AI chips into China",
+   "date": "16 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.1,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 233.8,
+   "end": 244.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 244.4,
+   "end": 253,
+   "kind": "news",
+   "url": "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/",
+   "source": "Startup Fortune · Bloomberg",
+   "headline": "Taiwan will make it a crime to smuggle AI chips into China",
+   "date": "16 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.1,
+    "y": 0.7,
+    "w": 0.58,
+    "h": 0.09
+   }
+  },
+  {
+   "start": 253,
+   "end": 260,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 260,
+   "end": 265.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 265.9,
+   "end": 275.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 275.5,
+   "end": 279.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  }
+ ],
+ "camera_moves": []
+}
