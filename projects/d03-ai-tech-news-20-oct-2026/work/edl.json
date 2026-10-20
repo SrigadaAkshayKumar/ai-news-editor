@@ -1,0 +1,12 @@
+{
+  "notes": "Clean TTS read: every script line spoken once, no retakes. Script-diff 'extra runs' are only numeral/acronym spelling differences (24 vs twenty four, AI vs A.I.). Dead air trimmed to 0.33s; 0.6s held beats at each story change for the wipe + hit. Whisper misreads (Ten Storend=Tenstorrent, Laoten=Loughton, Nenscale=Nscale, veal=V.L.) are STT only; the audio is fine.",
+  "keepPauseMax": 0.33,
+  "edgePad": 0.08,
+  "textFixes": {},
+  "holds": [
+    {"after":"w41","max":0.6},{"after":"w164","max":0.6},{"after":"w272","max":0.6},
+    {"after":"w373","max":0.6},{"after":"w457","max":0.6},{"after":"w556","max":0.6},
+    {"after":"w646","max":0.6},{"after":"w735","max":0.6},{"after":"w823","max":0.7}
+  ],
+  "cuts": []
+}

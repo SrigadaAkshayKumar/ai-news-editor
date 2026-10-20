@@ -1,0 +1,514 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip US bans DeepSeek in agencies"
+  },
+  {
+   "time": 8.35,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Revolut \u00b7 worldwide outage"
+  },
+  {
+   "time": 11.95,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Nvidia \u00b7 open models for agents"
+  },
+  {
+   "time": 15.33,
+   "sfx": "whoosh",
+   "reason": "story change wipe into US bans DeepSeek"
+  },
+  {
+   "time": 15.8,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 8"
+  },
+  {
+   "time": 19.35,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip CyberScoop \u00b7 19 Oct"
+  },
+  {
+   "time": 22.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip DHS: remove DeepSeek products"
+  },
+  {
+   "time": 25.85,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 32.35,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Sec. Markwayne Mullin \u00b7 letter"
+  },
+  {
+   "time": 35.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Data stored on servers in China"
+  },
+  {
+   "time": 38.5,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 44.05,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "flow_diagram"
+  },
+  {
+   "time": 51.75,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Exception: compelling reason"
+  },
+  {
+   "time": 56.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip China: will protect its firms"
+  },
+  {
+   "time": 60.07,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Revolut outage"
+  },
+  {
+   "time": 60.54,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 8"
+  },
+  {
+   "time": 63.85,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip BleepingComputer \u00b7 20 Oct"
+  },
+  {
+   "time": 66.4,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 70.64999999999999,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "matrix_grid"
+  },
+  {
+   "time": 75.15,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Downdetector: thousands of reports"
+  },
+  {
+   "time": 78.45,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Money and data: safe, says Revolut"
+  },
+  {
+   "time": 82.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Cause: not confirmed"
+  },
+  {
+   "time": 84.8,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 92.7,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 98.3,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 102.21,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Nvidia's open agent models"
+  },
+  {
+   "time": 102.68,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 8"
+  },
+  {
+   "time": 106.25,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip TechCrunch \u00b7 19 Oct"
+  },
+  {
+   "time": 109.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Open-weight models for agents"
+  },
+  {
+   "time": 113.4,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 119.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Matches a larger Nemotron \u00b7 Nvidia says"
+  },
+  {
+   "time": 122.85,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Instructions + tool use"
+  },
+  {
+   "time": 126.2,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 131.85000000000002,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "flow_diagram"
+  },
+  {
+   "time": 137.45,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Smaller Bolt: later in October"
+  },
+  {
+   "time": 140.45,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Performance claims: Nvidia's own"
+  },
+  {
+   "time": 143.1,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 149.47,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Tenstorrent raises $1.5B"
+  },
+  {
+   "time": 149.94,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 8"
+  },
+  {
+   "time": 153.35,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip TechCrunch \u00b7 19 Oct"
+  },
+  {
+   "time": 155.35,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Raised $1.5B"
+  },
+  {
+   "time": 157.35000000000002,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "flow_diagram"
+  },
+  {
+   "time": 164.65,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Led by Trace Capital \u00b7 Innovation X"
+  },
+  {
+   "time": 167.65,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Also: Fidelity \u00b7 T. Rowe Price"
+  },
+  {
+   "time": 171.05,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 181.1,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 185.37,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Windows update breaks Exchange"
+  },
+  {
+   "time": 185.84,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 8"
+  },
+  {
+   "time": 189.45,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip BleepingComputer \u00b7 19 Oct"
+  },
+  {
+   "time": 193.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Windows Server 2019 and later"
+  },
+  {
+   "time": 197.25,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 203.5,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 208.95,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Heavy Exchange loads can exceed it"
+  },
+  {
+   "time": 212.95000000000002,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 222.65,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Check Microsoft's release health page"
+  },
+  {
+   "time": 227.02,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Microsoft exits UK data centre"
+  },
+  {
+   "time": 227.49,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 8"
+  },
+  {
+   "time": 231.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Reported \u00b7 Silicon UK \u00b7 20 Oct"
+  },
+  {
+   "time": 234.65,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Loughton, Essex \u00b7 Nscale"
+  },
+  {
+   "time": 238.2,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 241.65,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 246.85,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Nscale: still committed"
+  },
+  {
+   "time": 249.55,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Other power sources, sites"
+  },
+  {
+   "time": 252.35000000000002,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "lower_third"
+  },
+  {
+   "time": 256.0,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 260.04,
+   "sfx": "whoosh",
+   "reason": "story change wipe into OVHcloud tool backdoored"
+  },
+  {
+   "time": 260.51,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 8"
+  },
+  {
+   "time": 263.95,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip BleepingComputer \u00b7 20 Oct"
+  },
+  {
+   "time": 266.75,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip CLI releases on GitHub"
+  },
+  {
+   "time": 269.35,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Developer's account hijacked"
+  },
+  {
+   "time": 273.0,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 279.35,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Built to steal secrets on disk"
+  },
+  {
+   "time": 282.95,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "flow_diagram"
+  },
+  {
+   "time": 288.15,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Source builds + Docker images: safe"
+  },
+  {
+   "time": 292.0,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 296.77,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Amazon's TorchNeuron"
+  },
+  {
+   "time": 297.24,
+   "sfx": "impact",
+   "reason": "story change hit: Story 8 of 8"
+  },
+  {
+   "time": 300.65,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip TechCrunch \u00b7 19 Oct"
+  },
+  {
+   "time": 303.45,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip PyTorch apps on Trainium"
+  },
+  {
+   "time": 305.85,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip One line of config \u00b7 Amazon claims"
+  },
+  {
+   "time": 309.1,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 314.85,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Upstream changes to PyTorch"
+  },
+  {
+   "time": 317.95,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Removes chip lock-in code"
+  },
+  {
+   "time": 321.05,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "lower_third"
+  },
+  {
+   "time": 324.2,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 329.7,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 335.2,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 342.3,
+   "sfx": "reveal",
+   "reason": "viewer question"
+  }
+ ]
+}

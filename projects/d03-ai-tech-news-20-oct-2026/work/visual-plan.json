@@ -1,0 +1,1347 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 2.7,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Tuesday \u00b7 20 Oct 2026",
+   "style_hint": "Software \u00b7 AI \u00b7 Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "US bans DeepSeek in agencies",
+   "side": "right"
+  },
+  {
+   "start": 8.3,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Revolut \u00b7 worldwide outage",
+   "side": "right"
+  },
+  {
+   "start": 11.9,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Nvidia \u00b7 open models for agents",
+   "side": "right"
+  },
+  {
+   "start": 15.78,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "US bans DeepSeek",
+   "eyebrow": "Story 1 of 8",
+   "railLabel": "of 8 \u00b7 DeepSeek ban",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 19.3,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "CyberScoop \u00b7 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 22.2,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "DHS: remove DeepSeek products",
+   "side": "right"
+  },
+  {
+   "start": 25.8,
+   "duration": 5.8,
+   "type": "checklist",
+   "text": "The order",
+   "items": [
+    {
+     "label": "Civilian agencies: remove DeepSeek",
+     "state": "yes"
+    },
+    {
+     "label": "Buying from its parent company",
+     "state": "no"
+    },
+    {
+     "label": "Pentagon covered",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 32.3,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Sec. Markwayne Mullin \u00b7 letter",
+   "side": "right"
+  },
+  {
+   "start": 35.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Data stored on servers in China",
+   "side": "right"
+  },
+  {
+   "start": 38.5,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "China can obtain the data",
+   "eyebrow": "Mullin's reasoning"
+  },
+  {
+   "start": 44.0,
+   "duration": 6.8,
+   "type": "flow_diagram",
+   "text": "How it unfolded",
+   "items": [
+    {
+     "label": "26 Jun",
+     "sublabel": "letter dated"
+    },
+    {
+     "label": "19 Oct",
+     "sublabel": "notice public"
+    }
+   ]
+  },
+  {
+   "start": 51.7,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Exception: compelling reason",
+   "side": "right"
+  },
+  {
+   "start": 56.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "China: will protect its firms",
+   "side": "right"
+  },
+  {
+   "start": 60.52,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Revolut outage",
+   "eyebrow": "Story 2 of 8",
+   "railLabel": "of 8 \u00b7 Revolut outage",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 63.8,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "BleepingComputer \u00b7 20 Oct",
+   "side": "right"
+  },
+  {
+   "start": 66.4,
+   "duration": 4.0,
+   "type": "number_roll",
+   "value": 28,
+   "text": "services affected"
+  },
+  {
+   "start": 70.6,
+   "duration": 4.2,
+   "type": "matrix_grid",
+   "text": "Affected",
+   "items": [
+    {
+     "label": "Sign-ins"
+    },
+    {
+     "label": "Card payments"
+    },
+    {
+     "label": "Transfers"
+    },
+    {
+     "label": "Currency exchange"
+    }
+   ]
+  },
+  {
+   "start": 75.1,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Downdetector: thousands of reports",
+   "side": "right"
+  },
+  {
+   "start": 78.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Money and data: safe, says Revolut",
+   "side": "right"
+  },
+  {
+   "start": 82.0,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Cause: not confirmed",
+   "side": "right"
+  },
+  {
+   "start": 84.8,
+   "duration": 6.4,
+   "type": "big_statement",
+   "text": "Cause reported, not confirmed",
+   "eyebrow": "Reuters: Google Cloud power event, London"
+  },
+  {
+   "start": 92.7,
+   "duration": 5.2,
+   "type": "big_statement",
+   "text": "One cloud region, one bank's app",
+   "eyebrow": "If the link holds"
+  },
+  {
+   "start": 98.3,
+   "duration": 3.8,
+   "type": "number_roll",
+   "value": 80,
+   "suffix": "M+",
+   "text": "Revolut customers"
+  },
+  {
+   "start": 102.66,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Nvidia's open agent models",
+   "eyebrow": "Story 3 of 8",
+   "railLabel": "of 8 \u00b7 Nvidia models",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 106.2,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "TechCrunch \u00b7 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 109.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Open-weight models for agents",
+   "side": "right"
+  },
+  {
+   "start": 113.4,
+   "duration": 4.8,
+   "type": "number_roll",
+   "value": 120,
+   "suffix": "B",
+   "text": "parameters \u00b7 Nemotron 3.5 Super VL"
+  },
+  {
+   "start": 119.0,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Matches a larger Nemotron \u00b7 Nvidia says",
+   "side": "right"
+  },
+  {
+   "start": 122.8,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Instructions + tool use",
+   "side": "right"
+  },
+  {
+   "start": 126.2,
+   "duration": 4.8,
+   "type": "number_roll",
+   "value": 74,
+   "suffix": "B",
+   "text": "parameters \u00b7 Nemotron 3.5 Bolt"
+  },
+  {
+   "start": 131.8,
+   "duration": 5.2,
+   "type": "flow_diagram",
+   "text": "Where they run",
+   "items": [
+    {
+     "label": "Super VL",
+     "sublabel": "enterprise agents"
+    },
+    {
+     "label": "Bolt",
+     "sublabel": "AI PCs \u00b7 DGX Spark"
+    }
+   ]
+  },
+  {
+   "start": 137.4,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Smaller Bolt: later in October",
+   "side": "right"
+  },
+  {
+   "start": 140.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Performance claims: Nvidia's own",
+   "side": "right"
+  },
+  {
+   "start": 143.1,
+   "duration": 6.0,
+   "type": "big_statement",
+   "text": "More agent work on your own machine",
+   "eyebrow": "The point"
+  },
+  {
+   "start": 149.92,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Tenstorrent raises $1.5B",
+   "eyebrow": "Story 4 of 8",
+   "railLabel": "of 8 \u00b7 Tenstorrent",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 153.3,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "TechCrunch \u00b7 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 155.3,
+   "duration": 1.7,
+   "type": "keyword_chip",
+   "text": "Raised $1.5B",
+   "side": "right"
+  },
+  {
+   "start": 157.3,
+   "duration": 6.2,
+   "type": "flow_diagram",
+   "text": "Valuation",
+   "items": [
+    {
+     "label": "Late 2024",
+     "sublabel": "about $2.6B"
+    },
+    {
+     "label": "Now",
+     "sublabel": "$6.2B"
+    }
+   ]
+  },
+  {
+   "start": 164.6,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Led by Trace Capital \u00b7 Innovation X",
+   "side": "right"
+  },
+  {
+   "start": 167.6,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Also: Fidelity \u00b7 T. Rowe Price",
+   "side": "right"
+  },
+  {
+   "start": 171.0,
+   "duration": 8.5,
+   "type": "checklist",
+   "text": "Tenstorrent",
+   "items": [
+    {
+     "label": "Chips for open-weight models",
+     "state": "yes"
+    },
+    {
+     "label": "An alternative to Nvidia",
+     "state": "yes"
+    },
+    {
+     "label": "Galaxy servers ran DeepSeek models",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 181.1,
+   "duration": 4.4,
+   "type": "big_statement",
+   "text": "Big money behind Nvidia challengers",
+   "eyebrow": "Investors still betting"
+  },
+  {
+   "start": 185.82,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Windows update breaks Exchange",
+   "eyebrow": "Story 5 of 8",
+   "railLabel": "of 8 \u00b7 Exchange bug",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 189.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "BleepingComputer \u00b7 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 193.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Windows Server 2019 and later",
+   "side": "right"
+  },
+  {
+   "start": 197.2,
+   "duration": 5.8,
+   "type": "checklist",
+   "text": "Reported problems",
+   "items": [
+    {
+     "label": "Outlook on the web sign-in",
+     "state": "no"
+    },
+    {
+     "label": "Messages stuck in outbox",
+     "state": "no"
+    },
+    {
+     "label": "Mailbox replication",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 203.5,
+   "duration": 5.0,
+   "type": "number_roll",
+   "value": 512,
+   "text": "simultaneous lookup calls \u00b7 new default limit"
+  },
+  {
+   "start": 208.9,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Heavy Exchange loads can exceed it",
+   "side": "right"
+  },
+  {
+   "start": 212.9,
+   "duration": 8.8,
+   "type": "checklist",
+   "text": "What to do",
+   "items": [
+    {
+     "label": "Registry change + reboot (temporary)",
+     "state": "yes"
+    },
+    {
+     "label": "Uninstall the updates",
+     "state": "no"
+    },
+    {
+     "label": "Permanent fix: in development",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 222.6,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Check Microsoft's release health page",
+   "side": "right"
+  },
+  {
+   "start": 227.47,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Microsoft exits UK data centre",
+   "eyebrow": "Story 6 of 8",
+   "railLabel": "of 8 \u00b7 Nscale \u00b7 Microsoft",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 231.0,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Reported \u00b7 Silicon UK \u00b7 20 Oct",
+   "side": "right"
+  },
+  {
+   "start": 234.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Loughton, Essex \u00b7 Nscale",
+   "side": "right"
+  },
+  {
+   "start": 238.2,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "Grid connection delayed",
+   "eyebrow": "Reported"
+  },
+  {
+   "start": 241.6,
+   "duration": 4.8,
+   "type": "checklist",
+   "text": "Microsoft",
+   "items": [
+    {
+     "label": "Only publicly named customer",
+     "state": "yes"
+    },
+    {
+     "label": "Reason explained",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 246.8,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Nscale: still committed",
+   "side": "right"
+  },
+  {
+   "start": 249.5,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Other power sources, sites",
+   "side": "right"
+  },
+  {
+   "start": 252.3,
+   "duration": 3.5,
+   "type": "lower_third",
+   "text": "UK's largest AI supercomputer",
+   "eyebrow": "Planned at the site"
+  },
+  {
+   "start": 256.0,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Power, not chips",
+   "eyebrow": "What limits where AI gets built"
+  },
+  {
+   "start": 260.49,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "OVHcloud tool backdoored",
+   "eyebrow": "Story 7 of 8",
+   "railLabel": "of 8 \u00b7 OVHcloud CLI",
+   "numeral": "07",
+   "section": 6
+  },
+  {
+   "start": 263.9,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "BleepingComputer \u00b7 20 Oct",
+   "side": "right"
+  },
+  {
+   "start": 266.7,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "CLI releases on GitHub",
+   "side": "right"
+  },
+  {
+   "start": 269.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Developer's account hijacked",
+   "side": "right"
+  },
+  {
+   "start": 273.0,
+   "duration": 5.8,
+   "type": "big_statement",
+   "text": "Versions 0.11 to 0.15",
+   "eyebrow": "Windows \u00b7 Mac \u00b7 Linux"
+  },
+  {
+   "start": 279.3,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Built to steal secrets on disk",
+   "side": "right"
+  },
+  {
+   "start": 282.9,
+   "duration": 5.0,
+   "type": "flow_diagram",
+   "text": "Released and blocked",
+   "items": [
+    {
+     "label": "14:47",
+     "sublabel": "19 Oct \u00b7 appears"
+    },
+    {
+     "label": "16:21",
+     "sublabel": "blocked \u00b7 under 2 hours"
+    }
+   ]
+  },
+  {
+   "start": 288.1,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Source builds + Docker images: safe",
+   "side": "right"
+  },
+  {
+   "start": 292.0,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "Replace every secret",
+   "eyebrow": "If you ran an affected version"
+  },
+  {
+   "start": 297.22,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Amazon's TorchNeuron",
+   "eyebrow": "Story 8 of 8",
+   "railLabel": "of 8 \u00b7 TorchNeuron",
+   "numeral": "08",
+   "section": 7
+  },
+  {
+   "start": 300.6,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "TechCrunch \u00b7 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 303.4,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "PyTorch apps on Trainium",
+   "side": "right"
+  },
+  {
+   "start": 305.8,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "One line of config \u00b7 Amazon claims",
+   "side": "right"
+  },
+  {
+   "start": 309.1,
+   "duration": 5.2,
+   "type": "number_roll",
+   "value": 85,
+   "suffix": "%",
+   "text": "of AI apps use PyTorch \u00b7 Amazon says"
+  },
+  {
+   "start": 314.8,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Upstream changes to PyTorch",
+   "side": "right"
+  },
+  {
+   "start": 317.9,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Removes chip lock-in code",
+   "side": "right"
+  },
+  {
+   "start": 321.0,
+   "duration": 3.0,
+   "type": "lower_third",
+   "text": "Deepgram \u00b7 voice AI",
+   "eyebrow": "Moved to Trainium"
+  },
+  {
+   "start": 324.2,
+   "duration": 4.8,
+   "type": "number_roll",
+   "value": 70,
+   "suffix": "%",
+   "text": "more audio per dollar \u00b7 Amazon says"
+  },
+  {
+   "start": 329.7,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Nvidia's software lock",
+   "eyebrow": "The target \u00b7 Amazon's claims"
+  },
+  {
+   "start": 335.2,
+   "duration": 6.5,
+   "type": "big_statement",
+   "text": "More chips, more machines, a few clouds",
+   "eyebrow": "The thread today"
+  },
+  {
+   "start": 342.3,
+   "duration": 8.0,
+   "type": "poll_prompt",
+   "text": "Should governments keep Chinese AI models out of all public systems?",
+   "eyebrow": "Today's question \u00b7 tell us in the comments",
+   "items": [
+    {
+     "label": "All public systems",
+     "value": 50
+    },
+    {
+     "label": "Only sensitive ones",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "start": 350.7,
+   "duration": 1.65,
+   "type": "big_statement",
+   "text": "Subscribe",
+   "eyebrow": "Tomorrow's roundup"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "end": 2.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 2.9,
+   "end": 8.0,
+   "kind": "news",
+   "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
+   "source": "CyberScoop",
+   "headline": "DHS to ban DeepSeek from federal civilian agencies",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.05,
+    "y": 0.255,
+    "w": 0.6,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 8.0,
+   "end": 11.6,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+   "source": "BleepingComputer",
+   "headline": "Revolut outage disrupts online banking operations worldwide",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.74,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 11.6,
+   "end": 15.73,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+   "source": "TechCrunch",
+   "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.36,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 15.73,
+   "end": 19.0,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 19.0,
+   "end": 25.5,
+   "kind": "news",
+   "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
+   "source": "CyberScoop",
+   "headline": "DHS to ban DeepSeek from federal civilian agencies",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.05,
+    "y": 0.255,
+    "w": 0.6,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 25.5,
+   "end": 31.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 31.9,
+   "end": 38.3,
+   "kind": "news",
+   "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
+   "source": "CyberScoop",
+   "headline": "DHS to ban DeepSeek from federal civilian agencies",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.05,
+    "y": 0.74,
+    "w": 0.6,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 38.3,
+   "end": 43.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 43.8,
+   "end": 51.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 51.5,
+   "end": 60.47,
+   "kind": "news",
+   "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
+   "source": "CyberScoop",
+   "headline": "DHS to ban DeepSeek from federal civilian agencies",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.05,
+    "y": 0.255,
+    "w": 0.6,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 60.47,
+   "end": 63.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 63.8,
+   "end": 66.1,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+   "source": "BleepingComputer",
+   "headline": "Revolut outage disrupts online banking operations worldwide",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.74,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 66.1,
+   "end": 74.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 74.9,
+   "end": 84.5,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+   "source": "BleepingComputer",
+   "headline": "Revolut outage disrupts online banking operations worldwide",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.74,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 84.5,
+   "end": 92.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 92.5,
+   "end": 102.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 102.61,
+   "end": 105.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 105.9,
+   "end": 112.8,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+   "source": "TechCrunch",
+   "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.36,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 112.8,
+   "end": 118.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 118.9,
+   "end": 126.0,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+   "source": "TechCrunch",
+   "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.36,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 126.0,
+   "end": 137.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 137.2,
+   "end": 143.0,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+   "source": "TechCrunch",
+   "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.36,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 143.0,
+   "end": 149.87,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 149.87,
+   "end": 153.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 153.2,
+   "end": 157.0,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+   "source": "TechCrunch",
+   "headline": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.425,
+    "w": 0.5,
+    "h": 0.025
+   }
+  },
+  {
+   "start": 157.0,
+   "end": 164.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 164.4,
+   "end": 170.7,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+   "source": "TechCrunch",
+   "headline": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.425,
+    "w": 0.5,
+    "h": 0.025
+   }
+  },
+  {
+   "start": 170.7,
+   "end": 181.0,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 181.0,
+   "end": 185.77,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 185.77,
+   "end": 189.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 189.1,
+   "end": 197.0,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+   "source": "BleepingComputer",
+   "headline": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.9,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 197.0,
+   "end": 203.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 203.2,
+   "end": 208.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 208.8,
+   "end": 212.7,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+   "source": "BleepingComputer",
+   "headline": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.9,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 212.7,
+   "end": 222.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 222.4,
+   "end": 227.42,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+   "source": "BleepingComputer",
+   "headline": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.9,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 227.42,
+   "end": 230.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 230.7,
+   "end": 238.0,
+   "kind": "news",
+   "url": "https://www.silicon.co.uk/cloud/ai/microsoft-loughton-cancel-631918",
+   "source": "Silicon UK",
+   "headline": "Microsoft Withdraws From Major UK AI Data Centre",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.16,
+    "y": 0.215,
+    "w": 0.65,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 238.0,
+   "end": 246.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 246.6,
+   "end": 252.0,
+   "kind": "news",
+   "url": "https://www.silicon.co.uk/cloud/ai/microsoft-loughton-cancel-631918",
+   "source": "Silicon UK",
+   "headline": "Microsoft Withdraws From Major UK AI Data Centre",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.16,
+    "y": 0.215,
+    "w": 0.65,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 252.0,
+   "end": 260.44,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 260.44,
+   "end": 263.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 263.7,
+   "end": 272.8,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+   "source": "BleepingComputer",
+   "headline": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.9,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 272.8,
+   "end": 279.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 279.2,
+   "end": 282.7,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+   "source": "BleepingComputer",
+   "headline": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.9,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 282.7,
+   "end": 288.0,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 288.0,
+   "end": 291.8,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+   "source": "BleepingComputer",
+   "headline": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.035,
+    "y": 0.2,
+    "w": 0.9,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 291.8,
+   "end": 297.17,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 297.17,
+   "end": 300.45,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "whip"
+  },
+  {
+   "start": 300.45,
+   "end": 308.9,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+   "source": "TechCrunch",
+   "headline": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.37,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 308.9,
+   "end": 314.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 314.6,
+   "end": 320.8,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+   "source": "TechCrunch",
+   "headline": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.37,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 320.8,
+   "end": 329.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 329.5,
+   "end": 335.08,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 335.08,
+   "end": 342.0,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 342.0,
+   "end": 350.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 350.7,
+   "end": 352.37,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  }
+ ],
+ "camera_moves": []
+}

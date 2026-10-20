@@ -1,0 +1,128 @@
+{
+  "name": "d03-ai-tech-news-20-oct-2026",
+  "createdAt": "2026-10-20T12:27:21.614Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d03-ai-tech-news-20-oct-2026/source/raw.wav",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d03/d03-voice.wav",
+    "duration": 380.44,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d03-ai-tech-news-20-oct-2026/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d03/d03_ai_tech_news_20_oct_2026_voiceover.txt",
+    "words": 917,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d03-ai-tech-news-20-oct-2026/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "The United States",
+    "Deep Seek",
+    "Revolut",
+    "And Nvidia",
+    "Homeland Security",
+    "Chinese",
+    "Homeland Security Secretary Markwayne Mullin",
+    "China",
+    "Monday",
+    "Google Cloud",
+    "Nvidia",
+    "Nemotron",
+    "Bolt",
+    "PCs",
+    "Tenstorrent",
+    "Trace Capital",
+    "Rowe Price",
+    "Microsoft",
+    "October Windows",
+    "Exchange",
+    "Windows Server",
+    "Nscale",
+    "GitHub",
+    "Amazon Web Services",
+    "TorchNeuron",
+    "PyTorch",
+    "Trainium",
+    "Amazon"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "24 Hours in Tech roundup: 16:9 YouTube, no captions, brand intro after the cold open (when inbox/brand/Intro.mp4 exists), a story counter so viewers know where they are (chapter rail, 'Story 3 of 8'), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English; daily news-desk look, the same every day so the channel is recognisable: news screenshots and NewsCards lead (the real source of each story), a story counter / chapter rail, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; a wipe whoosh + hit on every story change, soft ticks elsewhere",
+  "brand": "ai-news",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-20T12:31:53.232Z",
+      "words": 876,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-20T12:32:22.279Z",
+      "segments": 95,
+      "kept": 352.367
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-20T13:06:54.260Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d03-ai-tech-news-20-oct-2026/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-20T13:07:08.198Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-20T13:07:08.239Z",
+      "groups": 233
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-20T13:07:26.724Z",
+      "music": 0,
+      "sfx": 89
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-20T13:08:07.880Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d03-ai-tech-news-20-oct-2026/output/final-16x9.mp4",
+      "duration": 352.367
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.99117,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d03-ai-tech-news-20-oct-2026/work/cleancut.wav",
+    "duration": 352.366708,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

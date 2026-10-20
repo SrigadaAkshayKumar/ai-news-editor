@@ -1,0 +1,66 @@
+{
+  "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/": {
+    "source": "CyberScoop",
+    "headline": "DHS to ban DeepSeek from federal civilian agencies",
+    "date": "19 Oct 2026",
+    "path": "assets/news/cyberscoop_com_dhs_bans_deepseek_federal_agencies.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/cyberscoop_com_dhs_bans_deepseek_federal_agencies_mobile.png"
+  },
+  "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/": {
+    "source": "BleepingComputer",
+    "headline": "Revolut outage disrupts online banking operations worldwide",
+    "date": "20 Oct 2026",
+    "path": "assets/news/bleepingcomputer_com_revolut_outage_disrupts_online_banking_operations_mobile.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/bleepingcomputer_com_revolut_outage_disrupts_online_banking_operations_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/": {
+    "source": "TechCrunch",
+    "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+    "date": "19 Oct 2026",
+    "path": "assets/news/techcrunch_com_nvidia_launches_new_open_models_to_run_agents_in_the_en.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_nvidia_launches_new_open_models_to_run_agents_in_the_en_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/": {
+    "source": "TechCrunch",
+    "headline": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+    "date": "19 Oct 2026",
+    "path": "assets/news/techcrunch_com_tenstorrent_hits_6_2b_valuation_to_scale_open_weight_ai.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_tenstorrent_hits_6_2b_valuation_to_scale_open_weight_ai_mobile.png"
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/": {
+    "source": "BleepingComputer",
+    "headline": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+    "date": "19 Oct 2026",
+    "path": "assets/news/bleepingcomputer_com_microsoft_october_windows_server_updates_cause_ex_mobile.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/bleepingcomputer_com_microsoft_october_windows_server_updates_cause_ex_mobile.png"
+  },
+  "https://www.silicon.co.uk/cloud/ai/microsoft-loughton-cancel-631918": {
+    "source": "Silicon UK",
+    "headline": "Microsoft Withdraws From Major UK AI Data Centre",
+    "date": "20 Oct 2026",
+    "path": "assets/news/silicon_co_uk_microsoft_loughton_cancel_631918.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/silicon_co_uk_microsoft_loughton_cancel_631918_mobile.png"
+  },
+  "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/": {
+    "source": "BleepingComputer",
+    "headline": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "date": "20 Oct 2026",
+    "path": "assets/news/bleepingcomputer_com_ovhcloud_cli_releases_backdoored_on_github_to_ste_mobile.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/bleepingcomputer_com_ovhcloud_cli_releases_backdoored_on_github_to_ste_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/": {
+    "source": "TechCrunch",
+    "headline": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+    "date": "19 Oct 2026",
+    "path": "assets/news/techcrunch_com_amazon_is_taking_its_biggest_shot_at_nvidia_yet_with_ne.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_amazon_is_taking_its_biggest_shot_at_nvidia_yet_with_ne_mobile.png"
+  }
+}
