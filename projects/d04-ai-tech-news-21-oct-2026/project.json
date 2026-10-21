@@ -1,0 +1,130 @@
+{
+  "name": "d04-ai-tech-news-21-oct-2026",
+  "createdAt": "2026-10-21T08:43:35.163Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d04-ai-tech-news-21-oct-2026/source/raw.wav",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d04/d04-voice.wav",
+    "duration": 325.7,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d04-ai-tech-news-21-oct-2026/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d04/d04_ai_tech_news_21_oct_2026_voiceover.txt",
+    "words": 802,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d04-ai-tech-news-21-oct-2026/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Open",
+    "Salesforce",
+    "Braze",
+    "And Microsoft",
+    "Reuters",
+    "Bloomberg",
+    "Abu Dhabi",
+    "United Arab Emirates",
+    "Black Rock",
+    "WhatsApp",
+    "Exchange Commission",
+    "Microsoft",
+    "October",
+    "Claude Code",
+    "Git Hub Copilot",
+    "Dynamic Agent Risk",
+    "Dynamic Permissions",
+    "Nvidia",
+    "Modal",
+    "Vera",
+    "Advanced Micro Devices",
+    "Amazon",
+    "Germany",
+    "Germany Summit",
+    "Berlin",
+    "Amazon Web Services",
+    "WordPress",
+    "Security Week",
+    "Rank Math Pro",
+    "Rank Math"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "24 Hours in Tech roundup: 16:9 YouTube, no captions, brand intro after the cold open (when inbox/brand/Intro.mp4 exists), a story counter so viewers know where they are (chapter rail, 'Story 3 of 8'), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English; daily news-desk look, the same every day so the channel is recognisable: news screenshots and NewsCards lead (the real source of each story), a story counter / chapter rail, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; a wipe whoosh + hit on every story change, soft ticks elsewhere",
+  "brand": "ai-news",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-21T08:47:41.687Z",
+      "words": 723,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-21T08:48:05.532Z",
+      "segments": 79,
+      "kept": 298.067
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-21T09:24:33.590Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d04-ai-tech-news-21-oct-2026/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-21T09:24:39.413Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-21T09:24:39.452Z",
+      "groups": 201
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-21T09:24:43.045Z",
+      "music": 0,
+      "sfx": 79
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-21T09:25:13.954Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d04-ai-tech-news-21-oct-2026/output/final-16x9.mp4",
+      "duration": 298.066667
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.999305,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d04-ai-tech-news-21-oct-2026/work/cleancut.wav",
+    "duration": 298.066583,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

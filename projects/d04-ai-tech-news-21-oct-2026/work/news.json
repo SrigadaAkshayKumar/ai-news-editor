@@ -1,0 +1,58 @@
+{
+  "https://thenextweb.com/news/openai-30bn-mgx-blackrock-europe": {
+    "source": "The Next Web",
+    "headline": "OpenAI in talks to raise $30B, reports say",
+    "date": "21 Oct 2026",
+    "path": "assets/news/thenextweb_com_openai_30bn_mgx_blackrock_europe.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/thenextweb_com_openai_30bn_mgx_blackrock_europe_mobile.png"
+  },
+  "https://www.sec.gov/Archives/edgar/data/0001108524/000119312526425881/d516983dex991.htm": {
+    "source": "SEC filing · Salesforce",
+    "headline": "Salesforce to acquire Braze",
+    "date": "20 Oct 2026",
+    "path": "assets/news/sec_gov_d516983dex991_htm.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/sec_gov_d516983dex991_htm_mobile.png"
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/": {
+    "source": "Microsoft Security Blog",
+    "headline": "Agents are your newest insiders",
+    "date": "19 Oct 2026",
+    "path": "assets/news/microsoft_com_agents_are_your_newest_insiders_security_must_move_at_th.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/microsoft_com_agents_are_your_newest_insiders_security_must_move_at_th_mobile.png"
+  },
+  "https://www.thestar.com.my/tech/tech-news/2026/10/19/nvidia-wins-fast-growing-ai-startup-modal-for-new-central-processors": {
+    "source": "Reuters via The Star",
+    "headline": "Nvidia wins Modal for new central processors",
+    "date": "19 Oct 2026",
+    "path": "assets/news/thestar_com_my_nvidia_wins_fast_growing_ai_startup_modal_for_new_centr.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/thestar_com_my_nvidia_wins_fast_growing_ai_startup_modal_for_new_centr_mobile.png"
+  },
+  "https://www.aboutamazon.com/company-news/amazon-germany-investment": {
+    "source": "Amazon News",
+    "headline": "Amazon plans over €16B in Germany in 2027",
+    "date": "20 Oct 2026",
+    "path": "assets/news/aboutamazon_com_amazon_germany_investment.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/aboutamazon_com_amazon_germany_investment_mobile.png"
+  },
+  "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/": {
+    "source": "SecurityWeek",
+    "headline": "Rank Math PRO WordPress plugin compromised in supply chain attack",
+    "date": "19 Oct 2026",
+    "path": "assets/news/securityweek_com_rank_math_pro_wordpress_plugin_compromised_in_supply_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/securityweek_com_rank_math_pro_wordpress_plugin_compromised_in_supply__mobile.png"
+  },
+  "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/": {
+    "source": "BleepingComputer",
+    "headline": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+    "date": "19 Oct 2026",
+    "path": "assets/news/bleepingcomputer_com_f5_releases_out_of_band_patches_for_critical_ngin.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/bleepingcomputer_com_f5_releases_out_of_band_patches_for_critical_ngin_mobile.png"
+  }
+}

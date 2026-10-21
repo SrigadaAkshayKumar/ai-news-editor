@@ -1,0 +1,1047 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 2.7,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Wednesday · 21 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "OpenAI · ~$30B raise · reported",
+   "side": "right"
+  },
+  {
+   "start": 7.3,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Valuation: about $1.4T",
+   "side": "right"
+  },
+  {
+   "start": 11.5,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Salesforce buys Braze · $5.66B",
+   "side": "right"
+  },
+  {
+   "start": 14.3,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "SEC filing · 20 Oct",
+   "side": "right"
+  },
+  {
+   "start": 17.3,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Microsoft: controls for AI agents",
+   "side": "right"
+  },
+  {
+   "start": 21,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Microsoft Security Blog · 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 24.69,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "OpenAI's $30B raise talks",
+   "eyebrow": "Story 1 of 7",
+   "railLabel": "of 7 · OpenAI raise",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 28.1,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "The Next Web · Bloomberg",
+   "side": "right"
+  },
+  {
+   "start": 30.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Reuters + Bloomberg report",
+   "side": "right"
+  },
+  {
+   "start": 34.3,
+   "duration": 3,
+   "type": "number_roll",
+   "value": 1.4,
+   "text": "valuation · reported",
+   "prefix": "$",
+   "suffix": "T",
+   "decimals": 1
+  },
+  {
+   "start": 37.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "MGX · funds worth up to $10B",
+   "side": "right"
+  },
+  {
+   "start": 42.5,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "BlackRock alongside",
+   "side": "right"
+  },
+  {
+   "start": 47.4,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "No lead investor named",
+   "side": "right"
+  },
+  {
+   "start": 51.4,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "OpenAI, BlackRock: no comment",
+   "side": "right"
+  },
+  {
+   "start": 54.3,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "A report, not a closed deal",
+   "eyebrow": "Reported"
+  },
+  {
+   "start": 58,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Labs still need huge funding",
+   "side": "right"
+  },
+  {
+   "start": 60.87,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Salesforce buys Braze",
+   "eyebrow": "Story 2 of 7",
+   "railLabel": "of 7 · Salesforce + Braze",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 64.4,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Salesforce filing · 20 Oct",
+   "side": "right"
+  },
+  {
+   "start": 67,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Apps · email · text · WhatsApp",
+   "side": "right"
+  },
+  {
+   "start": 72.3,
+   "duration": 5.3,
+   "type": "number_roll",
+   "value": 5.66,
+   "text": "deal value · Braze",
+   "prefix": "$",
+   "suffix": "B",
+   "decimals": 2
+  },
+  {
+   "start": 78.2,
+   "duration": 4.8,
+   "type": "number_roll",
+   "value": 47.5,
+   "text": "cash per Braze share",
+   "prefix": "$",
+   "decimals": 2
+  },
+  {
+   "start": 83.9,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "Needs shareholders + regulators",
+   "side": "right"
+  },
+  {
+   "start": 87.9,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Expected close: fiscal 2028",
+   "side": "right"
+  },
+  {
+   "start": 91.9,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Two big marketing tools, maybe one",
+   "eyebrow": "For marketers"
+  },
+  {
+   "start": 95.85,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Microsoft watches AI agents",
+   "eyebrow": "Story 3 of 7",
+   "railLabel": "of 7 · Microsoft agents",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 99.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Microsoft Security Blog · 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 102.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Agents are your newest insiders",
+   "side": "right"
+  },
+  {
+   "start": 105.4,
+   "duration": 3.6,
+   "type": "number_roll",
+   "value": 60,
+   "text": "agent types discovered"
+  },
+  {
+   "start": 109.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Claude Code · Codex · Copilot",
+   "side": "right"
+  },
+  {
+   "start": 114.9,
+   "duration": 5.4,
+   "type": "big_statement",
+   "text": "Dynamic Agent Risk",
+   "eyebrow": "A risk score that changes with behavior"
+  },
+  {
+   "start": 121.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Dynamic Permissions",
+   "side": "right"
+  },
+  {
+   "start": 125,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Start with no access · limited time",
+   "side": "right"
+  },
+  {
+   "start": 129.1,
+   "duration": 5.8,
+   "type": "checklist",
+   "text": "Microsoft's plan",
+   "items": [
+    {
+     "label": "Discover agents",
+     "state": "yes"
+    },
+    {
+     "label": "Risk score per agent",
+     "state": "yes"
+    },
+    {
+     "label": "Task-scoped permissions",
+     "state": "yes"
+    },
+    {
+     "label": "Release dates",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 136,
+   "duration": 1.9,
+   "type": "big_statement",
+   "text": "Treat agents like insiders",
+   "eyebrow": "The message"
+  },
+  {
+   "start": 138.17,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Nvidia wins Modal for Vera",
+   "eyebrow": "Story 4 of 7",
+   "railLabel": "of 7 · Nvidia + Modal",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 141.7,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Reuters via The Star · 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 145.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Vera: first time, hosting agents",
+   "side": "right"
+  },
+  {
+   "start": 150.3,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Until now: Intel and AMD only",
+   "side": "right"
+  },
+  {
+   "start": 156.8,
+   "duration": 3.8,
+   "type": "number_roll",
+   "value": 750,
+   "text": "raised · Modal",
+   "prefix": "$",
+   "suffix": "M"
+  },
+  {
+   "start": 160.9,
+   "duration": 3.8,
+   "type": "number_roll",
+   "value": 15.75,
+   "text": "Modal valuation",
+   "prefix": "$",
+   "suffix": "B",
+   "decimals": 2
+  },
+  {
+   "start": 165.2,
+   "duration": 5.2,
+   "type": "number_roll",
+   "value": 20,
+   "text": "expected Vera sales · Nvidia",
+   "prefix": "$",
+   "suffix": "B+"
+  },
+  {
+   "start": 171,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Nvidia pushes into CPUs",
+   "side": "right"
+  },
+  {
+   "start": 175.79,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Amazon: €16B in Germany",
+   "eyebrow": "Story 5 of 7",
+   "railLabel": "of 7 · Amazon Germany",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 179.2,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Amazon News · 20 Oct",
+   "side": "right"
+  },
+  {
+   "start": 181.5,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "About $18 billion",
+   "side": "right"
+  },
+  {
+   "start": 184,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Invest in Germany Summit · Berlin",
+   "side": "right"
+  },
+  {
+   "start": 189.8,
+   "duration": 5.6,
+   "type": "number_roll",
+   "value": 4.8,
+   "text": "AWS Frankfurt region",
+   "prefix": "€",
+   "suffix": "B",
+   "decimals": 1
+  },
+  {
+   "start": 196.1,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Warehouses · AI lab · satellites",
+   "side": "right"
+  },
+  {
+   "start": 199.8,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Berlin: 2nd robotics + AI lab",
+   "side": "right"
+  },
+  {
+   "start": 204,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "€100B+ invested since 2010",
+   "side": "right"
+  },
+  {
+   "start": 209.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Data centres: where AI is built",
+   "side": "right"
+  },
+  {
+   "start": 213.41,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "Rank Math supply chain attack",
+   "eyebrow": "Story 6 of 7",
+   "railLabel": "of 7 · Rank Math",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 216.9,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "SecurityWeek · 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 220.3,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Malware in a popular SEO plugin",
+   "side": "right"
+  },
+  {
+   "start": 223.2,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Rank Math PRO 3.0.123",
+   "side": "right"
+  },
+  {
+   "start": 226.4,
+   "duration": 5,
+   "type": "flow_diagram",
+   "text": "Affected window",
+   "items": [
+    {
+     "label": "15 Oct",
+     "sublabel": "20:02 UTC · malware build"
+    },
+    {
+     "label": "16 Oct",
+     "sublabel": "07:12 UTC · files removed"
+    }
+   ]
+  },
+  {
+   "start": 231.7,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Treat the site as compromised",
+   "eyebrow": "If 3.0.123 was installed and active"
+  },
+  {
+   "start": 236.9,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Clean version: 3.0.124",
+   "side": "right"
+  },
+  {
+   "start": 243.4,
+   "duration": 5.8,
+   "type": "checklist",
+   "text": "What to do",
+   "items": [
+    {
+     "label": "Update to 3.0.124",
+     "state": "yes"
+    },
+    {
+     "label": "Change passwords and keys",
+     "state": "yes"
+    },
+    {
+     "label": "Restore a clean backup",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 249.51,
+   "duration": 3.05,
+   "type": "chapter_open",
+   "text": "F5 patches NGINX",
+   "eyebrow": "Story 7 of 7",
+   "railLabel": "of 7 · F5 · NGINX",
+   "numeral": "07",
+   "section": 6
+  },
+  {
+   "start": 252.9,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "BleepingComputer · 19 Oct",
+   "side": "right"
+  },
+  {
+   "start": 255.9,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Out-of-band fixes · NGINX",
+   "side": "right"
+  },
+  {
+   "start": 259.1,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Three critical flaws",
+   "side": "right"
+  },
+  {
+   "start": 262.2,
+   "duration": 5,
+   "type": "big_statement",
+   "text": "CVE-2026-15176 · 97205 · 93479",
+   "eyebrow": "Three critical flaws"
+  },
+  {
+   "start": 267.7,
+   "duration": 4.3,
+   "type": "checklist",
+   "text": "What attackers could do",
+   "items": [
+    {
+     "label": "Crash a server",
+     "state": "no"
+    },
+    {
+     "label": "Run code · non-default setups",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 272.9,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "No active attacks reported",
+   "side": "right"
+  },
+  {
+   "start": 275.7,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Update to the latest version",
+   "side": "right"
+  },
+  {
+   "start": 279.2,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Money · Agents · Chips",
+   "eyebrow": "The day in tech"
+  },
+  {
+   "start": 283,
+   "duration": 5.6,
+   "type": "big_statement",
+   "text": "Software is only as safe as its supply chain",
+   "eyebrow": "The plugin attack"
+  },
+  {
+   "start": 289.4,
+   "duration": 5.6,
+   "type": "poll_prompt",
+   "text": "Would you trust an AI agent with access to your work computer?",
+   "eyebrow": "Today's question · tell us in the comments",
+   "items": [
+    {
+     "label": "Yes",
+     "value": 50
+    },
+    {
+     "label": "Only with limits",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "start": 295.5,
+   "duration": 2.4,
+   "type": "big_statement",
+   "text": "Subscribe",
+   "eyebrow": "Tomorrow's roundup"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "end": 3,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 3,
+   "end": 11.2,
+   "kind": "news",
+   "url": "https://thenextweb.com/news/openai-30bn-mgx-blackrock-europe",
+   "source": "The Next Web",
+   "headline": "OpenAI is in talks with Abu Dhabi's MGX and BlackRock for a $30B round",
+   "date": "5 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.083,
+    "w": 0.84,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 11.2,
+   "end": 17,
+   "kind": "news",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001108524/000119312526425881/d516983dex991.htm",
+   "source": "SEC filing · Salesforce",
+   "headline": "Salesforce Signs Definitive Agreement to Acquire Braze",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.21,
+    "y": 0.047,
+    "w": 0.58,
+    "h": 0.024
+   }
+  },
+  {
+   "start": 17,
+   "end": 24.69,
+   "kind": "news",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+   "source": "Microsoft Security Blog",
+   "headline": "Agents are your newest insiders. Security must move at their speed.",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.05,
+    "y": 0.15,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 24.69,
+   "end": 27.9,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 27.9,
+   "end": 34.2,
+   "kind": "news",
+   "url": "https://thenextweb.com/news/openai-30bn-mgx-blackrock-europe",
+   "source": "The Next Web",
+   "headline": "OpenAI is in talks with Abu Dhabi's MGX and BlackRock for a $30B round",
+   "date": "5 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.147,
+    "w": 0.84,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 34.2,
+   "end": 47,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 47,
+   "end": 54,
+   "kind": "news",
+   "url": "https://thenextweb.com/news/openai-30bn-mgx-blackrock-europe",
+   "source": "The Next Web",
+   "headline": "OpenAI is in talks with Abu Dhabi's MGX and BlackRock for a $30B round",
+   "date": "5 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.083,
+    "w": 0.84,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 54,
+   "end": 60.87,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 60.87,
+   "end": 64.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 64.1,
+   "end": 72,
+   "kind": "news",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001108524/000119312526425881/d516983dex991.htm",
+   "source": "SEC filing · Salesforce",
+   "headline": "Salesforce Signs Definitive Agreement to Acquire Braze",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.21,
+    "y": 0.428,
+    "w": 0.58,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 72,
+   "end": 83,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 83,
+   "end": 90,
+   "kind": "news",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001108524/000119312526425881/d516983dex991.htm",
+   "source": "SEC filing · Salesforce",
+   "headline": "Salesforce Signs Definitive Agreement to Acquire Braze",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.21,
+    "y": 0.047,
+    "w": 0.58,
+    "h": 0.024
+   }
+  },
+  {
+   "start": 90,
+   "end": 95.85,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 95.85,
+   "end": 99.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 99.1,
+   "end": 105.3,
+   "kind": "news",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+   "source": "Microsoft Security Blog",
+   "headline": "Agents are your newest insiders. Security must move at their speed.",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.25,
+    "y": 0.608,
+    "w": 0.5,
+    "h": 0.088
+   }
+  },
+  {
+   "start": 105.3,
+   "end": 121,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 121,
+   "end": 129,
+   "kind": "news",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+   "source": "Microsoft Security Blog",
+   "headline": "Agents are your newest insiders. Security must move at their speed.",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.05,
+    "y": 0.15,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 129,
+   "end": 138.17,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 138.17,
+   "end": 141.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 141.4,
+   "end": 150,
+   "kind": "news",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/19/nvidia-wins-fast-growing-ai-startup-modal-for-new-central-processors",
+   "source": "Reuters via The Star",
+   "headline": "Nvidia wins fast-growing AI startup Modal for new central processors",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.16,
+    "w": 0.58,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 150,
+   "end": 156.6,
+   "kind": "news",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/19/nvidia-wins-fast-growing-ai-startup-modal-for-new-central-processors",
+   "source": "Reuters via The Star",
+   "headline": "Nvidia wins fast-growing AI startup Modal for new central processors",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.21,
+    "y": 0.59,
+    "w": 0.43,
+    "h": 0.052
+   }
+  },
+  {
+   "start": 156.6,
+   "end": 170.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 170.8,
+   "end": 175.79,
+   "kind": "news",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/19/nvidia-wins-fast-growing-ai-startup-modal-for-new-central-processors",
+   "source": "Reuters via The Star",
+   "headline": "Nvidia wins fast-growing AI startup Modal for new central processors",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.21,
+    "y": 0.93,
+    "w": 0.43,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 175.79,
+   "end": 179,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 179,
+   "end": 189.5,
+   "kind": "news",
+   "url": "https://www.aboutamazon.com/company-news/amazon-germany-investment",
+   "source": "Amazon News",
+   "headline": "Amazon announces plan to invest €16 billion in Germany in 2027",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.21,
+    "y": 0.08,
+    "w": 0.55,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 189.5,
+   "end": 203.8,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 203.8,
+   "end": 213.41,
+   "kind": "news",
+   "url": "https://www.aboutamazon.com/company-news/amazon-germany-investment",
+   "source": "Amazon News",
+   "headline": "Amazon announces plan to invest €16 billion in Germany in 2027",
+   "date": "20 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.21,
+    "y": 0.66,
+    "w": 0.55,
+    "h": 0.02
+   }
+  },
+  {
+   "start": 213.41,
+   "end": 216.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 216.6,
+   "end": 226.2,
+   "kind": "news",
+   "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "headline": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.29,
+    "w": 0.78,
+    "h": 0.058
+   }
+  },
+  {
+   "start": 226.2,
+   "end": 236.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 236.6,
+   "end": 243.2,
+   "kind": "news",
+   "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
+   "source": "SecurityWeek",
+   "headline": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.72,
+    "w": 0.68,
+    "h": 0.027
+   }
+  },
+  {
+   "start": 243.2,
+   "end": 249.51,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 249.51,
+   "end": 252.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 252.7,
+   "end": 262,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+   "source": "BleepingComputer",
+   "headline": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.205,
+    "w": 0.5,
+    "h": 0.017
+   }
+  },
+  {
+   "start": 262,
+   "end": 272.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 272.2,
+   "end": 279.12,
+   "kind": "news",
+   "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+   "source": "BleepingComputer",
+   "headline": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+   "date": "19 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.52,
+    "w": 0.62,
+    "h": 0.024
+   }
+  },
+  {
+   "start": 279.12,
+   "end": 289,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 289,
+   "end": 298.07,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  }
+ ],
+ "camera_moves": []
+}

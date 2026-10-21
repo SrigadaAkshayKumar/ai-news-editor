@@ -1,0 +1,12 @@
+{
+  "notes": "Clean TTS read: every script line spoken once, no retakes. Script-diff 'extra runs' are only numeral/acronym spelling differences. Dead air trimmed to 0.33s; 0.6s held beats at each story change for the wipe + hit.",
+  "keepPauseMax": 0.33,
+  "edgePad": 0.08,
+  "textFixes": {},
+  "holds": [
+    {"after":"w59","max":0.6},{"after":"w156","max":0.6},{"after":"w236","max":0.6},
+    {"after":"w339","max":0.6},{"after":"w427","max":0.6},{"after":"w517","max":0.6},
+    {"after":"w606","max":0.6},{"after":"w666","max":0.7}
+  ],
+  "cuts": []
+}

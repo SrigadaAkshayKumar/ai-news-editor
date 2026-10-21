@@ -1,0 +1,455 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.35,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip OpenAI · ~$30B raise · reported"
+  },
+  {
+   "time": 7.35,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Valuation: about $1.4T"
+  },
+  {
+   "time": 11.55,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Salesforce buys Braze · $5.66B"
+  },
+  {
+   "time": 14.35,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip SEC filing · 20 Oct"
+  },
+  {
+   "time": 17.35,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Microsoft: controls for AI agents"
+  },
+  {
+   "time": 21.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Microsoft Security Blog · 19 Oct"
+  },
+  {
+   "time": 24.22,
+   "sfx": "whoosh",
+   "reason": "story change wipe into OpenAI's $30B raise talks"
+  },
+  {
+   "time": 24.69,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 7"
+  },
+  {
+   "time": 28.15,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip The Next Web · Bloomberg"
+  },
+  {
+   "time": 30.85,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Reuters + Bloomberg report"
+  },
+  {
+   "time": 34.3,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 37.45,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip MGX · funds worth up to $10B"
+  },
+  {
+   "time": 42.55,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip BlackRock alongside"
+  },
+  {
+   "time": 47.45,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip No lead investor named"
+  },
+  {
+   "time": 51.45,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip OpenAI, BlackRock: no comment"
+  },
+  {
+   "time": 54.3,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 58.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Labs still need huge funding"
+  },
+  {
+   "time": 60.4,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Salesforce buys Braze"
+  },
+  {
+   "time": 60.87,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 7"
+  },
+  {
+   "time": 64.45,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Salesforce filing · 20 Oct"
+  },
+  {
+   "time": 67.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Apps · email · text · WhatsApp"
+  },
+  {
+   "time": 72.3,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 78.2,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 83.95,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Needs shareholders + regulators"
+  },
+  {
+   "time": 87.95,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Expected close: fiscal 2028"
+  },
+  {
+   "time": 91.9,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 95.38,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Microsoft watches AI agents"
+  },
+  {
+   "time": 95.85,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 7"
+  },
+  {
+   "time": 99.45,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Microsoft Security Blog · 19 Oct"
+  },
+  {
+   "time": 102.45,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Agents are your newest insiders"
+  },
+  {
+   "time": 105.4,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 109.35,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Claude Code · Codex · Copilot"
+  },
+  {
+   "time": 114.9,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 121.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Dynamic Permissions"
+  },
+  {
+   "time": 125.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Start with no access · limited time"
+  },
+  {
+   "time": 129.1,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 136,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 137.7,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Nvidia wins Modal for Vera"
+  },
+  {
+   "time": 138.17,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 7"
+  },
+  {
+   "time": 141.75,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Reuters via The Star · 19 Oct"
+  },
+  {
+   "time": 145.95,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Vera: first time, hosting agents"
+  },
+  {
+   "time": 150.35,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Until now: Intel and AMD only"
+  },
+  {
+   "time": 156.8,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 160.9,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 165.2,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 171.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Nvidia pushes into CPUs"
+  },
+  {
+   "time": 175.32,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Amazon: €16B in Germany"
+  },
+  {
+   "time": 175.79,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 7"
+  },
+  {
+   "time": 179.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Amazon News · 20 Oct"
+  },
+  {
+   "time": 181.55,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip About $18 billion"
+  },
+  {
+   "time": 184.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Invest in Germany Summit · Berlin"
+  },
+  {
+   "time": 189.8,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 196.15,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Warehouses · AI lab · satellites"
+  },
+  {
+   "time": 199.85,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Berlin: 2nd robotics + AI lab"
+  },
+  {
+   "time": 204.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip €100B+ invested since 2010"
+  },
+  {
+   "time": 209.45,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Data centres: where AI is built"
+  },
+  {
+   "time": 212.94,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Rank Math supply chain attack"
+  },
+  {
+   "time": 213.41,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 7"
+  },
+  {
+   "time": 216.95,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip SecurityWeek · 19 Oct"
+  },
+  {
+   "time": 220.35,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Malware in a popular SEO plugin"
+  },
+  {
+   "time": 223.25,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Rank Math PRO 3.0.123"
+  },
+  {
+   "time": 226.4,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "flow_diagram"
+  },
+  {
+   "time": 231.7,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 236.95,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Clean version: 3.0.124"
+  },
+  {
+   "time": 243.4,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 249.04,
+   "sfx": "whoosh",
+   "reason": "story change wipe into F5 patches NGINX"
+  },
+  {
+   "time": 249.51,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 7"
+  },
+  {
+   "time": 252.95,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip BleepingComputer · 19 Oct"
+  },
+  {
+   "time": 255.95,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Out-of-band fixes · NGINX"
+  },
+  {
+   "time": 259.15,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Three critical flaws"
+  },
+  {
+   "time": 262.2,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 267.7,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 272.95,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip No active attacks reported"
+  },
+  {
+   "time": 275.75,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Update to the latest version"
+  },
+  {
+   "time": 279.2,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 283,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 289.4,
+   "sfx": "reveal",
+   "reason": "viewer question"
+  },
+  {
+   "time": 295.5,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  }
+ ]
+}
