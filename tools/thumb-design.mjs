@@ -12,7 +12,8 @@
 //   {"name": "B", "template": "stat", "kicker": "Cognizant", "number": "25,000", "caption": "hired. Still waiting?", "trend": "down"},
 //   {"name": "C", "template": "versus", "kicker": "Freshers 2026", "left": {"label": "Selected", "value": "YES"},
 //                                                                    "right": {"label": "Joining date", "value": "?"}}]}
-// In `lines`, *word* marks the one highlighted word. Optional on any variant (paths relative to the project):
+// In `lines`, *word* marks the one highlighted word (accent box); in roundup, ^word^ sets a word in the second colour
+// (`accent2`, default yellow) a size bigger. Optional on any variant (paths relative to the project):
 //   "logo": "assets/logos/cognizant.svg"   company logo on a white plate, top right (tools/logo.mjs fetches it)
 //   "badge": "Must watch"                  a small stamp next to the logo
 //   "person": "work/thumb/cutout.png"      a cut-out person on the right third (headline / stat only); the text
@@ -35,7 +36,8 @@ const H = 720;
 const FONTS = join(ROOT, "assets", "fonts");
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-const marked = (s) => esc(s).replace(/\*([^*]+)\*/g, '<span class="hl">$1</span>');
+// *word* → the accent highlight box; ^word^ → the second colour, a size up (roundup)
+const marked = (s) => esc(s).replace(/\*([^*]+)\*/g, '<span class="hl">$1</span>').replace(/\^([^^]+)\^/g, '<span class="hl2">$1</span>');
 
 function findChrome() {
   const c = [process.env.CHROME_PATH, "/usr/bin/google-chrome", "/usr/bin/google-chrome-stable", "/usr/bin/chromium",
@@ -51,7 +53,7 @@ function page(accent, body, brand) {
   const grain = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(#n)'/></svg>`);
   return `<!doctype html><html><head><meta charset="utf-8"><style>
 ${font("Display", "InterDisplay-Black.woff2")}${font("DisplayXB", "InterDisplay-ExtraBold.woff2")}${font("UI", "Inter-SemiBold.woff2")}${font("UIB", "Inter-Bold.woff2")}
-:root{--a:${accent};--ink:#f4f1ea;--dim:rgba(244,241,234,.55);--bg:#0b0d12}
+:root{--a:${accent};--a2:#ffd60a;--ink:#f4f1ea;--dim:rgba(244,241,234,.55);--bg:#0b0d12}
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
 .frame{position:relative;width:${W}px;height:${H}px;overflow:hidden;font-family:UI;color:var(--ink);
@@ -102,9 +104,12 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
 .person-fade{position:absolute;right:0;bottom:0;width:640px;height:200px;z-index:1;background:linear-gradient(0deg,rgba(8,9,13,.85),transparent)}
 /* roundup: photo or tech-grid background, accent halo, 1-4 outlined people, hook + tag + logo row, stat chip */
 .ru{position:absolute;left:64px;top:50%;transform:translateY(-54%);width:560px;z-index:4}
-.ru .l{font-family:Display;font-size:var(--fs);line-height:1.0;letter-spacing:-.045em;text-transform:uppercase;
+/* each line sized on its own (short lines bigger), then shrunk in the page until it fits the column; real word gaps */
+.ru .l{width:max-content;white-space:nowrap;font-family:Display;font-size:var(--fs);line-height:1.04;letter-spacing:-.035em;
+  word-spacing:.2em;text-transform:uppercase;
   text-shadow:0 6px 0 rgba(0,0,0,.55),0 18px 60px rgba(0,0,0,.7)}
-.ru .l .hl{color:#fff;background:var(--a);padding:0 .12em;margin:0 -.04em;border-radius:.06em;text-shadow:0 3px 0 rgba(0,0,0,.25);
+.ru .l .hl2{color:var(--a2);font-size:1.18em;line-height:.9;text-shadow:0 6px 0 rgba(0,0,0,.55),0 0 40px color-mix(in srgb,var(--a2) 35%,transparent)}
+.ru .l .hl{color:#fff;background:var(--a);padding:0 .12em;margin:0 .02em;border-radius:.06em;text-shadow:0 3px 0 rgba(0,0,0,.25);
   box-shadow:0 0 60px color-mix(in srgb,var(--a) 55%,transparent)}
 .tag{display:inline-flex;align-items:center;gap:12px;margin-bottom:20px;font-family:UIB;font-size:28px;letter-spacing:.14em;
   text-transform:uppercase;color:#fff;background:var(--a);padding:8px 18px 8px 14px;border-radius:8px;transform:rotate(-2deg);
@@ -153,7 +158,13 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
 }
 
 /** Biggest size that keeps the longest line inside `width` px (Inter Display Black ≈ 0.62 em per uppercase char). */
-const fit = (text, width, max, k = 0.62) => Math.round(Math.min(max, width / (Math.max(3, text.replace(/\*/g, "").length) * k)));
+const fit = (text, width, max, k = 0.62) => Math.round(Math.min(max, width / (Math.max(3, text.replace(/[*^]/g, "").length) * k)));
+
+// the size estimate is rough: in the page, shrink each hook line until it fits the 560 px column, then the whole block
+// until it fits the frame's height
+const FIT = `<script>(()=>{const ls=[...document.querySelectorAll(".ru .l")];for(const l of ls){let f=parseFloat(l.style.fontSize);
+while(l.offsetWidth>560&&f>36){f-=2;l.style.fontSize=f+"px"}}const ru=document.querySelector(".ru");let k=0;
+while(ru.offsetHeight>620&&k++<30)for(const l of ls)l.style.fontSize=parseFloat(l.style.fontSize)*0.96+"px"})()</script>`;
 
 function variantHtml(v, accent, brand, base) {
   const asset = (p) => {
@@ -191,7 +202,9 @@ function variantHtml(v, accent, brand, base) {
     const people = (v.people || []).slice(0, 4);
     const logos = (v.logos || []).slice(0, 4);
     if (!people.length) console.warn(`${v.name}: roundup with no people: the daily thumbnail should have 1-4 (skill 5c)`);
-    const fs = Math.min(...lines.map((l) => fit(l, 540, 132)));
+    // a size per line, at most 1.6x the smallest so the hook still reads as one block
+    const sizes = lines.map((l) => fit(l.replace(/\^([^^]+)\^/g, (m, w) => w + w.slice(0, Math.ceil(w.length * 0.2))), 540, 150, 0.6));
+    const fs = Math.min(...sizes);
     // the cast: [centre x, height, lift] per person, most important first; the first is drawn in front, the rest
     // behind; a fourth stands raised in the gap between the lead and the left face so its face stays visible
     const SLOTS = [[], [[985, 690]], [[1040, 670], [800, 560]], [[975, 660], [780, 540], [1170, 540]],
@@ -209,7 +222,7 @@ function variantHtml(v, accent, brand, base) {
     const arrow = (up) => `<svg viewBox="0 0 40 40"><path d="${up ? "M20 4 36 26H26v10H14V26H4z" : "M20 36 36 14H26V4H14v10H4z"}" fill="${up ? "#18b26b" : accent}"/></svg>`;
     // the stat chip sits where the text column meets the cast, over the lead's shoulder line
     const chip = v.stat?.value ? `<div class="chip" style="left:${people.length > 2 ? 600 : 640}px;top:${people.length > 2 ? 520 : people.length ? 455 : 300}px">${v.stat.trend ? arrow(v.stat.trend === "up") : ""}${esc(v.stat.value)}</div>` : "";
-    return page(accent, `${bg}${halo}${cast}<div class="floor"></div>${chip}<div class="ru" style="--fs:${fs}px">${tag}${lines.map((l) => `<div class="l">${marked(l)}</div>`).join("")}<div class="bar"></div>${plates}</div>`, brand);
+    return page(accent, `${bg}${halo}${cast}<div class="floor"></div>${chip}<div class="ru" style="--fs:${fs}px${v.accent2 ? `;--a2:${v.accent2}` : ""}">${tag}${lines.map((l, i) => `<div class="l" style="font-size:${Math.min(sizes[i], Math.round(fs * 1.6))}px">${marked(l)}</div>`).join("")}<div class="bar"></div>${plates}</div>${FIT}`, brand);
   }
   die(`${v.name}: unknown template "${v.template}" (headline | stat | versus | roundup)`);
 }
@@ -249,7 +262,7 @@ if (flags.demo) {
   const out = join(PROJECTS, project, "output", "thumbnails");
   mkdirSync(out, { recursive: true });
   for (const v of spec.variants || die("spec has no variants")) {
-    render(variantHtml(v, spec.accent || "#00d1ff", spec.brand ?? "", join(PROJECTS, project)), join(out, `${v.name}.png`));
+    render(variantHtml({ accent2: spec.accent2, ...v }, spec.accent || "#00d1ff", spec.brand ?? "", join(PROJECTS, project)), join(out, `${v.name}.png`));
   }
   writeFileSync(join(out, "spec.json"), readFileSync(existsSync(specFile) ? specFile : join(PROJECTS, project, specFile)));
 }

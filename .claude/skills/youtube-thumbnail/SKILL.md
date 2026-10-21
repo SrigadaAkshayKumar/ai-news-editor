@@ -128,9 +128,13 @@ background** of the lead story (or the template's tech grid). **A recognisable f
 thumbnail: every episode has at least one person (4 at most).** A thumbnail with only logos is a failure, unless step
 1's whole fallback list found nobody.
 
-0. **Write the hook** (`lines`): 2–3 short lines, about 3–6 words in all, each line ≤ 14 characters, one or two key
-   words marked `*…*` for the accent highlight. Take it from the lead story or the cold open's sharpest moment:
-   the number, the stake, the surprise ("Nvidia's *$5 trillion* day", "Apple *pulls* the plug", "*40 techs* banned?").
+0. **Write the hook** (`lines`): 2–3 short lines, about 3–6 words in all, each line ≤ 14 characters, the words
+   spelled as people know them, with normal spaces ("OpenAI eyes", "AI chips"). Two emphasis marks, each used once
+   at most: `*…*` puts the key word in the accent box (the number, the stake), `^…^` sets one word in yellow a size
+   bigger (the hot word: "^AI^ chips", "Open^AI^", "^raise?^"). Each line is sized on its own, so a short line
+   ("DAY", "*$30B*") comes out big: put the strongest word on a short line of its own. Take it from the lead story or
+   the cold open's sharpest moment: the number, the stake, the surprise ("Nvidia's / *$5 trillion* / day",
+   "OpenAI eyes / *$30B* / ^raise?^", "^AI^ chips / *banned* / in China?").
    It must be true to the script: no claim the video doesn't make, no number it doesn't say, a `reported` story
    phrased as a question or "report:", never words put in a person's mouth (no quote marks next to a face). Write
    2–3 candidates in `thumbnails.md`, pick the one that makes someone curious enough to click, and render it.
@@ -180,7 +184,7 @@ thumbnail: every episode has at least one person (4 at most).** A thumbnail with
 5. Spec `output/thumbnails/spec.json` with ONE variant, most important person first:
    ```json
    {"accent": "<brand accent>", "brand": "<brand shortName, upper case>", "variants": [
-     {"name": "A", "template": "roundup", "tag": "Official", "lines": ["Nvidia's", "*$5 trillion*", "day"],
+     {"name": "A", "template": "roundup", "tag": "Official", "lines": ["^Nvidia's^", "*$5 trillion*", "day"],
       "people": ["assets/library/jensen-huang.png", "assets/library/sam-altman.png"],
       "logos": ["assets/library/nvidia.svg", "assets/library/openai.svg", "assets/library/google.svg"],
       "stat": {"value": "+6%", "trend": "up"}, "bg": "assets/stills/thumb-bg.jpg"}]}
