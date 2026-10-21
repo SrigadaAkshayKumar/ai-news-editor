@@ -121,9 +121,12 @@ Rules:
 Every daily episode uses the SAME design (the `roundup` template, brand accent, brand name), so the channel is
 recognisable in the feed, but the **words are new every day**: a dramatic **hook** from that day's script, never a
 routine line like "What happened in the last 24 hours". **No kicker** (no "Software · AI · Hardware" label) and
-**no date** (the title carries it). The right side is the **cast** of the day's biggest stories: up to 3 cut-out
-**people** (each drawn with a white outline) and up to 4 company **logos**. **A recognisable face is the strongest
-part of the thumbnail**: every episode gets at least one person when the day allows it.
+**no date** (the title carries it). The layout: on the left a small **tag**, the hook, an accent bar and a row of up
+to 4 company **logos**; on the right **1–4 cut-out people** (white outline, the lead big in front with an accent halo
+and ring behind, the rest behind them); a white **stat chip** where the two sides meet; all over a graded **photo
+background** of the lead story (or the template's tech grid). **A recognisable face is the strongest part of the
+thumbnail: every episode has at least one person (4 at most).** A thumbnail with only logos is a failure, unless step
+1's whole fallback list found nobody.
 
 0. **Write the hook** (`lines`): 2–3 short lines, about 3–6 words in all, each line ≤ 14 characters, one or two key
    words marked `*…*` for the accent highlight. Take it from the lead story or the cold open's sharpest moment:
@@ -133,16 +136,21 @@ part of the thumbnail**: every episode gets at least one person when the day all
    2–3 candidates in `thumbnails.md`, pick the one that makes someone curious enough to click, and render it.
 
 1. **Choose the cast** from the episode's `*_stories.json`: rank companies and people by the summed `weight` of the
-   stories they appear in. Take the top 1–3 people and the top 2–4 companies (fewer is fine; a logo of a company
-   whose CEO is already in the cast is still welcome if the story is about the company). Skip `reported: true`
-   stories when ranking people: never put a face next to an unconfirmed claim about them.
+   stories they appear in. Take the top **1–4 people** (aim for 2–3 on a day with several big names) and the top 2–4
+   companies (a logo of a company whose CEO is already in the cast is still welcome). Skip `reported: true` stories
+   when ranking people: never put a face next to an unconfirmed claim about them.
    - **Big names first:** among people of similar weight, prefer the most widely recognised (Jensen Huang, Sam
      Altman, Sundar Pichai, Satya Nadella, Tim Cook, Elon Musk, Mark Zuckerberg, Dario Amodei, Lisa Su …) over a
      less known executive.
-   - **No person in `stories.json`:** use the **current** CEO (or founder-leader) of the lead story's company when
-     that story is the company's own confirmed news (a launch, results, a deal it announced), e.g. an NVIDIA chip
-     launch → Jensen Huang. Check today's CEO; never for a `reported` story, a lawsuit or a breach blamed on a
-     person. Still none → logos only.
+   - **Fewer than one person? Go down this list until you have one** (each time the **current** CEO or
+     founder-leader, checked today; never for a lawsuit, a breach or a failure blamed on that person):
+     a) the lead story's company, when the lead is its own confirmed news (a launch, results, a deal it announced),
+        e.g. an NVIDIA chip launch → Jensen Huang;
+     b) the company of the next confirmed story, by weight (the lead may be `reported`: then the face belongs to
+        another, confirmed story of the day, and the hook can still be the lead's — as a question);
+     c) a person already in the library (`node tools/library.mjs list`) whose company is in one of today's
+        confirmed stories.
+     Only when all three find nobody (or every cut-out fails in step 2) → no people, and say so in `thumbnails.md`.
 2. **The library** (`inbox/library/`, synced with Drive, never in git): `node tools/library.mjs list`. For each
    cast member not in it yet:
    - logo: `node tools/library.mjs search logo "OpenAI"` → Read `inbox/library/_candidates/sheet.png`, pick the
@@ -157,17 +165,33 @@ part of the thumbnail**: every episode gets at least one person when the day all
 3. `node tools/library.mjs use <p> openai sam-altman …` → copies them to `assets/library/` and adds the credits
    (photographer + licence) to `work/credits.json`. Photo credits go in the video description ("Thumbnail photos:
    <name> by <author>, <licence>, via Wikimedia Commons").
-4. Spec `output/thumbnails/spec.json` with ONE variant, most important person first:
+4. **The extras** (each optional, each true to the script):
+   - `tag`: one or two words, ≤ 12 characters, in the tag pill above the hook: "Official" (the lead is a company's
+     own announcement), "Report" (the lead is `reported` — use it whenever the hook is about a reported story),
+     "Leak", "Just in", "Banned", "Recall" … only a word the script backs. None fits → leave it out.
+   - `stat`: `{"value": "$2B", "trend": "up" | "down"}`, a number the video says (≤ 6 characters), from a story the
+     hook doesn't already carry: never the hook's own highlighted number twice. `trend` only when the number is a
+     rise or a fall (shares, revenue, users). No second number worth it → leave it out.
+   - `bg`: a landscape stock photo of the lead story's subject (a chip, a data centre, a phone, a server room, a
+     city skyline for a policy story): `node tools/broll.mjs search <p> "<subject>" --photos --orientation landscape`
+     → Read the thumbnails → `node tools/broll.mjs get <p> <id> --photos --name thumb-bg` → `assets/stills/thumb-bg.jpg`
+     (credited automatically). No people, no readable brand or logo in it, no news screenshot. The template darkens
+     and tints it; the search fails or nothing fits → leave it out (the tech grid is drawn instead).
+5. Spec `output/thumbnails/spec.json` with ONE variant, most important person first:
    ```json
    {"accent": "<brand accent>", "brand": "<brand shortName, upper case>", "variants": [
-     {"name": "A", "template": "roundup", "lines": ["Nvidia's", "*$5 trillion*", "day"],
-      "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg", "assets/library/google.svg"]}]}
+     {"name": "A", "template": "roundup", "tag": "Official", "lines": ["Nvidia's", "*$5 trillion*", "day"],
+      "people": ["assets/library/jensen-huang.png", "assets/library/sam-altman.png"],
+      "logos": ["assets/library/nvidia.svg", "assets/library/openai.svg", "assets/library/google.svg"],
+      "stat": {"value": "+6%", "trend": "up"}, "bg": "assets/stills/thumb-bg.jpg"}]}
    ```
-   `node tools/thumb-design.mjs <p> output/thumbnails/spec.json` → Read `A.png` and `A-feed.png`: faces
-   recognisable at feed size, the white outline clean all round each person (no white blocks from a bad
-   cut-out), logos not crushed, nothing over the text. Too crowded → drop the weakest
-   cast member and render again.
-5. `thumbnails.md`: the hook candidates and the pick, the cast and why, each image's source and licence.
+   `node tools/thumb-design.mjs <p> output/thumbnails/spec.json` → Read `A.png` and `A-feed.png`: every face
+   recognisable at feed size (a face mostly hidden behind another → drop that person, or reorder), the white outline
+   clean all round each person (no white blocks from a bad cut-out), logos not crushed, the stat chip not over a
+   face, nothing over the text. Too crowded → drop the weakest extra first (stat, then the 4th person), never the
+   last person.
+6. `thumbnails.md`: the hook candidates and the pick, the cast and why (which fallback step, if any), the tag and
+   stat with the script line that backs them, each image's source and licence.
 
 Rules: editorial use only — a real person's photo appears only because they are in today's news; never add text
 next to a face that puts words in their mouth, never imply a person endorses anything, no caricature or edits
