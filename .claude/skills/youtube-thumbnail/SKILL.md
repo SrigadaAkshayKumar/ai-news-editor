@@ -146,15 +146,21 @@ thumbnail: every episode has at least one person (4 at most).** A thumbnail with
    - **Big names first:** among people of similar weight, prefer the most widely recognised (Jensen Huang, Sam
      Altman, Sundar Pichai, Satya Nadella, Tim Cook, Elon Musk, Mark Zuckerberg, Dario Amodei, Lisa Su …) over a
      less known executive.
-   - **Fewer than one person? Go down this list until you have one** (each time the **current** CEO or
-     founder-leader, checked today; never for a lawsuit, a breach or a failure blamed on that person):
-     a) the lead story's company, when the lead is its own confirmed news (a launch, results, a deal it announced),
-        e.g. an NVIDIA chip launch → Jensen Huang;
-     b) the company of the next confirmed story, by weight (the lead may be `reported`: then the face belongs to
-        another, confirmed story of the day, and the hook can still be the lead's — as a question);
-     c) a person already in the library (`node tools/library.mjs list`) whose company is in one of today's
-        confirmed stories.
-     Only when all three find nobody (or every cut-out fails in step 2) → no people, and say so in `thumbnails.md`.
+   - **Only people who belong to today's news.** A face is allowed only when that person is named in the story
+     (`people` in `stories.json`, or named in the voiceover) or is the current CEO / founder-leader of the company
+     whose OWN confirmed announcement the story is (its launch, results, deal: they are its public face). Never a
+     random executive, politician or celebrity to fill the slot, never a person from an older story, never a face
+     the video doesn't explain.
+   - **Fewer than one person? Go down this list until you have one** (CEO checked today; never for a lawsuit, a
+     breach or a failure blamed on that person):
+     a) the lead story's company, when the lead is its own confirmed news, e.g. an NVIDIA chip launch → Jensen Huang;
+     b) the company of the next confirmed story in the video that is its own announcement, by weight (the lead may
+        be `reported`: the face then belongs to another confirmed story of the day, the hook can still ask the
+        lead's question, and nothing may suggest that person is part of the reported claim).
+     Nobody fits → no people (logos only), and say why in `thumbnails.md`: a wrong face is worse than none.
+   - **Free licences only:** every photo comes from Wikimedia Commons / Wikidata through `tools/library.mjs`, which
+     accepts public domain, CC0, CC BY and CC BY-SA files and nothing else, never a photo found on a news site,
+     Google Images or social media. CC BY / BY-SA photos need the credit: it goes in the description (step 3).
 2. **The library** (`inbox/library/`, synced with Drive, never in git): `node tools/library.mjs list`. For each
    cast member not in it yet:
    - logo: `node tools/library.mjs search logo "OpenAI"` → Read `inbox/library/_candidates/sheet.png`, pick the
@@ -194,7 +200,7 @@ thumbnail: every episode has at least one person (4 at most).** A thumbnail with
    clean all round each person (no white blocks from a bad cut-out), logos not crushed, the stat chip not over a
    face, nothing over the text. Too crowded → drop the weakest extra first (stat, then the 4th person), never the
    last person.
-6. `thumbnails.md`: the hook candidates and the pick, the cast and why (which fallback step, if any), the tag and
+6. `thumbnails.md`: the hook candidates and the pick, the cast and why (the story each person belongs to; which fallback step, if any), the tag and
    stat with the script line that backs them, each image's source and licence.
 
 Rules: editorial use only — a real person's photo appears only because they are in today's news; never add text
