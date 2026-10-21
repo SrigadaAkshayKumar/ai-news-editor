@@ -61,11 +61,14 @@ voiceover and the brief. After you stop, the workflow runs `node tools/daily.mjs
    ~430-490 characters) — it is uploaded exactly as written, unseen:
    `{"title": "<SEO title, ≤ 100 chars>", "description": "<the full description: chapters, sources, hashtags>",
    "tags": ["…"], "thumbnail": "output/thumbnails/A.png"}`.
+   **Photo credits:** when the thumbnail has a person, the description ends with "Thumbnail photos: <name> by
+   <author>, <licence>, via Wikimedia Commons" for each one (from `work/credits.json`): CC BY / BY-SA require it.
    **Title:** the brand's `titleFormula` (`config/brands/ai-news.json`): the fixed "What Happened in the Last 24
    Hours" phrase, today's date, and the 2–3 biggest names from `stories.json`.
    **Thumbnails:** before writing `youtube.json`, make the daily **roundup** thumbnail with the `youtube-thumbnail`
-   skill, section 5c (a dramatic hook from today's script, no date, no kicker + the day's logos and people from `inbox/library/`, fetched with
-   `tools/library.mjs` when new), and point `thumbnail` at `output/thumbnails/A.png`. Plain text, no
+   skill, section 5c (a dramatic hook from today's script, no date, no kicker + the day's logos and 1–4 people from
+   `inbox/library/`, fetched with `tools/library.mjs` when new — only people who are part of today's stories, free-licensed
+   photos only, never a thumbnail without a face while 5c's fallback list still has someone; tag, stat chip and a stock photo background when they fit), and point `thumbnail` at `output/thumbnails/A.png`. Plain text, no
    markdown, no `<` or `>`. The Shorts go up from `clips.json` (their `title`, `description`, `hashtags`), the same
    day as the video; no "full video" link in their descriptions (the owner links the Related video in Studio).
 3. **Shorts**: read `AI-clipper/.claude/skills/clip-shorts/SKILL.md` and follow it with the finished project:

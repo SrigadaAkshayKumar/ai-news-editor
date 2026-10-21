@@ -5,21 +5,25 @@
 //   node tools/thumb-design.mjs <project> <spec.json>      → projects/<p>/output/thumbnails/<name>.png + <name>-feed.png
 //   node tools/thumb-design.mjs --demo <out-dir>           → one of each template with sample text
 // spec.json: {"accent": "#00d1ff", "brand": "CHANNEL NAME", "variants": [
-//   {"name": "A", "template": "roundup", "lines": ["Nvidia's", "*$5 trillion*", "day"],
-//    "people": ["assets/library/sam-altman.png"], "logos": ["assets/library/openai.svg"]},
+//   {"name": "A", "template": "roundup", "tag": "Official", "lines": ["Nvidia's", "*$5 trillion*", "day"],
+//    "people": ["assets/library/jensen-huang.png"], "logos": ["assets/library/nvidia.svg"],
+//    "stat": {"value": "+6%", "trend": "up"}, "bg": "assets/stills/thumb-bg.jpg"},
 //   {"name": "A", "template": "headline", "kicker": "4 reasons · 2026", "lines": ["Selected.", "*Not* joined."]},
 //   {"name": "B", "template": "stat", "kicker": "Cognizant", "number": "25,000", "caption": "hired. Still waiting?", "trend": "down"},
 //   {"name": "C", "template": "versus", "kicker": "Freshers 2026", "left": {"label": "Selected", "value": "YES"},
 //                                                                    "right": {"label": "Joining date", "value": "?"}}]}
-// In `lines`, *word* marks the one highlighted word. Optional on any variant (paths relative to the project):
+// In `lines`, *word* marks the one highlighted word (accent box); in roundup, ^word^ sets a word in the second colour
+// (`accent2`, default yellow) a size bigger. Optional on any variant (paths relative to the project):
 //   "logo": "assets/logos/cognizant.svg"   company logo on a white plate, top right (tools/logo.mjs fetches it)
 //   "badge": "Must watch"                  a small stamp next to the logo
 //   "person": "work/thumb/cutout.png"      a cut-out person on the right third (headline / stat only); the text
 //                                          narrows to make room (tools/thumbnail.mjs cutout makes the PNG)
 //   "scene": "work/thumb/ai/A-1.png"       a full-bleed photo (tools/gemini-image.mjs) graded dark on the left for
 //                                          the type; the subject stays on the right third (headline / stat)
-// roundup (the daily news template): the fixed `lines` (+ an optional `date` badge) on the left; on the right up to 3
-// cut-out `people` (most important first, in front, each with a white outline) and up to 4 `logos` on white plates (tools/library.mjs supplies both).
+// roundup (the daily news template): on the left an optional `tag` pill, the hook `lines`, an accent bar and up to 4
+// `logos` on white plates; on the right 1-4 cut-out `people` (most important first: big, in front of an accent halo and
+// ring; each with a white outline; tools/library.mjs supplies people and logos); an optional `stat` chip
+// {value, trend: up|down} between the two; over an optional `bg` photo (darkened and tinted), else a tech grid.
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -32,7 +36,8 @@ const H = 720;
 const FONTS = join(ROOT, "assets", "fonts");
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-const marked = (s) => esc(s).replace(/\*([^*]+)\*/g, '<span class="hl">$1</span>');
+// *word* → the accent highlight box; ^word^ → the second colour, a size up (roundup)
+const marked = (s) => esc(s).replace(/\*([^*]+)\*/g, '<span class="hl">$1</span>').replace(/\^([^^]+)\^/g, '<span class="hl2">$1</span>');
 
 function findChrome() {
   const c = [process.env.CHROME_PATH, "/usr/bin/google-chrome", "/usr/bin/google-chrome-stable", "/usr/bin/chromium",
@@ -48,7 +53,7 @@ function page(accent, body, brand) {
   const grain = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(#n)'/></svg>`);
   return `<!doctype html><html><head><meta charset="utf-8"><style>
 ${font("Display", "InterDisplay-Black.woff2")}${font("DisplayXB", "InterDisplay-ExtraBold.woff2")}${font("UI", "Inter-SemiBold.woff2")}${font("UIB", "Inter-Bold.woff2")}
-:root{--a:${accent};--ink:#f4f1ea;--dim:rgba(244,241,234,.55);--bg:#0b0d12}
+:root{--a:${accent};--a2:#ffd60a;--ink:#f4f1ea;--dim:rgba(244,241,234,.55);--bg:#0b0d12}
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
 .frame{position:relative;width:${W}px;height:${H}px;overflow:hidden;font-family:UI;color:var(--ink);
@@ -97,28 +102,52 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
 .person{position:absolute;right:10px;bottom:0;height:540px;z-index:1;
   filter:drop-shadow(-14px 0 26px color-mix(in srgb,var(--a) 35%,transparent)) drop-shadow(0 30px 40px rgba(0,0,0,.6))}
 .person-fade{position:absolute;right:0;bottom:0;width:640px;height:200px;z-index:1;background:linear-gradient(0deg,rgba(8,9,13,.85),transparent)}
-/* roundup */
-.ru{position:absolute;left:68px;top:50%;transform:translateY(-50%);z-index:2}
-.ru .l{font-family:Display;font-size:var(--fs);line-height:1.0;letter-spacing:-.045em;text-transform:uppercase;text-shadow:0 18px 60px rgba(0,0,0,.55)}
-.ru .l .hl{color:var(--bg);background:var(--a);padding:0 .12em;margin:0 -.04em;border-radius:.06em;text-shadow:none;
-  box-shadow:0 0 60px color-mix(in srgb,var(--a) 45%,transparent)}
-.date{display:inline-flex;align-items:center;gap:14px;margin-top:30px;font-family:UIB;font-size:40px;letter-spacing:.08em;
-  text-transform:uppercase;padding:12px 24px;border:3px solid var(--a);border-radius:14px;background:rgba(11,13,18,.6);
-  box-shadow:0 0 34px color-mix(in srgb,var(--a) 30%,transparent)}
-.date i{width:14px;height:14px;border-radius:50%;background:var(--a);box-shadow:0 0 16px var(--a)}
-.cast{position:absolute;right:0;bottom:0;width:640px;height:var(--ch);display:flex;flex-direction:row-reverse;align-items:flex-end;
-  justify-content:flex-start;z-index:1}
-.cast img{height:100%;max-width:var(--cw);object-fit:contain;object-position:bottom;margin-left:-70px;
+/* roundup: photo or tech-grid background, accent halo, 1-4 outlined people, hook + tag + logo row, stat chip */
+.ru{position:absolute;left:64px;top:50%;transform:translateY(-54%);width:560px;z-index:4}
+/* each line sized on its own (short lines bigger), then shrunk in the page until it fits the column; real word gaps */
+.ru .l{width:max-content;white-space:nowrap;font-family:Display;font-size:var(--fs);line-height:1.04;letter-spacing:-.035em;
+  word-spacing:.2em;text-transform:uppercase;
+  text-shadow:0 6px 0 rgba(0,0,0,.55),0 18px 60px rgba(0,0,0,.7)}
+.ru .l .hl2{color:var(--a2);font-size:1.18em;line-height:.9;text-shadow:0 6px 0 rgba(0,0,0,.55),0 0 40px color-mix(in srgb,var(--a2) 35%,transparent)}
+.ru .l .hl{color:#fff;background:var(--a);padding:0 .12em;margin:0 .02em;border-radius:.06em;text-shadow:0 3px 0 rgba(0,0,0,.25);
+  box-shadow:0 0 60px color-mix(in srgb,var(--a) 55%,transparent)}
+.tag{display:inline-flex;align-items:center;gap:12px;margin-bottom:20px;font-family:UIB;font-size:28px;letter-spacing:.14em;
+  text-transform:uppercase;color:#fff;background:var(--a);padding:8px 18px 8px 14px;border-radius:8px;transform:rotate(-2deg);
+  box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 40px color-mix(in srgb,var(--a) 45%,transparent)}
+.tag i{width:12px;height:12px;border-radius:50%;background:#fff;box-shadow:0 0 0 5px rgba(255,255,255,.28)}
+.bar{width:150px;height:8px;margin-top:24px;border-radius:4px;background:linear-gradient(90deg,var(--a),transparent)}
+.ru .logos{position:static;display:flex;gap:12px;margin-top:22px;flex-wrap:nowrap}
+.ru .logos .plate{padding:9px 14px;border-radius:12px;box-shadow:0 10px 26px rgba(0,0,0,.55)}
+.ru .logos .plate img{height:var(--lh);max-width:var(--lw)}
+.bgphoto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;filter:grayscale(.65) contrast(1.15) brightness(.62)}
+.bgtint{position:absolute;inset:0;z-index:0;background:
+  linear-gradient(90deg,rgba(8,9,13,.96) 0%,rgba(8,9,13,.86) 38%,rgba(8,9,13,.25) 66%,rgba(8,9,13,.1) 100%),
+  linear-gradient(0deg,rgba(8,9,13,.8) 0%,transparent 35%),
+  linear-gradient(200deg,color-mix(in srgb,var(--a) 38%,transparent) 0%,transparent 55%)}
+.grid{position:absolute;left:-10%;right:-10%;bottom:-40px;height:330px;z-index:0;opacity:.32;transform:perspective(420px) rotateX(62deg);
+  transform-origin:bottom;background:
+    repeating-linear-gradient(90deg,color-mix(in srgb,var(--a) 70%,transparent) 0 2px,transparent 2px 64px),
+    repeating-linear-gradient(0deg,color-mix(in srgb,var(--a) 70%,transparent) 0 2px,transparent 2px 64px);
+  -webkit-mask-image:linear-gradient(0deg,#000 10%,transparent 90%);mask-image:linear-gradient(0deg,#000 10%,transparent 90%)}
+.beam{position:absolute;top:-200px;width:120px;height:1200px;z-index:0;transform:rotate(24deg);opacity:.16;
+  background:linear-gradient(90deg,transparent,var(--a),transparent)}
+.halo{position:absolute;z-index:1;border-radius:50%;transform:translate(-50%,-50%);
+  background:radial-gradient(circle,color-mix(in srgb,var(--a) 70%,transparent) 0%,color-mix(in srgb,var(--a) 22%,transparent) 42%,transparent 70%)}
+.ring{position:absolute;z-index:1;border-radius:50%;transform:translate(-50%,-50%);border:4px solid color-mix(in srgb,var(--a) 85%,#fff);
+  box-shadow:0 0 40px color-mix(in srgb,var(--a) 60%,transparent),inset 0 0 40px color-mix(in srgb,var(--a) 40%,transparent);opacity:.75}
+.who{position:absolute;bottom:0;transform:translateX(-50%);object-fit:contain;object-position:bottom;
   /* a white sticker outline (four hard 0-blur shadows), then the accent glow and the drop shadow */
   filter:drop-shadow(5px 0 0 #fff) drop-shadow(-5px 0 0 #fff) drop-shadow(0 5px 0 #fff) drop-shadow(0 -5px 0 #fff)
-    drop-shadow(-12px 0 24px color-mix(in srgb,var(--a) 30%,transparent)) drop-shadow(0 26px 36px rgba(0,0,0,.6))}
-.cast img:first-child{margin-left:0}
-.logos{position:absolute;right:52px;top:48px;display:flex;gap:14px;z-index:3}
-.logos .plate{padding:10px 16px;border-radius:14px}
-.logos .plate img{height:var(--lh);max-width:var(--lw)}
-.logos.big{top:50%;right:60px;transform:translateY(-50%);display:grid;grid-template-columns:repeat(var(--cols),auto);gap:22px}
-.logos.big .plate{padding:20px 28px;justify-content:center}
-.headline,.stat,.kicker,.brand,.vs{z-index:2}
+    drop-shadow(-12px 0 24px color-mix(in srgb,var(--a) 35%,transparent)) drop-shadow(0 26px 36px rgba(0,0,0,.65))}
+.who.back{filter:brightness(.82) drop-shadow(5px 0 0 #fff) drop-shadow(-5px 0 0 #fff) drop-shadow(0 5px 0 #fff) drop-shadow(0 -5px 0 #fff)
+    drop-shadow(0 20px 30px rgba(0,0,0,.6))}
+.floor{position:absolute;left:0;right:0;bottom:0;height:170px;z-index:3;background:linear-gradient(0deg,rgba(8,9,13,.92),transparent)}
+.chip{position:absolute;z-index:5;display:flex;align-items:center;gap:12px;padding:10px 22px 12px;border-radius:16px;transform:rotate(-5deg);
+  background:#fff;color:#0b0d12;font-family:Display;font-size:62px;line-height:1;letter-spacing:-.04em;
+  box-shadow:0 18px 40px rgba(0,0,0,.55),0 0 0 5px var(--a)}
+.chip svg{width:44px;height:44px}
+.headline,.stat,.kicker,.vs{z-index:2}
+.brand{z-index:6}
 .scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;filter:saturate(.88) contrast(1.06)}
 .scene-grade{position:absolute;inset:0;z-index:0;background:
   linear-gradient(90deg,rgba(8,9,13,.94) 0%,rgba(8,9,13,.82) 34%,rgba(8,9,13,.35) 58%,rgba(8,9,13,0) 76%),
@@ -129,7 +158,13 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--bg)}
 }
 
 /** Biggest size that keeps the longest line inside `width` px (Inter Display Black ≈ 0.62 em per uppercase char). */
-const fit = (text, width, max, k = 0.62) => Math.round(Math.min(max, width / (Math.max(3, text.replace(/\*/g, "").length) * k)));
+const fit = (text, width, max, k = 0.62) => Math.round(Math.min(max, width / (Math.max(3, text.replace(/[*^]/g, "").length) * k)));
+
+// the size estimate is rough: in the page, shrink each hook line until it fits the 560 px column, then the whole block
+// until it fits the frame's height
+const FIT = `<script>(()=>{const ls=[...document.querySelectorAll(".ru .l")];for(const l of ls){let f=parseFloat(l.style.fontSize);
+while(l.offsetWidth>560&&f>36){f-=2;l.style.fontSize=f+"px"}}const ru=document.querySelector(".ru");let k=0;
+while(ru.offsetHeight>620&&k++<30)for(const l of ls)l.style.fontSize=parseFloat(l.style.fontSize)*0.96+"px"})()</script>`;
 
 function variantHtml(v, accent, brand, base) {
   const asset = (p) => {
@@ -164,22 +199,30 @@ function variantHtml(v, accent, brand, base) {
   }
   if (v.template === "roundup") {
     const lines = v.lines || die(`${v.name}: roundup needs "lines"`);
-    const people = (v.people || []).slice(0, 3);
+    const people = (v.people || []).slice(0, 4);
     const logos = (v.logos || []).slice(0, 4);
-    const right = people.length || logos.length;
-    const fs = Math.min(...lines.map((l) => fit(l, right ? 540 : 1060, 150)));
-    const castH = [0, 600, 540, 480][people.length];
-    // n faces overlap by 70 px and stay inside the 640 px cast box, clear of the text column (68 + 540 px)
-    const castW = [0, 640, 355, 260][people.length];
-    // the first person is the story's lead: drawn last (row-reverse puts it rightmost, in front)
-    const cast = people.length ? `<div class="cast" style="--ch:${castH}px;--cw:${castW}px">${people.map((p, i) => `<img src="${asset(p)}" style="z-index:${9 - i}">`).join("")}</div><div class="person-fade" style="width:100%"></div>` : "";
-    const big = !people.length;
-    const lh = big ? (logos.length > 2 ? 56 : 84) : 40;
-    const lw = big ? (logos.length > 2 ? 170 : 260) : 130;
-    const plates = logos.length ? `<div class="logos${big ? " big" : ""}" style="--lh:${lh}px;--lw:${lw}px;--cols:${logos.length > 2 ? 2 : 1}">${logos.map((l) => `<div class="plate"><img src="${asset(l)}"></div>`).join("")}</div>` : "";
-    const date = v.date ? `<div class="date"><i></i>${esc(v.date)}</div>` : "";
-    const kick = v.kicker ? `<div class="kicker"><i></i>${esc(v.kicker)}</div>` : "";
-    return page(accent, `${cast}${plates}${kick}<div class="ru" style="--fs:${fs}px">${lines.map((l) => `<div class="l">${marked(l)}</div>`).join("")}${date}</div>`, brand);
+    if (!people.length) console.warn(`${v.name}: roundup with no people: the daily thumbnail should have 1-4 (skill 5c)`);
+    // a size per line, at most 1.6x the smallest so the hook still reads as one block
+    const sizes = lines.map((l) => fit(l.replace(/\^([^^]+)\^/g, (m, w) => w + w.slice(0, Math.ceil(w.length * 0.2))), 540, 150, 0.6));
+    const fs = Math.min(...sizes);
+    // the cast: [centre x, height, lift] per person, most important first; the first is drawn in front, the rest
+    // behind; a fourth stands raised in the gap between the lead and the left face so its face stays visible
+    const SLOTS = [[], [[985, 690]], [[1040, 670], [800, 560]], [[975, 660], [780, 540], [1170, 540]],
+      [[1010, 640], [735, 500], [1190, 500], [870, 420, 110]]][people.length];
+    const [lx, lh] = SLOTS[0] || [985, 660];
+    const halo = `<div class="halo" style="left:${lx}px;top:${H - lh * 0.72}px;width:${lh * 1.25}px;height:${lh * 1.25}px"></div>` +
+      `<div class="ring" style="left:${lx}px;top:${H - lh * 0.72}px;width:${lh * 0.74}px;height:${lh * 0.74}px"></div>`;
+    // back row first in the markup: the lead (index 0) ends up on top
+    const order = people.map((p, i) => i).reverse();
+    const cast = order.map((i) => `<img class="who${i ? " back" : ""}" src="${asset(people[i])}" style="left:${SLOTS[i][0]}px;bottom:${SLOTS[i][2] || 0}px;height:${SLOTS[i][1]}px;max-width:${Math.round(SLOTS[i][1] * 0.95)}px;z-index:${i ? 2 : 3}">`).join("");
+    const bg = v.bg ? `<img class="bgphoto" src="${asset(v.bg)}"><div class="bgtint"></div>` : `<div class="beam" style="left:760px"></div><div class="beam" style="left:1010px;width:60px"></div><div class="grid"></div>`;
+    const lhPx = logos.length > 3 ? 30 : 38;
+    const plates = logos.length ? `<div class="logos" style="--lh:${lhPx}px;--lw:${logos.length > 3 ? 92 : 120}px">${logos.map((l) => `<div class="plate"><img src="${asset(l)}"></div>`).join("")}</div>` : "";
+    const tag = v.tag ? `<div class="tag"><i></i>${esc(v.tag)}</div>` : "";
+    const arrow = (up) => `<svg viewBox="0 0 40 40"><path d="${up ? "M20 4 36 26H26v10H14V26H4z" : "M20 36 36 14H26V4H14v10H4z"}" fill="${up ? "#18b26b" : accent}"/></svg>`;
+    // the stat chip sits where the text column meets the cast, over the lead's shoulder line
+    const chip = v.stat?.value ? `<div class="chip" style="left:${people.length > 2 ? 600 : 640}px;top:${people.length > 2 ? 520 : people.length ? 455 : 300}px">${v.stat.trend ? arrow(v.stat.trend === "up") : ""}${esc(v.stat.value)}</div>` : "";
+    return page(accent, `${bg}${halo}${cast}<div class="floor"></div>${chip}<div class="ru" style="--fs:${fs}px${v.accent2 ? `;--a2:${v.accent2}` : ""}">${tag}${lines.map((l, i) => `<div class="l" style="font-size:${Math.min(sizes[i], Math.round(fs * 1.6))}px">${marked(l)}</div>`).join("")}<div class="bar"></div>${plates}</div>${FIT}`, brand);
   }
   die(`${v.name}: unknown template "${v.template}" (headline | stat | versus | roundup)`);
 }
@@ -219,7 +262,7 @@ if (flags.demo) {
   const out = join(PROJECTS, project, "output", "thumbnails");
   mkdirSync(out, { recursive: true });
   for (const v of spec.variants || die("spec has no variants")) {
-    render(variantHtml(v, spec.accent || "#00d1ff", spec.brand ?? "", join(PROJECTS, project)), join(out, `${v.name}.png`));
+    render(variantHtml({ accent2: spec.accent2, ...v }, spec.accent || "#00d1ff", spec.brand ?? "", join(PROJECTS, project)), join(out, `${v.name}.png`));
   }
   writeFileSync(join(out, "spec.json"), readFileSync(existsSync(specFile) ? specFile : join(PROJECTS, project, specFile)));
 }

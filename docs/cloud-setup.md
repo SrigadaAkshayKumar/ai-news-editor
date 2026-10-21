@@ -39,8 +39,8 @@ AI-News/
 ```
 
 - **The thumbnail** is the same design every day (`config/brands/ai-news.json` → `thumbnail`) with new words: a
-  dramatic hook from the day's script (no fixed slogan, no date), and on the right the day's biggest companies (logos) and people (cut-out
-  photos with a white outline; at least one well-known face whenever the day's stories allow). Logos and photos come from Wikimedia Commons / Wikidata with free licences only, via
+  dramatic hook from the day's script (no fixed slogan, no date), and the day's biggest companies (logos), with 1–4 people (cut-out
+  photos with a white outline; only people who are part of the day's stories, at least one face whenever a story has one). Logos and photos come from Wikimedia Commons / Wikidata with free licences only, via
   `tools/library.mjs`. Each one is fetched once and then reused. To seed the library yourself with the companies and people
   you expect every week, run locally with the Drive inbox synced:
   `node tools/library.mjs search person "Sam Altman"` → look at `inbox/library/_candidates/sheet.png` →
