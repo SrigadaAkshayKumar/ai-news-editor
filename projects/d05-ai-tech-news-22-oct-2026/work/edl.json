@@ -1,0 +1,58 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes. Script-diff 'extra runs' are only numeral/acronym spelling differences. Dead air trimmed to 0.33s; 0.6s held beats at each story change for the wipe + hit. Cut the garbled advisory-date clause in story 4.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {
+  "w201": "thirteen",
+  "w399": "ARTEX.",
+  "w506": "sideloading",
+  "w534": "Epic's",
+  "w657": "catalogue",
+  "w702": "fifteen"
+ },
+ "holds": [
+  {
+   "after": "w66",
+   "max": 0.6
+  },
+  {
+   "after": "w179",
+   "max": 0.6
+  },
+  {
+   "after": "w272",
+   "max": 0.6
+  },
+  {
+   "after": "w371",
+   "max": 0.6
+  },
+  {
+   "after": "w462",
+   "max": 0.6
+  },
+  {
+   "after": "w553",
+   "max": 0.6
+  },
+  {
+   "after": "w638",
+   "max": 0.6
+  },
+  {
+   "after": "w695",
+   "max": 0.6
+  },
+  {
+   "after": "w756",
+   "max": 0.6
+  }
+ ],
+ "cuts": [],
+ "remove": [
+  {
+   "words": "w435-w444",
+   "reason": "TTS garbled the ConnectWise advisory date (\"October sad preven\"); date unverifiable by ear, clause dropped"
+  }
+ ]
+}

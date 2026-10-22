@@ -1,0 +1,444 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.27,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip PHP · two critical flaws"
+  },
+  {
+   "time": 9.78,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Attacks may have come first"
+  },
+  {
+   "time": 12.16,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Meta · strong Q3 growth"
+  },
+  {
+   "time": 15.25,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip $9.9B legal charge"
+  },
+  {
+   "time": 18.7,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Claude Duet · background AI"
+  },
+  {
+   "time": 24.05,
+   "sfx": "whoosh",
+   "reason": "story change wipe into PHP critical flaws"
+  },
+  {
+   "time": 24.52,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 8"
+  },
+  {
+   "time": 27.94,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip PHP Foundation · 21 Oct"
+  },
+  {
+   "time": 31.24,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Two critical RCE flaws"
+  },
+  {
+   "time": 33.49,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 39.34,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Memory management + error handling"
+  },
+  {
+   "time": 43.17,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 47.1,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Fixed: 8.2, 8.3, 8.4, 8.5"
+  },
+  {
+   "time": 50.5,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip PHP 8.5.12 · 8.4.27 · 8.3.36 · 8.2.35"
+  },
+  {
+   "time": 53.97,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Release moved up a day"
+  },
+  {
+   "time": 60.19,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "timeline"
+  },
+  {
+   "time": 69.32,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Update now"
+  },
+  {
+   "time": 71.65,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Below 8.2: no patches"
+  },
+  {
+   "time": 76.05,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Meta Q3 results"
+  },
+  {
+   "time": 76.52,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 8"
+  },
+  {
+   "time": 79.99,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 85.88,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 89.68,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 93.63,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip 52 state AGs · teen mental health"
+  },
+  {
+   "time": 100.73,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Capex guide: $135-145B"
+  },
+  {
+   "time": 107.71,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Mostly for AI"
+  },
+  {
+   "time": 108.82,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip New non-voting Class C stock"
+  },
+  {
+   "time": 112.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Dividend · January 2027"
+  },
+  {
+   "time": 118.37,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 120.09,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Claude Duet"
+  },
+  {
+   "time": 120.56,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 8"
+  },
+  {
+   "time": 125.07,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 129.3,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Morning brief from your apps"
+  },
+  {
+   "time": 132.08,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Pings only when it matters"
+  },
+  {
+   "time": 136,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Background tasks"
+  },
+  {
+   "time": 139.28,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 147.24,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Waitlist · US Pro and Max first"
+  },
+  {
+   "time": 152.19,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 157.18,
+   "sfx": "whoosh",
+   "reason": "story change wipe into ARTEX hacking campaign"
+  },
+  {
+   "time": 157.65,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 8"
+  },
+  {
+   "time": 160.97,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Digit · 22 Oct · Microsoft claim"
+  },
+  {
+   "time": 165.53,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 170.35,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "flow_diagram"
+  },
+  {
+   "time": 177.34,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Most attempts failed"
+  },
+  {
+   "time": 179.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Software maker ConnectWise involved"
+  },
+  {
+   "time": 183.33,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 191.33,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Apple loses in Australia"
+  },
+  {
+   "time": 191.8,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 8"
+  },
+  {
+   "time": 195.22,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip 9to5Mac · 21 Oct"
+  },
+  {
+   "time": 197.18,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 204.22,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 211.74,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "timeline"
+  },
+  {
+   "time": 221.01,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Apple: stay and appeal"
+  },
+  {
+   "time": 223.6,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Micron strike in Taiwan"
+  },
+  {
+   "time": 224.07,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 8"
+  },
+  {
+   "time": 227.19,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Nikkei Asia · 22 Oct"
+  },
+  {
+   "time": 229.57,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip First strike in Taiwan chips"
+  },
+  {
+   "time": 234.62,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Micron Taoyuan facility"
+  },
+  {
+   "time": 238.16,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 247.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Headcount: not reported"
+  },
+  {
+   "time": 251.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Output impact: unclear"
+  },
+  {
+   "time": 254.63,
+   "sfx": "whoosh",
+   "reason": "story change wipe into OpenAI on Google Cloud"
+  },
+  {
+   "time": 255.1,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 8"
+  },
+  {
+   "time": 258.22,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip CNBC · 21 Oct · reported"
+  },
+  {
+   "time": 262.06,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Model catalogue + Antigravity"
+  },
+  {
+   "time": 265.69,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 270.62,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Pricing and terms: not public"
+  },
+  {
+   "time": 276.34,
+   "sfx": "whoosh",
+   "reason": "story change wipe into DeepSeek raises funds"
+  },
+  {
+   "time": 276.81,
+   "sfx": "impact",
+   "reason": "story change hit: Story 8 of 8"
+  },
+  {
+   "time": 279.93,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Bloomberg · 22 Oct · reported"
+  },
+  {
+   "time": 283.23,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Backers: CATL, Tencent"
+  },
+  {
+   "time": 290.23,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 296.47,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 302.55,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 310.75,
+   "sfx": "reveal",
+   "reason": "viewer question"
+  },
+  {
+   "time": 317.35,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  }
+ ]
+}

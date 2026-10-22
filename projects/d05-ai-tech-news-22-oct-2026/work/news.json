@@ -1,0 +1,66 @@
+{
+  "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/thephp_foundation_todays_php_security_release_and_how_were_strengtheni.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/thephp_foundation_todays_php_security_release_and_how_were_strengtheni_mobile.png"
+  },
+  "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/investor_atmeta_com_default_aspx.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/investor_atmeta_com_default_aspx_mobile.png"
+  },
+  "https://claude.com/resources/articles/claude-duet": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/claude_com_claude_duet.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/claude_com_claude_duet_mobile.png"
+  },
+  "https://www.digit.in/news/general/microsoft-says-chinese-hacking-group-attacked-over-100-organisations-using-agentic-ai-here-is-how.html": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/digit_in_microsoft_says_chinese_hacking_group_attacked_over_100_organi.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/digit_in_microsoft_says_chinese_hacking_group_attacked_over_100_organi_mobile.png"
+  },
+  "https://9to5mac.com/2026/10/21/apple-must-open-iphone-to-alternative-app-stores-in-australia-after-epic-games-ruling/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/9to5mac_com_apple_must_open_iphone_to_alternative_app_stores_in_austra.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/9to5mac_com_apple_must_open_iphone_to_alternative_app_stores_in_austra_mobile.png"
+  },
+  "https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-first-ever-chip-workers-strike-begins-at-micron-plant": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/asia_nikkei_com_taiwan_s_first_ever_chip_workers_strike_begins_at_micr.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/asia_nikkei_com_taiwan_s_first_ever_chip_workers_strike_begins_at_micr_mobile.png"
+  },
+  "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/cnbc_com_openai_bring_its_ai_models_to_googles_cloud_expands_beyond_mi.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/cnbc_com_openai_bring_its_ai_models_to_googles_cloud_expands_beyond_mi_mobile.png"
+  },
+  "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/bloomberg_com_deepseek_raises_15_billion_in_challenge_to_leading_us_la.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/bloomberg_com_deepseek_raises_15_billion_in_challenge_to_leading_us_la_mobile.png"
+  }
+}
