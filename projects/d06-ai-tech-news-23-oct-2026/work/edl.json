@@ -1,0 +1,26 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes. Script-diff 'extra runs' are only numeral/acronym spelling differences. Dead air trimmed to 0.33s; 0.6s held beats at each story change for the wipe + hit. Cut the garbled 'WES and to payk at it' after 'tricks you into' (the next word 'Pasting' completes the sentence) and the doubled 'October' in 'on October 21st of October'.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {
+  "w49": "A.I.",
+  "w191": "Ibiden,",
+  "w195": "Unimicron,",
+  "w208": "Amkor"
+ },
+ "holds": [
+  {"after": "w53", "max": 0.6},
+  {"after": "w165", "max": 0.6},
+  {"after": "w272", "max": 0.6},
+  {"after": "w354", "max": 0.6},
+  {"after": "w442", "max": 0.6},
+  {"after": "w549", "max": 0.6},
+  {"after": "w635", "max": 0.6},
+  {"after": "w700", "max": 0.6}
+ ],
+ "cuts": [],
+ "remove": [
+  {"words": "w508-w513", "reason": "TTS garbled 'pasting' (\"WES and to payk at it\"); the following 'Pasting.' completes the sentence"},
+  {"words": "w565-w565", "reason": "doubled 'October' (\"on October 21st of October\")"}
+ ]
+}

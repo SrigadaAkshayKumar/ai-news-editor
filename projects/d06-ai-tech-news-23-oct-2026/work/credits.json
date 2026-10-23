@@ -1,0 +1,51 @@
+[
+  {
+    "file": "assets/stills/thumb-bg.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/pueblo-colorado-courthouse-city-1680297/",
+    "creator": "12019",
+    "creatorUrl": "https://pixabay.com/users/12019-12019/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/library/meta.svg",
+    "title": "File:Meta Platforms Inc. logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Inc._logo.svg",
+    "license": "Public domain",
+    "author": "Meta Platforms",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/nvidia.svg",
+    "title": "File:Nvidia logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg",
+    "license": "Public domain",
+    "author": "Nvidia",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/tesla.svg",
+    "title": "File:Tesla Motors Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Motors_Logo.svg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/jensen-huang.png",
+    "title": "File:Jen-Hsun Huang 2025.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg",
+    "license": "Public domain",
+    "author": "The White House",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/library/elon-musk.png",
+    "title": "File:Elon Musk (54816836217) (cropped 2) (b).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_(54816836217)_(cropped_2)_(b).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Gage Skidmore",
+    "note": "photo of a public figure; editorial use, background removed"
+  }
+]

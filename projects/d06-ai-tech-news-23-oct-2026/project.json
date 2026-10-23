@@ -1,0 +1,130 @@
+{
+  "name": "d06-ai-tech-news-23-oct-2026",
+  "createdAt": "2026-10-23T08:44:51.898Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d06-ai-tech-news-23-oct-2026/source/raw.wav",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d06/d06-voice.wav",
+    "duration": 349.86,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d06-ai-tech-news-23-oct-2026/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d06/d06_ai_tech_news_23_oct_2026_voiceover.txt",
+    "words": 805,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d06-ai-tech-news-23-oct-2026/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "New Mexico",
+    "Meta",
+    "Nvidia",
+    "And Tesla",
+    "Judge Francis Mathew",
+    "October",
+    "Santa Fe",
+    "Cambridge Analytica",
+    "Next",
+    "Samsung Electro",
+    "United States",
+    "Jensen Huang",
+    "Tesla",
+    "Revenue",
+    "Full Self Driving",
+    "Google Cloud",
+    "Vera Rubin",
+    "Ineffable Intelligence",
+    "David Silver",
+    "AlphaGo",
+    "Google",
+    "Chrome",
+    "Enhanced Protection",
+    "ClickFix",
+    "And Chrome",
+    "Walmart",
+    "Agent Gateway",
+    "Amazon",
+    "TechCrunch",
+    "Red Hat"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "24 Hours in Tech roundup: 16:9, no captions, story counter, NewsCard with real source per story, SFX on story changes, no BGM; English; newsroom look: news screenshots and NewsCards lead, chapter rail, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; wipe whoosh + hit on every story change, soft ticks elsewhere",
+  "brand": "ai-news",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-23T08:49:22.846Z",
+      "words": 751,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-23T08:50:06.101Z",
+      "segments": 97,
+      "kept": 316.1
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-23T09:21:59.114Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d06-ai-tech-news-23-oct-2026/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-23T09:28:11.936Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-23T09:28:11.976Z",
+      "groups": 215
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-23T09:28:15.615Z",
+      "music": 0,
+      "sfx": 78
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-23T09:28:47.709Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d06-ai-tech-news-23-oct-2026/output/final-16x9.mp4",
+      "duration": 316.1
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.9968,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d06-ai-tech-news-23-oct-2026/work/cleancut.wav",
+    "duration": 316.100125,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

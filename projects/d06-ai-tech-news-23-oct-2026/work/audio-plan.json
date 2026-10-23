@@ -1,0 +1,446 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.12,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Meta · $25B penalty"
+  },
+  {
+   "time": 6.02,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip New Mexico privacy case"
+  },
+  {
+   "time": 8.98,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Nvidia · six suppliers"
+  },
+  {
+   "time": 11.88,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip AI chip capacity"
+  },
+  {
+   "time": 14.48,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Tesla · profit falls"
+  },
+  {
+   "time": 17.58,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip AI spending jumps"
+  },
+  {
+   "time": 19.2,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Meta's $25B penalty"
+  },
+  {
+   "time": 19.67,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 7"
+  },
+  {
+   "time": 23.12,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Judge Francis Mathew"
+  },
+  {
+   "time": 27.43,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 34.04,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Consumer protection law"
+  },
+  {
+   "time": 36.74,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Cambridge Analytica case"
+  },
+  {
+   "time": 39.44,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Meta will appeal"
+  },
+  {
+   "time": 40.43,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 47.44,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 52.12,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip State-level data penalties"
+  },
+  {
+   "time": 55.22,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Over user-data handling"
+  },
+  {
+   "time": 59.21,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Nvidia's six suppliers"
+  },
+  {
+   "time": 59.68,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 7"
+  },
+  {
+   "time": 62.93,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Nvidia Newsroom · 21 Oct"
+  },
+  {
+   "time": 65.53,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip GTC Berlin · six partners"
+  },
+  {
+   "time": 68.96,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Ibiden · Samsung EM · Unimicron"
+  },
+  {
+   "time": 75.5,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 78.33,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Amkor · advanced packaging"
+  },
+  {
+   "time": 82.07,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 86.66,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 93.28,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Testing firm KYEC"
+  },
+  {
+   "time": 96.13,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "quote_pull"
+  },
+  {
+   "time": 103.12,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Limit: factories, not demand"
+  },
+  {
+   "time": 109.49,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Tesla's profit drop"
+  },
+  {
+   "time": 109.96,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 7"
+  },
+  {
+   "time": 113.06,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 117.63,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip In line with analysts"
+  },
+  {
+   "time": 120.52,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 126.23,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Net income: $787M"
+  },
+  {
+   "time": 129.5,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 136.3,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Capex $4.73B"
+  },
+  {
+   "time": 144.62,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 150.89,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Will the AI bet pay back?"
+  },
+  {
+   "time": 153.72,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Google Cloud gets Rubin"
+  },
+  {
+   "time": 154.19,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 7"
+  },
+  {
+   "time": 157.54,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip GTC Berlin · 20-22 Oct"
+  },
+  {
+   "time": 161.45,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 166.67,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 175.22,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip A plan, not a fleet"
+  },
+  {
+   "time": 177.59,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 183.56,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip AlphaGo co-creator"
+  },
+  {
+   "time": 185.52,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Next-gen on a major cloud"
+  },
+  {
+   "time": 191.97,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Chrome vs scams"
+  },
+  {
+   "time": 192.44,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 7"
+  },
+  {
+   "time": 195.69,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip SecurityWeek · 21 Oct"
+  },
+  {
+   "time": 197.02,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Suspicious site warning"
+  },
+  {
+   "time": 201.88,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "checklist"
+  },
+  {
+   "time": 211.96,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip ClickFix · copied command"
+  },
+  {
+   "time": 216.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Tricks you into pasting"
+  },
+  {
+   "time": 221.23,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip HTTP prompt · for everyone"
+  },
+  {
+   "time": 228.23,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 233.93,
+   "sfx": "whoosh",
+   "reason": "story change wipe into Walmart opens to agents"
+  },
+  {
+   "time": 234.4,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 7"
+  },
+  {
+   "time": 237.65,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip TechCrunch · 21 Oct"
+  },
+  {
+   "time": 240.25,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Agent Gateway"
+  },
+  {
+   "time": 242.28,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 246.65,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Agent profiles · next month"
+  },
+  {
+   "time": 249.95,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Approval or spend limit"
+  },
+  {
+   "time": 254.9,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 259.84,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "comparison"
+  },
+  {
+   "time": 264.92,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Amazon blocking: per TechCrunch"
+  },
+  {
+   "time": 268.15,
+   "sfx": "whoosh",
+   "reason": "story change wipe into IBM's software growth"
+  },
+  {
+   "time": 268.62,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 7"
+  },
+  {
+   "time": 271.72,
+   "sfx": "sub_drop",
+   "reason": "number_roll"
+  },
+  {
+   "time": 282.71,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Consulting: flat"
+  },
+  {
+   "time": 285.21,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Guide: 4-5% growth"
+  },
+  {
+   "time": 288.61,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Cash-flow outlook raised"
+  },
+  {
+   "time": 290.96,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  },
+  {
+   "time": 298.3,
+   "sfx": "ding",
+   "gain": 0.7,
+   "reason": "flow_diagram"
+  },
+  {
+   "time": 306.02,
+   "sfx": "reveal",
+   "reason": "viewer question"
+  },
+  {
+   "time": 312.91,
+   "sfx": "impact",
+   "gain": 0.9,
+   "reason": "big statement"
+  }
+ ]
+}

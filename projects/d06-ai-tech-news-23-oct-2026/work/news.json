@@ -1,0 +1,58 @@
+{
+  "https://sourcenm.com/2026/10/21/new-mexico-judge-orders-meta-to-pay-state-25b/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/sourcenm_com_new_mexico_judge_orders_meta_to_pay_state_25b.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/sourcenm_com_new_mexico_judge_orders_meta_to_pay_state_25b_mobile.png"
+  },
+  "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/nvidianews_nvidia_com_nvidia_and_supply_chain_partners_expand_capacity.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/nvidianews_nvidia_com_nvidia_and_supply_chain_partners_expand_capacity_mobile.png"
+  },
+  "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/electrek_co_tesla_tsla_q3_2026_financial_results.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/electrek_co_tesla_tsla_q3_2026_financial_results_mobile.png"
+  },
+  "https://blogs.nvidia.com/gtc-berlin-2026-news/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/blogs_nvidia_com_gtc_berlin_2026_news.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/blogs_nvidia_com_gtc_berlin_2026_news_mobile.png"
+  },
+  "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/securityweek_com_google_hardens_chrome_against_clickfix_attacks_insecu.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/securityweek_com_google_hardens_chrome_against_clickfix_attacks_insecu_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_while_amazon_blocks_ai_agents_walmart_rolls_out_the_wel.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_while_amazon_blocks_ai_agents_walmart_rolls_out_the_wel_mobile.png"
+  },
+  "https://www.prnewswire.com/news-releases/ibm-releases-third-quarter-results-302915985.html": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/prnewswire_com_ibm_releases_third_quarter_results_302915985_html.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/prnewswire_com_ibm_releases_third_quarter_results_302915985_html_mobile.png"
+  }
+}

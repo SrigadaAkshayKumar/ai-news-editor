@@ -1,0 +1,1309 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 2.7,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Friday · 23 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.07,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Meta · $25B penalty",
+   "side": "right"
+  },
+  {
+   "start": 5.97,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "New Mexico privacy case",
+   "side": "right"
+  },
+  {
+   "start": 8.93,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Nvidia · six suppliers",
+   "side": "right"
+  },
+  {
+   "start": 11.83,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "AI chip capacity",
+   "side": "right"
+  },
+  {
+   "start": 14.43,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Tesla · profit falls",
+   "side": "right"
+  },
+  {
+   "start": 17.53,
+   "duration": 2,
+   "type": "keyword_chip",
+   "text": "AI spending jumps",
+   "side": "right"
+  },
+  {
+   "start": 19.67,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Meta's $25B penalty",
+   "eyebrow": "Story 1 of 7",
+   "railLabel": "of 7 · Meta's $25B",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 23.07,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Judge Francis Mathew",
+   "side": "right"
+  },
+  {
+   "start": 27.43,
+   "duration": 6.26,
+   "type": "number_roll",
+   "value": 43,
+   "suffix": "M+",
+   "text": "violations found by the jury",
+   "decimals": 0
+  },
+  {
+   "start": 33.99,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Consumer protection law",
+   "side": "right"
+  },
+  {
+   "start": 36.69,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Cambridge Analytica case",
+   "side": "right"
+  },
+  {
+   "start": 39.39,
+   "duration": 1,
+   "type": "keyword_chip",
+   "text": "Meta will appeal",
+   "side": "right"
+  },
+  {
+   "start": 40.43,
+   "duration": 6.81,
+   "type": "big_statement",
+   "text": "One of the largest state verdicts",
+   "eyebrow": "State attorney general"
+  },
+  {
+   "start": 47.44,
+   "duration": 4.23,
+   "type": "big_statement",
+   "text": "The figure is not final",
+   "eyebrow": "Could change on appeal"
+  },
+  {
+   "start": 52.07,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "State-level data penalties",
+   "side": "right"
+  },
+  {
+   "start": 55.17,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Over user-data handling",
+   "side": "right"
+  },
+  {
+   "start": 59.68,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Nvidia's six suppliers",
+   "eyebrow": "Story 2 of 7",
+   "railLabel": "of 7 · Nvidia's six",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 62.88,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Nvidia Newsroom · 21 Oct",
+   "side": "right"
+  },
+  {
+   "start": 65.48,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "GTC Berlin · six partners",
+   "side": "right"
+  },
+  {
+   "start": 68.91,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Ibiden · Samsung EM · Unimicron",
+   "side": "right"
+  },
+  {
+   "start": 75.5,
+   "duration": 2.48,
+   "type": "number_roll",
+   "value": 2.5,
+   "suffix": "x",
+   "decimals": 1,
+   "text": "substrate capacity in 3 years"
+  },
+  {
+   "start": 78.28,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Amkor · advanced packaging",
+   "side": "right"
+  },
+  {
+   "start": 82.07,
+   "duration": 4.39,
+   "type": "number_roll",
+   "value": 300,
+   "prefix": "+",
+   "suffix": "%",
+   "text": "packaging capacity by 2028"
+  },
+  {
+   "start": 86.66,
+   "duration": 6.26,
+   "type": "number_roll",
+   "value": 1.1,
+   "prefix": "$",
+   "suffix": "B",
+   "decimals": 1,
+   "text": "advance to KYEC for US testing"
+  },
+  {
+   "start": 93.23,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Testing firm KYEC",
+   "side": "right"
+  },
+  {
+   "start": 96.13,
+   "duration": 6.53,
+   "type": "quote_pull",
+   "text": "Capacity is the constraint.",
+   "eyebrow": "Jensen Huang · Nvidia CEO"
+  },
+  {
+   "start": 103.07,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Limit: factories, not demand",
+   "side": "right"
+  },
+  {
+   "start": 109.96,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Tesla's profit drop",
+   "eyebrow": "Story 3 of 7",
+   "railLabel": "of 7 · Tesla's profit",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 113.06,
+   "duration": 4.22,
+   "type": "number_roll",
+   "value": 28.05,
+   "prefix": "$",
+   "suffix": "B",
+   "decimals": 2,
+   "text": "Q3 revenue · flat on last year"
+  },
+  {
+   "start": 117.58,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "In line with analysts",
+   "side": "right"
+  },
+  {
+   "start": 120.52,
+   "duration": 5.36,
+   "type": "number_roll",
+   "value": 56,
+   "prefix": "-",
+   "suffix": "%",
+   "text": "operating income · $718M"
+  },
+  {
+   "start": 126.18,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Net income: $787M",
+   "side": "right"
+  },
+  {
+   "start": 129.5,
+   "duration": 6.45,
+   "type": "number_roll",
+   "value": 69,
+   "prefix": "+",
+   "suffix": "%",
+   "text": "R&D spending · $2.76B"
+  },
+  {
+   "start": 136.25,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Capex $4.73B",
+   "side": "right"
+  },
+  {
+   "start": 144.62,
+   "duration": 5.92,
+   "type": "number_roll",
+   "value": 1.74,
+   "suffix": "M",
+   "decimals": 2,
+   "text": "active FSD subscriptions"
+  },
+  {
+   "start": 150.84,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Will the AI bet pay back?",
+   "side": "right"
+  },
+  {
+   "start": 154.19,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Google Cloud gets Rubin",
+   "eyebrow": "Story 4 of 7",
+   "railLabel": "of 7 · Google Cloud",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 157.49,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "GTC Berlin · 20-22 Oct",
+   "side": "right"
+  },
+  {
+   "start": 161.45,
+   "duration": 5.02,
+   "type": "big_statement",
+   "text": "Vera Rubin A5X: available next month",
+   "eyebrow": "Google Cloud"
+  },
+  {
+   "start": 166.67,
+   "duration": 8.2,
+   "type": "number_roll",
+   "value": 960,
+   "suffix": "K",
+   "text": "Rubin GPUs · planned, not delivered"
+  },
+  {
+   "start": 175.17,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "A plan, not a fleet",
+   "side": "right"
+  },
+  {
+   "start": 177.59,
+   "duration": 5.62,
+   "type": "big_statement",
+   "text": "First customer: Ineffable Intelligence",
+   "eyebrow": "London · David Silver"
+  },
+  {
+   "start": 183.51,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "AlphaGo co-creator",
+   "side": "right"
+  },
+  {
+   "start": 185.47,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Next-gen on a major cloud",
+   "side": "right"
+  },
+  {
+   "start": 192.44,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Chrome vs scams",
+   "eyebrow": "Story 5 of 7",
+   "railLabel": "of 7 · Chrome vs",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 195.64,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "SecurityWeek · 21 Oct",
+   "side": "right"
+  },
+  {
+   "start": 196.97,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Suspicious site warning",
+   "side": "right"
+  },
+  {
+   "start": 201.88,
+   "duration": 9.73,
+   "type": "checklist",
+   "text": "What Chrome adds",
+   "items": [
+    {
+     "label": "Suspicious site warning",
+     "state": "yes"
+    },
+    {
+     "label": "Gemini scam analysis",
+     "state": "yes"
+    },
+    {
+     "label": "ClickFix command check",
+     "state": "yes"
+    },
+    {
+     "label": "Prompt before plain HTTP",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 211.91,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "ClickFix · copied command",
+   "side": "right"
+  },
+  {
+   "start": 216.35,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Tricks you into pasting",
+   "side": "right"
+  },
+  {
+   "start": 221.18,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "HTTP prompt · for everyone",
+   "side": "right"
+  },
+  {
+   "start": 228.23,
+   "duration": 6.01,
+   "type": "number_roll",
+   "value": 95,
+   "prefix": "~",
+   "suffix": "%",
+   "text": "of desktop users see no such warning in a week"
+  },
+  {
+   "start": 234.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Walmart opens to agents",
+   "eyebrow": "Story 6 of 7",
+   "railLabel": "of 7 · Walmart opens",
+   "numeral": "06",
+   "section": 0
+  },
+  {
+   "start": 237.6,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "TechCrunch · 21 Oct",
+   "side": "right"
+  },
+  {
+   "start": 240.2,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Agent Gateway",
+   "side": "right"
+  },
+  {
+   "start": 242.28,
+   "duration": 3.91,
+   "type": "big_statement",
+   "text": "Approved agents can search and buy",
+   "eyebrow": "Agent Gateway"
+  },
+  {
+   "start": 246.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Agent profiles · next month",
+   "side": "right"
+  },
+  {
+   "start": 249.9,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Approval or spend limit",
+   "side": "right"
+  },
+  {
+   "start": 254.9,
+   "duration": 4.74,
+   "type": "big_statement",
+   "text": "Agents can't see payment details",
+   "eyebrow": "Walmart says"
+  },
+  {
+   "start": 259.84,
+   "duration": 4.73,
+   "type": "comparison",
+   "side": "right",
+   "text": "Who controls checkout",
+   "left": {
+    "label": "Walmart",
+    "text": "Welcomes agents"
+   },
+   "right": {
+    "label": "Amazon",
+    "text": "Blocks agents (reported)"
+   }
+  },
+  {
+   "start": 264.87,
+   "duration": 3.1,
+   "type": "keyword_chip",
+   "text": "Amazon blocking: per TechCrunch",
+   "side": "right"
+  },
+  {
+   "start": 268.62,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "IBM's software growth",
+   "eyebrow": "Story 7 of 7",
+   "railLabel": "of 7 · IBM's software",
+   "numeral": "07",
+   "section": 1
+  },
+  {
+   "start": 271.72,
+   "duration": 4.5,
+   "type": "number_roll",
+   "value": 17.1,
+   "prefix": "$",
+   "suffix": "B",
+   "decimals": 1,
+   "text": "Q3 revenue · up 5%"
+  },
+  {
+   "start": 276.42,
+   "duration": 5.84,
+   "type": "stat_trio",
+   "text": "Software",
+   "items": [
+    {
+     "label": "Software growth %",
+     "sublabel": "+",
+     "value": 8
+    },
+    {
+     "label": "Red Hat growth %",
+     "sublabel": "+",
+     "value": 11
+    },
+    {
+     "label": "Software revenue $B",
+     "sublabel": "$",
+     "value": 7.8
+    }
+   ]
+  },
+  {
+   "start": 282.66,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Consulting: flat",
+   "side": "right"
+  },
+  {
+   "start": 285.16,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Guide: 4-5% growth",
+   "side": "right"
+  },
+  {
+   "start": 288.56,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "Cash-flow outlook raised",
+   "side": "right"
+  },
+  {
+   "start": 290.96,
+   "duration": 7.14,
+   "type": "big_statement",
+   "text": "Steady growth on software",
+   "eyebrow": "IBM"
+  },
+  {
+   "start": 298.3,
+   "duration": 7.51,
+   "type": "flow_diagram",
+   "text": "Today in three lines",
+   "items": [
+    {
+     "label": "Meta",
+     "sublabel": "$25B state penalty"
+    },
+    {
+     "label": "Nvidia",
+     "sublabel": "chip capacity race"
+    },
+    {
+     "label": "Walmart",
+     "sublabel": "A.I. shopping agents"
+    }
+   ]
+  },
+  {
+   "start": 306.02,
+   "duration": 6.7,
+   "type": "poll_prompt",
+   "text": "Should an A.I. agent spend your money?",
+   "eyebrow": "Tell us in the comments",
+   "items": [
+    {
+     "label": "Yes, within a limit",
+     "value": 50
+    },
+    {
+     "label": "No",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "start": 312.91,
+   "duration": 3.09,
+   "type": "big_statement",
+   "text": "Subscribe for tomorrow's roundup",
+   "eyebrow": "24 Hours in Tech"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "end": 2.77,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 2.77,
+   "end": 8.63,
+   "kind": "news",
+   "url": "https://sourcenm.com/2026/10/21/new-mexico-judge-orders-meta-to-pay-state-25b/",
+   "source": "New Mexico Source",
+   "headline": "New Mexico judge orders Meta to pay state $25B",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.12,
+    "y": 0.125,
+    "w": 0.76,
+    "h": 0.026
+   }
+  },
+  {
+   "start": 8.63,
+   "end": 14.13,
+   "kind": "news",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+   "source": "Nvidia Newsroom",
+   "headline": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.104,
+    "w": 0.56,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 14.13,
+   "end": 19.62,
+   "kind": "news",
+   "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+   "source": "Electrek",
+   "headline": "Tesla (TSLA) releases Q3 2026 financial results: margins rebound, profit still falls",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.22,
+    "w": 0.55,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 19.62,
+   "end": 22.67,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 22.67,
+   "end": 27.33,
+   "kind": "news",
+   "url": "https://sourcenm.com/2026/10/21/new-mexico-judge-orders-meta-to-pay-state-25b/",
+   "source": "New Mexico Source",
+   "headline": "New Mexico judge orders Meta to pay state $25B",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.12,
+    "y": 0.125,
+    "w": 0.76,
+    "h": 0.026
+   }
+  },
+  {
+   "start": 27.33,
+   "end": 33.79,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 33.79,
+   "end": 40.33,
+   "kind": "news",
+   "url": "https://sourcenm.com/2026/10/21/new-mexico-judge-orders-meta-to-pay-state-25b/",
+   "source": "New Mexico Source",
+   "headline": "New Mexico judge orders Meta to pay state $25B",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.18,
+    "y": 0.61,
+    "w": 0.64,
+    "h": 0.025
+   }
+  },
+  {
+   "start": 40.33,
+   "end": 47.34,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 47.34,
+   "end": 51.77,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 51.77,
+   "end": 59.63,
+   "kind": "news",
+   "url": "https://sourcenm.com/2026/10/21/new-mexico-judge-orders-meta-to-pay-state-25b/",
+   "source": "New Mexico Source",
+   "headline": "New Mexico judge orders Meta to pay state $25B",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.18,
+    "y": 0.54,
+    "w": 0.64,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 59.63,
+   "end": 62.68,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 62.68,
+   "end": 68.61,
+   "kind": "news",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+   "source": "Nvidia Newsroom",
+   "headline": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.104,
+    "w": 0.56,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 68.61,
+   "end": 75.4,
+   "kind": "news",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+   "source": "Nvidia Newsroom",
+   "headline": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.425,
+    "w": 0.6,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 75.4,
+   "end": 78.08,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 78.08,
+   "end": 81.97,
+   "kind": "news",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+   "source": "Nvidia Newsroom",
+   "headline": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.425,
+    "w": 0.6,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 81.97,
+   "end": 86.56,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 86.56,
+   "end": 93.03,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 93.03,
+   "end": 96.03,
+   "kind": "news",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+   "source": "Nvidia Newsroom",
+   "headline": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.462,
+    "w": 0.6,
+    "h": 0.012
+   }
+  },
+  {
+   "start": 96.03,
+   "end": 102.77,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 102.77,
+   "end": 109.91,
+   "kind": "news",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+   "source": "Nvidia Newsroom",
+   "headline": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.58,
+    "w": 0.6,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 109.91,
+   "end": 112.96,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 112.96,
+   "end": 117.38,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 117.38,
+   "end": 120.42,
+   "kind": "news",
+   "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+   "source": "Electrek",
+   "headline": "Tesla (TSLA) releases Q3 2026 financial results: margins rebound, profit still falls",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.577,
+    "w": 0.6,
+    "h": 0.035
+   }
+  },
+  {
+   "start": 120.42,
+   "end": 125.98,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 125.98,
+   "end": 129.4,
+   "kind": "news",
+   "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+   "source": "Electrek",
+   "headline": "Tesla (TSLA) releases Q3 2026 financial results: margins rebound, profit still falls",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.22,
+    "w": 0.55,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 129.4,
+   "end": 136.05,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 136.05,
+   "end": 144.52,
+   "kind": "news",
+   "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+   "source": "Electrek",
+   "headline": "Tesla (TSLA) releases Q3 2026 financial results: margins rebound, profit still falls",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.975,
+    "w": 0.6,
+    "h": 0.02
+   }
+  },
+  {
+   "start": 144.52,
+   "end": 150.64,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 150.64,
+   "end": 154.14,
+   "kind": "news",
+   "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+   "source": "Electrek",
+   "headline": "Tesla (TSLA) releases Q3 2026 financial results: margins rebound, profit still falls",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.22,
+    "w": 0.55,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 154.14,
+   "end": 157.19,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 157.19,
+   "end": 161.35,
+   "kind": "news",
+   "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+   "source": "Nvidia Blog",
+   "headline": "NVIDIA GTC Berlin: Live Updates on What's Next in AI",
+   "date": "20-22 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.04,
+    "y": 0.395,
+    "w": 0.4,
+    "h": 0.078
+   }
+  },
+  {
+   "start": 161.35,
+   "end": 166.57,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 166.57,
+   "end": 174.97,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 174.97,
+   "end": 177.49,
+   "kind": "news",
+   "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+   "source": "Nvidia Blog",
+   "headline": "NVIDIA GTC Berlin: Live Updates on What's Next in AI",
+   "date": "20-22 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.04,
+    "y": 0.49,
+    "w": 0.46,
+    "h": 0.065
+   }
+  },
+  {
+   "start": 177.49,
+   "end": 183.31,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 183.31,
+   "end": 185.17,
+   "kind": "news",
+   "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+   "source": "Nvidia Blog",
+   "headline": "NVIDIA GTC Berlin: Live Updates on What's Next in AI",
+   "date": "20-22 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.04,
+    "y": 0.395,
+    "w": 0.4,
+    "h": 0.078
+   }
+  },
+  {
+   "start": 185.17,
+   "end": 192.39,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "Europe",
+    "label": "expansion planned"
+   }
+  },
+  {
+   "start": 192.39,
+   "end": 195.44,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 195.44,
+   "end": 196.77,
+   "kind": "news",
+   "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+   "source": "SecurityWeek",
+   "headline": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.27,
+    "w": 0.76,
+    "h": 0.053
+   }
+  },
+  {
+   "start": 196.77,
+   "end": 201.78,
+   "kind": "news",
+   "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+   "source": "SecurityWeek",
+   "headline": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.797,
+    "w": 0.7,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 201.78,
+   "end": 211.71,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 211.71,
+   "end": 216.05,
+   "kind": "news",
+   "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+   "source": "SecurityWeek",
+   "headline": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.63,
+    "w": 0.7,
+    "h": 0.025
+   }
+  },
+  {
+   "start": 216.05,
+   "end": 220.98,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "ClickFix",
+    "label": "a paste-a-command trick"
+   }
+  },
+  {
+   "start": 220.98,
+   "end": 228.13,
+   "kind": "news",
+   "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+   "source": "SecurityWeek",
+   "headline": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.06,
+    "y": 0.27,
+    "w": 0.76,
+    "h": 0.053
+   }
+  },
+  {
+   "start": 228.13,
+   "end": 234.35,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 234.35,
+   "end": 237.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 237.4,
+   "end": 242.18,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+   "source": "TechCrunch",
+   "headline": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.277,
+    "w": 0.4,
+    "h": 0.058
+   }
+  },
+  {
+   "start": 242.18,
+   "end": 246.3,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 246.3,
+   "end": 254.8,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+   "source": "TechCrunch",
+   "headline": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.9,
+    "w": 0.6,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 254.8,
+   "end": 259.74,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 259.74,
+   "end": 264.67,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 264.67,
+   "end": 268.57,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+   "source": "TechCrunch",
+   "headline": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.48,
+    "w": 0.6,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 268.57,
+   "end": 271.62,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 271.62,
+   "end": 276.32,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 276.32,
+   "end": 282.36,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 282.36,
+   "end": 288.46,
+   "kind": "news",
+   "url": "https://www.prnewswire.com/news-releases/ibm-releases-third-quarter-results-302915985.html",
+   "source": "IBM via PR Newswire",
+   "headline": "IBM Releases Third-Quarter Results",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.18,
+    "y": 0.44,
+    "w": 0.55,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 288.46,
+   "end": 290.86,
+   "kind": "news",
+   "url": "https://www.prnewswire.com/news-releases/ibm-releases-third-quarter-results-302915985.html",
+   "source": "IBM via PR Newswire",
+   "headline": "IBM Releases Third-Quarter Results",
+   "date": "21 Oct 2026",
+   "transition": "cut",
+   "highlight": {
+    "x": 0.18,
+    "y": 0.79,
+    "w": 0.55,
+    "h": 0.018
+   }
+  },
+  {
+   "start": 290.86,
+   "end": 298.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 298.2,
+   "end": 305.91,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 305.91,
+   "end": 312.81,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 312.81,
+   "end": 316.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  }
+ ],
+ "camera_moves": []
+}
