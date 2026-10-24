@@ -1,0 +1,58 @@
+{
+  "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox": {
+    "source": "Linux Foundation",
+    "headline": "Agentic AI Foundation announces four new projects",
+    "date": "22 Oct 2026",
+    "path": "assets/news/linuxfoundation_org_agentic_ai_foundation_announces_four_new_projects_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/linuxfoundation_org_agentic_ai_foundation_announces_four_new_projects__mobile.png"
+  },
+  "https://www.fonearena.com/blog/495602/global-pc-shipments-q3-2026-counterpoint.html": {
+    "source": "FoneArena (Counterpoint Research)",
+    "headline": "Global PC shipments fall 21% YoY in Q3 2026, Q4 decline forecast at 27%",
+    "date": "23 Oct 2026",
+    "path": "assets/news/fonearena_com_global_pc_shipments_q3_2026_counterpoint_html.png",
+    "captured_via": "browser",
+    "path_portrait": "assets/news/fonearena_com_global_pc_shipments_q3_2026_counterpoint_html_mobile.png"
+  },
+  "https://9to5google.com/2026/10/23/google-will-target-ads-based-on-gmail-photos-data-if-personal-intelligence-is-enabled/": {
+    "source": "9to5Google",
+    "headline": "Google will target ads based on Gmail, Photos data if Personal Intelligence is enabled",
+    "date": "23 Oct 2026",
+    "path": "assets/news/9to5google_com_google_will_target_ads_based_on_gmail_photos_data_if_pe.png",
+    "captured_via": "browser",
+    "path_portrait": "assets/news/9to5google_com_google_will_target_ads_based_on_gmail_photos_data_if_pe_mobile.png"
+  },
+  "https://www.dailynorthern.com/36084/swedish-government-offices-block-chatgpt-and-claude/": {
+    "source": "Daily Northern (citing SVT, Swedish Radio)",
+    "headline": "Swedish Government Offices block ChatGPT and Claude",
+    "date": "23 Oct 2026",
+    "path": "assets/news/dailynorthern_com_swedish_government_offices_block_chatgpt_and_claude.png",
+    "captured_via": "browser",
+    "path_portrait": "assets/news/dailynorthern_com_swedish_government_offices_block_chatgpt_and_claude_mobile.png"
+  },
+  "https://finance.yahoo.com/markets/article/apple-is-taking-wall-streets-top-spot-back-from-nvidia--for-the-fifth-time-142810503.html": {
+    "source": "Yahoo Finance",
+    "headline": "Apple is taking Wall Street's top spot back from Nvidia — for the fifth time",
+    "date": "23 Oct 2026",
+    "path": "assets/news/finance_yahoo_com_apple_is_taking_wall_streets_top_spot_back_from_nvid.png",
+    "captured_via": "browser",
+    "path_portrait": "assets/news/finance_yahoo_com_apple_is_taking_wall_streets_top_spot_back_from_nvid_mobile.png"
+  },
+  "https://www.anthropic.com/research/alignment-assessment-ukaisi": {
+    "source": "Anthropic",
+    "headline": "An alignment assessment of the UK AISI cybertesting incident",
+    "date": "23 Oct 2026",
+    "path": "assets/news/anthropic_com_alignment_assessment_ukaisi.png",
+    "captured_via": "browser",
+    "path_portrait": "assets/news/anthropic_com_alignment_assessment_ukaisi_mobile.png"
+  },
+  "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html": {
+    "source": "CNBC",
+    "headline": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+    "date": "22 Oct 2026",
+    "path": "assets/news/cnbc_com_openai_funding_round_uae_investors_html.png",
+    "captured_via": "browser",
+    "path_portrait": "assets/news/cnbc_com_openai_funding_round_uae_investors_html_mobile.png"
+  }
+}

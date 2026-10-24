@@ -1,0 +1,18 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes. Script-diff 'extra runs' are numeral/acronym spelling only. Dead air trimmed to 0.33s; 0.6s held beats at each story change for the wipe + hit. Two spots whisper cannot read (w70-72 'the twenty third', w177-178 'U.K. A.I.') could not be confirmed by ear: no captions, so nothing wrong is shown; listen once.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {},
+ "holds": [
+  {"after": "w56", "max": 0.6},
+  {"after": "w162", "max": 0.6},
+  {"after": "w280", "max": 0.6},
+  {"after": "w360", "max": 0.6},
+  {"after": "w448", "max": 0.6},
+  {"after": "w551", "max": 0.6},
+  {"after": "w636", "max": 0.6},
+  {"after": "w721", "max": 0.6}
+ ],
+ "cuts": [],
+ "remove": []
+}

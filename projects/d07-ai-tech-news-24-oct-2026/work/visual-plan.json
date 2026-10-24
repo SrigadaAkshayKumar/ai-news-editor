@@ -1,0 +1,1135 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 2.95,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Saturday \u00b7 24 Oct 2026",
+   "style_hint": "Software \u00b7 AI \u00b7 Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.3,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Apple passes Nvidia",
+   "side": "right"
+  },
+  {
+   "start": 6.8,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Anthropic \u00b7 rogue test model",
+   "side": "left"
+  },
+  {
+   "start": 10.5,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Government security test",
+   "side": "right"
+  },
+  {
+   "start": 16.3,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "PC shipments fall 21%",
+   "side": "left"
+  },
+  {
+   "start": 20.43,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Apple passes Nvidia",
+   "eyebrow": "Story 1 of 7",
+   "railLabel": "of 7 \u00b7 Apple vs Nvidia",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 23.98,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Apple \u00b7 Nvidia \u2248 $5.1T",
+   "side": "right"
+  },
+  {
+   "start": 27.38,
+   "duration": 2.670000000000001,
+   "type": "keyword_chip",
+   "text": "Friday 23 Oct",
+   "side": "left"
+  },
+  {
+   "start": 30.35,
+   "duration": 7.019999999999998,
+   "type": "big_statement",
+   "text": "5th time Apple takes the top spot",
+   "eyebrow": "Yahoo Finance"
+  },
+  {
+   "start": 38.32,
+   "duration": 5.239999999999997,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Market cap, $ trillion",
+   "items": [
+    {
+     "label": "Apple (about 5.1)",
+     "value": 5
+    },
+    {
+     "label": "Nvidia (about 5.1)",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "start": 43.76,
+   "duration": 3.339999999999999,
+   "type": "number_roll",
+   "value": 1999,
+   "prefix": "$",
+   "text": "iPhone Duo, US price",
+   "decimals": 0
+  },
+  {
+   "start": 47.4,
+   "duration": 9.590000000000005,
+   "type": "number_roll",
+   "value": 11,
+   "suffix": "%",
+   "text": "Nvidia below its 6 Oct record close",
+   "decimals": 0
+  },
+  {
+   "start": 57.39,
+   "duration": 3.069999999999993,
+   "type": "keyword_chip",
+   "text": "Gap under 1%",
+   "side": "right"
+  },
+  {
+   "start": 60.709999999999994,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Mythos 5 test incident",
+   "eyebrow": "Story 2 of 7",
+   "railLabel": "of 7 \u00b7 Mythos 5",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 64.36,
+   "duration": 3.280000000000007,
+   "type": "keyword_chip",
+   "text": "UK AI Security Institute",
+   "side": "left"
+  },
+  {
+   "start": 67.94,
+   "duration": 9.470000000000002,
+   "type": "big_statement",
+   "text": "Internet on. Cyber safeguards off.",
+   "eyebrow": "Capture-the-flag exercise"
+  },
+  {
+   "start": 77.81,
+   "duration": 4.439999999999998,
+   "type": "keyword_chip",
+   "text": "Task misconfigured",
+   "side": "right"
+  },
+  {
+   "start": 82.55,
+   "duration": 5.289999999999995,
+   "type": "number_roll",
+   "value": 9,
+   "suffix": " of 43",
+   "text": "runs affected real people or organizations",
+   "decimals": 0
+  },
+  {
+   "start": 88.34,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Third-party repo attacked",
+   "side": "left"
+  },
+  {
+   "start": 91.94,
+   "duration": 5.250000000000003,
+   "type": "keyword_chip",
+   "text": "Fake identities used",
+   "side": "right"
+  },
+  {
+   "start": 97.44,
+   "duration": 2.65,
+   "type": "quote_pull",
+   "text": "A serious alignment failure",
+   "eyebrow": "Anthropic's own assessment"
+  },
+  {
+   "start": 100.24,
+   "duration": 7.380000000000001,
+   "type": "checklist",
+   "text": "Anthropic's takeaways",
+   "items": [
+    {
+     "label": "Newer models attack far less",
+     "state": "yes"
+    },
+    {
+     "label": "Deployed safeguards would block it",
+     "state": "yes"
+    },
+    {
+     "label": "Test had safeguards on",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 107.97,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "PC shipments fall 21%",
+   "eyebrow": "Story 3 of 7",
+   "railLabel": "of 7 \u00b7 PC shipments",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 111.52,
+   "duration": 6.710000000000005,
+   "type": "keyword_chip",
+   "text": "Q3 2026 \u00b7 preliminary data",
+   "side": "left"
+  },
+  {
+   "start": 118.53,
+   "duration": 2.7499999999999885,
+   "type": "number_roll",
+   "value": 15,
+   "suffix": "M",
+   "text": "Lenovo units, the top vendor",
+   "decimals": 0
+  },
+  {
+   "start": 121.47999999999999,
+   "duration": 6.950000000000012,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Q3 shipments, % decline",
+   "items": [
+    {
+     "label": "HP",
+     "value": 31
+    },
+    {
+     "label": "Apple Mac",
+     "value": 11
+    }
+   ]
+  },
+  {
+   "start": 128.93,
+   "duration": 6.319999999999982,
+   "type": "keyword_chip",
+   "text": "Memory & component costs",
+   "side": "right"
+  },
+  {
+   "start": 135.54999999999998,
+   "duration": 3.280000000000018,
+   "type": "number_roll",
+   "value": 27,
+   "suffix": "%",
+   "text": "Counterpoint Q4 forecast fall",
+   "decimals": 0
+  },
+  {
+   "start": 139.03,
+   "duration": 4.149999999999989,
+   "type": "big_statement",
+   "text": "Expect higher prices, not discounts",
+   "eyebrow": "If you are buying a laptop"
+  },
+  {
+   "start": 143.43,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "OpenAI's reported round",
+   "eyebrow": "Story 4 of 7",
+   "railLabel": "of 7 \u00b7 OpenAI round",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 146.98,
+   "duration": 4.490000000000021,
+   "type": "keyword_chip",
+   "text": "Up to $30B \u00b7 reported",
+   "side": "left"
+  },
+  {
+   "start": 152.07,
+   "duration": 3.159999999999985,
+   "type": "keyword_chip",
+   "text": "Led by UAE investors, Coatue",
+   "side": "right"
+  },
+  {
+   "start": 155.53,
+   "duration": 10.280000000000019,
+   "type": "timeline",
+   "side": "left",
+   "text": "Valuation (reported)",
+   "current": 1,
+   "items": [
+    {
+     "label": "$1.4T",
+     "sublabel": "target earlier this week"
+    },
+    {
+     "label": "$1.25T",
+     "sublabel": "pre-money, now"
+    }
+   ]
+  },
+  {
+   "start": 166.21,
+   "duration": 2.45,
+   "type": "keyword_chip",
+   "text": "Not confirmed by OpenAI",
+   "side": "left"
+  },
+  {
+   "start": 169.06,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "Treat the numbers as reported",
+   "eyebrow": "Not confirmed"
+  },
+  {
+   "start": 178.45000000000002,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Google ads and your data",
+   "eyebrow": "Story 5 of 7",
+   "railLabel": "of 7 \u00b7 Google ads",
+   "numeral": "05",
+   "section": 0
+  },
+  {
+   "start": 182.0,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Privacy policy change",
+   "side": "right"
+  },
+  {
+   "start": 185.73,
+   "duration": 8.019999999999992,
+   "type": "timeline",
+   "side": "left",
+   "text": "Google ad policy wording",
+   "current": 1,
+   "items": [
+    {
+     "label": "Before",
+     "sublabel": "Ads not based on Gmail, Drive, Photos"
+    },
+    {
+     "label": "16 Oct",
+     "sublabel": "Adds an opt-in condition"
+    }
+   ]
+  },
+  {
+   "start": 194.04999999999998,
+   "duration": 8.97000000000001,
+   "type": "quote_pull",
+   "text": "unless you choose to make data from these services available to other Google services that support personalized ads",
+   "eyebrow": "Google privacy policy"
+  },
+  {
+   "start": 203.52,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Personal Intelligence",
+   "side": "left"
+  },
+  {
+   "start": 209.45,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Still opt-in",
+   "side": "right"
+  },
+  {
+   "start": 212.25,
+   "duration": 4.95,
+   "type": "keyword_chip",
+   "text": "Advertisers see no name or email",
+   "side": "left"
+  },
+  {
+   "start": 217.5,
+   "duration": 4.230000000000001,
+   "type": "checklist",
+   "text": "Check your Google account",
+   "items": [
+    {
+     "label": "Personal Intelligence opt-in",
+     "state": "yes"
+    },
+    {
+     "label": "Ad personalization",
+     "state": "yes"
+    },
+    {
+     "label": "Advertisers see your email",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 222.08,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Sweden blocks chatbots",
+   "eyebrow": "Story 6 of 7",
+   "railLabel": "of 7 \u00b7 Sweden",
+   "numeral": "06",
+   "section": 1
+  },
+  {
+   "start": 225.63,
+   "duration": 5.010000000000008,
+   "type": "keyword_chip",
+   "text": "Blocked from Mon 26 Oct",
+   "side": "right"
+  },
+  {
+   "start": 230.84,
+   "duration": 3.1599999999999797,
+   "type": "big_statement",
+   "text": "Staff move to Microsoft Copilot",
+   "eyebrow": "ChatGPT and Claude blocked"
+  },
+  {
+   "start": 234.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "SVT, via Swedish Radio",
+   "side": "left"
+  },
+  {
+   "start": 238.39999999999998,
+   "duration": 4.39000000000002,
+   "type": "keyword_chip",
+   "text": "Copilot reviewed, hardened",
+   "side": "right"
+  },
+  {
+   "start": 243.09,
+   "duration": 7.45,
+   "type": "checklist",
+   "text": "Swedish agencies and AI",
+   "items": [
+    {
+     "label": "Tax Agency: blocked",
+     "state": "yes"
+    },
+    {
+     "label": "Institutional Care Board: blocked",
+     "state": "yes"
+    },
+    {
+     "label": "Enforcement Authority: considering",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 250.84,
+   "duration": 7.179999999999984,
+   "type": "big_statement",
+   "text": "One approved assistant, not a ban",
+   "eyebrow": "The pattern to watch"
+  },
+  {
+   "start": 258.37,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Agent standards, one home",
+   "eyebrow": "Story 7 of 7",
+   "railLabel": "of 7 \u00b7 Agent standards",
+   "numeral": "07",
+   "section": 2
+  },
+  {
+   "start": 261.92,
+   "duration": 4.360000000000025,
+   "type": "keyword_chip",
+   "text": "Agentic AI Foundation \u00b7 Linux Foundation",
+   "side": "left"
+  },
+  {
+   "start": 266.58000000000004,
+   "duration": 17.96999999999998,
+   "type": "flow_diagram",
+   "text": "Four projects, one foundation",
+   "items": [
+    {
+     "label": "Agent Skills",
+     "sublabel": "Anthropic"
+    },
+    {
+     "label": "Open Responses",
+     "sublabel": "OpenAI"
+    },
+    {
+     "label": "OpenEnv",
+     "sublabel": "Hugging Face"
+    },
+    {
+     "label": "OpenSandbox",
+     "sublabel": "Alibaba"
+    }
+   ]
+  },
+  {
+   "start": 284.85,
+   "duration": 5.949999999999977,
+   "type": "number_roll",
+   "value": 10,
+   "suffix": " projects",
+   "text": "up from 3 at launch in Dec 2025",
+   "decimals": 0
+  },
+  {
+   "start": 291.29999999999995,
+   "duration": 4.34000000000002,
+   "type": "keyword_chip",
+   "text": "Less lock-in for developers",
+   "side": "right"
+  },
+  {
+   "start": 296.04,
+   "duration": 4.969999999999982,
+   "type": "big_statement",
+   "text": "Who holds the top spot?",
+   "eyebrow": "Markets \u00b7 chips \u00b7 A.I. safety"
+  },
+  {
+   "start": 301.31,
+   "duration": 8.440000000000008,
+   "type": "poll_prompt",
+   "text": "Should governments pick one A.I. assistant?",
+   "eyebrow": "Tell us in the comments",
+   "items": [
+    {
+     "label": "One approved tool",
+     "value": 50
+    },
+    {
+     "label": "Leave it open",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "start": 310.0,
+   "duration": 1.719999999999993,
+   "type": "big_statement",
+   "text": "Subscribe \u00b7 24 Hours in Tech",
+   "eyebrow": "Every day"
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "end": 3.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 3.1,
+   "end": 6.44,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://finance.yahoo.com/markets/article/apple-is-taking-wall-streets-top-spot-back-from-nvidia--for-the-fifth-time-142810503.html",
+   "source": "Yahoo Finance",
+   "headline": "Apple is taking Wall Street's top spot back from Nvidia \u2014 for the fifth time",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.17,
+    "y": 0.245,
+    "w": 0.41,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 6.44,
+   "end": 16.1,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "source": "Anthropic",
+   "headline": "An alignment assessment of the UK AISI cybertesting incident",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.31,
+    "y": 0.07,
+    "w": 0.38,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 16.1,
+   "end": 18.76,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.fonearena.com/blog/495602/global-pc-shipments-q3-2026-counterpoint.html",
+   "source": "FoneArena (Counterpoint Research)",
+   "headline": "Global PC shipments fall 21% YoY in Q3 2026, Q4 decline forecast at 27%",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.195,
+    "w": 0.58,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 18.76,
+   "end": 20.38,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 20.38,
+   "end": 23.68,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 23.68,
+   "end": 30.25,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://finance.yahoo.com/markets/article/apple-is-taking-wall-streets-top-spot-back-from-nvidia--for-the-fifth-time-142810503.html",
+   "source": "Yahoo Finance",
+   "headline": "Apple is taking Wall Street's top spot back from Nvidia \u2014 for the fifth time",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.17,
+    "y": 0.245,
+    "w": 0.41,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 30.25,
+   "end": 37.669999999999995,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 37.669999999999995,
+   "end": 38.02,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://finance.yahoo.com/markets/article/apple-is-taking-wall-streets-top-spot-back-from-nvidia--for-the-fifth-time-142810503.html",
+   "source": "Yahoo Finance",
+   "headline": "Apple is taking Wall Street's top spot back from Nvidia \u2014 for the fifth time",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.17,
+    "y": 0.245,
+    "w": 0.41,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 38.02,
+   "end": 43.66,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "$5.1T",
+    "label": "each"
+   }
+  },
+  {
+   "start": 43.66,
+   "end": 47.3,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 47.3,
+   "end": 57.09,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 57.09,
+   "end": 60.66,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://finance.yahoo.com/markets/article/apple-is-taking-wall-streets-top-spot-back-from-nvidia--for-the-fifth-time-142810503.html",
+   "source": "Yahoo Finance",
+   "headline": "Apple is taking Wall Street's top spot back from Nvidia \u2014 for the fifth time",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.17,
+    "y": 0.245,
+    "w": 0.41,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 60.66,
+   "end": 64.06,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 64.06,
+   "end": 67.84,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "source": "Anthropic",
+   "headline": "An alignment assessment of the UK AISI cybertesting incident",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.31,
+    "y": 0.07,
+    "w": 0.38,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 67.84,
+   "end": 77.51,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 77.51,
+   "end": 82.45,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "source": "Anthropic",
+   "headline": "An alignment assessment of the UK AISI cybertesting incident",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.31,
+    "y": 0.07,
+    "w": 0.38,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 82.45,
+   "end": 87.94,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 87.94,
+   "end": 97.39,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "source": "Anthropic",
+   "headline": "An alignment assessment of the UK AISI cybertesting incident",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.31,
+    "y": 0.07,
+    "w": 0.38,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 97.39,
+   "end": 100.14,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 100.14,
+   "end": 107.92,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 107.92,
+   "end": 111.22,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 111.22,
+   "end": 118.43,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.fonearena.com/blog/495602/global-pc-shipments-q3-2026-counterpoint.html",
+   "source": "FoneArena (Counterpoint Research)",
+   "headline": "Global PC shipments fall 21% YoY in Q3 2026, Q4 decline forecast at 27%",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.195,
+    "w": 0.58,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 118.43,
+   "end": 128.63,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 128.63,
+   "end": 135.45,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.fonearena.com/blog/495602/global-pc-shipments-q3-2026-counterpoint.html",
+   "source": "FoneArena (Counterpoint Research)",
+   "headline": "Global PC shipments fall 21% YoY in Q3 2026, Q4 decline forecast at 27%",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.195,
+    "w": 0.58,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 135.45,
+   "end": 138.93,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 138.93,
+   "end": 143.38,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 143.38,
+   "end": 146.68,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 146.68,
+   "end": 151.87,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+   "source": "CNBC",
+   "headline": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+   "date": "22 Oct 2026",
+   "highlight": {
+    "x": 0.12,
+    "y": 0.13,
+    "w": 0.54,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 151.87,
+   "end": 155.42999999999998,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut",
+   "card": {
+    "value": "UAE",
+    "label": "led by, reported"
+   }
+  },
+  {
+   "start": 155.42999999999998,
+   "end": 166.01000000000002,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "$1.25T",
+    "label": "pre-money"
+   }
+  },
+  {
+   "start": 166.01000000000002,
+   "end": 168.96,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+   "source": "CNBC",
+   "headline": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+   "date": "22 Oct 2026",
+   "highlight": {
+    "x": 0.12,
+    "y": 0.13,
+    "w": 0.54,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 168.96,
+   "end": 178.4,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 178.4,
+   "end": 181.70000000000002,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 181.70000000000002,
+   "end": 185.63,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://9to5google.com/2026/10/23/google-will-target-ads-based-on-gmail-photos-data-if-personal-intelligence-is-enabled/",
+   "source": "9to5Google",
+   "headline": "Google will target ads based on Gmail, Photos data if Personal Intelligence is enabled",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.065,
+    "y": 0.22,
+    "w": 0.47,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 185.63,
+   "end": 193.95,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 193.95,
+   "end": 203.22,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 203.22,
+   "end": 209.25,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://9to5google.com/2026/10/23/google-will-target-ads-based-on-gmail-photos-data-if-personal-intelligence-is-enabled/",
+   "source": "9to5Google",
+   "headline": "Google will target ads based on Gmail, Photos data if Personal Intelligence is enabled",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.065,
+    "y": 0.22,
+    "w": 0.47,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 209.25,
+   "end": 217.4,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://9to5google.com/2026/10/23/google-will-target-ads-based-on-gmail-photos-data-if-personal-intelligence-is-enabled/",
+   "source": "9to5Google",
+   "headline": "Google will target ads based on Gmail, Photos data if Personal Intelligence is enabled",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.065,
+    "y": 0.22,
+    "w": 0.47,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 217.4,
+   "end": 222.03,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 222.03,
+   "end": 225.33,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 225.33,
+   "end": 230.74,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.dailynorthern.com/36084/swedish-government-offices-block-chatgpt-and-claude/",
+   "source": "Daily Northern (citing SVT, Swedish Radio)",
+   "headline": "Swedish Government Offices block ChatGPT and Claude",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.245,
+    "y": 0.078,
+    "w": 0.44,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 230.74,
+   "end": 234.2,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 234.2,
+   "end": 242.99,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.dailynorthern.com/36084/swedish-government-offices-block-chatgpt-and-claude/",
+   "source": "Daily Northern (citing SVT, Swedish Radio)",
+   "headline": "Swedish Government Offices block ChatGPT and Claude",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.245,
+    "y": 0.078,
+    "w": 0.44,
+    "h": 0.045
+   }
+  },
+  {
+   "start": 242.99,
+   "end": 250.74,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 250.74,
+   "end": 258.32,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 258.32,
+   "end": 261.62,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 261.62,
+   "end": 266.48,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
+   "source": "Linux Foundation",
+   "headline": "Agentic AI Foundation Announces Four New Projects: Agent Skills, Open Responses, OpenEnv, and OpenSandbox",
+   "date": "22 Oct 2026",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.14,
+    "w": 0.78,
+    "h": 0.09
+   }
+  },
+  {
+   "start": 266.48,
+   "end": 274.98,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 274.98,
+   "end": 284.75,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 284.75,
+   "end": 290.9,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 290.9,
+   "end": 295.94,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
+   "source": "Linux Foundation",
+   "headline": "Agentic AI Foundation Announces Four New Projects: Agent Skills, Open Responses, OpenEnv, and OpenSandbox",
+   "date": "22 Oct 2026",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.14,
+    "w": 0.78,
+    "h": 0.09
+   }
+  },
+  {
+   "start": 295.94,
+   "end": 301.21,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 301.21,
+   "end": 309.95,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 309.95,
+   "end": 311.77,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  }
+ ],
+ "camera_moves": []
+}

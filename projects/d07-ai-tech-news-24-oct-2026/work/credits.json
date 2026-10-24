@@ -1,0 +1,34 @@
+[
+  {
+    "file": "assets/library/apple.svg",
+    "title": "File:Apple logo black.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+    "license": "Public domain",
+    "author": "Original: Rob Janoff",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/nvidia.svg",
+    "title": "File:Nvidia logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg",
+    "license": "Public domain",
+    "author": "Nvidia",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/anthropic.svg",
+    "title": "File:Anthropic logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthropic_logo.svg",
+    "license": "Public domain",
+    "author": "Anthropic",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/john-ternus.png",
+    "title": "File:John Ternus at the Apple 50th Anniversary Kickoff (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Ternus_at_the_Apple_50th_Anniversary_Kickoff_(cropped).jpg",
+    "license": "CC BY 4.0",
+    "author": "Tessa Bury",
+    "note": "photo of a public figure; editorial use, background removed"
+  }
+]

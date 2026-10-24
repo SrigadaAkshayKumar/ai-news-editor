@@ -1,0 +1,230 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.33,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Apple passes Nvidia"
+  },
+  {
+   "time": 6.83,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Anthropic \u00b7 rogue test model"
+  },
+  {
+   "time": 10.53,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Government security test"
+  },
+  {
+   "time": 16.33,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip PC shipments fall 21%"
+  },
+  {
+   "time": 19.93,
+   "sfx": "whoosh",
+   "reason": "story change wipe into story 1"
+  },
+  {
+   "time": 20.43,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 7"
+  },
+  {
+   "time": 24.01,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Apple \u00b7 Nvidia \u2248 $5.1T"
+  },
+  {
+   "time": 27.41,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Friday 23 Oct"
+  },
+  {
+   "time": 57.42,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Gap under 1%"
+  },
+  {
+   "time": 60.21,
+   "sfx": "whoosh",
+   "reason": "story change wipe into story 2"
+  },
+  {
+   "time": 60.71,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 7"
+  },
+  {
+   "time": 64.39,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip UK AI Security Institute"
+  },
+  {
+   "time": 77.84,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Task misconfigured"
+  },
+  {
+   "time": 88.37,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Third-party repo attacked"
+  },
+  {
+   "time": 91.97,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Fake identities used"
+  },
+  {
+   "time": 107.47,
+   "sfx": "whoosh",
+   "reason": "story change wipe into story 3"
+  },
+  {
+   "time": 107.97,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 7"
+  },
+  {
+   "time": 111.55,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Q3 2026 \u00b7 preliminary data"
+  },
+  {
+   "time": 128.96,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Memory & component costs"
+  },
+  {
+   "time": 142.93,
+   "sfx": "whoosh",
+   "reason": "story change wipe into story 4"
+  },
+  {
+   "time": 143.43,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 7"
+  },
+  {
+   "time": 147.01,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Up to $30B \u00b7 reported"
+  },
+  {
+   "time": 152.1,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Led by UAE investors, Coatue"
+  },
+  {
+   "time": 166.24,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Not confirmed by OpenAI"
+  },
+  {
+   "time": 177.95,
+   "sfx": "whoosh",
+   "reason": "story change wipe into story 5"
+  },
+  {
+   "time": 178.45,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 7"
+  },
+  {
+   "time": 182.03,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Privacy policy change"
+  },
+  {
+   "time": 203.55,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Personal Intelligence"
+  },
+  {
+   "time": 209.48,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Still opt-in"
+  },
+  {
+   "time": 212.28,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Advertisers see no name or email"
+  },
+  {
+   "time": 221.58,
+   "sfx": "whoosh",
+   "reason": "story change wipe into story 6"
+  },
+  {
+   "time": 222.08,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 7"
+  },
+  {
+   "time": 225.66,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Blocked from Mon 26 Oct"
+  },
+  {
+   "time": 234.63,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip SVT, via Swedish Radio"
+  },
+  {
+   "time": 238.43,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Copilot reviewed, hardened"
+  },
+  {
+   "time": 257.87,
+   "sfx": "whoosh",
+   "reason": "story change wipe into story 7"
+  },
+  {
+   "time": 258.37,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 7"
+  },
+  {
+   "time": 261.95,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Agentic AI Foundation \u00b7 Linux Foundation"
+  },
+  {
+   "time": 291.33,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Less lock-in for developers"
+  }
+ ]
+}
