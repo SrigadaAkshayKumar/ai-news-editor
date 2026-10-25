@@ -1,0 +1,276 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.33,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Starlink back in Ukraine"
+  },
+  {
+   "time": 7.23,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Moonshot \u00b7 Kimi K3.1 Pro"
+  },
+  {
+   "time": 11.03,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Hacking skills trimmed"
+  },
+  {
+   "time": 15.73,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Block \u00b7 Dessa voice model"
+  },
+  {
+   "time": 20.9,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 1 of 5"
+  },
+  {
+   "time": 21.3,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 5"
+  },
+  {
+   "time": 24.93,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Starshield restored"
+  },
+  {
+   "time": 28.03,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip After a week of limits"
+  },
+  {
+   "time": 35.33,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Some drones lost"
+  },
+  {
+   "time": 39.23,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip No explanation yet"
+  },
+  {
+   "time": 43.03,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Still testing"
+  },
+  {
+   "time": 51.43,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Musk cites terms of service"
+  },
+  {
+   "time": 57.23,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip No statement from SpaceX"
+  },
+  {
+   "time": 69.55,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 2 of 5"
+  },
+  {
+   "time": 69.95,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 5"
+  },
+  {
+   "time": 73.83,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Released Friday \u00b7 open weight"
+  },
+  {
+   "time": 78.93,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "soft tick: number Terminal-Bench 4.0 \u00b7 Moonshot's figure"
+  },
+  {
+   "time": 93.93,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Company's own numbers"
+  },
+  {
+   "time": 96.33,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Hacking material removed"
+  },
+  {
+   "time": 102.13,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "soft tick: number Exploit test, without the cuts (Moonshot)"
+  },
+  {
+   "time": 108.83,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "soft tick: number Released model"
+  },
+  {
+   "time": 111.23,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Weights due 4 Nov"
+  },
+  {
+   "time": 121.03,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Allegation, not confirmed"
+  },
+  {
+   "time": 124.53,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Moonshot has not responded"
+  },
+  {
+   "time": 127.9,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 3 of 5"
+  },
+  {
+   "time": 128.3,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 5"
+  },
+  {
+   "time": 131.83,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Voice model \u00b7 research lab"
+  },
+  {
+   "time": 140.73,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Laughs, pauses, cries"
+  },
+  {
+   "time": 143.73,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip One Nvidia GPU rack"
+  },
+  {
+   "time": 157.33,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip No public access yet"
+  },
+  {
+   "time": 162.63,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip No release date"
+  },
+  {
+   "time": 171.65,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 4 of 5"
+  },
+  {
+   "time": 172.05,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 5"
+  },
+  {
+   "time": 175.73,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Launched 23 Oct"
+  },
+  {
+   "time": 191.03,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Countries not stated"
+  },
+  {
+   "time": 194.03,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Earlier tests: US only"
+  },
+  {
+   "time": 204.33,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Watch together"
+  },
+  {
+   "time": 207.93,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip One more place for creators"
+  },
+  {
+   "time": 211.4,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 5 of 5"
+  },
+  {
+   "time": 211.8,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 5"
+  },
+  {
+   "time": 218.23,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "soft tick: number fresh shares"
+  },
+  {
+   "time": 221.83,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip \u20b91,065 to \u20b91,119 per share"
+  },
+  {
+   "time": 226.13,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "soft tick: number raised at the top of the range"
+  },
+  {
+   "time": 231.13,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "soft tick: number Overall subscription (broker figure)"
+  },
+  {
+   "time": 237.53,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "soft tick: number Institutional bids"
+  },
+  {
+   "time": 241.83,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "soft tick: number Retail investors"
+  }
+ ]
+}

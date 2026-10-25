@@ -1,0 +1,42 @@
+{
+  "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_starlink_seems_to_be_working_normally_again_in_ukraine.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_starlink_seems_to_be_working_normally_again_in_ukraine_mobile.png"
+  },
+  "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/thenextweb_com_moonshot_kimi_k3_1_pro_open_weight_cyber.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/thenextweb_com_moonshot_kimi_k3_1_pro_open_weight_cyber_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_blocks_new_voice_model_sounds_eerily_human.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_blocks_new_voice_model_sounds_eerily_human_mobile.png"
+  },
+  "https://www.macrumors.com/2026/10/25/instagram-launches-apple-tv-app/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/macrumors_com_instagram_launches_apple_tv_app.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/macrumors_com_instagram_launches_apple_tv_app_mobile.png"
+  },
+  "https://hdfcsky.com/news/jio-ipo-subscribed-22-19x-on-final-day": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/hdfcsky_com_jio_ipo_subscribed_22_19x_on_final_day.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/hdfcsky_com_jio_ipo_subscribed_22_19x_on_final_day_mobile.png"
+  }
+}

@@ -1,0 +1,956 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 3.1,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 3.1,
+   "end": 6.9,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+   "source": "TechCrunch",
+   "headline": "Starlink seems to be working normally again in Ukraine",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.45,
+    "w": 0.33,
+    "h": 0.02
+   }
+  },
+  {
+   "start": 6.9,
+   "end": 15.4,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+   "source": "The Next Web",
+   "headline": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.12,
+    "y": 0.083,
+    "w": 0.76,
+    "h": 0.056
+   }
+  },
+  {
+   "start": 15.4,
+   "end": 20.9,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "source": "TechCrunch",
+   "headline": "Block's new voice model sounds eerily human",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.286,
+    "w": 0.33,
+    "h": 0.043
+   }
+  },
+  {
+   "start": 20.9,
+   "end": 24.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 24.6,
+   "end": 30.0,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+   "source": "TechCrunch",
+   "headline": "Starlink seems to be working normally again in Ukraine",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.45,
+    "w": 0.33,
+    "h": 0.02
+   }
+  },
+  {
+   "start": 30.0,
+   "end": 38.9,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 38.9,
+   "end": 45.4,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+   "source": "TechCrunch",
+   "headline": "Starlink seems to be working normally again in Ukraine",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.45,
+    "w": 0.33,
+    "h": 0.02
+   }
+  },
+  {
+   "start": 45.4,
+   "end": 57.0,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 57.0,
+   "end": 61.0,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+   "source": "TechCrunch",
+   "headline": "Starlink seems to be working normally again in Ukraine",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.45,
+    "w": 0.33,
+    "h": 0.02
+   }
+  },
+  {
+   "start": 61.0,
+   "end": 69.55,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 69.55,
+   "end": 73.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 73.4,
+   "end": 78.8,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+   "source": "The Next Web",
+   "headline": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.12,
+    "y": 0.083,
+    "w": 0.76,
+    "h": 0.056
+   }
+  },
+  {
+   "start": 78.8,
+   "end": 86.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "65.7%",
+    "label": "Terminal-Bench 4.0"
+   }
+  },
+  {
+   "start": 86.2,
+   "end": 95.7,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 95.7,
+   "end": 102.0,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+   "source": "The Next Web",
+   "headline": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.12,
+    "y": 0.083,
+    "w": 0.76,
+    "h": 0.056
+   }
+  },
+  {
+   "start": 102.0,
+   "end": 111.0,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "90.5%",
+    "label": "without the cuts"
+   }
+  },
+  {
+   "start": 111.0,
+   "end": 115.6,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+   "source": "The Next Web",
+   "headline": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
+   "date": "23 Oct 2026",
+   "highlight": {
+    "x": 0.12,
+    "y": 0.083,
+    "w": 0.76,
+    "h": 0.056
+   }
+  },
+  {
+   "start": 115.6,
+   "end": 121.0,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 121.0,
+   "end": 127.9,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 127.9,
+   "end": 131.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 131.6,
+   "end": 135.9,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "source": "TechCrunch",
+   "headline": "Block's new voice model sounds eerily human",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.286,
+    "w": 0.33,
+    "h": 0.043
+   }
+  },
+  {
+   "start": 135.9,
+   "end": 143.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 143.5,
+   "end": 147.2,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "source": "TechCrunch",
+   "headline": "Block's new voice model sounds eerily human",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.286,
+    "w": 0.33,
+    "h": 0.043
+   }
+  },
+  {
+   "start": 147.2,
+   "end": 157.0,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 157.0,
+   "end": 166.5,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "source": "TechCrunch",
+   "headline": "Block's new voice model sounds eerily human",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.286,
+    "w": 0.33,
+    "h": 0.043
+   }
+  },
+  {
+   "start": 166.5,
+   "end": 171.65,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 171.65,
+   "end": 175.5,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 175.5,
+   "end": 178.6,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.macrumors.com/2026/10/25/instagram-launches-apple-tv-app/",
+   "source": "MacRumors",
+   "headline": "Instagram Launches Apple TV App With Reels and More",
+   "date": "25 Oct 2026",
+   "highlight": {
+    "x": 0.124,
+    "y": 0.131,
+    "w": 0.506,
+    "h": 0.019
+   }
+  },
+  {
+   "start": 178.6,
+   "end": 190.6,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 190.6,
+   "end": 199.6,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.macrumors.com/2026/10/25/instagram-launches-apple-tv-app/",
+   "source": "MacRumors",
+   "headline": "Instagram Launches Apple TV App With Reels and More",
+   "date": "25 Oct 2026",
+   "highlight": {
+    "x": 0.124,
+    "y": 0.131,
+    "w": 0.506,
+    "h": 0.019
+   }
+  },
+  {
+   "start": 199.6,
+   "end": 211.4,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 211.4,
+   "end": 215.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 215.2,
+   "end": 226.0,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 226.0,
+   "end": 231.0,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut",
+   "card": {
+    "value": "₹30,000 cr",
+    "label": "at the top of the range"
+   }
+  },
+  {
+   "start": 231.0,
+   "end": 238.2,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 238.2,
+   "end": 245.2,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 245.2,
+   "end": 255.0,
+   "kind": "graphic",
+   "grade": "warm",
+   "transition": "cut"
+  },
+  {
+   "start": 255.0,
+   "end": 262.3,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  },
+  {
+   "start": 262.3,
+   "end": 268.4,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 268.4,
+   "end": 276.7,
+   "kind": "graphic",
+   "grade": "cool",
+   "transition": "cut"
+  },
+  {
+   "start": 276.7,
+   "end": 279.83,
+   "kind": "graphic",
+   "grade": "noir",
+   "transition": "cut"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3.0,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Sunday · 25 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Starlink back in Ukraine",
+   "side": "right"
+  },
+  {
+   "start": 7.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Moonshot · Kimi K3.1 Pro",
+   "side": "left"
+  },
+  {
+   "start": 11.0,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Hacking skills trimmed",
+   "side": "right"
+  },
+  {
+   "start": 15.7,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Block · Dessa voice model",
+   "side": "left"
+  },
+  {
+   "start": 20.95,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Starlink back in Ukraine",
+   "eyebrow": "Story 1 of 5",
+   "railLabel": "of 5 · Starlink",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 24.9,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Starshield restored",
+   "side": "right"
+  },
+  {
+   "start": 28.0,
+   "duration": 1.9,
+   "type": "keyword_chip",
+   "text": "After a week of limits",
+   "side": "left"
+  },
+  {
+   "start": 30.15,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "Drone links cut",
+   "eyebrow": "Reported by TechCrunch"
+  },
+  {
+   "start": 35.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Some drones lost",
+   "side": "right"
+  },
+  {
+   "start": 39.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "No explanation yet",
+   "side": "left"
+  },
+  {
+   "start": 43.0,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Still testing",
+   "side": "right"
+  },
+  {
+   "start": 45.5,
+   "duration": 5.7,
+   "type": "timeline",
+   "side": "left",
+   "text": "Starshield timeline",
+   "current": 2,
+   "items": [
+    {
+     "label": "10 days",
+     "sublabel": "Restrictions"
+    },
+    {
+     "label": "Wednesday",
+     "sublabel": "Trump asks Musk (WSJ)"
+    },
+    {
+     "label": "Now",
+     "sublabel": "Working normally"
+    }
+   ]
+  },
+  {
+   "start": 51.4,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Musk cites terms of service",
+   "side": "right"
+  },
+  {
+   "start": 57.2,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "No statement from SpaceX",
+   "side": "right"
+  },
+  {
+   "start": 61.2,
+   "duration": 8.0,
+   "type": "big_statement",
+   "text": "One company's network, one setting",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 69.6,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Kimi K3.1 Pro",
+   "eyebrow": "Story 2 of 5",
+   "railLabel": "of 5 · Kimi K3.1 Pro",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 73.8,
+   "duration": 4.4,
+   "type": "keyword_chip",
+   "text": "Released Friday · open weight",
+   "side": "right"
+  },
+  {
+   "start": 78.9,
+   "duration": 7.0,
+   "type": "number_roll",
+   "value": 65.7,
+   "suffix": "%",
+   "text": "Terminal-Bench 4.0 · Moonshot's figure",
+   "decimals": 1
+  },
+  {
+   "start": 86.3,
+   "duration": 7.4,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Terminal-Bench 4.0, % (Moonshot's figures)",
+   "items": [
+    {
+     "label": "Kimi K3.1 Pro (65.7)",
+     "value": 66
+    },
+    {
+     "label": "GPT-6 Astra (58.2)",
+     "value": 58
+    },
+    {
+     "label": "Claude Opus 5.5 (66.4)",
+     "value": 66
+    }
+   ]
+  },
+  {
+   "start": 93.9,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Company's own numbers",
+   "side": "left"
+  },
+  {
+   "start": 96.3,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Hacking material removed",
+   "side": "right"
+  },
+  {
+   "start": 102.1,
+   "duration": 6.6,
+   "type": "number_roll",
+   "value": 90.5,
+   "suffix": "%",
+   "text": "Exploit test, without the cuts (Moonshot)",
+   "decimals": 1
+  },
+  {
+   "start": 108.8,
+   "duration": 2.1,
+   "type": "number_roll",
+   "value": 81,
+   "suffix": "%",
+   "text": "Released model",
+   "decimals": 0
+  },
+  {
+   "start": 111.2,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Weights due 4 Nov",
+   "side": "left"
+  },
+  {
+   "start": 115.7,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "Unverified: creators told to skip paid labels",
+   "eyebrow": "Reported by VentureBeat"
+  },
+  {
+   "start": 121.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Allegation, not confirmed",
+   "side": "left"
+  },
+  {
+   "start": 124.5,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Moonshot has not responded",
+   "side": "right"
+  },
+  {
+   "start": 127.95,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Block's Dessa voice model",
+   "eyebrow": "Story 3 of 5",
+   "railLabel": "of 5 · Dessa",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 131.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Voice model · research lab",
+   "side": "right"
+  },
+  {
+   "start": 136.0,
+   "duration": 4.4,
+   "type": "big_statement",
+   "text": "Full duplex: talks and listens at once",
+   "eyebrow": "Block's Dessa"
+  },
+  {
+   "start": 140.7,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Laughs, pauses, cries",
+   "side": "right"
+  },
+  {
+   "start": 143.7,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "One Nvidia GPU rack",
+   "side": "left"
+  },
+  {
+   "start": 147.3,
+   "duration": 9.3,
+   "type": "big_statement",
+   "text": "Runs locally on a laptop",
+   "eyebrow": "Block's claim · M4 Max or better"
+  },
+  {
+   "start": 157.3,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "No public access yet",
+   "side": "right"
+  },
+  {
+   "start": 162.6,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "No release date",
+   "side": "left"
+  },
+  {
+   "start": 166.7,
+   "duration": 4.8,
+   "type": "quote_pull",
+   "text": "Voice is the most natural way to interact with intelligence",
+   "eyebrow": "Jack Dorsey, on X"
+  },
+  {
+   "start": 171.7,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Instagram on Apple TV",
+   "eyebrow": "Story 4 of 5",
+   "railLabel": "of 5 · Apple TV",
+   "numeral": "04",
+   "section": 0
+  },
+  {
+   "start": 175.7,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Launched 23 Oct",
+   "side": "right"
+  },
+  {
+   "start": 178.7,
+   "duration": 11.8,
+   "type": "checklist",
+   "text": "What the app offers",
+   "items": [
+    {
+     "label": "Reels",
+     "state": "yes"
+    },
+    {
+     "label": "Longer videos",
+     "state": "yes"
+    },
+    {
+     "label": "Live shows",
+     "state": "yes"
+    },
+    {
+     "label": "Resume on another device",
+     "state": "yes"
+    },
+    {
+     "label": "Needs tvOS 26 or later",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 191.0,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Countries not stated",
+   "side": "right"
+  },
+  {
+   "start": 194.0,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Earlier tests: US only",
+   "side": "left"
+  },
+  {
+   "start": 199.75,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Reels on the biggest screen in the house",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 204.3,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Watch together",
+   "side": "right"
+  },
+  {
+   "start": 207.9,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "One more place for creators",
+   "side": "left"
+  },
+  {
+   "start": 211.45,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Jio Platforms IPO",
+   "eyebrow": "Story 5 of 5",
+   "railLabel": "of 5 · Jio IPO",
+   "numeral": "05",
+   "section": 1
+  },
+  {
+   "start": 215.4,
+   "duration": 2.6,
+   "type": "big_statement",
+   "text": "IPO closed Friday 23 Oct",
+   "eyebrow": "HDFC Sky · 23 Oct 2026"
+  },
+  {
+   "start": 218.2,
+   "duration": 3.5,
+   "type": "number_roll",
+   "value": 27,
+   "suffix": " crore",
+   "text": "fresh shares",
+   "decimals": 0
+  },
+  {
+   "start": 221.8,
+   "duration": 3.9,
+   "type": "keyword_chip",
+   "text": "₹1,065 to ₹1,119 per share",
+   "side": "right"
+  },
+  {
+   "start": 226.1,
+   "duration": 4.6,
+   "type": "number_roll",
+   "value": 30000,
+   "prefix": "₹",
+   "suffix": " crore",
+   "text": "raised at the top of the range",
+   "decimals": 0
+  },
+  {
+   "start": 231.1,
+   "duration": 6.1,
+   "type": "number_roll",
+   "value": 22,
+   "suffix": "x",
+   "text": "Overall subscription (broker figure)",
+   "decimals": 0
+  },
+  {
+   "start": 237.5,
+   "duration": 4.0,
+   "type": "number_roll",
+   "value": 70,
+   "suffix": "x",
+   "text": "Institutional bids",
+   "decimals": 0
+  },
+  {
+   "start": 241.8,
+   "duration": 3.3,
+   "type": "number_roll",
+   "value": 2.7,
+   "suffix": "x",
+   "text": "Retail investors",
+   "decimals": 1
+  },
+  {
+   "start": 245.3,
+   "duration": 9.6,
+   "type": "timeline",
+   "side": "left",
+   "text": "Jio IPO dates",
+   "current": 0,
+   "items": [
+    {
+     "label": "23 Oct",
+     "sublabel": "Offer closes"
+    },
+    {
+     "label": "26 Oct",
+     "sublabel": "Allotment"
+    },
+    {
+     "label": "28 Oct",
+     "sublabel": "Listing (tentative)"
+    }
+   ]
+  },
+  {
+   "start": 255.1,
+   "duration": 7.0,
+   "type": "big_statement",
+   "text": "Broker figures, not final numbers",
+   "eyebrow": "Evening of 23 Oct"
+  },
+  {
+   "start": 262.7,
+   "duration": 5.5,
+   "type": "big_statement",
+   "text": "Who controls the machines and networks?",
+   "eyebrow": "Today's thread"
+  },
+  {
+   "start": 268.6,
+   "duration": 8.0,
+   "type": "poll_prompt",
+   "text": "Release a laptop-sized A.I. model openly?",
+   "eyebrow": "Tell us in the comments",
+   "items": [
+    {
+     "label": "Release it openly",
+     "value": 50
+    },
+    {
+     "label": "Safety testing first",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "start": 276.9,
+   "duration": 2.8,
+   "type": "big_statement",
+   "text": "Subscribe · 24 Hours in Tech",
+   "eyebrow": "Every day"
+  }
+ ],
+ "camera_moves": []
+}

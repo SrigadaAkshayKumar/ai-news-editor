@@ -1,0 +1,43 @@
+[
+  {
+    "file": "assets/library/starlink.svg",
+    "title": "File:Starlink Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Starlink_Logo.svg",
+    "license": "Public domain",
+    "author": "SpaceX",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/kimi.svg",
+    "title": "File:Kimi logo (2025).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kimi_logo_(2025).svg",
+    "license": "CC BY-SA 4.0",
+    "author": "Dontknowsalf",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/elon-musk.png",
+    "title": "File:Elon Musk (54816836217) (cropped 2) (b).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_(54816836217)_(cropped_2)_(b).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Gage Skidmore",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/library/jack-dorsey.png",
+    "title": "File:Jack Dorsey David Shankbone 2010.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack_Dorsey_David_Shankbone_2010.jpg",
+    "license": "CC BY 3.0",
+    "author": "David Shankbone",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/stills/thumb-bg.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/radio-telescopes-antennas-galaxy-6002811/",
+    "creator": "ELG21",
+    "creatorUrl": "https://pixabay.com/users/ELG21-3764790/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  }
+]

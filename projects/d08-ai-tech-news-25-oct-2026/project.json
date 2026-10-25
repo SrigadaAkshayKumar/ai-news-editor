@@ -1,0 +1,130 @@
+{
+  "name": "d08-ai-tech-news-25-oct-2026",
+  "createdAt": "2026-10-25T08:15:03.349Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d08-ai-tech-news-25-oct-2026/source/raw.wav",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d08/d08-voice.wav",
+    "duration": 304.64,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d08-ai-tech-news-25-oct-2026/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d08/d08_ai_tech_news_25_oct_2026_voiceover.txt",
+    "words": 772,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d08-ai-tech-news-25-oct-2026/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Starlink",
+    "Ukraine",
+    "Moonshot",
+    "Kimi",
+    "And Block",
+    "According",
+    "TechCrunch",
+    "The Wall Street Journal",
+    "President Donald Trump",
+    "Elon Musk",
+    "Wednesday",
+    "SpaceX",
+    "Friday",
+    "Terminal Bench",
+    "Claude Opus",
+    "VentureBeat",
+    "Block",
+    "Jack Dorsey",
+    "On Friday",
+    "Dessa",
+    "MacBook",
+    "Apple",
+    "MacRumors",
+    "October",
+    "Reels",
+    "App Store",
+    "Earlier Instagram",
+    "United States",
+    "The Jio Platforms",
+    "HDFC"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "24 Hours in Tech roundup: 16:9 YouTube, no captions, a story counter (chapter rail 'Story 3 of 5'), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English; daily news-desk look, news screenshots and NewsCards lead, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; a wipe whoosh + hit on every story change, soft ticks elsewhere",
+  "brand": "ai-news",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-25T08:17:15.185Z",
+      "words": 736,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-25T08:17:26.877Z",
+      "segments": 81,
+      "kept": 279.833
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-25T08:38:35.575Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d08-ai-tech-news-25-oct-2026/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-25T08:38:43.657Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-25T08:38:43.689Z",
+      "groups": 207
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-25T08:38:54.146Z",
+      "music": 0,
+      "sfx": 47
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-25T08:39:12.307Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d08-ai-tech-news-25-oct-2026/output/final-16x9.mp4",
+      "duration": 279.833333
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.998597,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d08-ai-tech-news-25-oct-2026/work/cleancut.wav",
+    "duration": 279.833417,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}
