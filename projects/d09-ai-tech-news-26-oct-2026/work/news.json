@@ -1,0 +1,66 @@
+{
+  "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_php_ocalypse_how_two_critical_web_bugs_almost_broke_the.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_php_ocalypse_how_two_critical_web_bugs_almost_broke_the_mobile.png"
+  },
+  "https://www.tipranks.com/news/spacex-closes-40b-gpu-deal-as-musk-warns-ai-firms-could-fail": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/tipranks_com_spacex_closes_40b_gpu_deal_as_musk_warns_ai_firms_could_f.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/tipranks_com_spacex_closes_40b_gpu_deal_as_musk_warns_ai_firms_could_f_mobile.png"
+  },
+  "https://startupfortune.com/metas-new-business-terms-make-customers-liable-for-its-ais-mistakes/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/startupfortune_com_metas_new_business_terms_make_customers_liable_for_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/startupfortune_com_metas_new_business_terms_make_customers_liable_for__mobile.png"
+  },
+  "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_forced_to_pick_groks_ai_model_chooses_republicans_opena.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_forced_to_pick_groks_ai_model_chooses_republicans_opena_mobile.png"
+  },
+  "https://www.freepressjournal.in/tech/please-use-the-robot-safely-in-a-friendly-manner-unitree-unveils-h2-x-guardian-humanoid-that-fights-lifts-cars-in-demo": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/freepressjournal_in_please_use_the_robot_safely_in_a_friendly_manner_u.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/freepressjournal_in_please_use_the_robot_safely_in_a_friendly_manner_u_mobile.png"
+  },
+  "https://intelligentliving.co/lenovo-ai-host-p7-125b-models-300-gram": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/intelligentliving_co_lenovo_ai_host_p7_125b_models_300_gram.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/intelligentliving_co_lenovo_ai_host_p7_125b_models_300_gram_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_ai_delivers_zero_financial_payoff_to_most_companies_acc.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_ai_delivers_zero_financial_payoff_to_most_companies_acc_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_grok_releases_the_first_seven_minutes_of_its_ai_generat.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_grok_releases_the_first_seven_minutes_of_its_ai_generat_mobile.png"
+  }
+}

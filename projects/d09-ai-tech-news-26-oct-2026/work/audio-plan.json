@@ -1,0 +1,366 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip PHP bugs under attack"
+  },
+  {
+   "time": 7.19,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip SpaceX · $40B for Nvidia chips"
+  },
+  {
+   "time": 13.15,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Grok vs OpenAI on the midterms"
+  },
+  {
+   "time": 18.67,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Kung fu robot"
+  },
+  {
+   "time": 21.92,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Palm-sized AI box"
+  },
+  {
+   "time": 24.47,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip AI profit warning"
+  },
+  {
+   "time": 25.78,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 1 of 8"
+  },
+  {
+   "time": 26.18,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 8"
+  },
+  {
+   "time": 32.34,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: of web-facing sites run PHP (approx.)"
+  },
+  {
+   "time": 38.81,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Patched 21 Oct"
+  },
+  {
+   "time": 45.37,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Amazon: exploited a week earlier"
+  },
+  {
+   "time": 56.13,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Banks, hospitals offline"
+  },
+  {
+   "time": 65.55,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 2 of 8"
+  },
+  {
+   "time": 65.95,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 8"
+  },
+  {
+   "time": 69.68,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: in debt for Nvidia GPUs (reported)"
+  },
+  {
+   "time": 76.0,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Deliveries H1 2027"
+  },
+  {
+   "time": 80.21,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Debt markets near-closed to AI"
+  },
+  {
+   "time": 86.8,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip \"Guppy-level death\""
+  },
+  {
+   "time": 90.27,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: neocloud firms, Musk predicts shake-out"
+  },
+  {
+   "time": 95.87,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Musk's claims, not a forecast"
+  },
+  {
+   "time": 102.68,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 3 of 8"
+  },
+  {
+   "time": 103.08,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 8"
+  },
+  {
+   "time": 107.11,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Effective 30 Oct"
+  },
+  {
+   "time": 110.06,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Customers accept all risk"
+  },
+  {
+   "time": 115.13,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Customers cover Meta's legal costs"
+  },
+  {
+   "time": 120.31,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Reported · Startup Fortune, CIO.com"
+  },
+  {
+   "time": 137.58,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 4 of 8"
+  },
+  {
+   "time": 137.98,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 8"
+  },
+  {
+   "time": 142.06,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip ~500 midterm races"
+  },
+  {
+   "time": 145.36,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Convovo · Cornell"
+  },
+  {
+   "time": 148.21,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Via developer APIs"
+  },
+  {
+   "time": 162.66,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: Agreement between the two models (under)"
+  },
+  {
+   "time": 167.19,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Consumer apps declined to pick"
+  },
+  {
+   "time": 172.36,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip OpenAI: not typical use"
+  },
+  {
+   "time": 178.96,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Midterms · 3 Nov"
+  },
+  {
+   "time": 181.46,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 5 of 8"
+  },
+  {
+   "time": 181.86,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 8"
+  },
+  {
+   "time": 184.71,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Kung Fu Legend Guardian"
+  },
+  {
+   "time": 191.1,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Backflips · 4 m leap"
+  },
+  {
+   "time": 196.96,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: hours of endurance, claimed (standing time)"
+  },
+  {
+   "time": 203.02,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: Standard H2 price (H2-X: no price yet)"
+  },
+  {
+   "time": 219.04,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 6 of 8"
+  },
+  {
+   "time": 219.44,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 8"
+  },
+  {
+   "time": 226.16,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Fanless · desk-sized box"
+  },
+  {
+   "time": 227.59,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: grams"
+  },
+  {
+   "time": 229.97,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: watts at most"
+  },
+  {
+   "time": 234.91,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Runs models locally, no cloud"
+  },
+  {
+   "time": 239.91,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip No price or date yet"
+  },
+  {
+   "time": 254.09,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Early access: developers"
+  },
+  {
+   "time": 256.73,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 7 of 8"
+  },
+  {
+   "time": 257.13,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 8"
+  },
+  {
+   "time": 260.33,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Torsten Slok · Apollo"
+  },
+  {
+   "time": 266.7,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Outside tech only"
+  },
+  {
+   "time": 277.17,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Margins and output flat"
+  },
+  {
+   "time": 284.8,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip One economist's note"
+  },
+  {
+   "time": 291.63,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 8 of 8"
+  },
+  {
+   "time": 292.03,
+   "sfx": "impact",
+   "reason": "story change hit: Story 8 of 8"
+  },
+  {
+   "time": 295.23,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Made with Grok Imagine"
+  },
+  {
+   "time": 301.61,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Wonder Studios · Dev Walker"
+  },
+  {
+   "time": 304.65,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Full-length version promised"
+  },
+  {
+   "time": 315.22,
+   "sfx": "reveal",
+   "gain": 1.0,
+   "reason": "number roll: minutes released, vs nearly 3 hours for Nolan"
+  },
+  {
+   "time": 326.87,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Web and AI outrunning security"
+  }
+ ]
+}

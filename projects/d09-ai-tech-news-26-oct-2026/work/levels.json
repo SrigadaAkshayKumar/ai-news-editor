@@ -1,0 +1,44 @@
+{
+  "narration": {
+    "mean": -22.8,
+    "peak": -3.4
+  },
+  "music": {},
+  "sfx": {
+    "impact": {
+      "gain": 0.02547452636044784,
+      "limitedBy": "transient-floor",
+      "trimDb": -4.7,
+      "band": "sub",
+      "seconds": 0.37
+    },
+    "click": {
+      "gain": 1.0115794542598986,
+      "limitedBy": "transient-floor",
+      "trimDb": 0,
+      "band": "vocal",
+      "seconds": 0.06
+    },
+    "pop": {
+      "gain": 0.8511380382023765,
+      "limitedBy": "transient-floor",
+      "trimDb": 0,
+      "band": "vocal",
+      "seconds": 0.14
+    },
+    "whoosh": {
+      "gain": 0.5656739490347936,
+      "limitedBy": "rms",
+      "trimDb": -5.9,
+      "band": "vocal",
+      "seconds": 0.45
+    },
+    "reveal": {
+      "gain": 0.05623413251903494,
+      "limitedBy": "rms",
+      "trimDb": 0,
+      "band": "mixed",
+      "seconds": 0.17
+    }
+  }
+}

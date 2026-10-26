@@ -1,0 +1,51 @@
+[
+  {
+    "file": "assets/stills/thumb-bg.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/server-space-the-server-room-dark-2160321/",
+    "creator": "Schäferle",
+    "creatorUrl": "https://pixabay.com/users/Schäferle-3372715/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/library/elon-musk.png",
+    "title": "File:Elon Musk (54816836217) (cropped 2) (b).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_(54816836217)_(cropped_2)_(b).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Gage Skidmore",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/library/php.svg",
+    "title": "File:PHP-logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:PHP-logo.svg",
+    "license": "Public domain",
+    "author": "Colin Viebrock",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/openai.svg",
+    "title": "File:OpenAI logo 2025 (wordmark).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg",
+    "license": "Public domain",
+    "author": "OpenAI",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/nvidia.svg",
+    "title": "File:Nvidia logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg",
+    "license": "Public domain",
+    "author": "Nvidia",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/meta.svg",
+    "title": "File:Meta Platforms Inc. logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Inc._logo.svg",
+    "license": "Public domain",
+    "author": "Meta Platforms",
+    "note": "trademark of its owner; editorial use"
+  }
+]

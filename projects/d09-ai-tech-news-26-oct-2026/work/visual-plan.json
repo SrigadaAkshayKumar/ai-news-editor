@@ -1,0 +1,1004 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 7.09,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 7.09,
+   "end": 18.57,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 18.57,
+   "end": 25.78,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 25.78,
+   "end": 32.25,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 32.25,
+   "end": 38.71,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 38.71,
+   "end": 49.25,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+   "source": "TechCrunch",
+   "headline": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 49.25,
+   "end": 57.4,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 57.4,
+   "end": 65.55,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 65.55,
+   "end": 72.83,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 72.83,
+   "end": 80.11,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 80.11,
+   "end": 87.89,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 87.89,
+   "end": 95.67,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 95.67,
+   "end": 102.68,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 102.68,
+   "end": 106.91,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 106.91,
+   "end": 115.83,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://startupfortune.com/metas-new-business-terms-make-customers-liable-for-its-ais-mistakes/",
+   "source": "Startup Fortune",
+   "headline": "Meta's new business terms make customers liable for its AI's mistakes",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.27,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 115.83,
+   "end": 124.75,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://startupfortune.com/metas-new-business-terms-make-customers-liable-for-its-ais-mistakes/",
+   "source": "Startup Fortune",
+   "headline": "Meta's new business terms make customers liable for its AI's mistakes",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.09,
+    "y": 0.27,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 124.75,
+   "end": 131.17,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 131.17,
+   "end": 137.58,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 137.58,
+   "end": 141.76,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 141.76,
+   "end": 152.48,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+   "source": "TechCrunch",
+   "headline": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats.",
+   "date": "24 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 152.48,
+   "end": 159.74,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 159.74,
+   "end": 166.99,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 166.99,
+   "end": 174.23,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 174.23,
+   "end": 181.46,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 181.46,
+   "end": 184.86,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 184.86,
+   "end": 190.85,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.freepressjournal.in/tech/please-use-the-robot-safely-in-a-friendly-manner-unitree-unveils-h2-x-guardian-humanoid-that-fights-lifts-cars-in-demo",
+   "source": "Free Press Journal",
+   "headline": "'Please Use The Robot Safely': Unitree Unveils H2-X 'Guardian' Humanoid",
+   "date": "Updated 26 Oct 2026",
+   "highlight": {
+    "x": 0.11,
+    "y": 0.11,
+    "w": 0.78,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 190.85,
+   "end": 196.83,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.freepressjournal.in/tech/please-use-the-robot-safely-in-a-friendly-manner-unitree-unveils-h2-x-guardian-humanoid-that-fights-lifts-cars-in-demo",
+   "source": "Free Press Journal",
+   "headline": "'Please Use The Robot Safely': Unitree Unveils H2-X 'Guardian' Humanoid",
+   "date": "Updated 26 Oct 2026",
+   "highlight": {
+    "x": 0.11,
+    "y": 0.11,
+    "w": 0.78,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 196.83,
+   "end": 203.56,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 203.56,
+   "end": 210.29,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 210.29,
+   "end": 219.04,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 219.04,
+   "end": 225.93,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 225.93,
+   "end": 232.82,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 232.82,
+   "end": 239.71,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 239.71,
+   "end": 245.93,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://intelligentliving.co/lenovo-ai-host-p7-125b-models-300-gram",
+   "source": "Intelligent Living",
+   "headline": "Lenovo AI Host P7 Runs 125B Models Locally in a 300-Gram Box",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.07,
+    "y": 0.34,
+    "w": 0.86,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 245.93,
+   "end": 256.73,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 256.73,
+   "end": 260.13,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 260.13,
+   "end": 270.19,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+   "source": "TechCrunch",
+   "headline": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+   "date": "25 Oct 2026",
+   "highlight": {
+    "x": 0.155,
+    "y": 0.455,
+    "w": 0.43,
+    "h": 0.015
+   }
+  },
+  {
+   "start": 270.19,
+   "end": 280.88,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 280.88,
+   "end": 291.63,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 291.63,
+   "end": 295.03,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 295.03,
+   "end": 304.55,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+   "source": "TechCrunch",
+   "headline": "Grok releases the first seven minutes of its AI-generated 'Odyssey'",
+   "date": "25 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 304.55,
+   "end": 309.67,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 309.67,
+   "end": 321.16,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 321.16,
+   "end": 327.54,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 327.54,
+   "end": 333.92,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 333.92,
+   "end": 340.3,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3.0,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Monday · 26 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.05,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "PHP bugs under attack",
+   "side": "right"
+  },
+  {
+   "start": 7.19,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "SpaceX · $40B for Nvidia chips",
+   "side": "left"
+  },
+  {
+   "start": 13.15,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Grok vs OpenAI on the midterms",
+   "side": "right"
+  },
+  {
+   "start": 18.67,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Kung fu robot",
+   "side": "left"
+  },
+  {
+   "start": 21.92,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Palm-sized AI box",
+   "side": "right"
+  },
+  {
+   "start": 24.47,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "AI profit warning",
+   "side": "left"
+  },
+  {
+   "start": 27.32,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "PHP bugs under attack",
+   "eyebrow": "Story 1 of 8",
+   "railLabel": "of 8 · PHP bugs",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 32.21,
+   "duration": 5.0,
+   "type": "number_roll",
+   "value": 70,
+   "suffix": "%",
+   "prefix": "~",
+   "text": "of web-facing sites run PHP (approx.)",
+   "decimals": 0
+  },
+  {
+   "start": 38.81,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Patched 21 Oct",
+   "side": "left"
+  },
+  {
+   "start": 45.37,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Amazon: exploited a week earlier",
+   "side": "right"
+  },
+  {
+   "start": 49.25,
+   "duration": 6.0,
+   "type": "timeline",
+   "side": "left",
+   "text": "PHP bugs timeline",
+   "current": 2,
+   "items": [
+    {
+     "label": "~1 week before",
+     "sublabel": "Amazon sees exploitation"
+    },
+    {
+     "label": "21 Oct",
+     "sublabel": "Patches released"
+    },
+    {
+     "label": "23 Oct",
+     "sublabel": "Break-ins confirmed"
+    }
+   ]
+  },
+  {
+   "start": 56.13,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Banks, hospitals offline",
+   "side": "left"
+  },
+  {
+   "start": 60.13,
+   "duration": 5.3,
+   "type": "checklist",
+   "text": "If you run PHP",
+   "items": [
+    {
+     "label": "Update now",
+     "state": "yes"
+    },
+    {
+     "label": "Cannot patch: take it offline",
+     "state": "yes"
+    },
+    {
+     "label": "Unpatched = at risk",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 65.55,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "SpaceX's $40B chip debt",
+   "eyebrow": "Story 2 of 8",
+   "railLabel": "of 8 · SpaceX debt",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 69.05,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "SpaceX closes $40B GPU deal",
+   "eyebrow": "Reported by TipRanks · 25 Oct 2026"
+  },
+  {
+   "start": 73.7,
+   "duration": 2.2,
+   "type": "number_roll",
+   "value": 40,
+   "suffix": "B",
+   "prefix": "$",
+   "text": "in debt for Nvidia GPUs (reported)",
+   "decimals": 0
+  },
+  {
+   "start": 76.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Deliveries H1 2027",
+   "side": "left"
+  },
+  {
+   "start": 80.21,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Debt markets near-closed to AI",
+   "side": "right"
+  },
+  {
+   "start": 86.8,
+   "duration": 2.0,
+   "type": "keyword_chip",
+   "text": "\"Guppy-level death\"",
+   "side": "left"
+  },
+  {
+   "start": 90.14,
+   "duration": 4.5,
+   "type": "number_roll",
+   "value": 200,
+   "suffix": "+",
+   "prefix": "",
+   "text": "neocloud firms, Musk predicts shake-out",
+   "decimals": 0
+  },
+  {
+   "start": 95.87,
+   "duration": 2.46,
+   "type": "keyword_chip",
+   "text": "Musk's claims, not a forecast",
+   "side": "right"
+  },
+  {
+   "start": 98.43,
+   "duration": 4.15,
+   "type": "big_statement",
+   "text": "A chip boom on borrowed money",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 102.68,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Meta shifts AI risk",
+   "eyebrow": "Story 3 of 8",
+   "railLabel": "of 8 · Meta terms",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 107.11,
+   "duration": 2.85,
+   "type": "keyword_chip",
+   "text": "Effective 30 Oct",
+   "side": "left"
+  },
+  {
+   "start": 110.06,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Customers accept all risk",
+   "side": "right"
+  },
+  {
+   "start": 115.13,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Customers cover Meta's legal costs",
+   "side": "right"
+  },
+  {
+   "start": 120.31,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Reported · Startup Fortune, CIO.com",
+   "side": "left"
+  },
+  {
+   "start": 124.75,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Liability language not withdrawn",
+   "eyebrow": "Reported"
+  },
+  {
+   "start": 132.0,
+   "duration": 5.0,
+   "type": "timeline",
+   "side": "left",
+   "text": "Before 30 Oct",
+   "current": 0,
+   "items": [
+    {
+     "label": "Now",
+     "sublabel": "Have a lawyer read it"
+    },
+    {
+     "label": "30 Oct",
+     "sublabel": "Terms take effect"
+    }
+   ]
+  },
+  {
+   "start": 137.58,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Grok vs GPT on votes",
+   "eyebrow": "Story 4 of 8",
+   "railLabel": "of 8 · Midterms study",
+   "numeral": "04",
+   "section": 0
+  },
+  {
+   "start": 142.06,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "~500 midterm races",
+   "side": "left"
+  },
+  {
+   "start": 145.36,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Convovo · Cornell",
+   "side": "right"
+  },
+  {
+   "start": 148.21,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Via developer APIs",
+   "side": "left"
+  },
+  {
+   "start": 152.48,
+   "duration": 6.0,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Picks a candidate, % of answers",
+   "items": [
+    {
+     "label": "Grok 4.7: Republican",
+     "value": 92
+    },
+    {
+     "label": "GPT-6.1 Sol: Democrat",
+     "value": 97
+    }
+   ]
+  },
+  {
+   "start": 162.53,
+   "duration": 4.2,
+   "type": "number_roll",
+   "value": 10,
+   "suffix": "%",
+   "prefix": "<",
+   "text": "Agreement between the two models (under)",
+   "decimals": 0
+  },
+  {
+   "start": 167.19,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "Consumer apps declined to pick",
+   "side": "left"
+  },
+  {
+   "start": 172.36,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "OpenAI: not typical use",
+   "side": "right"
+  },
+  {
+   "start": 178.96,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Midterms · 3 Nov",
+   "side": "left"
+  },
+  {
+   "start": 181.46,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Unitree H2-X robot",
+   "eyebrow": "Story 5 of 8",
+   "railLabel": "of 8 · Unitree H2-X",
+   "numeral": "05",
+   "section": 1
+  },
+  {
+   "start": 184.71,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Kung Fu Legend Guardian",
+   "side": "right"
+  },
+  {
+   "start": 191.1,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Backflips · 4 m leap",
+   "side": "left"
+  },
+  {
+   "start": 196.83,
+   "duration": 3.2,
+   "type": "number_roll",
+   "value": 8,
+   "suffix": " h",
+   "prefix": "",
+   "text": "hours of endurance, claimed (standing time)",
+   "decimals": 0
+  },
+  {
+   "start": 202.89,
+   "duration": 4.0,
+   "type": "number_roll",
+   "value": 29900,
+   "suffix": "",
+   "prefix": "$",
+   "text": "Standard H2 price (H2-X: no price yet)",
+   "decimals": 0
+  },
+  {
+   "start": 210.29,
+   "duration": 7.0,
+   "type": "big_statement",
+   "text": "Treat the videos as marketing",
+   "eyebrow": "Autonomous or remote-controlled? Unclear"
+  },
+  {
+   "start": 219.04,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Lenovo AI Host P7",
+   "eyebrow": "Story 6 of 8",
+   "railLabel": "of 8 · Lenovo P7",
+   "numeral": "06",
+   "section": 2
+  },
+  {
+   "start": 226.16,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Fanless · desk-sized box",
+   "side": "left"
+  },
+  {
+   "start": 229.41,
+   "duration": 2.8,
+   "type": "number_roll",
+   "value": 300,
+   "suffix": " g",
+   "prefix": "",
+   "text": "grams",
+   "decimals": 0
+  },
+  {
+   "start": 232.26,
+   "duration": 2.6,
+   "type": "number_roll",
+   "value": 30,
+   "suffix": " W",
+   "prefix": "",
+   "text": "watts at most",
+   "decimals": 0
+  },
+  {
+   "start": 234.91,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Runs models locally, no cloud",
+   "side": "right"
+  },
+  {
+   "start": 239.91,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "No price or date yet",
+   "side": "left"
+  },
+  {
+   "start": 245.93,
+   "duration": 6.0,
+   "type": "big_statement",
+   "text": "Dense 125B model: ~2 tokens per second",
+   "eyebrow": "Intelligent Living"
+  },
+  {
+   "start": 254.09,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Early access: developers",
+   "side": "right"
+  },
+  {
+   "start": 256.73,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Apollo: no AI payoff",
+   "eyebrow": "Story 7 of 8",
+   "railLabel": "of 8 · Apollo note",
+   "numeral": "07",
+   "section": 0
+  },
+  {
+   "start": 260.33,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Torsten Slok · Apollo",
+   "side": "left"
+  },
+  {
+   "start": 266.7,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Outside tech only",
+   "side": "right"
+  },
+  {
+   "start": 270.29,
+   "duration": 6.0,
+   "type": "quote_pull",
+   "text": "zero financial payoff to corporate America outside of tech",
+   "eyebrow": "Torsten Slok, Apollo"
+  },
+  {
+   "start": 277.17,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Margins and output flat",
+   "side": "right"
+  },
+  {
+   "start": 280.98,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "Intelligence is mostly judgment",
+   "eyebrow": "Slok"
+  },
+  {
+   "start": 284.8,
+   "duration": 3.8,
+   "type": "keyword_chip",
+   "text": "One economist's note",
+   "side": "left"
+  },
+  {
+   "start": 291.63,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Grok's AI-made Odyssey",
+   "eyebrow": "Story 8 of 8",
+   "railLabel": "of 8 · Grok Odyssey",
+   "numeral": "08",
+   "section": 1
+  },
+  {
+   "start": 295.23,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Made with Grok Imagine",
+   "side": "left"
+  },
+  {
+   "start": 301.61,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Wonder Studios · Dev Walker",
+   "side": "right"
+  },
+  {
+   "start": 304.65,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Full-length version promised",
+   "side": "left"
+  },
+  {
+   "start": 309.67,
+   "duration": 4.6,
+   "type": "quote_pull",
+   "text": "Better than expected, but completely airless",
+   "eyebrow": "TechCrunch's reviewer"
+  },
+  {
+   "start": 315.09,
+   "duration": 5.0,
+   "type": "number_roll",
+   "value": 7,
+   "suffix": " min",
+   "prefix": "",
+   "text": "minutes released, vs nearly 3 hours for Nolan",
+   "decimals": 0
+  },
+  {
+   "start": 321.26,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "Tech news · 26 Oct 2026",
+   "eyebrow": "24 Hours in Tech"
+  },
+  {
+   "start": 326.87,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Web and AI outrunning security",
+   "side": "left"
+  },
+  {
+   "start": 333.43,
+   "duration": 4.19,
+   "type": "big_statement",
+   "text": "Should a chatbot tell you who to vote for?",
+   "eyebrow": "Tell us in the comments"
+  },
+  {
+   "start": 337.72,
+   "duration": 2.4300000000000184,
+   "type": "big_statement",
+   "text": "Subscribe · 24 Hours in Tech",
+   "eyebrow": "Every day · 8:30 PM IST"
+  }
+ ],
+ "camera_moves": []
+}
