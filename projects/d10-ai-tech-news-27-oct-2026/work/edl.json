@@ -1,0 +1,44 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes. Script-diff extra runs are numeral/acronym spelling only. Dead air trimmed to 0.33s; 0.6s held beats at each story change.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {
+  "w391": "sixth",
+  "w529": "Cohere",
+  "w588": "Cohere",
+  "w620": "Cohere's",
+  "w650": "ninety"
+ },
+ "holds": [
+  {
+   "after": "w66",
+   "max": 0.6
+  },
+  {
+   "after": "w186",
+   "max": 0.6
+  },
+  {
+   "after": "w299",
+   "max": 0.6
+  },
+  {
+   "after": "w411",
+   "max": 0.6
+  },
+  {
+   "after": "w525",
+   "max": 0.6
+  },
+  {
+   "after": "w643",
+   "max": 0.6
+  },
+  {
+   "after": "w745",
+   "max": 0.6
+  }
+ ],
+ "cuts": [],
+ "remove": []
+}

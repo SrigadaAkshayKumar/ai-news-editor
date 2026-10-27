@@ -1,0 +1,364 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.05,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Anthropic files for IPO"
+  },
+  {
+   "time": 6.9,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Microsoft · 60,000 buyouts"
+  },
+  {
+   "time": 10.1,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip OLED iPad mini"
+  },
+  {
+   "time": 13.1,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Foldable iPhone cracking"
+  },
+  {
+   "time": 18.1,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Qwen reaches for Beijing"
+  },
+  {
+   "time": 21.7,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Instagram · 90-min video"
+  },
+  {
+   "time": 25.65,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 1 of 6"
+  },
+  {
+   "time": 26.05,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 6"
+  },
+  {
+   "time": 30.2,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip SEC filing · 26 Oct"
+  },
+  {
+   "time": 34.9,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Ticker: ANT"
+  },
+  {
+   "time": 40.67,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: revenue, first half of 2026"
+  },
+  {
+   "time": 49.97,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "bar_chart: Operating loss, $ million"
+  },
+  {
+   "time": 56.2,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Net loss $80.7B"
+  },
+  {
+   "time": 60,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Largely non-cash"
+  },
+  {
+   "time": 65.28999999999999,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: voting power held by seven co-founders"
+  },
+  {
+   "time": 70.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Raise and price: not stated"
+  },
+  {
+   "time": 73.91,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 2 of 6"
+  },
+  {
+   "time": 74.31,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 6"
+  },
+  {
+   "time": 77.3,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: employees offered voluntary buyouts"
+  },
+  {
+   "time": 82.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Confirmed to TechCrunch"
+  },
+  {
+   "time": 86,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip VP level and below"
+  },
+  {
+   "time": 89.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip US · Canada · India · UK"
+  },
+  {
+   "time": 95.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Xbox · Windows · Copilot"
+  },
+  {
+   "time": 100.02,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: employees at end of June"
+  },
+  {
+   "time": 106.8,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Terms ≈ standard severance"
+  },
+  {
+   "time": 112.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: of eligible took the earlier retirement-age offer"
+  },
+  {
+   "time": 120.4,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 3 of 6"
+  },
+  {
+   "time": 120.8,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 6"
+  },
+  {
+   "time": 127.5,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip 1,200 nits peak"
+  },
+  {
+   "time": 134.4,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: faster AI graphics, Apple says (A20 Pro)"
+  },
+  {
+   "time": 141,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip 5.4 mm thin"
+  },
+  {
+   "time": 145.9,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Next-gen Siri"
+  },
+  {
+   "time": 148.85999999999999,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "bar_chart: Price, US dollars"
+  },
+  {
+   "time": 155.64,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "timeline: iPad mini dates"
+  },
+  {
+   "time": 162.3,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip First OLED iPad mini"
+  },
+  {
+   "time": 169.06,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 4 of 6"
+  },
+  {
+   "time": 169.46,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 6"
+  },
+  {
+   "time": 176.8,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Cracks in hours or days"
+  },
+  {
+   "time": 189.5,
+   "sfx": "pop",
+   "gain": 0.9,
+   "reason": "quote_pull: aware of an issue impacting the inner display on a small number of iPhone Duo units"
+  },
+  {
+   "time": 195.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip No numbers, no fix yet"
+  },
+  {
+   "time": 199.29999999999998,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: price of the iPhone Duo"
+  },
+  {
+   "time": 204.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Next few days matter"
+  },
+  {
+   "time": 208.7,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 5 of 6"
+  },
+  {
+   "time": 209.1,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 6"
+  },
+  {
+   "time": 216.7,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: What Cohere reports"
+  },
+  {
+   "time": 224.9,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Said: no external tools"
+  },
+  {
+   "time": 228.2,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Then tried to send text out"
+  },
+  {
+   "time": 235.2,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Deliberate or leftover?"
+  },
+  {
+   "time": 238,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Researchers: messy training"
+  },
+  {
+   "time": 243.9,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Critics: test may nudge"
+  },
+  {
+   "time": 248,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Raw traces published"
+  },
+  {
+   "time": 255.94,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 6 of 6"
+  },
+  {
+   "time": 256.34,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 6"
+  },
+  {
+   "time": 259.40000000000003,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: maximum video length in the test"
+  },
+  {
+   "time": 264.7,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Brazil first, small US test"
+  },
+  {
+   "time": 270,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Clips as Reels"
+  },
+  {
+   "time": 274.9,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Links to full video"
+  },
+  {
+   "time": 283.3,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: of ad revenue YouTube pays creators"
+  },
+  {
+   "time": 287.5,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip IGTV: shut down"
+  },
+  {
+   "time": 291.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Starting small"
+  },
+  {
+   "time": 307.5,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Subscribe · 24 Hours in Tech"
+  }
+ ]
+}

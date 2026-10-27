@@ -1,0 +1,59 @@
+[
+  {
+    "file": "assets/library/anthropic.svg",
+    "title": "File:Anthropic logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthropic_logo.svg",
+    "license": "Public domain",
+    "author": "Anthropic",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/microsoft.svg",
+    "title": "File:Microsoft logo (2012).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg",
+    "license": "Public domain",
+    "author": "Microsoft Corporation — Jason Wells",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/apple.svg",
+    "title": "File:Apple logo black.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+    "license": "Public domain",
+    "author": "Original: Rob Janoff",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/alibaba.svg",
+    "title": "File:Alibaba en logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Alibaba_en_logo.svg",
+    "license": "Public domain",
+    "author": "Alibaba Group Holding Limited",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/instagram.svg",
+    "title": "File:Instagram logo 2022.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Instagram_logo_2022.svg",
+    "license": "Public domain",
+    "author": "Instagram",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/dario-amodei.png",
+    "title": "File:Dario Amodei at TechCrunch Disrupt 2023 02 (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_02_(cropped).jpg",
+    "license": "CC BY 2.0",
+    "author": "TechCrunch",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/stills/thumb-bg.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+    "creator": "3844328",
+    "creatorUrl": "https://pixabay.com/users/3844328-3844328/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  }
+]

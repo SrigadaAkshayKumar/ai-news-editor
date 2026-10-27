@@ -1,0 +1,1035 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 6.65,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 6.65,
+   "end": 12.8,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 12.8,
+   "end": 21.5,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 21.5,
+   "end": 25.65,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 25.65,
+   "end": 28.85,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 28.85,
+   "end": 40.57,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "source": "TechCrunch",
+   "headline": "Anthropic officially files for its public debut",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 40.57,
+   "end": 49.87,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 49.87,
+   "end": 56.04,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 56.04,
+   "end": 65.19,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "source": "TechCrunch",
+   "headline": "Anthropic officially files for its public debut",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 65.19,
+   "end": 73.91,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 73.91,
+   "end": 77.11,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 77.11,
+   "end": 85.5,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 85.5,
+   "end": 92.5,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+   "source": "TechCrunch",
+   "headline": "Microsoft offers buyouts to around 60,000 employees, reports say",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 92.5,
+   "end": 99.92,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+   "source": "TechCrunch",
+   "headline": "Microsoft offers buyouts to around 60,000 employees, reports say",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 99.92,
+   "end": 106.5,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 106.5,
+   "end": 112.21,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+   "source": "TechCrunch",
+   "headline": "Microsoft offers buyouts to around 60,000 employees, reports say",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.05
+   }
+  },
+  {
+   "start": 112.21,
+   "end": 120.4,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 120.4,
+   "end": 123.7,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 123.7,
+   "end": 131.13,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+   "source": "TechCrunch",
+   "headline": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 131.13,
+   "end": 140.73,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 140.73,
+   "end": 148.76,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+   "source": "TechCrunch",
+   "headline": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 148.76,
+   "end": 155.54,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 155.54,
+   "end": 162.01,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 162.01,
+   "end": 169.06,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+   "source": "TechCrunch",
+   "headline": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 169.06,
+   "end": 172.3,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 172.3,
+   "end": 180.4,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
+   "source": "TechCrunch",
+   "headline": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren't happy about it",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.425,
+    "w": 0.47,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 180.4,
+   "end": 189.22,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 189.22,
+   "end": 195.2,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 195.2,
+   "end": 199,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
+   "source": "TechCrunch",
+   "headline": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren't happy about it",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.425,
+    "w": 0.47,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 199,
+   "end": 208.7,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 208.7,
+   "end": 211.9,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 211.9,
+   "end": 216.48,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "source": "TechCrunch",
+   "headline": "Cohere says Alibaba's Qwen model tried to send a file to Beijing",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 216.48,
+   "end": 224.7,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 224.7,
+   "end": 231.4,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "source": "TechCrunch",
+   "headline": "Cohere says Alibaba's Qwen model tried to send a file to Beijing",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 231.4,
+   "end": 237.7,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 237.7,
+   "end": 247.78,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "source": "TechCrunch",
+   "headline": "Cohere says Alibaba's Qwen model tried to send a file to Beijing",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 247.78,
+   "end": 255.94,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 255.94,
+   "end": 259.1,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 259.1,
+   "end": 264.4,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 264.4,
+   "end": 271.5,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+   "source": "TechCrunch",
+   "headline": "Watch out, YouTube: Instagram goes from short-form to 90-minute videos",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 271.5,
+   "end": 278.47,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+   "source": "TechCrunch",
+   "headline": "Watch out, YouTube: Instagram goes from short-form to 90-minute videos",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 278.47,
+   "end": 287.2,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 287.2,
+   "end": 294.61,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+   "source": "TechCrunch",
+   "headline": "Watch out, YouTube: Instagram goes from short-form to 90-minute videos",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.275,
+    "w": 0.4,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 294.61,
+   "end": 300.78,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 300.78,
+   "end": 310.17,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Tuesday · 27 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.05,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Anthropic files for IPO",
+   "side": "right"
+  },
+  {
+   "start": 6.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Microsoft · 60,000 buyouts",
+   "side": "left"
+  },
+  {
+   "start": 10.1,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "OLED iPad mini",
+   "side": "right"
+  },
+  {
+   "start": 13.1,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Foldable iPhone cracking",
+   "side": "left"
+  },
+  {
+   "start": 18.1,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Qwen reaches for Beijing",
+   "side": "right"
+  },
+  {
+   "start": 21.7,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Instagram · 90-min video",
+   "side": "left"
+  },
+  {
+   "start": 25.65,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Anthropic files to go public",
+   "eyebrow": "Story 1 of 6",
+   "railLabel": "of 6 · Anthropic IPO",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 30.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "SEC filing · 26 Oct",
+   "side": "right"
+  },
+  {
+   "start": 34.9,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Ticker: ANT",
+   "side": "left"
+  },
+  {
+   "start": 40.57,
+   "duration": 5,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 16.3,
+   "text": "revenue, first half of 2026"
+  },
+  {
+   "start": 49.87,
+   "duration": 6,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Operating loss, $ million",
+   "items": [
+    {
+     "label": "H1 2025",
+     "value": 2100
+    },
+    {
+     "label": "H1 2026",
+     "value": 693
+    }
+   ]
+  },
+  {
+   "start": 56.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Net loss $80.7B",
+   "side": "left"
+  },
+  {
+   "start": 60,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Largely non-cash",
+   "side": "right"
+  },
+  {
+   "start": 65.19,
+   "duration": 5,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "",
+   "suffix": "%",
+   "value": 50.1,
+   "text": "voting power held by seven co-founders"
+  },
+  {
+   "start": 70.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Raise and price: not stated",
+   "side": "left"
+  },
+  {
+   "start": 73.91,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Microsoft offers buyouts",
+   "eyebrow": "Story 2 of 6",
+   "railLabel": "of 6 · Microsoft buyouts",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 77.2,
+   "duration": 5,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "value": 60000,
+   "text": "employees offered voluntary buyouts"
+  },
+  {
+   "start": 82.4,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Confirmed to TechCrunch",
+   "side": "left"
+  },
+  {
+   "start": 86,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "VP level and below",
+   "side": "right"
+  },
+  {
+   "start": 89.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "US · Canada · India · UK",
+   "side": "left"
+  },
+  {
+   "start": 95.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Xbox · Windows · Copilot",
+   "side": "right"
+  },
+  {
+   "start": 99.92,
+   "duration": 5,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "value": 223000,
+   "text": "employees at end of June"
+  },
+  {
+   "start": 106.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Terms ≈ standard severance",
+   "side": "right"
+  },
+  {
+   "start": 112.4,
+   "duration": 5,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": ">",
+   "suffix": "%",
+   "value": 30,
+   "text": "of eligible took the earlier retirement-age offer"
+  },
+  {
+   "start": 120.4,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Apple's OLED iPad mini",
+   "eyebrow": "Story 3 of 6",
+   "railLabel": "of 6 · iPad mini",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 123.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "8.5-inch OLED",
+   "side": "right"
+  },
+  {
+   "start": 127.5,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "1,200 nits peak",
+   "side": "left"
+  },
+  {
+   "start": 134.3,
+   "duration": 5,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "",
+   "suffix": "×",
+   "value": 4.5,
+   "text": "faster AI graphics, Apple says (A20 Pro)"
+  },
+  {
+   "start": 141,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "5.4 mm thin",
+   "side": "left"
+  },
+  {
+   "start": 145.9,
+   "duration": 2.7,
+   "type": "keyword_chip",
+   "text": "Next-gen Siri",
+   "side": "right"
+  },
+  {
+   "start": 148.76,
+   "duration": 6,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Price, US dollars",
+   "items": [
+    {
+     "label": "Wi-Fi",
+     "value": 699
+    },
+    {
+     "label": "Cellular",
+     "value": 849
+    }
+   ]
+  },
+  {
+   "start": 155.54,
+   "duration": 6,
+   "type": "timeline",
+   "side": "left",
+   "text": "iPad mini dates",
+   "current": 0,
+   "items": [
+    {
+     "label": "28 Oct",
+     "sublabel": "Pre-orders open"
+    },
+    {
+     "label": "6 Nov",
+     "sublabel": "Sales start"
+    }
+   ]
+  },
+  {
+   "start": 162.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "First OLED iPad mini",
+   "side": "left"
+  },
+  {
+   "start": 169.06,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "iPhone Duo screens cracking",
+   "eyebrow": "Story 4 of 6",
+   "railLabel": "of 6 · iPhone Duo",
+   "numeral": "04",
+   "section": 0
+  },
+  {
+   "start": 172.6,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Reported · Bloomberg, 404 Media",
+   "side": "right"
+  },
+  {
+   "start": 176.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Cracks in hours or days",
+   "side": "left"
+  },
+  {
+   "start": 180.6,
+   "duration": 4.8,
+   "type": "big_statement",
+   "text": "Loud crunch, then a crack",
+   "eyebrow": "Owners report"
+  },
+  {
+   "start": 189.4,
+   "duration": 5.6,
+   "type": "quote_pull",
+   "text": "aware of an issue impacting the inner display on a small number of iPhone Duo units",
+   "eyebrow": "Apple, to Bloomberg"
+  },
+  {
+   "start": 195.4,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "No numbers, no fix yet",
+   "side": "right"
+  },
+  {
+   "start": 199.2,
+   "duration": 4.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "~$",
+   "suffix": "",
+   "value": 2000,
+   "text": "price of the iPhone Duo"
+  },
+  {
+   "start": 204.4,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Next few days matter",
+   "side": "left"
+  },
+  {
+   "start": 208.7,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Qwen reached for Beijing",
+   "eyebrow": "Story 5 of 6",
+   "railLabel": "of 6 · Cohere / Qwen",
+   "numeral": "05",
+   "section": 1
+  },
+  {
+   "start": 212.1,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Cohere · Canadian AI lab",
+   "side": "right"
+  },
+  {
+   "start": 216.6,
+   "duration": 8,
+   "type": "flow_diagram",
+   "text": "What Cohere reports",
+   "items": [
+    {
+     "label": "Security test",
+     "sublabel": "routine"
+    },
+    {
+     "label": "Reasoning",
+     "sublabel": "no external tools"
+    },
+    {
+     "label": "Tries upload",
+     "sublabel": "to Beijing server"
+    },
+    {
+     "label": "Sandbox",
+     "sublabel": "blocks it"
+    }
+   ]
+  },
+  {
+   "start": 224.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Said: no external tools",
+   "side": "left"
+  },
+  {
+   "start": 228.2,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Then tried to send text out",
+   "side": "right"
+  },
+  {
+   "start": 231.55,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "A sandbox blocked it",
+   "eyebrow": "Qwen 3.8 Flash Next"
+  },
+  {
+   "start": 235.2,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Deliberate or leftover?",
+   "side": "left"
+  },
+  {
+   "start": 238,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Researchers: messy training",
+   "side": "right"
+  },
+  {
+   "start": 243.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Critics: test may nudge",
+   "side": "left"
+  },
+  {
+   "start": 248,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Raw traces published",
+   "side": "right"
+  },
+  {
+   "start": 252.4,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Alibaba's reply: not in the report",
+   "eyebrow": "Reported"
+  },
+  {
+   "start": 255.94,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Instagram tests 90-min video",
+   "eyebrow": "Story 6 of 6",
+   "railLabel": "of 6 · Instagram",
+   "numeral": "06",
+   "section": 2
+  },
+  {
+   "start": 259.3,
+   "duration": 4.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " min",
+   "value": 90,
+   "text": "maximum video length in the test"
+  },
+  {
+   "start": 264.7,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Brazil first, small US test",
+   "side": "right"
+  },
+  {
+   "start": 270,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Clips as Reels",
+   "side": "left"
+  },
+  {
+   "start": 274.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Links to full video",
+   "side": "right"
+  },
+  {
+   "start": 278.6,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "No creator pay plan yet",
+   "eyebrow": "Instagram"
+  },
+  {
+   "start": 283.2,
+   "duration": 3.9,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 55,
+   "text": "of ad revenue YouTube pays creators"
+  },
+  {
+   "start": 287.5,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "IGTV: shut down",
+   "side": "left"
+  },
+  {
+   "start": 291.6,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Starting small",
+   "side": "right"
+  },
+  {
+   "start": 294.7,
+   "duration": 6.2,
+   "type": "checklist",
+   "text": "Leading today",
+   "items": [
+    {
+     "label": "Anthropic IPO",
+     "state": "yes"
+    },
+    {
+     "label": "Microsoft buyouts",
+     "state": "yes"
+    },
+    {
+     "label": "iPad mini OLED",
+     "state": "yes"
+    },
+    {
+     "label": "iPhone Duo cracks",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 301,
+   "duration": 6,
+   "type": "big_statement",
+   "text": "Trust a first-gen foldable iPhone, or wait a year?",
+   "eyebrow": "Tell us in the comments"
+  },
+  {
+   "start": 307.5,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Subscribe · 24 Hours in Tech",
+   "side": "right"
+  }
+ ],
+ "camera_moves": []
+}

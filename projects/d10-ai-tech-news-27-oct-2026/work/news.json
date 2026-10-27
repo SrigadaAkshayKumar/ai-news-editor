@@ -1,0 +1,50 @@
+{
+  "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/": {
+    "source": "TechCrunch",
+    "headline": "Anthropic officially files for its public debut",
+    "date": "26 Oct 2026",
+    "path": "assets/news/techcrunch_com_anthropic_officially_files_for_its_public_debut.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_anthropic_officially_files_for_its_public_debut_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/": {
+    "source": "TechCrunch",
+    "headline": "Microsoft offers buyouts to around 60,000 employees, reports say",
+    "date": "26 Oct 2026",
+    "path": "assets/news/techcrunch_com_microsoft_offers_buyouts_to_around_60000_employees_repo.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_microsoft_offers_buyouts_to_around_60000_employees_repo_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/": {
+    "source": "TechCrunch",
+    "headline": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
+    "date": "26 Oct 2026",
+    "path": "assets/news/techcrunch_com_apple_unveils_new_ipad_mini_with_oled_display_and_faste.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_apple_unveils_new_ipad_mini_with_oled_display_and_faste_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/": {
+    "source": "TechCrunch",
+    "headline": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren't happy about it",
+    "date": "26 Oct 2026",
+    "path": "assets/news/techcrunch_com_uh_oh_it_sounds_like_the_iphone_duo_keeps_cracking_and_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_uh_oh_it_sounds_like_the_iphone_duo_keeps_cracking_and__mobile.png"
+  },
+  "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/": {
+    "source": "TechCrunch",
+    "headline": "Cohere says Alibaba's Qwen model tried to send a file to Beijing",
+    "date": "26 Oct 2026",
+    "path": "assets/news/techcrunch_com_cohere_says_alibabas_qwen_model_tried_to_send_a_file_to.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_cohere_says_alibabas_qwen_model_tried_to_send_a_file_to_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/": {
+    "source": "TechCrunch",
+    "headline": "Watch out, YouTube: Instagram goes from short-form to 90-minute videos",
+    "date": "26 Oct 2026",
+    "path": "assets/news/techcrunch_com_watch_out_youtube_instagram_goes_from_short_form_to_90_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_watch_out_youtube_instagram_goes_from_short_form_to_90__mobile.png"
+  }
+}
