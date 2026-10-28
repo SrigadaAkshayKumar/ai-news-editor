@@ -1,0 +1,1144 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.95,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 6.95,
+   "end": 13.9,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 13.9,
+   "end": 20.2,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 20.2,
+   "end": 26.5,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 26.5,
+   "end": 38.19,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 38.19,
+   "end": 43.5,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 43.5,
+   "end": 52.05,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "source": "Google DeepMind",
+   "headline": "Genie 4: a new generation of world simulation",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.3,
+    "y": 0.1,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 52.05,
+   "end": 60.6,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "source": "Google DeepMind",
+   "headline": "Genie 4: a new generation of world simulation",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.3,
+    "y": 0.1,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 60.6,
+   "end": 68.07,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 68.07,
+   "end": 75.53,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 75.53,
+   "end": 83.0,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 82.98,
+   "end": 90.09,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 90.09,
+   "end": 97.2,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 97.2,
+   "end": 105.2,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/",
+   "source": "TechCrunch",
+   "headline": "Jio shares surge 21% in market debut after blockbuster India IPO",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.4,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 105.2,
+   "end": 114.9,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 114.9,
+   "end": 124.6,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 124.6,
+   "end": 128.0,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 128.0,
+   "end": 138.3,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://cryptobriefing.com/oracle-magouyrk-sam-altman-ai-world/",
+   "source": "Crypto Briefing",
+   "headline": "Oracle AI World: Oracle and OpenAI deepen their partnership",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.1,
+    "y": 0.25,
+    "w": 0.4,
+    "h": 0.1
+   }
+  },
+  {
+   "start": 138.3,
+   "end": 147.29,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 147.29,
+   "end": 156.29,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 156.29,
+   "end": 165.28,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 165.28,
+   "end": 169.0,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 169.0,
+   "end": 181.2,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
+   "source": "TechCrunch",
+   "headline": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.4,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 181.2,
+   "end": 190.49,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 190.49,
+   "end": 199.78,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 199.78,
+   "end": 203.2,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 203.2,
+   "end": 211.1,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://blog.checkpoint.com/research/yoba-malware-abuses-signed-chatgpt-and-claude-binaries-to-target-ai-users",
+   "source": "Check Point Research",
+   "headline": "Yoba malware abuses signed ChatGPT and Claude binaries",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.14,
+    "y": 0.17,
+    "w": 0.3,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 211.1,
+   "end": 219.0,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://blog.checkpoint.com/research/yoba-malware-abuses-signed-chatgpt-and-claude-binaries-to-target-ai-users",
+   "source": "Check Point Research",
+   "headline": "Yoba malware abuses signed ChatGPT and Claude binaries",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.14,
+    "y": 0.17,
+    "w": 0.3,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 219.0,
+   "end": 226.34,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 226.34,
+   "end": 233.67,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 233.67,
+   "end": 241.01,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 241.01,
+   "end": 245.5,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 245.5,
+   "end": 253.75,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+   "source": "TechCrunch",
+   "headline": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.4,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 253.75,
+   "end": 262.0,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+   "source": "TechCrunch",
+   "headline": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.4,
+    "h": 0.08
+   }
+  },
+  {
+   "start": 262.0,
+   "end": 269.7,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 269.7,
+   "end": 277.4,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 277.4,
+   "end": 285.1,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 285.1,
+   "end": 288.7,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 288.7,
+   "end": 299.0,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge",
+   "source": "TrendForce",
+   "headline": "TSMC reportedly eyes 20% CoWoS price hike",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.2,
+    "w": 0.45,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 299.0,
+   "end": 308.6,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 308.6,
+   "end": 320.4,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge",
+   "source": "TrendForce",
+   "headline": "TSMC reportedly eyes 20% CoWoS price hike",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.08,
+    "y": 0.2,
+    "w": 0.45,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 320.4,
+   "end": 328.43,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 328.43,
+   "end": 331.7,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 331.7,
+   "end": 341.35,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "source": "Anthropic",
+   "headline": "Early progress in drug development",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.3,
+    "y": 0.07,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 341.35,
+   "end": 351.0,
+   "kind": "news",
+   "transition": "cut",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "source": "Anthropic",
+   "headline": "Early progress in drug development",
+   "date": "27 Oct 2026",
+   "highlight": {
+    "x": 0.3,
+    "y": 0.07,
+    "w": 0.4,
+    "h": 0.06
+   }
+  },
+  {
+   "start": 351.0,
+   "end": 360.9,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 360.9,
+   "end": 370.81,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 370.81,
+   "end": 380.9,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 380.9,
+   "end": 390.97,
+   "kind": "graphic",
+   "transition": "cut",
+   "grade": "cool"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Wednesday · 28 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Google Genie 4",
+   "side": "right"
+  },
+  {
+   "start": 7,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Sound + picture, real time",
+   "side": "left"
+  },
+  {
+   "start": 10.7,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Jio Platforms debut",
+   "side": "right"
+  },
+  {
+   "start": 14.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Oracle · OpenAI · ChatGPT",
+   "side": "left"
+  },
+  {
+   "start": 21.3,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "iOS 27.2 · 160+ fixes",
+   "side": "right"
+  },
+  {
+   "start": 24,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Fake ChatGPT app mines crypto",
+   "side": "left"
+  },
+  {
+   "start": 27.1,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "OpenAI lawsuit",
+   "side": "right"
+  },
+  {
+   "start": 30.2,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "TSMC price rise (reported)",
+   "side": "left"
+  },
+  {
+   "start": 33.6,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Anthropic buys Mithril",
+   "side": "right"
+  },
+  {
+   "start": 37,
+   "duration": 1.1,
+   "type": "keyword_chip",
+   "text": "Let's get into it",
+   "side": "left"
+  },
+  {
+   "start": 38.3,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Google unveils Genie 4",
+   "eyebrow": "Story 1 of 8",
+   "railLabel": "of 8 · Genie 4",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 45,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "First real-time world model with audio",
+   "side": "right"
+  },
+  {
+   "start": 54.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Type to change the weather",
+   "side": "left"
+  },
+  {
+   "start": 60.9,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Early · experimental · can drift",
+   "side": "right"
+  },
+  {
+   "start": 66.8,
+   "duration": 7.4,
+   "type": "timeline",
+   "side": "left",
+   "text": "Genie 4 access",
+   "current": 0,
+   "items": [
+    {
+     "label": "Now",
+     "sublabel": "Research preview, trusted testers"
+    },
+    {
+     "label": "Next",
+     "sublabel": "Waitlist"
+    },
+    {
+     "label": "Planned",
+     "sublabel": "Google AI Ultra"
+    }
+   ]
+  },
+  {
+   "start": 75.2,
+   "duration": 7,
+   "type": "big_statement",
+   "text": "A route to training robots in simulated worlds",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 83.1,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Jio Platforms lists up 21%",
+   "eyebrow": "Story 2 of 8",
+   "railLabel": "of 8 · Jio debut",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 87.4,
+   "duration": 4.0,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 21,
+   "text": "Jio shares up on debut day · about"
+  },
+  {
+   "start": 91.6,
+   "duration": 5.4,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Share price, rupees",
+   "items": [
+    {
+     "label": "Issue price",
+     "value": 1119
+    },
+    {
+     "label": "Opening price",
+     "value": 1358
+    }
+   ]
+  },
+  {
+   "start": 98.2,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Raised about $3.2 billion",
+   "side": "left"
+  },
+  {
+   "start": 101.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Bids for ~22× the shares",
+   "side": "right"
+  },
+  {
+   "start": 105.8,
+   "duration": 5.0,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "",
+   "suffix": "",
+   "value": 12.5,
+   "text": "lakh crore rupees: value at the opening price, about"
+  },
+  {
+   "start": 111.4,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "India's #2 listed company",
+   "side": "left"
+  },
+  {
+   "start": 117.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "All new shares",
+   "side": "right"
+  },
+  {
+   "start": 120.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Up to ₹27,500 crore → debt",
+   "side": "left"
+  },
+  {
+   "start": 124.8,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Oracle brings ChatGPT in",
+   "eyebrow": "Story 3 of 8",
+   "railLabel": "of 8 · Oracle + OpenAI",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 128.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Oracle AI World · Las Vegas",
+   "side": "right"
+  },
+  {
+   "start": 133.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Sam Altman · Clay Magouyrk",
+   "side": "left"
+  },
+  {
+   "start": 139.0,
+   "duration": 12.5,
+   "type": "flow_diagram",
+   "text": "What Oracle announced",
+   "items": [
+    {
+     "label": "ChatGPT + Codex",
+     "sublabel": "into Oracle apps and database"
+    },
+    {
+     "label": "Priority sectors",
+     "sublabel": "healthcare · finance"
+    },
+    {
+     "label": "Oracle cloud",
+     "sublabel": "Google TPUs · Jalapeño · Cerebras"
+    }
+   ]
+  },
+  {
+   "start": 152.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Also: Google TPUs · Jalapeño · Cerebras",
+   "side": "right"
+  },
+  {
+   "start": 156.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "No deal value or rollout date",
+   "side": "left"
+  },
+  {
+   "start": 160.4,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "AI as a default feature, not an add-on",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 165.4,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Apple ships iOS 27.2",
+   "eyebrow": "Story 4 of 8",
+   "railLabel": "of 8 · iOS 27.2",
+   "numeral": "04",
+   "section": 0
+  },
+  {
+   "start": 170.2,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Siri AI in 5 more languages (beta)",
+   "side": "right"
+  },
+  {
+   "start": 175.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Siri remembers past chats",
+   "side": "left"
+  },
+  {
+   "start": 181.4,
+   "duration": 4.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "+",
+   "value": 160,
+   "text": "security fixes in iOS 27.2"
+  },
+  {
+   "start": 186.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Many backported to iOS 26",
+   "side": "right"
+  },
+  {
+   "start": 189.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "~80% still on iOS 26",
+   "side": "left"
+  },
+  {
+   "start": 195.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Install the update",
+   "side": "right"
+  },
+  {
+   "start": 199.9,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Fake AI apps spread a miner",
+   "eyebrow": "Story 5 of 8",
+   "railLabel": "of 8 · Fake AI apps",
+   "numeral": "05",
+   "section": 1
+  },
+  {
+   "start": 204,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Fake GitHub projects",
+   "side": "left"
+  },
+  {
+   "start": 210,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Ranked high in Google search",
+   "side": "right"
+  },
+  {
+   "start": 214,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Genuine, signed installer",
+   "side": "left"
+  },
+  {
+   "start": 220,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Payload: crypto miner",
+   "side": "right"
+  },
+  {
+   "start": 223.2,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Pauses while you work",
+   "side": "left"
+  },
+  {
+   "start": 225.8,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Loader can drop other malware",
+   "side": "right"
+  },
+  {
+   "start": 228.6,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "No sign OpenAI or Anthropic was compromised",
+   "eyebrow": "Check Point"
+  },
+  {
+   "start": 234.4,
+   "duration": 5.4,
+   "type": "checklist",
+   "text": "Stay safe",
+   "items": [
+    {
+     "label": "Vendor sites only",
+     "state": "yes"
+    },
+    {
+     "label": "Limit admin rights",
+     "state": "yes"
+    },
+    {
+     "label": "Watch behaviour",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 241.1,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Parents sue OpenAI",
+   "eyebrow": "Story 6 of 8",
+   "railLabel": "of 8 · OpenAI lawsuit",
+   "numeral": "06",
+   "section": 2
+  },
+  {
+   "start": 248.4,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Software engineer, 31",
+   "side": "left"
+  },
+  {
+   "start": 255.6,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Suit names GPT-4o",
+   "side": "right"
+  },
+  {
+   "start": 258.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Allegation: tapered medication",
+   "side": "left"
+  },
+  {
+   "start": 262.2,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Allegations, not findings",
+   "eyebrow": "TechCrunch report"
+  },
+  {
+   "start": 268.3,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "OpenAI: an older version",
+   "side": "right"
+  },
+  {
+   "start": 271.4,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Newer models spot urgent need",
+   "side": "left"
+  },
+  {
+   "start": 275.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "GPT-4o retired in February",
+   "side": "right"
+  },
+  {
+   "start": 279.0,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Who is responsible for AI medical advice?",
+   "eyebrow": "The test case"
+  },
+  {
+   "start": 285.2,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "TSMC weighs chip price rise",
+   "eyebrow": "Story 7 of 8",
+   "railLabel": "of 8 · TSMC prices",
+   "numeral": "07",
+   "section": 0
+  },
+  {
+   "start": 293.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Reported · TrendForce",
+   "side": "left"
+  },
+  {
+   "start": 299.2,
+   "duration": 4.2,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 20,
+   "text": "CoWoS packaging price rise, up to (reported)"
+  },
+  {
+   "start": 303.6,
+   "duration": 4.0,
+   "type": "keyword_chip",
+   "text": "Wafers: +3–6% from Jan 2027",
+   "side": "right"
+  },
+  {
+   "start": 309,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Reported, not confirmed",
+   "side": "left"
+  },
+  {
+   "start": 314.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Demand: servers, custom chips",
+   "side": "right"
+  },
+  {
+   "start": 318,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Unfilled orders growing",
+   "side": "left"
+  },
+  {
+   "start": 322.6,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "Chip costs flow down to AI services",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 328.5,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Anthropic buys Mithril",
+   "eyebrow": "Story 8 of 8",
+   "railLabel": "of 8 · Mithril",
+   "numeral": "08",
+   "section": 1
+  },
+  {
+   "start": 334.0,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "One-person company",
+   "side": "right"
+  },
+  {
+   "start": 336.9,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Two rare muscular dystrophies",
+   "side": "left"
+  },
+  {
+   "start": 340.5,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Founder: Cody Tranbarger",
+   "side": "right"
+  },
+  {
+   "start": 345.0,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "11 outside labs",
+   "side": "left"
+  },
+  {
+   "start": 351.2,
+   "duration": 8.6,
+   "type": "timeline",
+   "side": "left",
+   "text": "Mithril's treatment",
+   "current": 1,
+   "items": [
+    {
+     "label": "Idea",
+     "sublabel": "start"
+    },
+    {
+     "label": "Mouse results",
+     "sublabel": "under 18 months"
+    },
+    {
+     "label": "Human trial",
+     "sublabel": "late 2028, if results hold"
+    }
+   ]
+  },
+  {
+   "start": 360.0,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "If results hold",
+   "side": "right"
+  },
+  {
+   "start": 362.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Terms not disclosed",
+   "side": "left"
+  },
+  {
+   "start": 365.9,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "6 partners · Bristol Myers Squibb",
+   "side": "right"
+  },
+  {
+   "start": 371.2,
+   "duration": 8,
+   "type": "checklist",
+   "text": "Today in tech",
+   "items": [
+    {
+     "label": "Genie 4 world model",
+     "state": "yes"
+    },
+    {
+     "label": "Jio's 21% debut",
+     "state": "yes"
+    },
+    {
+     "label": "Oracle + OpenAI",
+     "state": "yes"
+    },
+    {
+     "label": "iOS 27.2 fixes",
+     "state": "yes"
+    },
+    {
+     "label": "Fake AI apps · lawsuit",
+     "state": "yes"
+    },
+    {
+     "label": "TSMC · Anthropic",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 381.0,
+   "duration": 5.2,
+   "type": "big_statement",
+   "text": "Should AI chatbots give medical advice at all?",
+   "eyebrow": "Tell us in the comments"
+  },
+  {
+   "start": 387.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Subscribe · 24 Hours in Tech",
+   "side": "left"
+  }
+ ],
+ "camera_moves": []
+}

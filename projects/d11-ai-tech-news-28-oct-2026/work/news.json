@@ -1,0 +1,66 @@
+{
+  "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/": {
+    "source": "Google DeepMind",
+    "headline": "Genie 4: a new generation of world simulation",
+    "date": "27 Oct 2026",
+    "path": "assets/news/deepmind_google_genie_4_a_new_generation_of_world_simulation.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/deepmind_google_genie_4_a_new_generation_of_world_simulation_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/": {
+    "source": "TechCrunch",
+    "headline": "Jio shares surge 21% in market debut after blockbuster India IPO",
+    "date": "27 Oct 2026",
+    "path": "assets/news/techcrunch_com_jio_shares_surge_21_in_market_debut_after_blockbuster_i.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_jio_shares_surge_21_in_market_debut_after_blockbuster_i_mobile.png"
+  },
+  "https://cryptobriefing.com/oracle-magouyrk-sam-altman-ai-world/": {
+    "source": "Crypto Briefing",
+    "headline": "Oracle AI World: Oracle and OpenAI deepen their partnership",
+    "date": "27 Oct 2026",
+    "path": "assets/news/cryptobriefing_com_oracle_magouyrk_sam_altman_ai_world.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/cryptobriefing_com_oracle_magouyrk_sam_altman_ai_world_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/": {
+    "source": "TechCrunch",
+    "headline": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
+    "date": "27 Oct 2026",
+    "path": "assets/news/techcrunch_com_apple_rolls_out_ios_27_2_with_new_siri_ai_languages_and.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_apple_rolls_out_ios_27_2_with_new_siri_ai_languages_and_mobile.png"
+  },
+  "https://blog.checkpoint.com/research/yoba-malware-abuses-signed-chatgpt-and-claude-binaries-to-target-ai-users": {
+    "source": "Check Point Research",
+    "headline": "Yoba malware abuses signed ChatGPT and Claude binaries",
+    "date": "27 Oct 2026",
+    "path": "assets/news/blog_checkpoint_com_yoba_malware_abuses_signed_chatgpt_and_claude_bina.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/blog_checkpoint_com_yoba_malware_abuses_signed_chatgpt_and_claude_bina_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/": {
+    "source": "TechCrunch",
+    "headline": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+    "date": "27 Oct 2026",
+    "path": "assets/news/techcrunch_com_parents_sue_openai_alleging_gpt_4o_coached_their_daught.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_parents_sue_openai_alleging_gpt_4o_coached_their_daught_mobile.png"
+  },
+  "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge": {
+    "source": "TrendForce",
+    "headline": "TSMC reportedly eyes 20% CoWoS price hike",
+    "date": "27 Oct 2026",
+    "path": "assets/news/trendforce_com_news_tsmc_reportedly_eyes_20_cowos_price_hike_skips_equ.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/trendforce_com_news_tsmc_reportedly_eyes_20_cowos_price_hike_skips_equ_mobile.png"
+  },
+  "https://www.anthropic.com/research/early-progress-drug-development": {
+    "source": "Anthropic",
+    "headline": "Early progress in drug development",
+    "date": "27 Oct 2026",
+    "path": "assets/news/anthropic_com_early_progress_drug_development.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/anthropic_com_early_progress_drug_development_mobile.png"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "name": "d11-ai-tech-news-28-oct-2026",
+  "createdAt": "2026-10-28T10:01:44.566Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d11-ai-tech-news-28-oct-2026/source/raw.wav",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d11/d11-voice.wav",
+    "duration": 432.18,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d11-ai-tech-news-28-oct-2026/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d11/d11_ai_tech_news_28_oct_2026_voiceover.txt",
+    "words": 985,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d11-ai-tech-news-28-oct-2026/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Google Deep Mind",
+    "Genie",
+    "Jio Platforms",
+    "India",
+    "And Oracle",
+    "Open",
+    "Chat",
+    "Oracle",
+    "Anthropic",
+    "Deep Mind",
+    "Google",
+    "TechCrunch",
+    "Reliance Industries",
+    "Las Vegas",
+    "Clay Magouyrk",
+    "Sam Altman",
+    "Siri",
+    "Check Point",
+    "GitHub",
+    "Claude",
+    "Bowen Wan",
+    "February",
+    "Taiwan Semiconductor",
+    "TrendForce",
+    "CoWoS",
+    "Wall Street",
+    "Mithril Medicine",
+    "Cody Tranbarger",
+    "Bristol Myers Squibb"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "24 Hours in Tech roundup: 16:9 YouTube, no captions, a story counter (chapter rail 'Story 3 of 8'), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English; daily news-desk look, news screenshots and NewsCards lead, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; a wipe whoosh + hit on every story change, soft ticks elsewhere",
+  "brand": "ai-news",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-28T10:04:58.917Z",
+      "words": 916,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-28T10:05:16.123Z",
+      "segments": 124,
+      "kept": 390.967
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-28T11:01:05.951Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d11-ai-tech-news-28-oct-2026/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-28T11:01:06.137Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-28T11:01:06.170Z",
+      "groups": 260
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-28T11:01:08.500Z",
+      "music": 0,
+      "sfx": 79
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-28T11:01:40.015Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d11-ai-tech-news-28-oct-2026/output/final-16x9.mp4",
+      "duration": 390.966667
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.998143,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d11-ai-tech-news-28-oct-2026/work/cleancut.wav",
+    "duration": 390.966083,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

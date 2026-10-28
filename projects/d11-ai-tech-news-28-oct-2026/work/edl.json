@@ -1,0 +1,52 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes; script-diff extras are numeral/acronym spelling only. Dead air trimmed to 0.33s; 0.6s held beats at each story change.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {
+  "w16": "four,",
+  "w101": "four,",
+  "w321": "Magouyrk",
+  "w363": "Jalape\u00f1o",
+  "w499": "Check",
+  "w500": "Point",
+  "w707": "CoWoS"
+ },
+ "holds": [
+  {
+   "after": "w94",
+   "max": 0.6
+  },
+  {
+   "after": "w210",
+   "max": 0.6
+  },
+  {
+   "after": "w316",
+   "max": 0.6
+  },
+  {
+   "after": "w394",
+   "max": 0.6
+  },
+  {
+   "after": "w473",
+   "max": 0.6
+  },
+  {
+   "after": "w572",
+   "max": 0.6
+  },
+  {
+   "after": "w671",
+   "max": 0.6
+  },
+  {
+   "after": "w768",
+   "max": 0.6
+  },
+  {
+   "after": "w862",
+   "max": 0.6
+  }
+ ]
+}

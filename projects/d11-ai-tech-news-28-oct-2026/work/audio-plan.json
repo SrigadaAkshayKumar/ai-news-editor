@@ -1,0 +1,462 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open: title lands on frame 0"
+  },
+  {
+   "time": 3.2,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Google Genie 4"
+  },
+  {
+   "time": 7,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Sound + picture, real time"
+  },
+  {
+   "time": 10.7,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Jio Platforms debut"
+  },
+  {
+   "time": 14.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Oracle · OpenAI · ChatGPT"
+  },
+  {
+   "time": 21.3,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip iOS 27.2 · 160+ fixes"
+  },
+  {
+   "time": 24,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Fake ChatGPT app mines crypto"
+  },
+  {
+   "time": 27.1,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip OpenAI lawsuit"
+  },
+  {
+   "time": 30.2,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip TSMC price rise (reported)"
+  },
+  {
+   "time": 33.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Anthropic buys Mithril"
+  },
+  {
+   "time": 37,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Let's get into it"
+  },
+  {
+   "time": 38.3,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 1 of 8"
+  },
+  {
+   "time": 38.7,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 8"
+  },
+  {
+   "time": 45,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip First real-time world model with audio"
+  },
+  {
+   "time": 54.9,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Type to change the weather"
+  },
+  {
+   "time": 60.9,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Early · experimental · can drift"
+  },
+  {
+   "time": 66.9,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "timeline: Genie 4 access"
+  },
+  {
+   "time": 83.1,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 2 of 8"
+  },
+  {
+   "time": 83.5,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 8"
+  },
+  {
+   "time": 87.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Jio shares up on debut day · about"
+  },
+  {
+   "time": 91.7,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "bar_chart: Share price, rupees"
+  },
+  {
+   "time": 98.2,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Raised about $3.2 billion"
+  },
+  {
+   "time": 101.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Bids for ~22× the shares"
+  },
+  {
+   "time": 105.9,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: lakh crore rupees: value at the opening price, about"
+  },
+  {
+   "time": 111.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip India's #2 listed company"
+  },
+  {
+   "time": 117.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip All new shares"
+  },
+  {
+   "time": 120.2,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Up to ₹27,500 crore → debt"
+  },
+  {
+   "time": 124.8,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 3 of 8"
+  },
+  {
+   "time": 125.2,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 8"
+  },
+  {
+   "time": 128.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Oracle AI World · Las Vegas"
+  },
+  {
+   "time": 133.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Sam Altman · Clay Magouyrk"
+  },
+  {
+   "time": 139.1,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: What Oracle announced"
+  },
+  {
+   "time": 152.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Also: Google TPUs · Jalapeño · Cerebras"
+  },
+  {
+   "time": 156.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip No deal value or rollout date"
+  },
+  {
+   "time": 165.4,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 4 of 8"
+  },
+  {
+   "time": 165.8,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 8"
+  },
+  {
+   "time": 170.2,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Siri AI in 5 more languages (beta)"
+  },
+  {
+   "time": 175.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Siri remembers past chats"
+  },
+  {
+   "time": 181.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: security fixes in iOS 27.2"
+  },
+  {
+   "time": 186.2,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Many backported to iOS 26"
+  },
+  {
+   "time": 189.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip ~80% still on iOS 26"
+  },
+  {
+   "time": 195.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Install the update"
+  },
+  {
+   "time": 199.9,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 5 of 8"
+  },
+  {
+   "time": 200.3,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 8"
+  },
+  {
+   "time": 204,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Fake GitHub projects"
+  },
+  {
+   "time": 210,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Ranked high in Google search"
+  },
+  {
+   "time": 214,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Genuine, signed installer"
+  },
+  {
+   "time": 220,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Payload: crypto miner"
+  },
+  {
+   "time": 223.2,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Pauses while you work"
+  },
+  {
+   "time": 225.8,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Loader can drop other malware"
+  },
+  {
+   "time": 234.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "checklist: Stay safe"
+  },
+  {
+   "time": 241.1,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 6 of 8"
+  },
+  {
+   "time": 241.5,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 8"
+  },
+  {
+   "time": 248.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Software engineer, 31"
+  },
+  {
+   "time": 255.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Suit names GPT-4o"
+  },
+  {
+   "time": 258.8,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Allegation: tapered medication"
+  },
+  {
+   "time": 268.3,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip OpenAI: an older version"
+  },
+  {
+   "time": 271.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Newer models spot urgent need"
+  },
+  {
+   "time": 275.0,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip GPT-4o retired in February"
+  },
+  {
+   "time": 285.2,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 7 of 8"
+  },
+  {
+   "time": 285.6,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 8"
+  },
+  {
+   "time": 293.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Reported · TrendForce"
+  },
+  {
+   "time": 299.3,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: CoWoS packaging price rise, up to (reported)"
+  },
+  {
+   "time": 303.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Wafers: +3–6% from Jan 2027"
+  },
+  {
+   "time": 309,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Reported, not confirmed"
+  },
+  {
+   "time": 314.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Demand: servers, custom chips"
+  },
+  {
+   "time": 318,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Unfilled orders growing"
+  },
+  {
+   "time": 328.5,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 8 of 8"
+  },
+  {
+   "time": 328.9,
+   "sfx": "impact",
+   "reason": "story change hit: Story 8 of 8"
+  },
+  {
+   "time": 334.0,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip One-person company"
+  },
+  {
+   "time": 336.9,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Two rare muscular dystrophies"
+  },
+  {
+   "time": 340.5,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Founder: Cody Tranbarger"
+  },
+  {
+   "time": 345.0,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip 11 outside labs"
+  },
+  {
+   "time": 351.3,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "timeline: Mithril's treatment"
+  },
+  {
+   "time": 360.0,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip If results hold"
+  },
+  {
+   "time": 362.8,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Terms not disclosed"
+  },
+  {
+   "time": 365.9,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip 6 partners · Bristol Myers Squibb"
+  },
+  {
+   "time": 371.3,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "checklist: Today in tech"
+  },
+  {
+   "time": 387.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Subscribe · 24 Hours in Tech"
+  }
+ ]
+}

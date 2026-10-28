@@ -1,0 +1,67 @@
+[
+  {
+    "file": "assets/stills/thumb-bg.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/earth-internet-globalization-2254769/",
+    "creator": "TheDigitalArtist",
+    "creatorUrl": "https://pixabay.com/users/TheDigitalArtist-202249/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/library/google.svg",
+    "title": "File:Google 2026 logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Google_2026_logo.svg",
+    "license": "Public domain",
+    "author": "Google LLC",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/jio.svg",
+    "title": "File:Reliance Jio Logo (October 2015).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Reliance_Jio_Logo_(October_2015).svg",
+    "license": "Public domain",
+    "author": "Reliance Jio",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/oracle.svg",
+    "title": "File:Oracle logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Oracle_logo.svg",
+    "license": "Public domain",
+    "author": "Oracle Corporation",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/openai.svg",
+    "title": "File:OpenAI logo 2025 (wordmark).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg",
+    "license": "Public domain",
+    "author": "OpenAI",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/apple.svg",
+    "title": "File:Apple logo black.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+    "license": "Public domain",
+    "author": "Original: Rob Janoff",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/sam-altman.png",
+    "title": "File:Sam Altman speaking at TED (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED_(cropped).jpg",
+    "license": "CC BY 2.0",
+    "author": "Steve Jurvetson",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/library/demis-hassabis.png",
+    "title": "File:Demis Hassabis, 2024 Nobel Prize Laureate in Chemistry 7 (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "John Sears",
+    "note": "photo of a public figure; editorial use, background removed"
+  }
+]

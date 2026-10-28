@@ -1,0 +1,7330 @@
+[
+  {
+    "id": "w0",
+    "text": "Here's",
+    "start": 0.073,
+    "end": 0.215,
+    "type": "word",
+    "src": "w0"
+  },
+  {
+    "id": "w1",
+    "text": "what",
+    "start": 0.215,
+    "end": 0.431,
+    "type": "word",
+    "src": "w1"
+  },
+  {
+    "id": "w2",
+    "text": "happened",
+    "start": 0.431,
+    "end": 0.881,
+    "type": "word",
+    "src": "w2"
+  },
+  {
+    "id": "w3",
+    "text": "in",
+    "start": 0.881,
+    "end": 1.056,
+    "type": "word",
+    "src": "w3"
+  },
+  {
+    "id": "w4",
+    "text": "tech",
+    "start": 1.056,
+    "end": 1.214,
+    "type": "word",
+    "src": "w4"
+  },
+  {
+    "id": "w5",
+    "text": "in",
+    "start": 1.214,
+    "end": 1.323,
+    "type": "word",
+    "src": "w5"
+  },
+  {
+    "id": "w6",
+    "text": "the",
+    "start": 1.323,
+    "end": 1.489,
+    "type": "word",
+    "src": "w6"
+  },
+  {
+    "id": "w7",
+    "text": "last",
+    "start": 1.489,
+    "end": 1.789,
+    "type": "word",
+    "src": "w7"
+  },
+  {
+    "id": "w8",
+    "text": "24",
+    "start": 1.789,
+    "end": 2.047,
+    "type": "word",
+    "src": "w8"
+  },
+  {
+    "id": "w9",
+    "text": "hours.",
+    "start": 2.047,
+    "end": 2.672,
+    "type": "word",
+    "src": "w9"
+  },
+  {
+    "id": "w10",
+    "text": "Google",
+    "start": 2.993,
+    "end": 3.213,
+    "type": "word",
+    "src": "w10"
+  },
+  {
+    "id": "w11",
+    "text": "Deep",
+    "start": 3.213,
+    "end": 3.441,
+    "type": "word",
+    "src": "w11"
+  },
+  {
+    "id": "w12",
+    "text": "Mind",
+    "start": 3.441,
+    "end": 3.67,
+    "type": "word",
+    "src": "w12"
+  },
+  {
+    "id": "w13",
+    "text": "has",
+    "start": 3.67,
+    "end": 3.841,
+    "type": "word",
+    "src": "w13"
+  },
+  {
+    "id": "w14",
+    "text": "unveiled",
+    "start": 3.841,
+    "end": 4.33,
+    "type": "word",
+    "src": "w14"
+  },
+  {
+    "id": "w15",
+    "text": "Genie",
+    "start": 4.33,
+    "end": 4.852,
+    "type": "word",
+    "src": "w15"
+  },
+  {
+    "id": "w16",
+    "text": "four,",
+    "start": 4.852,
+    "end": 5.407,
+    "type": "word",
+    "src": "w16"
+  },
+  {
+    "id": "w17",
+    "text": "a",
+    "start": 5.407,
+    "end": 5.602,
+    "type": "word",
+    "src": "w17"
+  },
+  {
+    "id": "w18",
+    "text": "world",
+    "start": 5.927,
+    "end": 6.17,
+    "type": "word",
+    "src": "w18"
+  },
+  {
+    "id": "w19",
+    "text": "model",
+    "start": 6.17,
+    "end": 6.562,
+    "type": "word",
+    "src": "w19"
+  },
+  {
+    "id": "w20",
+    "text": "that",
+    "start": 6.562,
+    "end": 7.03,
+    "type": "word",
+    "src": "w20"
+  },
+  {
+    "id": "w21",
+    "text": "generates",
+    "start": 7.03,
+    "end": 7.59,
+    "type": "word",
+    "src": "w21"
+  },
+  {
+    "id": "w22",
+    "text": "sound",
+    "start": 7.59,
+    "end": 7.964,
+    "type": "word",
+    "src": "w22"
+  },
+  {
+    "id": "w23",
+    "text": "as",
+    "start": 7.964,
+    "end": 8.114,
+    "type": "word",
+    "src": "w23"
+  },
+  {
+    "id": "w24",
+    "text": "well",
+    "start": 8.114,
+    "end": 8.572,
+    "type": "word",
+    "src": "w24"
+  },
+  {
+    "id": "w25",
+    "text": "as",
+    "start": 8.572,
+    "end": 8.833,
+    "type": "word",
+    "src": "w25"
+  },
+  {
+    "id": "w26",
+    "text": "picture",
+    "start": 8.833,
+    "end": 9.114,
+    "type": "word",
+    "src": "w26"
+  },
+  {
+    "id": "w27",
+    "text": "in",
+    "start": 9.114,
+    "end": 9.338,
+    "type": "word",
+    "src": "w27"
+  },
+  {
+    "id": "w28",
+    "text": "real",
+    "start": 9.338,
+    "end": 9.572,
+    "type": "word",
+    "src": "w28"
+  },
+  {
+    "id": "w29",
+    "text": "time.",
+    "start": 9.572,
+    "end": 10.188,
+    "type": "word",
+    "src": "w29"
+  },
+  {
+    "id": "w30",
+    "text": "Jio",
+    "start": 10.533,
+    "end": 10.757,
+    "type": "word",
+    "src": "w30"
+  },
+  {
+    "id": "w31",
+    "text": "Platforms",
+    "start": 10.757,
+    "end": 11.436,
+    "type": "word",
+    "src": "w31"
+  },
+  {
+    "id": "w32",
+    "text": "has",
+    "start": 11.436,
+    "end": 11.709,
+    "type": "word",
+    "src": "w32"
+  },
+  {
+    "id": "w33",
+    "text": "made",
+    "start": 11.709,
+    "end": 11.958,
+    "type": "word",
+    "src": "w33"
+  },
+  {
+    "id": "w34",
+    "text": "its",
+    "start": 11.958,
+    "end": 12.206,
+    "type": "word",
+    "src": "w34"
+  },
+  {
+    "id": "w35",
+    "text": "stock",
+    "start": 12.206,
+    "end": 12.562,
+    "type": "word",
+    "src": "w35"
+  },
+  {
+    "id": "w36",
+    "text": "market",
+    "start": 12.562,
+    "end": 13.299,
+    "type": "word",
+    "src": "w36"
+  },
+  {
+    "id": "w37",
+    "text": "debut",
+    "start": 13.299,
+    "end": 13.398,
+    "type": "word",
+    "src": "w37"
+  },
+  {
+    "id": "w38",
+    "text": "in",
+    "start": 13.398,
+    "end": 13.547,
+    "type": "word",
+    "src": "w38"
+  },
+  {
+    "id": "w39",
+    "text": "India,",
+    "start": 13.547,
+    "end": 14.185,
+    "type": "word",
+    "src": "w39"
+  },
+  {
+    "id": "w40",
+    "text": "and",
+    "start": 14.496,
+    "end": 14.828,
+    "type": "word",
+    "src": "w40"
+  },
+  {
+    "id": "w41",
+    "text": "Oracle",
+    "start": 14.828,
+    "end": 15.517,
+    "type": "word",
+    "src": "w41"
+  },
+  {
+    "id": "w42",
+    "text": "and",
+    "start": 15.517,
+    "end": 16.222,
+    "type": "word",
+    "src": "w42"
+  },
+  {
+    "id": "w43",
+    "text": "OpenAI",
+    "start": 16.222,
+    "end": 16.479,
+    "type": "word",
+    "src": "w43"
+  },
+  {
+    "id": "w44",
+    "text": "are",
+    "start": 16.479,
+    "end": 16.612,
+    "type": "word",
+    "src": "w44"
+  },
+  {
+    "id": "w45",
+    "text": "putting",
+    "start": 16.935,
+    "end": 17.411,
+    "type": "word",
+    "src": "w45"
+  },
+  {
+    "id": "w46",
+    "text": "chat",
+    "start": 17.411,
+    "end": 17.729,
+    "type": "word",
+    "src": "w46"
+  },
+  {
+    "id": "w47",
+    "text": "GPT",
+    "start": 17.729,
+    "end": 17.967,
+    "type": "word",
+    "src": "w47"
+  },
+  {
+    "id": "w48",
+    "text": "inside",
+    "start": 17.967,
+    "end": 18.482,
+    "type": "word",
+    "src": "w48"
+  },
+  {
+    "id": "w49",
+    "text": "Oracle's",
+    "start": 18.482,
+    "end": 19.097,
+    "type": "word",
+    "src": "w49"
+  },
+  {
+    "id": "w50",
+    "text": "business",
+    "start": 19.097,
+    "end": 19.742,
+    "type": "word",
+    "src": "w50"
+  },
+  {
+    "id": "w51",
+    "text": "software.",
+    "start": 19.742,
+    "end": 20.743,
+    "type": "word",
+    "src": "w51"
+  },
+  {
+    "id": "w52",
+    "text": "Plus,",
+    "start": 21.067,
+    "end": 21.474,
+    "type": "word",
+    "src": "w52"
+  },
+  {
+    "id": "w53",
+    "text": "a",
+    "start": 21.474,
+    "end": 21.52,
+    "type": "word",
+    "src": "w53"
+  },
+  {
+    "id": "w54",
+    "text": "fix",
+    "start": 21.52,
+    "end": 21.743,
+    "type": "word",
+    "src": "w54"
+  },
+  {
+    "id": "w55",
+    "text": "for",
+    "start": 21.743,
+    "end": 21.966,
+    "type": "word",
+    "src": "w55"
+  },
+  {
+    "id": "w56",
+    "text": "more",
+    "start": 21.966,
+    "end": 22.266,
+    "type": "word",
+    "src": "w56"
+  },
+  {
+    "id": "w57",
+    "text": "than",
+    "start": 22.266,
+    "end": 22.565,
+    "type": "word",
+    "src": "w57"
+  },
+  {
+    "id": "w58",
+    "text": "160",
+    "start": 22.565,
+    "end": 23.472,
+    "type": "word",
+    "src": "w58"
+  },
+  {
+    "id": "w59",
+    "text": "security",
+    "start": 23.472,
+    "end": 23.841,
+    "type": "word",
+    "src": "w59"
+  },
+  {
+    "id": "w60",
+    "text": "flaws",
+    "start": 23.841,
+    "end": 24.264,
+    "type": "word",
+    "src": "w60"
+  },
+  {
+    "id": "w61",
+    "text": "on",
+    "start": 24.394,
+    "end": 24.448,
+    "type": "word",
+    "src": "w61"
+  },
+  {
+    "id": "w62",
+    "text": "the",
+    "start": 24.448,
+    "end": 24.586,
+    "type": "word",
+    "src": "w62"
+  },
+  {
+    "id": "w63",
+    "text": "iPhone,",
+    "start": 24.586,
+    "end": 25.109,
+    "type": "word",
+    "src": "w63"
+  },
+  {
+    "id": "w64",
+    "text": "a",
+    "start": 25.109,
+    "end": 25.17,
+    "type": "word",
+    "src": "w64"
+  },
+  {
+    "id": "w65",
+    "text": "fake",
+    "start": 25.499,
+    "end": 25.79,
+    "type": "word",
+    "src": "w65"
+  },
+  {
+    "id": "w66",
+    "text": "chat",
+    "start": 25.79,
+    "end": 26.14,
+    "type": "word",
+    "src": "w66"
+  },
+  {
+    "id": "w67",
+    "text": "GPT",
+    "start": 26.14,
+    "end": 26.295,
+    "type": "word",
+    "src": "w67"
+  },
+  {
+    "id": "w68",
+    "text": "app",
+    "start": 26.295,
+    "end": 26.508,
+    "type": "word",
+    "src": "w68"
+  },
+  {
+    "id": "w69",
+    "text": "that",
+    "start": 26.508,
+    "end": 26.8,
+    "type": "word",
+    "src": "w69"
+  },
+  {
+    "id": "w70",
+    "text": "mines",
+    "start": 26.8,
+    "end": 27.356,
+    "type": "word",
+    "src": "w70"
+  },
+  {
+    "id": "w71",
+    "text": "crypto,",
+    "start": 27.356,
+    "end": 27.732,
+    "type": "word",
+    "src": "w71"
+  },
+  {
+    "id": "w72",
+    "text": "a",
+    "start": 27.732,
+    "end": 27.818,
+    "type": "word",
+    "src": "w72"
+  },
+  {
+    "id": "w73",
+    "text": "lawsuit",
+    "start": 27.818,
+    "end": 28.323,
+    "type": "word",
+    "src": "w73"
+  },
+  {
+    "id": "w74",
+    "text": "against",
+    "start": 28.323,
+    "end": 28.905,
+    "type": "word",
+    "src": "w74"
+  },
+  {
+    "id": "w75",
+    "text": "OpenAI,",
+    "start": 28.905,
+    "end": 29.487,
+    "type": "word",
+    "src": "w75"
+  },
+  {
+    "id": "w76",
+    "text": "a",
+    "start": 29.835,
+    "end": 30.041,
+    "type": "word",
+    "src": "w76"
+  },
+  {
+    "id": "w77",
+    "text": "reported",
+    "start": 30.367,
+    "end": 30.507,
+    "type": "word",
+    "src": "w77"
+  },
+  {
+    "id": "w78",
+    "text": "chip",
+    "start": 30.507,
+    "end": 30.87,
+    "type": "word",
+    "src": "w78"
+  },
+  {
+    "id": "w79",
+    "text": "price",
+    "start": 30.87,
+    "end": 31.34,
+    "type": "word",
+    "src": "w79"
+  },
+  {
+    "id": "w80",
+    "text": "rise",
+    "start": 31.34,
+    "end": 31.835,
+    "type": "word",
+    "src": "w80"
+  },
+  {
+    "id": "w81",
+    "text": "at",
+    "start": 31.835,
+    "end": 31.909,
+    "type": "word",
+    "src": "w81"
+  },
+  {
+    "id": "w82",
+    "text": "TSM,",
+    "start": 31.909,
+    "end": 32.412,
+    "type": "word",
+    "src": "w82"
+  },
+  {
+    "id": "w83",
+    "text": "C,",
+    "start": 32.412,
+    "end": 33.072,
+    "type": "word",
+    "src": "w83"
+  },
+  {
+    "id": "w84",
+    "text": "and",
+    "start": 33.413,
+    "end": 33.501,
+    "type": "word",
+    "src": "w84"
+  },
+  {
+    "id": "w85",
+    "text": "Anthropic",
+    "start": 33.501,
+    "end": 33.717,
+    "type": "word",
+    "src": "w85"
+  },
+  {
+    "id": "w86",
+    "text": "buying",
+    "start": 34.027,
+    "end": 34.667,
+    "type": "word",
+    "src": "w86"
+  },
+  {
+    "id": "w87",
+    "text": "a",
+    "start": 34.667,
+    "end": 34.877,
+    "type": "word",
+    "src": "w87"
+  },
+  {
+    "id": "w88",
+    "text": "one-person",
+    "start": 34.877,
+    "end": 35.867,
+    "type": "word",
+    "src": "w88"
+  },
+  {
+    "id": "w89",
+    "text": "drug",
+    "start": 35.867,
+    "end": 36.087,
+    "type": "word",
+    "src": "w89"
+  },
+  {
+    "id": "w90",
+    "text": "company.",
+    "start": 36.087,
+    "end": 36.667,
+    "type": "word",
+    "src": "w90"
+  },
+  {
+    "id": "w91",
+    "text": "Let's",
+    "start": 36.998,
+    "end": 37.03,
+    "type": "word",
+    "src": "w91"
+  },
+  {
+    "id": "w92",
+    "text": "get",
+    "start": 36.998,
+    "end": 37.189,
+    "type": "word",
+    "src": "w92"
+  },
+  {
+    "id": "w93",
+    "text": "into",
+    "start": 37.189,
+    "end": 37.261,
+    "type": "word",
+    "src": "w93"
+  },
+  {
+    "id": "w94",
+    "text": "it.",
+    "start": 37.261,
+    "end": 37.595,
+    "type": "word",
+    "src": "w94"
+  },
+  {
+    "id": "w95",
+    "text": "Google",
+    "start": 38.191,
+    "end": 38.625,
+    "type": "word",
+    "src": "w95"
+  },
+  {
+    "id": "w96",
+    "text": "Deep",
+    "start": 38.625,
+    "end": 38.884,
+    "type": "word",
+    "src": "w96"
+  },
+  {
+    "id": "w97",
+    "text": "Mind",
+    "start": 38.884,
+    "end": 39.195,
+    "type": "word",
+    "src": "w97"
+  },
+  {
+    "id": "w98",
+    "text": "has",
+    "start": 39.195,
+    "end": 39.383,
+    "type": "word",
+    "src": "w98"
+  },
+  {
+    "id": "w99",
+    "text": "announced",
+    "start": 39.383,
+    "end": 40.037,
+    "type": "word",
+    "src": "w99"
+  },
+  {
+    "id": "w100",
+    "text": "Genie",
+    "start": 40.037,
+    "end": 40.426,
+    "type": "word",
+    "src": "w100"
+  },
+  {
+    "id": "w101",
+    "text": "four,",
+    "start": 40.426,
+    "end": 40.814,
+    "type": "word",
+    "src": "w101"
+  },
+  {
+    "id": "w102",
+    "text": "a",
+    "start": 40.814,
+    "end": 40.97,
+    "type": "word",
+    "src": "w102"
+  },
+  {
+    "id": "w103",
+    "text": "world",
+    "start": 41.3,
+    "end": 41.42,
+    "type": "word",
+    "src": "w103"
+  },
+  {
+    "id": "w104",
+    "text": "model",
+    "start": 41.42,
+    "end": 41.72,
+    "type": "word",
+    "src": "w104"
+  },
+  {
+    "id": "w105",
+    "text": "that",
+    "start": 41.72,
+    "end": 41.96,
+    "type": "word",
+    "src": "w105"
+  },
+  {
+    "id": "w106",
+    "text": "generates",
+    "start": 41.96,
+    "end": 42.5,
+    "type": "word",
+    "src": "w106"
+  },
+  {
+    "id": "w107",
+    "text": "interactive",
+    "start": 42.5,
+    "end": 43.17,
+    "type": "word",
+    "src": "w107"
+  },
+  {
+    "id": "w108",
+    "text": "environments",
+    "start": 43.17,
+    "end": 43.82,
+    "type": "word",
+    "src": "w108"
+  },
+  {
+    "id": "w109",
+    "text": "you",
+    "start": 43.82,
+    "end": 44.07,
+    "type": "word",
+    "src": "w109"
+  },
+  {
+    "id": "w110",
+    "text": "can",
+    "start": 44.07,
+    "end": 44.41,
+    "type": "word",
+    "src": "w110"
+  },
+  {
+    "id": "w111",
+    "text": "explore.",
+    "start": 44.41,
+    "end": 44.9,
+    "type": "word",
+    "src": "w111"
+  },
+  {
+    "id": "w112",
+    "text": "The",
+    "start": 45.238,
+    "end": 45.392,
+    "type": "word",
+    "src": "w112"
+  },
+  {
+    "id": "w113",
+    "text": "company",
+    "start": 45.392,
+    "end": 45.455,
+    "type": "word",
+    "src": "w113"
+  },
+  {
+    "id": "w114",
+    "text": "says",
+    "start": 45.455,
+    "end": 45.691,
+    "type": "word",
+    "src": "w114"
+  },
+  {
+    "id": "w115",
+    "text": "it",
+    "start": 45.691,
+    "end": 45.835,
+    "type": "word",
+    "src": "w115"
+  },
+  {
+    "id": "w116",
+    "text": "is",
+    "start": 45.835,
+    "end": 45.98,
+    "type": "word",
+    "src": "w116"
+  },
+  {
+    "id": "w117",
+    "text": "the",
+    "start": 45.98,
+    "end": 46.216,
+    "type": "word",
+    "src": "w117"
+  },
+  {
+    "id": "w118",
+    "text": "first",
+    "start": 46.216,
+    "end": 46.569,
+    "type": "word",
+    "src": "w118"
+  },
+  {
+    "id": "w119",
+    "text": "real-time",
+    "start": 46.569,
+    "end": 47.32,
+    "type": "word",
+    "src": "w119"
+  },
+  {
+    "id": "w120",
+    "text": "world",
+    "start": 47.32,
+    "end": 47.609,
+    "type": "word",
+    "src": "w120"
+  },
+  {
+    "id": "w121",
+    "text": "model",
+    "start": 47.609,
+    "end": 47.971,
+    "type": "word",
+    "src": "w121"
+  },
+  {
+    "id": "w122",
+    "text": "to",
+    "start": 47.971,
+    "end": 48.279,
+    "type": "word",
+    "src": "w122"
+  },
+  {
+    "id": "w123",
+    "text": "generate",
+    "start": 48.279,
+    "end": 48.786,
+    "type": "word",
+    "src": "w123"
+  },
+  {
+    "id": "w124",
+    "text": "audio",
+    "start": 48.786,
+    "end": 49.229,
+    "type": "word",
+    "src": "w124"
+  },
+  {
+    "id": "w125",
+    "text": "natively,",
+    "start": 49.229,
+    "end": 49.944,
+    "type": "word",
+    "src": "w125"
+  },
+  {
+    "id": "w126",
+    "text": "so",
+    "start": 50.267,
+    "end": 50.34,
+    "type": "word",
+    "src": "w126"
+  },
+  {
+    "id": "w127",
+    "text": "music,",
+    "start": 50.34,
+    "end": 50.806,
+    "type": "word",
+    "src": "w127"
+  },
+  {
+    "id": "w128",
+    "text": "ambient",
+    "start": 50.806,
+    "end": 51.419,
+    "type": "word",
+    "src": "w128"
+  },
+  {
+    "id": "w129",
+    "text": "sound,",
+    "start": 51.419,
+    "end": 51.967,
+    "type": "word",
+    "src": "w129"
+  },
+  {
+    "id": "w130",
+    "text": "and",
+    "start": 51.967,
+    "end": 52.05,
+    "type": "word",
+    "src": "w130"
+  },
+  {
+    "id": "w131",
+    "text": "dialogue",
+    "start": 52.05,
+    "end": 52.644,
+    "type": "word",
+    "src": "w131"
+  },
+  {
+    "id": "w132",
+    "text": "arrive",
+    "start": 52.644,
+    "end": 53.193,
+    "type": "word",
+    "src": "w132"
+  },
+  {
+    "id": "w133",
+    "text": "with",
+    "start": 53.193,
+    "end": 53.403,
+    "type": "word",
+    "src": "w133"
+  },
+  {
+    "id": "w134",
+    "text": "the",
+    "start": 53.403,
+    "end": 53.677,
+    "type": "word",
+    "src": "w134"
+  },
+  {
+    "id": "w135",
+    "text": "visuals.",
+    "start": 53.677,
+    "end": 54.436,
+    "type": "word",
+    "src": "w135"
+  },
+  {
+    "id": "w136",
+    "text": "Users",
+    "start": 54.778,
+    "end": 55.189,
+    "type": "word",
+    "src": "w136"
+  },
+  {
+    "id": "w137",
+    "text": "can",
+    "start": 55.189,
+    "end": 55.434,
+    "type": "word",
+    "src": "w137"
+  },
+  {
+    "id": "w138",
+    "text": "change",
+    "start": 55.434,
+    "end": 55.924,
+    "type": "word",
+    "src": "w138"
+  },
+  {
+    "id": "w139",
+    "text": "the",
+    "start": 55.924,
+    "end": 56.168,
+    "type": "word",
+    "src": "w139"
+  },
+  {
+    "id": "w140",
+    "text": "weather",
+    "start": 56.168,
+    "end": 56.756,
+    "type": "word",
+    "src": "w140"
+  },
+  {
+    "id": "w141",
+    "text": "or",
+    "start": 56.756,
+    "end": 56.902,
+    "type": "word",
+    "src": "w141"
+  },
+  {
+    "id": "w142",
+    "text": "add",
+    "start": 56.902,
+    "end": 57.147,
+    "type": "word",
+    "src": "w142"
+  },
+  {
+    "id": "w143",
+    "text": "objects",
+    "start": 57.147,
+    "end": 57.989,
+    "type": "word",
+    "src": "w143"
+  },
+  {
+    "id": "w144",
+    "text": "by",
+    "start": 57.989,
+    "end": 58.067,
+    "type": "word",
+    "src": "w144"
+  },
+  {
+    "id": "w145",
+    "text": "typing",
+    "start": 58.067,
+    "end": 58.351,
+    "type": "word",
+    "src": "w145"
+  },
+  {
+    "id": "w146",
+    "text": "instructions",
+    "start": 58.351,
+    "end": 59.085,
+    "type": "word",
+    "src": "w146"
+  },
+  {
+    "id": "w147",
+    "text": "while",
+    "start": 59.085,
+    "end": 59.32,
+    "type": "word",
+    "src": "w147"
+  },
+  {
+    "id": "w148",
+    "text": "the",
+    "start": 59.32,
+    "end": 59.457,
+    "type": "word",
+    "src": "w148"
+  },
+  {
+    "id": "w149",
+    "text": "world",
+    "start": 59.457,
+    "end": 59.692,
+    "type": "word",
+    "src": "w149"
+  },
+  {
+    "id": "w150",
+    "text": "is",
+    "start": 59.692,
+    "end": 59.829,
+    "type": "word",
+    "src": "w150"
+  },
+  {
+    "id": "w151",
+    "text": "running.",
+    "start": 59.829,
+    "end": 60.26,
+    "type": "word",
+    "src": "w151"
+  },
+  {
+    "id": "w152",
+    "text": "Deep",
+    "start": 60.604,
+    "end": 60.64,
+    "type": "word",
+    "src": "w152"
+  },
+  {
+    "id": "w153",
+    "text": "Mind",
+    "start": 60.604,
+    "end": 60.819,
+    "type": "word",
+    "src": "w153"
+  },
+  {
+    "id": "w154",
+    "text": "calls",
+    "start": 60.819,
+    "end": 60.854,
+    "type": "word",
+    "src": "w154"
+  },
+  {
+    "id": "w155",
+    "text": "it",
+    "start": 60.819,
+    "end": 60.979,
+    "type": "word",
+    "src": "w155"
+  },
+  {
+    "id": "w156",
+    "text": "an",
+    "start": 60.979,
+    "end": 61.14,
+    "type": "word",
+    "src": "w156"
+  },
+  {
+    "id": "w157",
+    "text": "early",
+    "start": 61.14,
+    "end": 61.568,
+    "type": "word",
+    "src": "w157"
+  },
+  {
+    "id": "w158",
+    "text": "experimental",
+    "start": 61.568,
+    "end": 62.541,
+    "type": "word",
+    "src": "w158"
+  },
+  {
+    "id": "w159",
+    "text": "model.",
+    "start": 62.541,
+    "end": 63.586,
+    "type": "word",
+    "src": "w159"
+  },
+  {
+    "id": "w160",
+    "text": "Details",
+    "start": 63.916,
+    "end": 64.242,
+    "type": "word",
+    "src": "w160"
+  },
+  {
+    "id": "w161",
+    "text": "can",
+    "start": 64.242,
+    "end": 64.506,
+    "type": "word",
+    "src": "w161"
+  },
+  {
+    "id": "w162",
+    "text": "drift",
+    "start": 64.506,
+    "end": 64.949,
+    "type": "word",
+    "src": "w162"
+  },
+  {
+    "id": "w163",
+    "text": "over",
+    "start": 64.949,
+    "end": 65.329,
+    "type": "word",
+    "src": "w163"
+  },
+  {
+    "id": "w164",
+    "text": "long",
+    "start": 65.329,
+    "end": 65.702,
+    "type": "word",
+    "src": "w164"
+  },
+  {
+    "id": "w165",
+    "text": "sessions.",
+    "start": 65.702,
+    "end": 66.478,
+    "type": "word",
+    "src": "w165"
+  },
+  {
+    "id": "w166",
+    "text": "For",
+    "start": 66.79,
+    "end": 66.954,
+    "type": "word",
+    "src": "w166"
+  },
+  {
+    "id": "w167",
+    "text": "now,",
+    "start": 66.954,
+    "end": 67.119,
+    "type": "word",
+    "src": "w167"
+  },
+  {
+    "id": "w168",
+    "text": "it",
+    "start": 67.119,
+    "end": 67.218,
+    "type": "word",
+    "src": "w168"
+  },
+  {
+    "id": "w169",
+    "text": "is",
+    "start": 67.534,
+    "end": 67.586,
+    "type": "word",
+    "src": "w169"
+  },
+  {
+    "id": "w170",
+    "text": "a",
+    "start": 67.586,
+    "end": 67.647,
+    "type": "word",
+    "src": "w170"
+  },
+  {
+    "id": "w171",
+    "text": "research",
+    "start": 67.647,
+    "end": 68.19,
+    "type": "word",
+    "src": "w171"
+  },
+  {
+    "id": "w172",
+    "text": "preview",
+    "start": 68.19,
+    "end": 68.663,
+    "type": "word",
+    "src": "w172"
+  },
+  {
+    "id": "w173",
+    "text": "for",
+    "start": 68.663,
+    "end": 68.864,
+    "type": "word",
+    "src": "w173"
+  },
+  {
+    "id": "w174",
+    "text": "trusted",
+    "start": 68.864,
+    "end": 69.337,
+    "type": "word",
+    "src": "w174"
+  },
+  {
+    "id": "w175",
+    "text": "testers",
+    "start": 69.337,
+    "end": 69.74,
+    "type": "word",
+    "src": "w175"
+  },
+  {
+    "id": "w176",
+    "text": "with",
+    "start": 69.74,
+    "end": 70.081,
+    "type": "word",
+    "src": "w176"
+  },
+  {
+    "id": "w177",
+    "text": "a",
+    "start": 70.081,
+    "end": 70.256,
+    "type": "word",
+    "src": "w177"
+  },
+  {
+    "id": "w178",
+    "text": "wait",
+    "start": 70.256,
+    "end": 70.414,
+    "type": "word",
+    "src": "w178"
+  },
+  {
+    "id": "w179",
+    "text": "list",
+    "start": 70.414,
+    "end": 70.755,
+    "type": "word",
+    "src": "w179"
+  },
+  {
+    "id": "w180",
+    "text": "and",
+    "start": 70.755,
+    "end": 70.965,
+    "type": "word",
+    "src": "w180"
+  },
+  {
+    "id": "w181",
+    "text": "access",
+    "start": 71.286,
+    "end": 71.806,
+    "type": "word",
+    "src": "w181"
+  },
+  {
+    "id": "w182",
+    "text": "plan",
+    "start": 71.806,
+    "end": 72.186,
+    "type": "word",
+    "src": "w182"
+  },
+  {
+    "id": "w183",
+    "text": "for",
+    "start": 72.186,
+    "end": 72.269,
+    "type": "word",
+    "src": "w183"
+  },
+  {
+    "id": "w184",
+    "text": "Google",
+    "start": 72.269,
+    "end": 72.659,
+    "type": "word",
+    "src": "w184"
+  },
+  {
+    "id": "w185",
+    "text": "AI",
+    "start": 72.659,
+    "end": 73.29,
+    "type": "word",
+    "src": "w185"
+  },
+  {
+    "id": "w186",
+    "text": "Ultra",
+    "start": 73.512,
+    "end": 73.661,
+    "type": "word",
+    "src": "w186"
+  },
+  {
+    "id": "w187",
+    "text": "subscribers.",
+    "start": 73.661,
+    "end": 74.709,
+    "type": "word",
+    "src": "w187"
+  },
+  {
+    "id": "w188",
+    "text": "It",
+    "start": 75.019,
+    "end": 75.165,
+    "type": "word",
+    "src": "w188"
+  },
+  {
+    "id": "w189",
+    "text": "matters",
+    "start": 75.165,
+    "end": 75.722,
+    "type": "word",
+    "src": "w189"
+  },
+  {
+    "id": "w190",
+    "text": "because",
+    "start": 75.722,
+    "end": 76.141,
+    "type": "word",
+    "src": "w190"
+  },
+  {
+    "id": "w191",
+    "text": "world",
+    "start": 76.141,
+    "end": 76.689,
+    "type": "word",
+    "src": "w191"
+  },
+  {
+    "id": "w192",
+    "text": "models",
+    "start": 76.689,
+    "end": 76.99,
+    "type": "word",
+    "src": "w192"
+  },
+  {
+    "id": "w193",
+    "text": "are",
+    "start": 76.99,
+    "end": 77.209,
+    "type": "word",
+    "src": "w193"
+  },
+  {
+    "id": "w194",
+    "text": "a",
+    "start": 77.209,
+    "end": 77.281,
+    "type": "word",
+    "src": "w194"
+  },
+  {
+    "id": "w195",
+    "text": "route",
+    "start": 77.281,
+    "end": 77.646,
+    "type": "word",
+    "src": "w195"
+  },
+  {
+    "id": "w196",
+    "text": "to",
+    "start": 77.646,
+    "end": 77.792,
+    "type": "word",
+    "src": "w196"
+  },
+  {
+    "id": "w197",
+    "text": "training",
+    "start": 77.792,
+    "end": 78.44,
+    "type": "word",
+    "src": "w197"
+  },
+  {
+    "id": "w198",
+    "text": "robots",
+    "start": 78.44,
+    "end": 78.951,
+    "type": "word",
+    "src": "w198"
+  },
+  {
+    "id": "w199",
+    "text": "and",
+    "start": 78.951,
+    "end": 79.17,
+    "type": "word",
+    "src": "w199"
+  },
+  {
+    "id": "w200",
+    "text": "agents",
+    "start": 79.17,
+    "end": 79.589,
+    "type": "word",
+    "src": "w200"
+  },
+  {
+    "id": "w201",
+    "text": "in",
+    "start": 79.589,
+    "end": 79.726,
+    "type": "word",
+    "src": "w201"
+  },
+  {
+    "id": "w202",
+    "text": "simulated",
+    "start": 79.726,
+    "end": 80.465,
+    "type": "word",
+    "src": "w202"
+  },
+  {
+    "id": "w203",
+    "text": "worlds",
+    "start": 80.465,
+    "end": 80.784,
+    "type": "word",
+    "src": "w203"
+  },
+  {
+    "id": "w204",
+    "text": "and",
+    "start": 80.784,
+    "end": 81.012,
+    "type": "word",
+    "src": "w204"
+  },
+  {
+    "id": "w205",
+    "text": "to",
+    "start": 81.012,
+    "end": 81.131,
+    "type": "word",
+    "src": "w205"
+  },
+  {
+    "id": "w206",
+    "text": "a",
+    "start": 81.131,
+    "end": 81.268,
+    "type": "word",
+    "src": "w206"
+  },
+  {
+    "id": "w207",
+    "text": "new",
+    "start": 81.268,
+    "end": 81.404,
+    "type": "word",
+    "src": "w207"
+  },
+  {
+    "id": "w208",
+    "text": "kind",
+    "start": 81.404,
+    "end": 81.687,
+    "type": "word",
+    "src": "w208"
+  },
+  {
+    "id": "w209",
+    "text": "of",
+    "start": 81.687,
+    "end": 82.107,
+    "type": "word",
+    "src": "w209"
+  },
+  {
+    "id": "w210",
+    "text": "game.",
+    "start": 82.107,
+    "end": 82.38,
+    "type": "word",
+    "src": "w210"
+  },
+  {
+    "id": "w211",
+    "text": "Jio",
+    "start": 82.981,
+    "end": 83.022,
+    "type": "word",
+    "src": "w211"
+  },
+  {
+    "id": "w212",
+    "text": "Platforms",
+    "start": 83.022,
+    "end": 83.179,
+    "type": "word",
+    "src": "w212"
+  },
+  {
+    "id": "w213",
+    "text": "made",
+    "start": 83.179,
+    "end": 83.51,
+    "type": "word",
+    "src": "w213"
+  },
+  {
+    "id": "w214",
+    "text": "its",
+    "start": 83.51,
+    "end": 83.783,
+    "type": "word",
+    "src": "w214"
+  },
+  {
+    "id": "w215",
+    "text": "stock",
+    "start": 83.783,
+    "end": 84.238,
+    "type": "word",
+    "src": "w215"
+  },
+  {
+    "id": "w216",
+    "text": "market",
+    "start": 84.238,
+    "end": 84.783,
+    "type": "word",
+    "src": "w216"
+  },
+  {
+    "id": "w217",
+    "text": "debut",
+    "start": 84.783,
+    "end": 85.238,
+    "type": "word",
+    "src": "w217"
+  },
+  {
+    "id": "w218",
+    "text": "in",
+    "start": 85.238,
+    "end": 85.742,
+    "type": "word",
+    "src": "w218"
+  },
+  {
+    "id": "w219",
+    "text": "India",
+    "start": 85.742,
+    "end": 85.891,
+    "type": "word",
+    "src": "w219"
+  },
+  {
+    "id": "w220",
+    "text": "on",
+    "start": 85.891,
+    "end": 86.098,
+    "type": "word",
+    "src": "w220"
+  },
+  {
+    "id": "w221",
+    "text": "October",
+    "start": 86.437,
+    "end": 87.048,
+    "type": "word",
+    "src": "w221"
+  },
+  {
+    "id": "w222",
+    "text": "27,",
+    "start": 87.048,
+    "end": 87.743,
+    "type": "word",
+    "src": "w222"
+  },
+  {
+    "id": "w223",
+    "text": "and",
+    "start": 88.05,
+    "end": 88.14,
+    "type": "word",
+    "src": "w223"
+  },
+  {
+    "id": "w224",
+    "text": "the",
+    "start": 88.14,
+    "end": 88.31,
+    "type": "word",
+    "src": "w224"
+  },
+  {
+    "id": "w225",
+    "text": "shares",
+    "start": 88.31,
+    "end": 88.89,
+    "type": "word",
+    "src": "w225"
+  },
+  {
+    "id": "w226",
+    "text": "rose",
+    "start": 88.89,
+    "end": 88.96,
+    "type": "word",
+    "src": "w226"
+  },
+  {
+    "id": "w227",
+    "text": "about",
+    "start": 88.96,
+    "end": 89.28,
+    "type": "word",
+    "src": "w227"
+  },
+  {
+    "id": "w228",
+    "text": "21%.",
+    "start": 89.28,
+    "end": 89.76,
+    "type": "word",
+    "src": "w228"
+  },
+  {
+    "id": "w229",
+    "text": "The",
+    "start": 90.093,
+    "end": 90.208,
+    "type": "word",
+    "src": "w229"
+  },
+  {
+    "id": "w230",
+    "text": "issue",
+    "start": 90.208,
+    "end": 90.305,
+    "type": "word",
+    "src": "w230"
+  },
+  {
+    "id": "w231",
+    "text": "price",
+    "start": 90.305,
+    "end": 90.765,
+    "type": "word",
+    "src": "w231"
+  },
+  {
+    "id": "w232",
+    "text": "was",
+    "start": 90.765,
+    "end": 91.101,
+    "type": "word",
+    "src": "w232"
+  },
+  {
+    "id": "w233",
+    "text": "1,119",
+    "start": 91.101,
+    "end": 92.886,
+    "type": "word",
+    "src": "w233"
+  },
+  {
+    "id": "w234",
+    "text": "rupees.",
+    "start": 92.886,
+    "end": 93.7,
+    "type": "word",
+    "src": "w234"
+  },
+  {
+    "id": "w235",
+    "text": "The",
+    "start": 94.035,
+    "end": 94.288,
+    "type": "word",
+    "src": "w235"
+  },
+  {
+    "id": "w236",
+    "text": "stock",
+    "start": 94.288,
+    "end": 94.721,
+    "type": "word",
+    "src": "w236"
+  },
+  {
+    "id": "w237",
+    "text": "opened",
+    "start": 94.721,
+    "end": 95.238,
+    "type": "word",
+    "src": "w237"
+  },
+  {
+    "id": "w238",
+    "text": "at",
+    "start": 95.238,
+    "end": 95.511,
+    "type": "word",
+    "src": "w238"
+  },
+  {
+    "id": "w239",
+    "text": "1,358.",
+    "start": 95.511,
+    "end": 96.894,
+    "type": "word",
+    "src": "w239"
+  },
+  {
+    "id": "w240",
+    "text": "TechCrunch",
+    "start": 97.227,
+    "end": 97.591,
+    "type": "word",
+    "src": "w240"
+  },
+  {
+    "id": "w241",
+    "text": "reports",
+    "start": 97.591,
+    "end": 98,
+    "type": "word",
+    "src": "w241"
+  },
+  {
+    "id": "w242",
+    "text": "the",
+    "start": 98,
+    "end": 98.275,
+    "type": "word",
+    "src": "w242"
+  },
+  {
+    "id": "w243",
+    "text": "offering",
+    "start": 98.275,
+    "end": 98.631,
+    "type": "word",
+    "src": "w243"
+  },
+  {
+    "id": "w244",
+    "text": "raised",
+    "start": 98.631,
+    "end": 99.057,
+    "type": "word",
+    "src": "w244"
+  },
+  {
+    "id": "w245",
+    "text": "about",
+    "start": 99.057,
+    "end": 99.262,
+    "type": "word",
+    "src": "w245"
+  },
+  {
+    "id": "w246",
+    "text": "$3.2",
+    "start": 99.262,
+    "end": 99.99,
+    "type": "word",
+    "src": "w246"
+  },
+  {
+    "id": "w247",
+    "text": "billion",
+    "start": 99.99,
+    "end": 100.283,
+    "type": "word",
+    "src": "w247"
+  },
+  {
+    "id": "w248",
+    "text": "and",
+    "start": 100.283,
+    "end": 101.207,
+    "type": "word",
+    "src": "w248"
+  },
+  {
+    "id": "w249",
+    "text": "drew",
+    "start": 101.54,
+    "end": 101.801,
+    "type": "word",
+    "src": "w249"
+  },
+  {
+    "id": "w250",
+    "text": "bids",
+    "start": 101.801,
+    "end": 102.062,
+    "type": "word",
+    "src": "w250"
+  },
+  {
+    "id": "w251",
+    "text": "for",
+    "start": 102.062,
+    "end": 102.397,
+    "type": "word",
+    "src": "w251"
+  },
+  {
+    "id": "w252",
+    "text": "roughly",
+    "start": 102.397,
+    "end": 103.189,
+    "type": "word",
+    "src": "w252"
+  },
+  {
+    "id": "w253",
+    "text": "22",
+    "start": 103.189,
+    "end": 103.255,
+    "type": "word",
+    "src": "w253"
+  },
+  {
+    "id": "w254",
+    "text": "times",
+    "start": 103.255,
+    "end": 103.553,
+    "type": "word",
+    "src": "w254"
+  },
+  {
+    "id": "w255",
+    "text": "the",
+    "start": 103.553,
+    "end": 103.786,
+    "type": "word",
+    "src": "w255"
+  },
+  {
+    "id": "w256",
+    "text": "shares",
+    "start": 103.786,
+    "end": 104.261,
+    "type": "word",
+    "src": "w256"
+  },
+  {
+    "id": "w257",
+    "text": "on",
+    "start": 104.261,
+    "end": 104.4,
+    "type": "word",
+    "src": "w257"
+  },
+  {
+    "id": "w258",
+    "text": "sale.",
+    "start": 104.4,
+    "end": 104.941,
+    "type": "word",
+    "src": "w258"
+  },
+  {
+    "id": "w259",
+    "text": "At",
+    "start": 105.265,
+    "end": 105.336,
+    "type": "word",
+    "src": "w259"
+  },
+  {
+    "id": "w260",
+    "text": "the",
+    "start": 105.336,
+    "end": 105.5,
+    "type": "word",
+    "src": "w260"
+  },
+  {
+    "id": "w261",
+    "text": "opening",
+    "start": 105.5,
+    "end": 105.704,
+    "type": "word",
+    "src": "w261"
+  },
+  {
+    "id": "w262",
+    "text": "price,",
+    "start": 105.704,
+    "end": 106.085,
+    "type": "word",
+    "src": "w262"
+  },
+  {
+    "id": "w263",
+    "text": "Jio",
+    "start": 106.085,
+    "end": 106.165,
+    "type": "word",
+    "src": "w263"
+  },
+  {
+    "id": "w264",
+    "text": "was",
+    "start": 106.165,
+    "end": 106.347,
+    "type": "word",
+    "src": "w264"
+  },
+  {
+    "id": "w265",
+    "text": "worth",
+    "start": 106.663,
+    "end": 107.307,
+    "type": "word",
+    "src": "w265"
+  },
+  {
+    "id": "w266",
+    "text": "around",
+    "start": 107.307,
+    "end": 107.778,
+    "type": "word",
+    "src": "w266"
+  },
+  {
+    "id": "w267",
+    "text": "12.5",
+    "start": 107.778,
+    "end": 108.984,
+    "type": "word",
+    "src": "w267"
+  },
+  {
+    "id": "w268",
+    "text": "lakh",
+    "start": 108.984,
+    "end": 109.074,
+    "type": "word",
+    "src": "w268"
+  },
+  {
+    "id": "w269",
+    "text": "crore",
+    "start": 109.074,
+    "end": 109.51,
+    "type": "word",
+    "src": "w269"
+  },
+  {
+    "id": "w270",
+    "text": "rupees,",
+    "start": 109.51,
+    "end": 110.062,
+    "type": "word",
+    "src": "w270"
+  },
+  {
+    "id": "w271",
+    "text": "which",
+    "start": 110.402,
+    "end": 110.685,
+    "type": "word",
+    "src": "w271"
+  },
+  {
+    "id": "w272",
+    "text": "TechCrunch",
+    "start": 110.685,
+    "end": 111.224,
+    "type": "word",
+    "src": "w272"
+  },
+  {
+    "id": "w273",
+    "text": "says",
+    "start": 111.224,
+    "end": 111.445,
+    "type": "word",
+    "src": "w273"
+  },
+  {
+    "id": "w274",
+    "text": "makes",
+    "start": 111.445,
+    "end": 111.798,
+    "type": "word",
+    "src": "w274"
+  },
+  {
+    "id": "w275",
+    "text": "it",
+    "start": 112.134,
+    "end": 112.184,
+    "type": "word",
+    "src": "w275"
+  },
+  {
+    "id": "w276",
+    "text": "India's",
+    "start": 112.184,
+    "end": 112.734,
+    "type": "word",
+    "src": "w276"
+  },
+  {
+    "id": "w277",
+    "text": "second",
+    "start": 112.734,
+    "end": 113.454,
+    "type": "word",
+    "src": "w277"
+  },
+  {
+    "id": "w278",
+    "text": "most",
+    "start": 113.454,
+    "end": 113.524,
+    "type": "word",
+    "src": "w278"
+  },
+  {
+    "id": "w279",
+    "text": "valuable",
+    "start": 113.524,
+    "end": 114.154,
+    "type": "word",
+    "src": "w279"
+  },
+  {
+    "id": "w280",
+    "text": "listed",
+    "start": 114.154,
+    "end": 114.624,
+    "type": "word",
+    "src": "w280"
+  },
+  {
+    "id": "w281",
+    "text": "company",
+    "start": 114.624,
+    "end": 115.234,
+    "type": "word",
+    "src": "w281"
+  },
+  {
+    "id": "w282",
+    "text": "after",
+    "start": 115.557,
+    "end": 115.711,
+    "type": "word",
+    "src": "w282"
+  },
+  {
+    "id": "w283",
+    "text": "parent-reliance",
+    "start": 115.711,
+    "end": 116.224,
+    "type": "word",
+    "src": "w283"
+  },
+  {
+    "id": "w284",
+    "text": "industries.",
+    "start": 116.224,
+    "end": 116.997,
+    "type": "word",
+    "src": "w284"
+  },
+  {
+    "id": "w285",
+    "text": "The",
+    "start": 116.997,
+    "end": 117.177,
+    "type": "word",
+    "src": "w285"
+  },
+  {
+    "id": "w286",
+    "text": "offering",
+    "start": 117.177,
+    "end": 117.784,
+    "type": "word",
+    "src": "w286"
+  },
+  {
+    "id": "w287",
+    "text": "was",
+    "start": 118.093,
+    "end": 118.149,
+    "type": "word",
+    "src": "w287"
+  },
+  {
+    "id": "w288",
+    "text": "entirely",
+    "start": 118.149,
+    "end": 118.65,
+    "type": "word",
+    "src": "w288"
+  },
+  {
+    "id": "w289",
+    "text": "new",
+    "start": 118.65,
+    "end": 118.839,
+    "type": "word",
+    "src": "w289"
+  },
+  {
+    "id": "w290",
+    "text": "shares,",
+    "start": 118.839,
+    "end": 119.466,
+    "type": "word",
+    "src": "w290"
+  },
+  {
+    "id": "w291",
+    "text": "and",
+    "start": 119.466,
+    "end": 119.835,
+    "type": "word",
+    "src": "w291"
+  },
+  {
+    "id": "w292",
+    "text": "up",
+    "start": 120.16,
+    "end": 120.23,
+    "type": "word",
+    "src": "w292"
+  },
+  {
+    "id": "w293",
+    "text": "to",
+    "start": 120.23,
+    "end": 120.81,
+    "type": "word",
+    "src": "w293"
+  },
+  {
+    "id": "w294",
+    "text": "27,500",
+    "start": 120.81,
+    "end": 122.24,
+    "type": "word",
+    "src": "w294"
+  },
+  {
+    "id": "w295",
+    "text": "crore",
+    "start": 122.24,
+    "end": 122.56,
+    "type": "word",
+    "src": "w295"
+  },
+  {
+    "id": "w296",
+    "text": "rupees",
+    "start": 122.69,
+    "end": 122.97,
+    "type": "word",
+    "src": "w296"
+  },
+  {
+    "id": "w297",
+    "text": "goes",
+    "start": 122.97,
+    "end": 123.23,
+    "type": "word",
+    "src": "w297"
+  },
+  {
+    "id": "w298",
+    "text": "to",
+    "start": 123.23,
+    "end": 123.36,
+    "type": "word",
+    "src": "w298"
+  },
+  {
+    "id": "w299",
+    "text": "repaying",
+    "start": 123.36,
+    "end": 123.98,
+    "type": "word",
+    "src": "w299"
+  },
+  {
+    "id": "w300",
+    "text": "debt.",
+    "start": 123.98,
+    "end": 124.4,
+    "type": "word",
+    "src": "w300"
+  },
+  {
+    "id": "w301",
+    "text": "At",
+    "start": 124.732,
+    "end": 124.955,
+    "type": "word",
+    "src": "w301"
+  },
+  {
+    "id": "w302",
+    "text": "its",
+    "start": 124.955,
+    "end": 125.292,
+    "type": "word",
+    "src": "w302"
+  },
+  {
+    "id": "w303",
+    "text": "Oracle",
+    "start": 125.292,
+    "end": 125.96,
+    "type": "word",
+    "src": "w303"
+  },
+  {
+    "id": "w304",
+    "text": "AI",
+    "start": 125.96,
+    "end": 126.183,
+    "type": "word",
+    "src": "w304"
+  },
+  {
+    "id": "w305",
+    "text": "World",
+    "start": 126.183,
+    "end": 126.758,
+    "type": "word",
+    "src": "w305"
+  },
+  {
+    "id": "w306",
+    "text": "Conference",
+    "start": 126.758,
+    "end": 127.311,
+    "type": "word",
+    "src": "w306"
+  },
+  {
+    "id": "w307",
+    "text": "in",
+    "start": 127.311,
+    "end": 127.434,
+    "type": "word",
+    "src": "w307"
+  },
+  {
+    "id": "w308",
+    "text": "Las",
+    "start": 127.434,
+    "end": 127.649,
+    "type": "word",
+    "src": "w308"
+  },
+  {
+    "id": "w309",
+    "text": "Vegas,",
+    "start": 127.649,
+    "end": 128.301,
+    "type": "word",
+    "src": "w309"
+  },
+  {
+    "id": "w310",
+    "text": "Oracle",
+    "start": 128.301,
+    "end": 128.593,
+    "type": "word",
+    "src": "w310"
+  },
+  {
+    "id": "w311",
+    "text": "and",
+    "start": 128.593,
+    "end": 128.846,
+    "type": "word",
+    "src": "w311"
+  },
+  {
+    "id": "w312",
+    "text": "OpenAI",
+    "start": 128.846,
+    "end": 129.522,
+    "type": "word",
+    "src": "w312"
+  },
+  {
+    "id": "w313",
+    "text": "announced",
+    "start": 129.522,
+    "end": 130.128,
+    "type": "word",
+    "src": "w313"
+  },
+  {
+    "id": "w314",
+    "text": "a",
+    "start": 130.128,
+    "end": 130.189,
+    "type": "word",
+    "src": "w314"
+  },
+  {
+    "id": "w315",
+    "text": "deeper",
+    "start": 130.189,
+    "end": 130.612,
+    "type": "word",
+    "src": "w315"
+  },
+  {
+    "id": "w316",
+    "text": "partnership.",
+    "start": 130.612,
+    "end": 131.525,
+    "type": "word",
+    "src": "w316"
+  },
+  {
+    "id": "w317",
+    "text": "Oracle",
+    "start": 132.116,
+    "end": 132.797,
+    "type": "word",
+    "src": "w317"
+  },
+  {
+    "id": "w318",
+    "text": "Como",
+    "start": 132.797,
+    "end": 132.919,
+    "type": "word",
+    "src": "w318"
+  },
+  {
+    "id": "w319",
+    "text": "CEO",
+    "start": 132.919,
+    "end": 133.161,
+    "type": "word",
+    "src": "w319"
+  },
+  {
+    "id": "w320",
+    "text": "Clay",
+    "start": 133.161,
+    "end": 133.488,
+    "type": "word",
+    "src": "w320"
+  },
+  {
+    "id": "w321",
+    "text": "Magouyrk",
+    "start": 133.488,
+    "end": 133.964,
+    "type": "word",
+    "src": "w321"
+  },
+  {
+    "id": "w322",
+    "text": "appeared",
+    "start": 133.964,
+    "end": 134.617,
+    "type": "word",
+    "src": "w322"
+  },
+  {
+    "id": "w323",
+    "text": "with",
+    "start": 134.617,
+    "end": 134.944,
+    "type": "word",
+    "src": "w323"
+  },
+  {
+    "id": "w324",
+    "text": "OpenAI",
+    "start": 134.944,
+    "end": 135.737,
+    "type": "word",
+    "src": "w324"
+  },
+  {
+    "id": "w325",
+    "text": "CEO",
+    "start": 135.737,
+    "end": 136.399,
+    "type": "word",
+    "src": "w325"
+  },
+  {
+    "id": "w326",
+    "text": "Sam",
+    "start": 136.399,
+    "end": 136.819,
+    "type": "word",
+    "src": "w326"
+  },
+  {
+    "id": "w327",
+    "text": "Altman,",
+    "start": 136.819,
+    "end": 137.668,
+    "type": "word",
+    "src": "w327"
+  },
+  {
+    "id": "w328",
+    "text": "Chach",
+    "start": 138.011,
+    "end": 138.311,
+    "type": "word",
+    "src": "w328"
+  },
+  {
+    "id": "w329",
+    "text": "GPT,",
+    "start": 138.311,
+    "end": 138.528,
+    "type": "word",
+    "src": "w329"
+  },
+  {
+    "id": "w330",
+    "text": "and",
+    "start": 138.528,
+    "end": 138.701,
+    "type": "word",
+    "src": "w330"
+  },
+  {
+    "id": "w331",
+    "text": "Codex",
+    "start": 138.701,
+    "end": 138.95,
+    "type": "word",
+    "src": "w331"
+  },
+  {
+    "id": "w332",
+    "text": "will",
+    "start": 138.95,
+    "end": 139.16,
+    "type": "word",
+    "src": "w332"
+  },
+  {
+    "id": "w333",
+    "text": "be",
+    "start": 139.5,
+    "end": 139.706,
+    "type": "word",
+    "src": "w333"
+  },
+  {
+    "id": "w334",
+    "text": "built",
+    "start": 139.706,
+    "end": 140.035,
+    "type": "word",
+    "src": "w334"
+  },
+  {
+    "id": "w335",
+    "text": "into",
+    "start": 140.035,
+    "end": 140.345,
+    "type": "word",
+    "src": "w335"
+  },
+  {
+    "id": "w336",
+    "text": "Oracle's",
+    "start": 140.345,
+    "end": 140.965,
+    "type": "word",
+    "src": "w336"
+  },
+  {
+    "id": "w337",
+    "text": "business",
+    "start": 140.965,
+    "end": 141.594,
+    "type": "word",
+    "src": "w337"
+  },
+  {
+    "id": "w338",
+    "text": "applications",
+    "start": 141.594,
+    "end": 142.656,
+    "type": "word",
+    "src": "w338"
+  },
+  {
+    "id": "w339",
+    "text": "and",
+    "start": 142.656,
+    "end": 142.768,
+    "type": "word",
+    "src": "w339"
+  },
+  {
+    "id": "w340",
+    "text": "database",
+    "start": 142.768,
+    "end": 143.294,
+    "type": "word",
+    "src": "w340"
+  },
+  {
+    "id": "w341",
+    "text": "products",
+    "start": 143.294,
+    "end": 144.046,
+    "type": "word",
+    "src": "w341"
+  },
+  {
+    "id": "w342",
+    "text": "with",
+    "start": 144.38,
+    "end": 144.459,
+    "type": "word",
+    "src": "w342"
+  },
+  {
+    "id": "w343",
+    "text": "healthcare",
+    "start": 144.459,
+    "end": 145.187,
+    "type": "word",
+    "src": "w343"
+  },
+  {
+    "id": "w344",
+    "text": "and",
+    "start": 145.187,
+    "end": 145.415,
+    "type": "word",
+    "src": "w344"
+  },
+  {
+    "id": "w345",
+    "text": "finance",
+    "start": 145.415,
+    "end": 145.942,
+    "type": "word",
+    "src": "w345"
+  },
+  {
+    "id": "w346",
+    "text": "as",
+    "start": 145.942,
+    "end": 146.056,
+    "type": "word",
+    "src": "w346"
+  },
+  {
+    "id": "w347",
+    "text": "priority",
+    "start": 146.056,
+    "end": 147.1,
+    "type": "word",
+    "src": "w347"
+  },
+  {
+    "id": "w348",
+    "text": "sectors.",
+    "start": 147.1,
+    "end": 147.372,
+    "type": "word",
+    "src": "w348"
+  },
+  {
+    "id": "w349",
+    "text": "Oracle's",
+    "start": 147.687,
+    "end": 148.178,
+    "type": "word",
+    "src": "w349"
+  },
+  {
+    "id": "w350",
+    "text": "cloud",
+    "start": 148.178,
+    "end": 148.49,
+    "type": "word",
+    "src": "w350"
+  },
+  {
+    "id": "w351",
+    "text": "is",
+    "start": 148.49,
+    "end": 148.609,
+    "type": "word",
+    "src": "w351"
+  },
+  {
+    "id": "w352",
+    "text": "also",
+    "start": 148.609,
+    "end": 148.854,
+    "type": "word",
+    "src": "w352"
+  },
+  {
+    "id": "w353",
+    "text": "adding",
+    "start": 148.854,
+    "end": 149.226,
+    "type": "word",
+    "src": "w353"
+  },
+  {
+    "id": "w354",
+    "text": "support",
+    "start": 149.226,
+    "end": 149.798,
+    "type": "word",
+    "src": "w354"
+  },
+  {
+    "id": "w355",
+    "text": "for",
+    "start": 149.798,
+    "end": 149.909,
+    "type": "word",
+    "src": "w355"
+  },
+  {
+    "id": "w356",
+    "text": "Google's",
+    "start": 149.909,
+    "end": 150.266,
+    "type": "word",
+    "src": "w356"
+  },
+  {
+    "id": "w357",
+    "text": "TPU",
+    "start": 150.266,
+    "end": 150.697,
+    "type": "word",
+    "src": "w357"
+  },
+  {
+    "id": "w358",
+    "text": "chips,",
+    "start": 150.697,
+    "end": 151.767,
+    "type": "word",
+    "src": "w358"
+  },
+  {
+    "id": "w359",
+    "text": "OpenAI's",
+    "start": 151.767,
+    "end": 152.881,
+    "type": "word",
+    "src": "w359"
+  },
+  {
+    "id": "w360",
+    "text": "own",
+    "start": 153.213,
+    "end": 153.803,
+    "type": "word",
+    "src": "w360"
+  },
+  {
+    "id": "w361",
+    "text": "chip,",
+    "start": 153.803,
+    "end": 154.983,
+    "type": "word",
+    "src": "w361"
+  },
+  {
+    "id": "w362",
+    "text": "called",
+    "start": 155.312,
+    "end": 156.209,
+    "type": "word",
+    "src": "w362"
+  },
+  {
+    "id": "w363",
+    "text": "Jalapeño",
+    "start": 156.209,
+    "end": 156.434,
+    "type": "word",
+    "src": "w363"
+  },
+  {
+    "id": "w364",
+    "text": "and",
+    "start": 156.434,
+    "end": 156.464,
+    "type": "word",
+    "src": "w364"
+  },
+  {
+    "id": "w365",
+    "text": "Cerebras",
+    "start": 156.456,
+    "end": 156.516,
+    "type": "word",
+    "src": "w365"
+  },
+  {
+    "id": "w366",
+    "text": "systems.",
+    "start": 156.516,
+    "end": 156.598,
+    "type": "word",
+    "src": "w366"
+  },
+  {
+    "id": "w367",
+    "text": "No",
+    "start": 156.598,
+    "end": 156.628,
+    "type": "word",
+    "src": "w367"
+  },
+  {
+    "id": "w368",
+    "text": "deal",
+    "start": 156.613,
+    "end": 156.643,
+    "type": "word",
+    "src": "w368"
+  },
+  {
+    "id": "w369",
+    "text": "value",
+    "start": 156.643,
+    "end": 156.681,
+    "type": "word",
+    "src": "w369"
+  },
+  {
+    "id": "w370",
+    "text": "or",
+    "start": 156.681,
+    "end": 156.71,
+    "type": "word",
+    "src": "w370"
+  },
+  {
+    "id": "w371",
+    "text": "rollout",
+    "start": 156.695,
+    "end": 156.8,
+    "type": "word",
+    "src": "w371"
+  },
+  {
+    "id": "w372",
+    "text": "date",
+    "start": 156.8,
+    "end": 156.98,
+    "type": "word",
+    "src": "w372"
+  },
+  {
+    "id": "w373",
+    "text": "was",
+    "start": 156.98,
+    "end": 157.159,
+    "type": "word",
+    "src": "w373"
+  },
+  {
+    "id": "w374",
+    "text": "given.",
+    "start": 157.159,
+    "end": 157.586,
+    "type": "word",
+    "src": "w374"
+  },
+  {
+    "id": "w375",
+    "text": "The",
+    "start": 157.927,
+    "end": 158.129,
+    "type": "word",
+    "src": "w375"
+  },
+  {
+    "id": "w376",
+    "text": "point",
+    "start": 158.129,
+    "end": 158.463,
+    "type": "word",
+    "src": "w376"
+  },
+  {
+    "id": "w377",
+    "text": "is",
+    "start": 158.463,
+    "end": 158.578,
+    "type": "word",
+    "src": "w377"
+  },
+  {
+    "id": "w378",
+    "text": "that",
+    "start": 158.578,
+    "end": 158.842,
+    "type": "word",
+    "src": "w378"
+  },
+  {
+    "id": "w379",
+    "text": "the",
+    "start": 158.842,
+    "end": 159.035,
+    "type": "word",
+    "src": "w379"
+  },
+  {
+    "id": "w380",
+    "text": "big",
+    "start": 159.035,
+    "end": 159.238,
+    "type": "word",
+    "src": "w380"
+  },
+  {
+    "id": "w381",
+    "text": "enterprise",
+    "start": 159.238,
+    "end": 160.161,
+    "type": "word",
+    "src": "w381"
+  },
+  {
+    "id": "w382",
+    "text": "software",
+    "start": 160.161,
+    "end": 160.417,
+    "type": "word",
+    "src": "w382"
+  },
+  {
+    "id": "w383",
+    "text": "vendors",
+    "start": 160.417,
+    "end": 160.874,
+    "type": "word",
+    "src": "w383"
+  },
+  {
+    "id": "w384",
+    "text": "are",
+    "start": 160.874,
+    "end": 161.068,
+    "type": "word",
+    "src": "w384"
+  },
+  {
+    "id": "w385",
+    "text": "racing",
+    "start": 161.068,
+    "end": 161.463,
+    "type": "word",
+    "src": "w385"
+  },
+  {
+    "id": "w386",
+    "text": "to",
+    "start": 161.463,
+    "end": 161.595,
+    "type": "word",
+    "src": "w386"
+  },
+  {
+    "id": "w387",
+    "text": "make",
+    "start": 161.595,
+    "end": 161.859,
+    "type": "word",
+    "src": "w387"
+  },
+  {
+    "id": "w388",
+    "text": "AI",
+    "start": 161.859,
+    "end": 162.141,
+    "type": "word",
+    "src": "w388"
+  },
+  {
+    "id": "w389",
+    "text": "a",
+    "start": 162.141,
+    "end": 162.176,
+    "type": "word",
+    "src": "w389"
+  },
+  {
+    "id": "w390",
+    "text": "default",
+    "start": 162.176,
+    "end": 162.634,
+    "type": "word",
+    "src": "w390"
+  },
+  {
+    "id": "w391",
+    "text": "feature,",
+    "start": 162.845,
+    "end": 163.478,
+    "type": "word",
+    "src": "w391"
+  },
+  {
+    "id": "w392",
+    "text": "not",
+    "start": 163.8,
+    "end": 164.073,
+    "type": "word",
+    "src": "w392"
+  },
+  {
+    "id": "w393",
+    "text": "an",
+    "start": 164.073,
+    "end": 164.114,
+    "type": "word",
+    "src": "w393"
+  },
+  {
+    "id": "w394",
+    "text": "add-on.",
+    "start": 164.114,
+    "end": 164.678,
+    "type": "word",
+    "src": "w394"
+  },
+  {
+    "id": "w395",
+    "text": "Apple",
+    "start": 165.277,
+    "end": 165.953,
+    "type": "word",
+    "src": "w395"
+  },
+  {
+    "id": "w396",
+    "text": "has",
+    "start": 165.953,
+    "end": 166.009,
+    "type": "word",
+    "src": "w396"
+  },
+  {
+    "id": "w397",
+    "text": "released",
+    "start": 166.009,
+    "end": 166.638,
+    "type": "word",
+    "src": "w397"
+  },
+  {
+    "id": "w398",
+    "text": "iOS",
+    "start": 166.638,
+    "end": 166.892,
+    "type": "word",
+    "src": "w398"
+  },
+  {
+    "id": "w399",
+    "text": "27.2",
+    "start": 166.892,
+    "end": 167.911,
+    "type": "word",
+    "src": "w399"
+  },
+  {
+    "id": "w400",
+    "text": "for",
+    "start": 167.911,
+    "end": 168.5,
+    "type": "word",
+    "src": "w400"
+  },
+  {
+    "id": "w401",
+    "text": "iPhones",
+    "start": 168.5,
+    "end": 168.763,
+    "type": "word",
+    "src": "w401"
+  },
+  {
+    "id": "w402",
+    "text": "and",
+    "start": 168.763,
+    "end": 169.017,
+    "type": "word",
+    "src": "w402"
+  },
+  {
+    "id": "w403",
+    "text": "iPads.",
+    "start": 169.017,
+    "end": 169.694,
+    "type": "word",
+    "src": "w403"
+  },
+  {
+    "id": "w404",
+    "text": "Siri",
+    "start": 170.03,
+    "end": 170.428,
+    "type": "word",
+    "src": "w404"
+  },
+  {
+    "id": "w405",
+    "text": "AI",
+    "start": 170.428,
+    "end": 170.91,
+    "type": "word",
+    "src": "w405"
+  },
+  {
+    "id": "w406",
+    "text": "now",
+    "start": 170.91,
+    "end": 171.002,
+    "type": "word",
+    "src": "w406"
+  },
+  {
+    "id": "w407",
+    "text": "works",
+    "start": 171.002,
+    "end": 171.298,
+    "type": "word",
+    "src": "w407"
+  },
+  {
+    "id": "w408",
+    "text": "in",
+    "start": 171.298,
+    "end": 171.446,
+    "type": "word",
+    "src": "w408"
+  },
+  {
+    "id": "w409",
+    "text": "French,",
+    "start": 171.446,
+    "end": 172.039,
+    "type": "word",
+    "src": "w409"
+  },
+  {
+    "id": "w410",
+    "text": "Japanese,",
+    "start": 172.039,
+    "end": 172.779,
+    "type": "word",
+    "src": "w410"
+  },
+  {
+    "id": "w411",
+    "text": "Korean,",
+    "start": 172.779,
+    "end": 173.371,
+    "type": "word",
+    "src": "w411"
+  },
+  {
+    "id": "w412",
+    "text": "Portuguese",
+    "start": 173.69,
+    "end": 174.614,
+    "type": "word",
+    "src": "w412"
+  },
+  {
+    "id": "w413",
+    "text": "and",
+    "start": 174.614,
+    "end": 174.808,
+    "type": "word",
+    "src": "w413"
+  },
+  {
+    "id": "w414",
+    "text": "Spanish",
+    "start": 174.808,
+    "end": 175.107,
+    "type": "word",
+    "src": "w414"
+  },
+  {
+    "id": "w415",
+    "text": "in",
+    "start": 175.107,
+    "end": 175.283,
+    "type": "word",
+    "src": "w415"
+  },
+  {
+    "id": "w416",
+    "text": "beta.",
+    "start": 175.283,
+    "end": 175.741,
+    "type": "word",
+    "src": "w416"
+  },
+  {
+    "id": "w417",
+    "text": "Siri",
+    "start": 176.057,
+    "end": 176.301,
+    "type": "word",
+    "src": "w417"
+  },
+  {
+    "id": "w418",
+    "text": "can",
+    "start": 176.301,
+    "end": 176.483,
+    "type": "word",
+    "src": "w418"
+  },
+  {
+    "id": "w419",
+    "text": "also",
+    "start": 176.483,
+    "end": 176.727,
+    "type": "word",
+    "src": "w419"
+  },
+  {
+    "id": "w420",
+    "text": "remember",
+    "start": 176.727,
+    "end": 177.64,
+    "type": "word",
+    "src": "w420"
+  },
+  {
+    "id": "w421",
+    "text": "details",
+    "start": 177.64,
+    "end": 177.67,
+    "type": "word",
+    "src": "w421"
+  },
+  {
+    "id": "w422",
+    "text": "from",
+    "start": 177.647,
+    "end": 177.875,
+    "type": "word",
+    "src": "w422"
+  },
+  {
+    "id": "w423",
+    "text": "past",
+    "start": 177.875,
+    "end": 178.119,
+    "type": "word",
+    "src": "w423"
+  },
+  {
+    "id": "w424",
+    "text": "conversations,",
+    "start": 178.119,
+    "end": 178.917,
+    "type": "word",
+    "src": "w424"
+  },
+  {
+    "id": "w425",
+    "text": "and",
+    "start": 178.917,
+    "end": 179.199,
+    "type": "word",
+    "src": "w425"
+  },
+  {
+    "id": "w426",
+    "text": "you",
+    "start": 179.199,
+    "end": 179.237,
+    "type": "word",
+    "src": "w426"
+  },
+  {
+    "id": "w427",
+    "text": "can",
+    "start": 179.56,
+    "end": 179.758,
+    "type": "word",
+    "src": "w427"
+  },
+  {
+    "id": "w428",
+    "text": "exclude",
+    "start": 179.758,
+    "end": 180.219,
+    "type": "word",
+    "src": "w428"
+  },
+  {
+    "id": "w429",
+    "text": "specific",
+    "start": 180.219,
+    "end": 180.745,
+    "type": "word",
+    "src": "w429"
+  },
+  {
+    "id": "w430",
+    "text": "apps",
+    "start": 180.745,
+    "end": 181.272,
+    "type": "word",
+    "src": "w430"
+  },
+  {
+    "id": "w431",
+    "text": "from",
+    "start": 181.272,
+    "end": 181.338,
+    "type": "word",
+    "src": "w431"
+  },
+  {
+    "id": "w432",
+    "text": "that.",
+    "start": 181.338,
+    "end": 181.733,
+    "type": "word",
+    "src": "w432"
+  },
+  {
+    "id": "w433",
+    "text": "The",
+    "start": 182.053,
+    "end": 182.212,
+    "type": "word",
+    "src": "w433"
+  },
+  {
+    "id": "w434",
+    "text": "update",
+    "start": 182.212,
+    "end": 182.531,
+    "type": "word",
+    "src": "w434"
+  },
+  {
+    "id": "w435",
+    "text": "carries",
+    "start": 182.531,
+    "end": 182.902,
+    "type": "word",
+    "src": "w435"
+  },
+  {
+    "id": "w436",
+    "text": "more",
+    "start": 182.902,
+    "end": 183.115,
+    "type": "word",
+    "src": "w436"
+  },
+  {
+    "id": "w437",
+    "text": "than",
+    "start": 183.115,
+    "end": 183.464,
+    "type": "word",
+    "src": "w437"
+  },
+  {
+    "id": "w438",
+    "text": "160",
+    "start": 183.464,
+    "end": 184.526,
+    "type": "word",
+    "src": "w438"
+  },
+  {
+    "id": "w439",
+    "text": "security",
+    "start": 184.526,
+    "end": 184.951,
+    "type": "word",
+    "src": "w439"
+  },
+  {
+    "id": "w440",
+    "text": "fixes,",
+    "start": 185.133,
+    "end": 185.467,
+    "type": "word",
+    "src": "w440"
+  },
+  {
+    "id": "w441",
+    "text": "many",
+    "start": 185.467,
+    "end": 185.77,
+    "type": "word",
+    "src": "w441"
+  },
+  {
+    "id": "w442",
+    "text": "of",
+    "start": 185.77,
+    "end": 186.028,
+    "type": "word",
+    "src": "w442"
+  },
+  {
+    "id": "w443",
+    "text": "them",
+    "start": 186.028,
+    "end": 186.203,
+    "type": "word",
+    "src": "w443"
+  },
+  {
+    "id": "w444",
+    "text": "backported",
+    "start": 186.53,
+    "end": 187.51,
+    "type": "word",
+    "src": "w444"
+  },
+  {
+    "id": "w445",
+    "text": "to",
+    "start": 187.51,
+    "end": 187.69,
+    "type": "word",
+    "src": "w445"
+  },
+  {
+    "id": "w446",
+    "text": "iOS",
+    "start": 187.69,
+    "end": 188.23,
+    "type": "word",
+    "src": "w446"
+  },
+  {
+    "id": "w447",
+    "text": "26.",
+    "start": 188.23,
+    "end": 188.87,
+    "type": "word",
+    "src": "w447"
+  },
+  {
+    "id": "w448",
+    "text": "TechCrunch",
+    "start": 189.184,
+    "end": 189.799,
+    "type": "word",
+    "src": "w448"
+  },
+  {
+    "id": "w449",
+    "text": "notes",
+    "start": 189.799,
+    "end": 190.225,
+    "type": "word",
+    "src": "w449"
+  },
+  {
+    "id": "w450",
+    "text": "that",
+    "start": 190.225,
+    "end": 190.35,
+    "type": "word",
+    "src": "w450"
+  },
+  {
+    "id": "w451",
+    "text": "about",
+    "start": 190.35,
+    "end": 190.751,
+    "type": "word",
+    "src": "w451"
+  },
+  {
+    "id": "w452",
+    "text": "80%",
+    "start": 190.751,
+    "end": 191.083,
+    "type": "word",
+    "src": "w452"
+  },
+  {
+    "id": "w453",
+    "text": "of",
+    "start": 191.083,
+    "end": 191.202,
+    "type": "word",
+    "src": "w453"
+  },
+  {
+    "id": "w454",
+    "text": "iPhone",
+    "start": 191.202,
+    "end": 191.647,
+    "type": "word",
+    "src": "w454"
+  },
+  {
+    "id": "w455",
+    "text": "owners",
+    "start": 191.647,
+    "end": 191.948,
+    "type": "word",
+    "src": "w455"
+  },
+  {
+    "id": "w456",
+    "text": "are",
+    "start": 191.948,
+    "end": 192.049,
+    "type": "word",
+    "src": "w456"
+  },
+  {
+    "id": "w457",
+    "text": "still",
+    "start": 192.368,
+    "end": 192.393,
+    "type": "word",
+    "src": "w457"
+  },
+  {
+    "id": "w458",
+    "text": "on",
+    "start": 192.721,
+    "end": 192.952,
+    "type": "word",
+    "src": "w458"
+  },
+  {
+    "id": "w459",
+    "text": "iOS",
+    "start": 192.952,
+    "end": 193.3,
+    "type": "word",
+    "src": "w459"
+  },
+  {
+    "id": "w460",
+    "text": "26.",
+    "start": 193.3,
+    "end": 194.94,
+    "type": "word",
+    "src": "w460"
+  },
+  {
+    "id": "w461",
+    "text": "So,",
+    "start": 195.276,
+    "end": 195.347,
+    "type": "word",
+    "src": "w461"
+  },
+  {
+    "id": "w462",
+    "text": "if",
+    "start": 195.347,
+    "end": 195.449,
+    "type": "word",
+    "src": "w462"
+  },
+  {
+    "id": "w463",
+    "text": "you",
+    "start": 195.449,
+    "end": 195.473,
+    "type": "word",
+    "src": "w463"
+  },
+  {
+    "id": "w464",
+    "text": "have",
+    "start": 195.473,
+    "end": 195.533,
+    "type": "word",
+    "src": "w464"
+  },
+  {
+    "id": "w465",
+    "text": "been",
+    "start": 195.533,
+    "end": 195.616,
+    "type": "word",
+    "src": "w465"
+  },
+  {
+    "id": "w466",
+    "text": "putting",
+    "start": 195.937,
+    "end": 196.55,
+    "type": "word",
+    "src": "w466"
+  },
+  {
+    "id": "w467",
+    "text": "off",
+    "start": 196.55,
+    "end": 196.841,
+    "type": "word",
+    "src": "w467"
+  },
+  {
+    "id": "w468",
+    "text": "updates,",
+    "start": 196.841,
+    "end": 197.729,
+    "type": "word",
+    "src": "w468"
+  },
+  {
+    "id": "w469",
+    "text": "this",
+    "start": 198.05,
+    "end": 198.13,
+    "type": "word",
+    "src": "w469"
+  },
+  {
+    "id": "w470",
+    "text": "is",
+    "start": 198.13,
+    "end": 198.17,
+    "type": "word",
+    "src": "w470"
+  },
+  {
+    "id": "w471",
+    "text": "one",
+    "start": 198.17,
+    "end": 198.36,
+    "type": "word",
+    "src": "w471"
+  },
+  {
+    "id": "w472",
+    "text": "to",
+    "start": 198.36,
+    "end": 198.48,
+    "type": "word",
+    "src": "w472"
+  },
+  {
+    "id": "w473",
+    "text": "install.",
+    "start": 198.48,
+    "end": 199.16,
+    "type": "word",
+    "src": "w473"
+  },
+  {
+    "id": "w474",
+    "text": "Security",
+    "start": 199.776,
+    "end": 200.241,
+    "type": "word",
+    "src": "w474"
+  },
+  {
+    "id": "w475",
+    "text": "Firm.",
+    "start": 200.241,
+    "end": 200.722,
+    "type": "word",
+    "src": "w475"
+  },
+  {
+    "id": "w476",
+    "text": "Checkpoint",
+    "start": 201.057,
+    "end": 201.533,
+    "type": "word",
+    "src": "w476"
+  },
+  {
+    "id": "w477",
+    "text": "has",
+    "start": 201.533,
+    "end": 201.679,
+    "type": "word",
+    "src": "w477"
+  },
+  {
+    "id": "w478",
+    "text": "uncovered",
+    "start": 201.679,
+    "end": 202.055,
+    "type": "word",
+    "src": "w478"
+  },
+  {
+    "id": "w479",
+    "text": "a",
+    "start": 202.055,
+    "end": 202.531,
+    "type": "word",
+    "src": "w479"
+  },
+  {
+    "id": "w480",
+    "text": "malware",
+    "start": 202.531,
+    "end": 202.604,
+    "type": "word",
+    "src": "w480"
+  },
+  {
+    "id": "w481",
+    "text": "campaign",
+    "start": 202.604,
+    "end": 203.191,
+    "type": "word",
+    "src": "w481"
+  },
+  {
+    "id": "w482",
+    "text": "it",
+    "start": 203.191,
+    "end": 203.355,
+    "type": "word",
+    "src": "w482"
+  },
+  {
+    "id": "w483",
+    "text": "calls",
+    "start": 203.355,
+    "end": 203.768,
+    "type": "word",
+    "src": "w483"
+  },
+  {
+    "id": "w484",
+    "text": "Yoba.",
+    "start": 203.768,
+    "end": 204.363,
+    "type": "word",
+    "src": "w484"
+  },
+  {
+    "id": "w485",
+    "text": "Fake",
+    "start": 204.697,
+    "end": 204.974,
+    "type": "word",
+    "src": "w485"
+  },
+  {
+    "id": "w486",
+    "text": "projects",
+    "start": 204.974,
+    "end": 205.498,
+    "type": "word",
+    "src": "w486"
+  },
+  {
+    "id": "w487",
+    "text": "on",
+    "start": 205.498,
+    "end": 205.629,
+    "type": "word",
+    "src": "w487"
+  },
+  {
+    "id": "w488",
+    "text": "GitHub",
+    "start": 205.629,
+    "end": 206.053,
+    "type": "word",
+    "src": "w488"
+  },
+  {
+    "id": "w489",
+    "text": "pose",
+    "start": 206.4,
+    "end": 206.57,
+    "type": "word",
+    "src": "w489"
+  },
+  {
+    "id": "w490",
+    "text": "as",
+    "start": 206.57,
+    "end": 206.76,
+    "type": "word",
+    "src": "w490"
+  },
+  {
+    "id": "w491",
+    "text": "desktop",
+    "start": 206.76,
+    "end": 207.58,
+    "type": "word",
+    "src": "w491"
+  },
+  {
+    "id": "w492",
+    "text": "apps",
+    "start": 207.58,
+    "end": 207.87,
+    "type": "word",
+    "src": "w492"
+  },
+  {
+    "id": "w493",
+    "text": "for",
+    "start": 207.87,
+    "end": 208.18,
+    "type": "word",
+    "src": "w493"
+  },
+  {
+    "id": "w494",
+    "text": "chat",
+    "start": 208.18,
+    "end": 208.57,
+    "type": "word",
+    "src": "w494"
+  },
+  {
+    "id": "w495",
+    "text": "GPT",
+    "start": 208.57,
+    "end": 208.87,
+    "type": "word",
+    "src": "w495"
+  },
+  {
+    "id": "w496",
+    "text": "in",
+    "start": 208.87,
+    "end": 209.5,
+    "type": "word",
+    "src": "w496"
+  },
+  {
+    "id": "w497",
+    "text": "Claude",
+    "start": 209.5,
+    "end": 209.68,
+    "type": "word",
+    "src": "w497"
+  },
+  {
+    "id": "w498",
+    "text": "and,",
+    "start": 209.68,
+    "end": 210.18,
+    "type": "word",
+    "src": "w498"
+  },
+  {
+    "id": "w499",
+    "text": "Check",
+    "start": 210.18,
+    "end": 210.48,
+    "type": "word",
+    "src": "w499"
+  },
+  {
+    "id": "w500",
+    "text": "Point",
+    "start": 210.786,
+    "end": 211.587,
+    "type": "word",
+    "src": "w500"
+  },
+  {
+    "id": "w501",
+    "text": "says",
+    "start": 211.587,
+    "end": 211.902,
+    "type": "word",
+    "src": "w501"
+  },
+  {
+    "id": "w502",
+    "text": "they",
+    "start": 211.902,
+    "end": 212.491,
+    "type": "word",
+    "src": "w502"
+  },
+  {
+    "id": "w503",
+    "text": "ranked",
+    "start": 212.491,
+    "end": 212.609,
+    "type": "word",
+    "src": "w503"
+  },
+  {
+    "id": "w504",
+    "text": "high",
+    "start": 212.609,
+    "end": 212.798,
+    "type": "word",
+    "src": "w504"
+  },
+  {
+    "id": "w505",
+    "text": "in",
+    "start": 212.798,
+    "end": 212.924,
+    "type": "word",
+    "src": "w505"
+  },
+  {
+    "id": "w506",
+    "text": "Google",
+    "start": 212.924,
+    "end": 213.293,
+    "type": "word",
+    "src": "w506"
+  },
+  {
+    "id": "w507",
+    "text": "search.",
+    "start": 213.293,
+    "end": 213.843,
+    "type": "word",
+    "src": "w507"
+  },
+  {
+    "id": "w508",
+    "text": "The",
+    "start": 214.18,
+    "end": 214.403,
+    "type": "word",
+    "src": "w508"
+  },
+  {
+    "id": "w509",
+    "text": "download",
+    "start": 214.403,
+    "end": 214.938,
+    "type": "word",
+    "src": "w509"
+  },
+  {
+    "id": "w510",
+    "text": "includes",
+    "start": 214.938,
+    "end": 215.491,
+    "type": "word",
+    "src": "w510"
+  },
+  {
+    "id": "w511",
+    "text": "a",
+    "start": 215.491,
+    "end": 215.554,
+    "type": "word",
+    "src": "w511"
+  },
+  {
+    "id": "w512",
+    "text": "genuine",
+    "start": 215.554,
+    "end": 216.134,
+    "type": "word",
+    "src": "w512"
+  },
+  {
+    "id": "w513",
+    "text": "signed",
+    "start": 216.134,
+    "end": 216.464,
+    "type": "word",
+    "src": "w513"
+  },
+  {
+    "id": "w514",
+    "text": "installer,",
+    "start": 216.464,
+    "end": 217.276,
+    "type": "word",
+    "src": "w514"
+  },
+  {
+    "id": "w515",
+    "text": "which",
+    "start": 217.604,
+    "end": 218.033,
+    "type": "word",
+    "src": "w515"
+  },
+  {
+    "id": "w516",
+    "text": "quietly",
+    "start": 218.033,
+    "end": 218.429,
+    "type": "word",
+    "src": "w516"
+  },
+  {
+    "id": "w517",
+    "text": "loads",
+    "start": 218.429,
+    "end": 218.858,
+    "type": "word",
+    "src": "w517"
+  },
+  {
+    "id": "w518",
+    "text": "a",
+    "start": 218.858,
+    "end": 219.131,
+    "type": "word",
+    "src": "w518"
+  },
+  {
+    "id": "w519",
+    "text": "malicious",
+    "start": 219.131,
+    "end": 219.32,
+    "type": "word",
+    "src": "w519"
+  },
+  {
+    "id": "w520",
+    "text": "file",
+    "start": 219.32,
+    "end": 219.601,
+    "type": "word",
+    "src": "w520"
+  },
+  {
+    "id": "w521",
+    "text": "next",
+    "start": 219.601,
+    "end": 219.881,
+    "type": "word",
+    "src": "w521"
+  },
+  {
+    "id": "w522",
+    "text": "to",
+    "start": 219.881,
+    "end": 220.022,
+    "type": "word",
+    "src": "w522"
+  },
+  {
+    "id": "w523",
+    "text": "it.",
+    "start": 220.022,
+    "end": 220.492,
+    "type": "word",
+    "src": "w523"
+  },
+  {
+    "id": "w524",
+    "text": "The",
+    "start": 220.839,
+    "end": 220.922,
+    "type": "word",
+    "src": "w524"
+  },
+  {
+    "id": "w525",
+    "text": "final",
+    "start": 220.922,
+    "end": 221.335,
+    "type": "word",
+    "src": "w525"
+  },
+  {
+    "id": "w526",
+    "text": "payload",
+    "start": 221.335,
+    "end": 221.755,
+    "type": "word",
+    "src": "w526"
+  },
+  {
+    "id": "w527",
+    "text": "Checkpoint",
+    "start": 221.755,
+    "end": 222.448,
+    "type": "word",
+    "src": "w527"
+  },
+  {
+    "id": "w528",
+    "text": "observed",
+    "start": 222.448,
+    "end": 223.034,
+    "type": "word",
+    "src": "w528"
+  },
+  {
+    "id": "w529",
+    "text": "is",
+    "start": 223.034,
+    "end": 223.1,
+    "type": "word",
+    "src": "w529"
+  },
+  {
+    "id": "w530",
+    "text": "a",
+    "start": 223.1,
+    "end": 223.158,
+    "type": "word",
+    "src": "w530"
+  },
+  {
+    "id": "w531",
+    "text": "cryptocurrency",
+    "start": 223.158,
+    "end": 224.016,
+    "type": "word",
+    "src": "w531"
+  },
+  {
+    "id": "w532",
+    "text": "miner",
+    "start": 224.016,
+    "end": 224.321,
+    "type": "word",
+    "src": "w532"
+  },
+  {
+    "id": "w533",
+    "text": "that",
+    "start": 224.321,
+    "end": 224.553,
+    "type": "word",
+    "src": "w533"
+  },
+  {
+    "id": "w534",
+    "text": "pauses",
+    "start": 224.553,
+    "end": 224.949,
+    "type": "word",
+    "src": "w534"
+  },
+  {
+    "id": "w535",
+    "text": "when",
+    "start": 224.949,
+    "end": 225.163,
+    "type": "word",
+    "src": "w535"
+  },
+  {
+    "id": "w536",
+    "text": "you",
+    "start": 225.163,
+    "end": 225.32,
+    "type": "word",
+    "src": "w536"
+  },
+  {
+    "id": "w537",
+    "text": "are",
+    "start": 225.32,
+    "end": 225.477,
+    "type": "word",
+    "src": "w537"
+  },
+  {
+    "id": "w538",
+    "text": "using",
+    "start": 225.477,
+    "end": 225.741,
+    "type": "word",
+    "src": "w538"
+  },
+  {
+    "id": "w539",
+    "text": "the",
+    "start": 225.741,
+    "end": 225.898,
+    "type": "word",
+    "src": "w539"
+  },
+  {
+    "id": "w540",
+    "text": "computer.",
+    "start": 225.898,
+    "end": 226.615,
+    "type": "word",
+    "src": "w540"
+  },
+  {
+    "id": "w541",
+    "text": "The",
+    "start": 226.94,
+    "end": 226.976,
+    "type": "word",
+    "src": "w541"
+  },
+  {
+    "id": "w542",
+    "text": "loader",
+    "start": 226.967,
+    "end": 227.319,
+    "type": "word",
+    "src": "w542"
+  },
+  {
+    "id": "w543",
+    "text": "can",
+    "start": 227.319,
+    "end": 227.49,
+    "type": "word",
+    "src": "w543"
+  },
+  {
+    "id": "w544",
+    "text": "also",
+    "start": 227.49,
+    "end": 228.129,
+    "type": "word",
+    "src": "w544"
+  },
+  {
+    "id": "w545",
+    "text": "deliver",
+    "start": 228.129,
+    "end": 228.165,
+    "type": "word",
+    "src": "w545"
+  },
+  {
+    "id": "w546",
+    "text": "other",
+    "start": 228.147,
+    "end": 228.418,
+    "type": "word",
+    "src": "w546"
+  },
+  {
+    "id": "w547",
+    "text": "malware.",
+    "start": 228.418,
+    "end": 229.084,
+    "type": "word",
+    "src": "w547"
+  },
+  {
+    "id": "w548",
+    "text": "Checkpoint",
+    "start": 229.401,
+    "end": 229.819,
+    "type": "word",
+    "src": "w548"
+  },
+  {
+    "id": "w549",
+    "text": "found",
+    "start": 229.819,
+    "end": 230.237,
+    "type": "word",
+    "src": "w549"
+  },
+  {
+    "id": "w550",
+    "text": "no",
+    "start": 230.393,
+    "end": 230.423,
+    "type": "word",
+    "src": "w550"
+  },
+  {
+    "id": "w551",
+    "text": "sign",
+    "start": 230.416,
+    "end": 230.714,
+    "type": "word",
+    "src": "w551"
+  },
+  {
+    "id": "w552",
+    "text": "that",
+    "start": 230.714,
+    "end": 231.042,
+    "type": "word",
+    "src": "w552"
+  },
+  {
+    "id": "w553",
+    "text": "OpenAI",
+    "start": 231.042,
+    "end": 231.512,
+    "type": "word",
+    "src": "w553"
+  },
+  {
+    "id": "w554",
+    "text": "or",
+    "start": 231.512,
+    "end": 231.743,
+    "type": "word",
+    "src": "w554"
+  },
+  {
+    "id": "w555",
+    "text": "Anthropic",
+    "start": 231.743,
+    "end": 232.705,
+    "type": "word",
+    "src": "w555"
+  },
+  {
+    "id": "w556",
+    "text": "were",
+    "start": 233.017,
+    "end": 233.062,
+    "type": "word",
+    "src": "w556"
+  },
+  {
+    "id": "w557",
+    "text": "compromised.",
+    "start": 233.062,
+    "end": 234.371,
+    "type": "word",
+    "src": "w557"
+  },
+  {
+    "id": "w558",
+    "text": "Its",
+    "start": 234.709,
+    "end": 234.998,
+    "type": "word",
+    "src": "w558"
+  },
+  {
+    "id": "w559",
+    "text": "advice",
+    "start": 234.998,
+    "end": 235.534,
+    "type": "word",
+    "src": "w559"
+  },
+  {
+    "id": "w560",
+    "text": "is",
+    "start": 235.534,
+    "end": 235.985,
+    "type": "word",
+    "src": "w560"
+  },
+  {
+    "id": "w561",
+    "text": "to",
+    "start": 235.985,
+    "end": 236.129,
+    "type": "word",
+    "src": "w561"
+  },
+  {
+    "id": "w562",
+    "text": "download",
+    "start": 236.129,
+    "end": 236.529,
+    "type": "word",
+    "src": "w562"
+  },
+  {
+    "id": "w563",
+    "text": "A",
+    "start": 236.529,
+    "end": 236.733,
+    "type": "word",
+    "src": "w563"
+  },
+  {
+    "id": "w564",
+    "text": "payload",
+    "start": 236.733,
+    "end": 237.473,
+    "type": "word",
+    "src": "w564"
+  },
+  {
+    "id": "w565",
+    "text": "A",
+    "start": 237.473,
+    "end": 237.55,
+    "type": "word",
+    "src": "w565"
+  },
+  {
+    "id": "w566",
+    "text": "software",
+    "start": 237.55,
+    "end": 238.094,
+    "type": "word",
+    "src": "w566"
+  },
+  {
+    "id": "w567",
+    "text": "only",
+    "start": 238.094,
+    "end": 238.417,
+    "type": "word",
+    "src": "w567"
+  },
+  {
+    "id": "w568",
+    "text": "from",
+    "start": 238.417,
+    "end": 238.74,
+    "type": "word",
+    "src": "w568"
+  },
+  {
+    "id": "w569",
+    "text": "the",
+    "start": 238.74,
+    "end": 238.978,
+    "type": "word",
+    "src": "w569"
+  },
+  {
+    "id": "w570",
+    "text": "vendor's",
+    "start": 238.978,
+    "end": 239.616,
+    "type": "word",
+    "src": "w570"
+  },
+  {
+    "id": "w571",
+    "text": "own",
+    "start": 239.616,
+    "end": 239.855,
+    "type": "word",
+    "src": "w571"
+  },
+  {
+    "id": "w572",
+    "text": "site.",
+    "start": 239.855,
+    "end": 240.416,
+    "type": "word",
+    "src": "w572"
+  },
+  {
+    "id": "w573",
+    "text": "Two",
+    "start": 241.012,
+    "end": 241.365,
+    "type": "word",
+    "src": "w573"
+  },
+  {
+    "id": "w574",
+    "text": "parents",
+    "start": 241.365,
+    "end": 241.548,
+    "type": "word",
+    "src": "w574"
+  },
+  {
+    "id": "w575",
+    "text": "have",
+    "start": 241.548,
+    "end": 241.765,
+    "type": "word",
+    "src": "w575"
+  },
+  {
+    "id": "w576",
+    "text": "sued",
+    "start": 241.765,
+    "end": 241.987,
+    "type": "word",
+    "src": "w576"
+  },
+  {
+    "id": "w577",
+    "text": "OpenAI,",
+    "start": 241.987,
+    "end": 242.5,
+    "type": "word",
+    "src": "w577"
+  },
+  {
+    "id": "w578",
+    "text": "alleging",
+    "start": 242.5,
+    "end": 243.196,
+    "type": "word",
+    "src": "w578"
+  },
+  {
+    "id": "w579",
+    "text": "chat",
+    "start": 243.534,
+    "end": 243.732,
+    "type": "word",
+    "src": "w579"
+  },
+  {
+    "id": "w580",
+    "text": "GPT",
+    "start": 243.732,
+    "end": 244.417,
+    "type": "word",
+    "src": "w580"
+  },
+  {
+    "id": "w581",
+    "text": "contributed",
+    "start": 244.417,
+    "end": 244.92,
+    "type": "word",
+    "src": "w581"
+  },
+  {
+    "id": "w582",
+    "text": "to",
+    "start": 244.92,
+    "end": 245.052,
+    "type": "word",
+    "src": "w582"
+  },
+  {
+    "id": "w583",
+    "text": "their",
+    "start": 245.052,
+    "end": 245.358,
+    "type": "word",
+    "src": "w583"
+  },
+  {
+    "id": "w584",
+    "text": "daughter's",
+    "start": 245.358,
+    "end": 245.96,
+    "type": "word",
+    "src": "w584"
+  },
+  {
+    "id": "w585",
+    "text": "death.",
+    "start": 245.96,
+    "end": 246.447,
+    "type": "word",
+    "src": "w585"
+  },
+  {
+    "id": "w586",
+    "text": "According",
+    "start": 246.78,
+    "end": 247.247,
+    "type": "word",
+    "src": "w586"
+  },
+  {
+    "id": "w587",
+    "text": "to",
+    "start": 247.247,
+    "end": 247.346,
+    "type": "word",
+    "src": "w587"
+  },
+  {
+    "id": "w588",
+    "text": "TechCrunch,",
+    "start": 247.346,
+    "end": 247.961,
+    "type": "word",
+    "src": "w588"
+  },
+  {
+    "id": "w589",
+    "text": "Bowen",
+    "start": 248.3,
+    "end": 248.639,
+    "type": "word",
+    "src": "w589"
+  },
+  {
+    "id": "w590",
+    "text": "Wan",
+    "start": 248.639,
+    "end": 248.84,
+    "type": "word",
+    "src": "w590"
+  },
+  {
+    "id": "w591",
+    "text": "was",
+    "start": 248.84,
+    "end": 249.041,
+    "type": "word",
+    "src": "w591"
+  },
+  {
+    "id": "w592",
+    "text": "a",
+    "start": 249.041,
+    "end": 249.105,
+    "type": "word",
+    "src": "w592"
+  },
+  {
+    "id": "w593",
+    "text": "31-year-old",
+    "start": 249.105,
+    "end": 250.103,
+    "type": "word",
+    "src": "w593"
+  },
+  {
+    "id": "w594",
+    "text": "software",
+    "start": 250.103,
+    "end": 251.155,
+    "type": "word",
+    "src": "w594"
+  },
+  {
+    "id": "w595",
+    "text": "engineer",
+    "start": 251.155,
+    "end": 251.191,
+    "type": "word",
+    "src": "w595"
+  },
+  {
+    "id": "w596",
+    "text": "with",
+    "start": 251.374,
+    "end": 251.53,
+    "type": "word",
+    "src": "w596"
+  },
+  {
+    "id": "w597",
+    "text": "epilepsy",
+    "start": 251.53,
+    "end": 252.454,
+    "type": "word",
+    "src": "w597"
+  },
+  {
+    "id": "w598",
+    "text": "who",
+    "start": 252.454,
+    "end": 252.573,
+    "type": "word",
+    "src": "w598"
+  },
+  {
+    "id": "w599",
+    "text": "died",
+    "start": 252.573,
+    "end": 253.003,
+    "type": "word",
+    "src": "w599"
+  },
+  {
+    "id": "w600",
+    "text": "in",
+    "start": 253.003,
+    "end": 253.131,
+    "type": "word",
+    "src": "w600"
+  },
+  {
+    "id": "w601",
+    "text": "February.",
+    "start": 253.131,
+    "end": 254.228,
+    "type": "word",
+    "src": "w601"
+  },
+  {
+    "id": "w602",
+    "text": "The",
+    "start": 254.562,
+    "end": 254.733,
+    "type": "word",
+    "src": "w602"
+  },
+  {
+    "id": "w603",
+    "text": "suit",
+    "start": 254.733,
+    "end": 255.014,
+    "type": "word",
+    "src": "w603"
+  },
+  {
+    "id": "w604",
+    "text": "alleges",
+    "start": 255.014,
+    "end": 255.506,
+    "type": "word",
+    "src": "w604"
+  },
+  {
+    "id": "w605",
+    "text": "that",
+    "start": 255.506,
+    "end": 255.794,
+    "type": "word",
+    "src": "w605"
+  },
+  {
+    "id": "w606",
+    "text": "chat",
+    "start": 255.794,
+    "end": 256.122,
+    "type": "word",
+    "src": "w606"
+  },
+  {
+    "id": "w607",
+    "text": "GPT,",
+    "start": 256.122,
+    "end": 256.703,
+    "type": "word",
+    "src": "w607"
+  },
+  {
+    "id": "w608",
+    "text": "running",
+    "start": 257.044,
+    "end": 257.243,
+    "type": "word",
+    "src": "w608"
+  },
+  {
+    "id": "w609",
+    "text": "GPT-40,",
+    "start": 257.243,
+    "end": 258.165,
+    "type": "word",
+    "src": "w609"
+  },
+  {
+    "id": "w610",
+    "text": "coached",
+    "start": 258.165,
+    "end": 258.688,
+    "type": "word",
+    "src": "w610"
+  },
+  {
+    "id": "w611",
+    "text": "her",
+    "start": 259.034,
+    "end": 259.274,
+    "type": "word",
+    "src": "w611"
+  },
+  {
+    "id": "w612",
+    "text": "to",
+    "start": 259.274,
+    "end": 259.364,
+    "type": "word",
+    "src": "w612"
+  },
+  {
+    "id": "w613",
+    "text": "taper",
+    "start": 259.364,
+    "end": 259.684,
+    "type": "word",
+    "src": "w613"
+  },
+  {
+    "id": "w614",
+    "text": "off",
+    "start": 259.684,
+    "end": 259.884,
+    "type": "word",
+    "src": "w614"
+  },
+  {
+    "id": "w615",
+    "text": "her",
+    "start": 259.884,
+    "end": 260.114,
+    "type": "word",
+    "src": "w615"
+  },
+  {
+    "id": "w616",
+    "text": "seizure",
+    "start": 260.114,
+    "end": 260.544,
+    "type": "word",
+    "src": "w616"
+  },
+  {
+    "id": "w617",
+    "text": "medication",
+    "start": 260.544,
+    "end": 261.214,
+    "type": "word",
+    "src": "w617"
+  },
+  {
+    "id": "w618",
+    "text": "and",
+    "start": 261.214,
+    "end": 261.414,
+    "type": "word",
+    "src": "w618"
+  },
+  {
+    "id": "w619",
+    "text": "not",
+    "start": 261.414,
+    "end": 261.614,
+    "type": "word",
+    "src": "w619"
+  },
+  {
+    "id": "w620",
+    "text": "tell",
+    "start": 261.614,
+    "end": 261.844,
+    "type": "word",
+    "src": "w620"
+  },
+  {
+    "id": "w621",
+    "text": "her",
+    "start": 261.844,
+    "end": 262.374,
+    "type": "word",
+    "src": "w621"
+  },
+  {
+    "id": "w622",
+    "text": "doctors.",
+    "start": 262.374,
+    "end": 262.794,
+    "type": "word",
+    "src": "w622"
+  },
+  {
+    "id": "w623",
+    "text": "These",
+    "start": 263.138,
+    "end": 263.568,
+    "type": "word",
+    "src": "w623"
+  },
+  {
+    "id": "w624",
+    "text": "are",
+    "start": 263.568,
+    "end": 263.825,
+    "type": "word",
+    "src": "w624"
+  },
+  {
+    "id": "w625",
+    "text": "allegations,",
+    "start": 263.825,
+    "end": 264.942,
+    "type": "word",
+    "src": "w625"
+  },
+  {
+    "id": "w626",
+    "text": "not",
+    "start": 264.942,
+    "end": 264.988,
+    "type": "word",
+    "src": "w626"
+  },
+  {
+    "id": "w627",
+    "text": "findings.",
+    "start": 264.988,
+    "end": 265.57,
+    "type": "word",
+    "src": "w627"
+  },
+  {
+    "id": "w628",
+    "text": "OpenAI",
+    "start": 265.913,
+    "end": 266.387,
+    "type": "word",
+    "src": "w628"
+  },
+  {
+    "id": "w629",
+    "text": "called",
+    "start": 266.387,
+    "end": 266.765,
+    "type": "word",
+    "src": "w629"
+  },
+  {
+    "id": "w630",
+    "text": "the",
+    "start": 266.765,
+    "end": 266.967,
+    "type": "word",
+    "src": "w630"
+  },
+  {
+    "id": "w631",
+    "text": "case",
+    "start": 266.967,
+    "end": 267.249,
+    "type": "word",
+    "src": "w631"
+  },
+  {
+    "id": "w632",
+    "text": "incredibly",
+    "start": 267.249,
+    "end": 268.092,
+    "type": "word",
+    "src": "w632"
+  },
+  {
+    "id": "w633",
+    "text": "heartbreaking.",
+    "start": 268.092,
+    "end": 269.086,
+    "type": "word",
+    "src": "w633"
+  },
+  {
+    "id": "w634",
+    "text": "It",
+    "start": 269.441,
+    "end": 269.577,
+    "type": "word",
+    "src": "w634"
+  },
+  {
+    "id": "w635",
+    "text": "says",
+    "start": 269.577,
+    "end": 269.848,
+    "type": "word",
+    "src": "w635"
+  },
+  {
+    "id": "w636",
+    "text": "it",
+    "start": 269.848,
+    "end": 270.008,
+    "type": "word",
+    "src": "w636"
+  },
+  {
+    "id": "w637",
+    "text": "involved",
+    "start": 270.008,
+    "end": 270.524,
+    "type": "word",
+    "src": "w637"
+  },
+  {
+    "id": "w638",
+    "text": "an",
+    "start": 270.524,
+    "end": 270.651,
+    "type": "word",
+    "src": "w638"
+  },
+  {
+    "id": "w639",
+    "text": "older",
+    "start": 270.651,
+    "end": 271.058,
+    "type": "word",
+    "src": "w639"
+  },
+  {
+    "id": "w640",
+    "text": "version",
+    "start": 271.261,
+    "end": 271.548,
+    "type": "word",
+    "src": "w640"
+  },
+  {
+    "id": "w641",
+    "text": "and",
+    "start": 271.548,
+    "end": 271.76,
+    "type": "word",
+    "src": "w641"
+  },
+  {
+    "id": "w642",
+    "text": "that",
+    "start": 271.76,
+    "end": 272.039,
+    "type": "word",
+    "src": "w642"
+  },
+  {
+    "id": "w643",
+    "text": "newer",
+    "start": 272.039,
+    "end": 272.386,
+    "type": "word",
+    "src": "w643"
+  },
+  {
+    "id": "w644",
+    "text": "models",
+    "start": 272.386,
+    "end": 272.809,
+    "type": "word",
+    "src": "w644"
+  },
+  {
+    "id": "w645",
+    "text": "better",
+    "start": 272.809,
+    "end": 273.232,
+    "type": "word",
+    "src": "w645"
+  },
+  {
+    "id": "w646",
+    "text": "recognize",
+    "start": 273.232,
+    "end": 273.9,
+    "type": "word",
+    "src": "w646"
+  },
+  {
+    "id": "w647",
+    "text": "when",
+    "start": 273.9,
+    "end": 274.146,
+    "type": "word",
+    "src": "w647"
+  },
+  {
+    "id": "w648",
+    "text": "urgent",
+    "start": 274.146,
+    "end": 274.569,
+    "type": "word",
+    "src": "w648"
+  },
+  {
+    "id": "w649",
+    "text": "help",
+    "start": 274.569,
+    "end": 274.848,
+    "type": "word",
+    "src": "w649"
+  },
+  {
+    "id": "w650",
+    "text": "is",
+    "start": 274.848,
+    "end": 274.983,
+    "type": "word",
+    "src": "w650"
+  },
+  {
+    "id": "w651",
+    "text": "needed.",
+    "start": 274.983,
+    "end": 275.618,
+    "type": "word",
+    "src": "w651"
+  },
+  {
+    "id": "w652",
+    "text": "It",
+    "start": 275.917,
+    "end": 276.126,
+    "type": "word",
+    "src": "w652"
+  },
+  {
+    "id": "w653",
+    "text": "retired",
+    "start": 276.126,
+    "end": 276.534,
+    "type": "word",
+    "src": "w653"
+  },
+  {
+    "id": "w654",
+    "text": "GPT-40",
+    "start": 276.534,
+    "end": 277.219,
+    "type": "word",
+    "src": "w654"
+  },
+  {
+    "id": "w655",
+    "text": "from",
+    "start": 277.219,
+    "end": 277.552,
+    "type": "word",
+    "src": "w655"
+  },
+  {
+    "id": "w656",
+    "text": "chat",
+    "start": 277.552,
+    "end": 277.761,
+    "type": "word",
+    "src": "w656"
+  },
+  {
+    "id": "w657",
+    "text": "GPT",
+    "start": 277.761,
+    "end": 277.986,
+    "type": "word",
+    "src": "w657"
+  },
+  {
+    "id": "w658",
+    "text": "in",
+    "start": 277.986,
+    "end": 278.136,
+    "type": "word",
+    "src": "w658"
+  },
+  {
+    "id": "w659",
+    "text": "February.",
+    "start": 278.136,
+    "end": 278.996,
+    "type": "word",
+    "src": "w659"
+  },
+  {
+    "id": "w660",
+    "text": "The",
+    "start": 278.996,
+    "end": 279.229,
+    "type": "word",
+    "src": "w660"
+  },
+  {
+    "id": "w661",
+    "text": "case",
+    "start": 279.229,
+    "end": 279.538,
+    "type": "word",
+    "src": "w661"
+  },
+  {
+    "id": "w662",
+    "text": "tests",
+    "start": 279.538,
+    "end": 279.93,
+    "type": "word",
+    "src": "w662"
+  },
+  {
+    "id": "w663",
+    "text": "how",
+    "start": 280.26,
+    "end": 280.669,
+    "type": "word",
+    "src": "w663"
+  },
+  {
+    "id": "w664",
+    "text": "far",
+    "start": 280.669,
+    "end": 280.8,
+    "type": "word",
+    "src": "w664"
+  },
+  {
+    "id": "w665",
+    "text": "Ak'd",
+    "start": 280.8,
+    "end": 280.931,
+    "type": "word",
+    "src": "w665"
+  },
+  {
+    "id": "w666",
+    "text": "makers",
+    "start": 280.931,
+    "end": 281.34,
+    "type": "word",
+    "src": "w666"
+  },
+  {
+    "id": "w667",
+    "text": "are",
+    "start": 281.34,
+    "end": 281.544,
+    "type": "word",
+    "src": "w667"
+  },
+  {
+    "id": "w668",
+    "text": "responsible",
+    "start": 281.544,
+    "end": 282.296,
+    "type": "word",
+    "src": "w668"
+  },
+  {
+    "id": "w669",
+    "text": "for",
+    "start": 282.617,
+    "end": 282.897,
+    "type": "word",
+    "src": "w669"
+  },
+  {
+    "id": "w670",
+    "text": "medical",
+    "start": 282.897,
+    "end": 283.717,
+    "type": "word",
+    "src": "w670"
+  },
+  {
+    "id": "w671",
+    "text": "advice.",
+    "start": 283.717,
+    "end": 284.507,
+    "type": "word",
+    "src": "w671"
+  },
+  {
+    "id": "w672",
+    "text": "Now",
+    "start": 285.1,
+    "end": 285.134,
+    "type": "word",
+    "src": "w672"
+  },
+  {
+    "id": "w673",
+    "text": "to",
+    "start": 285.1,
+    "end": 285.304,
+    "type": "word",
+    "src": "w673"
+  },
+  {
+    "id": "w674",
+    "text": "hardware.",
+    "start": 285.304,
+    "end": 286.062,
+    "type": "word",
+    "src": "w674"
+  },
+  {
+    "id": "w675",
+    "text": "Taiwan",
+    "start": 286.401,
+    "end": 286.792,
+    "type": "word",
+    "src": "w675"
+  },
+  {
+    "id": "w676",
+    "text": "Semiconductor,",
+    "start": 286.792,
+    "end": 287.701,
+    "type": "word",
+    "src": "w676"
+  },
+  {
+    "id": "w677",
+    "text": "or",
+    "start": 288.017,
+    "end": 288.209,
+    "type": "word",
+    "src": "w677"
+  },
+  {
+    "id": "w678",
+    "text": "TSMC,",
+    "start": 288.209,
+    "end": 288.834,
+    "type": "word",
+    "src": "w678"
+  },
+  {
+    "id": "w679",
+    "text": "is",
+    "start": 288.834,
+    "end": 288.917,
+    "type": "word",
+    "src": "w679"
+  },
+  {
+    "id": "w680",
+    "text": "reportedly",
+    "start": 289.229,
+    "end": 290.289,
+    "type": "word",
+    "src": "w680"
+  },
+  {
+    "id": "w681",
+    "text": "weighing",
+    "start": 290.289,
+    "end": 290.357,
+    "type": "word",
+    "src": "w681"
+  },
+  {
+    "id": "w682",
+    "text": "higher",
+    "start": 290.357,
+    "end": 290.746,
+    "type": "word",
+    "src": "w682"
+  },
+  {
+    "id": "w683",
+    "text": "prices",
+    "start": 290.746,
+    "end": 291.213,
+    "type": "word",
+    "src": "w683"
+  },
+  {
+    "id": "w684",
+    "text": "for",
+    "start": 291.213,
+    "end": 291.398,
+    "type": "word",
+    "src": "w684"
+  },
+  {
+    "id": "w685",
+    "text": "the",
+    "start": 291.398,
+    "end": 291.525,
+    "type": "word",
+    "src": "w685"
+  },
+  {
+    "id": "w686",
+    "text": "advanced",
+    "start": 291.758,
+    "end": 292.254,
+    "type": "word",
+    "src": "w686"
+  },
+  {
+    "id": "w687",
+    "text": "packaging",
+    "start": 292.254,
+    "end": 292.964,
+    "type": "word",
+    "src": "w687"
+  },
+  {
+    "id": "w688",
+    "text": "that",
+    "start": 292.964,
+    "end": 293.305,
+    "type": "word",
+    "src": "w688"
+  },
+  {
+    "id": "w689",
+    "text": "AI",
+    "start": 293.305,
+    "end": 293.49,
+    "type": "word",
+    "src": "w689"
+  },
+  {
+    "id": "w690",
+    "text": "chips",
+    "start": 293.49,
+    "end": 293.889,
+    "type": "word",
+    "src": "w690"
+  },
+  {
+    "id": "w691",
+    "text": "depend",
+    "start": 293.889,
+    "end": 294.443,
+    "type": "word",
+    "src": "w691"
+  },
+  {
+    "id": "w692",
+    "text": "on.",
+    "start": 294.443,
+    "end": 294.813,
+    "type": "word",
+    "src": "w692"
+  },
+  {
+    "id": "w693",
+    "text": "Trendforce,",
+    "start": 295.124,
+    "end": 295.915,
+    "type": "word",
+    "src": "w693"
+  },
+  {
+    "id": "w694",
+    "text": "citing",
+    "start": 295.915,
+    "end": 296.314,
+    "type": "word",
+    "src": "w694"
+  },
+  {
+    "id": "w695",
+    "text": "Taiwanese",
+    "start": 296.314,
+    "end": 296.913,
+    "type": "word",
+    "src": "w695"
+  },
+  {
+    "id": "w696",
+    "text": "media,",
+    "start": 296.913,
+    "end": 297.511,
+    "type": "word",
+    "src": "w696"
+  },
+  {
+    "id": "w697",
+    "text": "reports",
+    "start": 297.84,
+    "end": 298.232,
+    "type": "word",
+    "src": "w697"
+  },
+  {
+    "id": "w698",
+    "text": "increases",
+    "start": 298.232,
+    "end": 299.017,
+    "type": "word",
+    "src": "w698"
+  },
+  {
+    "id": "w699",
+    "text": "of",
+    "start": 299.017,
+    "end": 299.184,
+    "type": "word",
+    "src": "w699"
+  },
+  {
+    "id": "w700",
+    "text": "up",
+    "start": 299.184,
+    "end": 299.418,
+    "type": "word",
+    "src": "w700"
+  },
+  {
+    "id": "w701",
+    "text": "to",
+    "start": 299.418,
+    "end": 299.518,
+    "type": "word",
+    "src": "w701"
+  },
+  {
+    "id": "w702",
+    "text": "20%",
+    "start": 299.518,
+    "end": 300.152,
+    "type": "word",
+    "src": "w702"
+  },
+  {
+    "id": "w703",
+    "text": "for",
+    "start": 300.152,
+    "end": 300.378,
+    "type": "word",
+    "src": "w703"
+  },
+  {
+    "id": "w704",
+    "text": "a",
+    "start": 300.378,
+    "end": 300.461,
+    "type": "word",
+    "src": "w704"
+  },
+  {
+    "id": "w705",
+    "text": "technique",
+    "start": 300.81,
+    "end": 301.477,
+    "type": "word",
+    "src": "w705"
+  },
+  {
+    "id": "w706",
+    "text": "called",
+    "start": 301.477,
+    "end": 301.917,
+    "type": "word",
+    "src": "w706"
+  },
+  {
+    "id": "w707",
+    "text": "CoWoS",
+    "start": 301.917,
+    "end": 302.201,
+    "type": "word",
+    "src": "w707"
+  },
+  {
+    "id": "w708",
+    "text": "and",
+    "start": 302.201,
+    "end": 302.414,
+    "type": "word",
+    "src": "w708"
+  },
+  {
+    "id": "w709",
+    "text": "a",
+    "start": 302.414,
+    "end": 302.577,
+    "type": "word",
+    "src": "w709"
+  },
+  {
+    "id": "w710",
+    "text": "separate",
+    "start": 302.885,
+    "end": 303.5,
+    "type": "word",
+    "src": "w710"
+  },
+  {
+    "id": "w711",
+    "text": "3-6%",
+    "start": 303.5,
+    "end": 304.306,
+    "type": "word",
+    "src": "w711"
+  },
+  {
+    "id": "w712",
+    "text": "rise",
+    "start": 304.306,
+    "end": 304.721,
+    "type": "word",
+    "src": "w712"
+  },
+  {
+    "id": "w713",
+    "text": "in",
+    "start": 304.721,
+    "end": 304.929,
+    "type": "word",
+    "src": "w713"
+  },
+  {
+    "id": "w714",
+    "text": "wafer",
+    "start": 304.929,
+    "end": 305.293,
+    "type": "word",
+    "src": "w714"
+  },
+  {
+    "id": "w715",
+    "text": "prices",
+    "start": 305.293,
+    "end": 305.761,
+    "type": "word",
+    "src": "w715"
+  },
+  {
+    "id": "w716",
+    "text": "from",
+    "start": 305.761,
+    "end": 306.168,
+    "type": "word",
+    "src": "w716"
+  },
+  {
+    "id": "w717",
+    "text": "January",
+    "start": 306.168,
+    "end": 306.991,
+    "type": "word",
+    "src": "w717"
+  },
+  {
+    "id": "w718",
+    "text": "2027.",
+    "start": 306.991,
+    "end": 308.655,
+    "type": "word",
+    "src": "w718"
+  },
+  {
+    "id": "w719",
+    "text": "This",
+    "start": 308.987,
+    "end": 309.089,
+    "type": "word",
+    "src": "w719"
+  },
+  {
+    "id": "w720",
+    "text": "is",
+    "start": 309.089,
+    "end": 309.227,
+    "type": "word",
+    "src": "w720"
+  },
+  {
+    "id": "w721",
+    "text": "reported,",
+    "start": 309.227,
+    "end": 309.927,
+    "type": "word",
+    "src": "w721"
+  },
+  {
+    "id": "w722",
+    "text": "not",
+    "start": 310.27,
+    "end": 310.588,
+    "type": "word",
+    "src": "w722"
+  },
+  {
+    "id": "w723",
+    "text": "confirmed,",
+    "start": 310.588,
+    "end": 311.759,
+    "type": "word",
+    "src": "w723"
+  },
+  {
+    "id": "w724",
+    "text": "by",
+    "start": 311.759,
+    "end": 311.968,
+    "type": "word",
+    "src": "w724"
+  },
+  {
+    "id": "w725",
+    "text": "TSMC.",
+    "start": 311.968,
+    "end": 312.785,
+    "type": "word",
+    "src": "w725"
+  },
+  {
+    "id": "w726",
+    "text": "The",
+    "start": 313.1,
+    "end": 313.286,
+    "type": "word",
+    "src": "w726"
+  },
+  {
+    "id": "w727",
+    "text": "same",
+    "start": 313.286,
+    "end": 313.541,
+    "type": "word",
+    "src": "w727"
+  },
+  {
+    "id": "w728",
+    "text": "report",
+    "start": 313.541,
+    "end": 314.118,
+    "type": "word",
+    "src": "w728"
+  },
+  {
+    "id": "w729",
+    "text": "says",
+    "start": 314.118,
+    "end": 314.178,
+    "type": "word",
+    "src": "w729"
+  },
+  {
+    "id": "w730",
+    "text": "demand",
+    "start": 314.178,
+    "end": 314.687,
+    "type": "word",
+    "src": "w730"
+  },
+  {
+    "id": "w731",
+    "text": "is",
+    "start": 314.687,
+    "end": 314.73,
+    "type": "word",
+    "src": "w731"
+  },
+  {
+    "id": "w732",
+    "text": "spreading",
+    "start": 314.73,
+    "end": 315.137,
+    "type": "word",
+    "src": "w732"
+  },
+  {
+    "id": "w733",
+    "text": "from",
+    "start": 315.341,
+    "end": 315.409,
+    "type": "word",
+    "src": "w733"
+  },
+  {
+    "id": "w734",
+    "text": "AI",
+    "start": 315.409,
+    "end": 315.545,
+    "type": "word",
+    "src": "w734"
+  },
+  {
+    "id": "w735",
+    "text": "graphics",
+    "start": 315.545,
+    "end": 316.096,
+    "type": "word",
+    "src": "w735"
+  },
+  {
+    "id": "w736",
+    "text": "chips",
+    "start": 316.096,
+    "end": 316.444,
+    "type": "word",
+    "src": "w736"
+  },
+  {
+    "id": "w737",
+    "text": "to",
+    "start": 316.444,
+    "end": 316.58,
+    "type": "word",
+    "src": "w737"
+  },
+  {
+    "id": "w738",
+    "text": "server",
+    "start": 316.58,
+    "end": 316.996,
+    "type": "word",
+    "src": "w738"
+  },
+  {
+    "id": "w739",
+    "text": "processors",
+    "start": 316.996,
+    "end": 317.896,
+    "type": "word",
+    "src": "w739"
+  },
+  {
+    "id": "w740",
+    "text": "and",
+    "start": 317.896,
+    "end": 317.989,
+    "type": "word",
+    "src": "w740"
+  },
+  {
+    "id": "w741",
+    "text": "custom",
+    "start": 317.989,
+    "end": 318.312,
+    "type": "word",
+    "src": "w741"
+  },
+  {
+    "id": "w742",
+    "text": "chips",
+    "start": 318.312,
+    "end": 318.66,
+    "type": "word",
+    "src": "w742"
+  },
+  {
+    "id": "w743",
+    "text": "and",
+    "start": 318.66,
+    "end": 318.864,
+    "type": "word",
+    "src": "w743"
+  },
+  {
+    "id": "w744",
+    "text": "unfilled",
+    "start": 318.864,
+    "end": 319.492,
+    "type": "word",
+    "src": "w744"
+  },
+  {
+    "id": "w745",
+    "text": "orders",
+    "start": 319.837,
+    "end": 320.246,
+    "type": "word",
+    "src": "w745"
+  },
+  {
+    "id": "w746",
+    "text": "are",
+    "start": 320.246,
+    "end": 320.395,
+    "type": "word",
+    "src": "w746"
+  },
+  {
+    "id": "w747",
+    "text": "growing.",
+    "start": 320.395,
+    "end": 321.15,
+    "type": "word",
+    "src": "w747"
+  },
+  {
+    "id": "w748",
+    "text": "Higher",
+    "start": 321.479,
+    "end": 321.856,
+    "type": "word",
+    "src": "w748"
+  },
+  {
+    "id": "w749",
+    "text": "costs",
+    "start": 321.856,
+    "end": 322.16,
+    "type": "word",
+    "src": "w749"
+  },
+  {
+    "id": "w750",
+    "text": "at",
+    "start": 322.16,
+    "end": 322.283,
+    "type": "word",
+    "src": "w750"
+  },
+  {
+    "id": "w751",
+    "text": "the",
+    "start": 322.283,
+    "end": 322.472,
+    "type": "word",
+    "src": "w751"
+  },
+  {
+    "id": "w752",
+    "text": "chip",
+    "start": 322.472,
+    "end": 322.718,
+    "type": "word",
+    "src": "w752"
+  },
+  {
+    "id": "w753",
+    "text": "level",
+    "start": 322.718,
+    "end": 323.063,
+    "type": "word",
+    "src": "w753"
+  },
+  {
+    "id": "w754",
+    "text": "tend",
+    "start": 323.063,
+    "end": 323.277,
+    "type": "word",
+    "src": "w754"
+  },
+  {
+    "id": "w755",
+    "text": "to",
+    "start": 323.277,
+    "end": 323.4,
+    "type": "word",
+    "src": "w755"
+  },
+  {
+    "id": "w756",
+    "text": "flow",
+    "start": 323.4,
+    "end": 323.646,
+    "type": "word",
+    "src": "w756"
+  },
+  {
+    "id": "w757",
+    "text": "down",
+    "start": 323.646,
+    "end": 324.016,
+    "type": "word",
+    "src": "w757"
+  },
+  {
+    "id": "w758",
+    "text": "to",
+    "start": 324.016,
+    "end": 324.229,
+    "type": "word",
+    "src": "w758"
+  },
+  {
+    "id": "w759",
+    "text": "servers",
+    "start": 324.229,
+    "end": 324.5,
+    "type": "word",
+    "src": "w759"
+  },
+  {
+    "id": "w760",
+    "text": "and",
+    "start": 324.5,
+    "end": 324.697,
+    "type": "word",
+    "src": "w760"
+  },
+  {
+    "id": "w761",
+    "text": "eventually",
+    "start": 325.027,
+    "end": 325.664,
+    "type": "word",
+    "src": "w761"
+  },
+  {
+    "id": "w762",
+    "text": "to",
+    "start": 325.664,
+    "end": 325.798,
+    "type": "word",
+    "src": "w762"
+  },
+  {
+    "id": "w763",
+    "text": "what",
+    "start": 325.798,
+    "end": 326.15,
+    "type": "word",
+    "src": "w763"
+  },
+  {
+    "id": "w764",
+    "text": "you",
+    "start": 326.15,
+    "end": 326.264,
+    "type": "word",
+    "src": "w764"
+  },
+  {
+    "id": "w765",
+    "text": "pay",
+    "start": 326.264,
+    "end": 326.464,
+    "type": "word",
+    "src": "w765"
+  },
+  {
+    "id": "w766",
+    "text": "for",
+    "start": 326.464,
+    "end": 326.72,
+    "type": "word",
+    "src": "w766"
+  },
+  {
+    "id": "w767",
+    "text": "AI",
+    "start": 326.72,
+    "end": 326.797,
+    "type": "word",
+    "src": "w767"
+  },
+  {
+    "id": "w768",
+    "text": "services.",
+    "start": 326.797,
+    "end": 327.824,
+    "type": "word",
+    "src": "w768"
+  },
+  {
+    "id": "w769",
+    "text": "To",
+    "start": 328.431,
+    "end": 328.49,
+    "type": "word",
+    "src": "w769"
+  },
+  {
+    "id": "w770",
+    "text": "finish,",
+    "start": 328.49,
+    "end": 328.827,
+    "type": "word",
+    "src": "w770"
+  },
+  {
+    "id": "w771",
+    "text": "a",
+    "start": 328.827,
+    "end": 328.86,
+    "type": "word",
+    "src": "w771"
+  },
+  {
+    "id": "w772",
+    "text": "story",
+    "start": 328.86,
+    "end": 329.028,
+    "type": "word",
+    "src": "w772"
+  },
+  {
+    "id": "w773",
+    "text": "about",
+    "start": 329.363,
+    "end": 329.79,
+    "type": "word",
+    "src": "w773"
+  },
+  {
+    "id": "w774",
+    "text": "Claude,",
+    "start": 329.79,
+    "end": 330.376,
+    "type": "word",
+    "src": "w774"
+  },
+  {
+    "id": "w775",
+    "text": "not",
+    "start": 330.376,
+    "end": 330.645,
+    "type": "word",
+    "src": "w775"
+  },
+  {
+    "id": "w776",
+    "text": "Wall",
+    "start": 330.963,
+    "end": 331.325,
+    "type": "word",
+    "src": "w776"
+  },
+  {
+    "id": "w777",
+    "text": "Street.",
+    "start": 331.325,
+    "end": 331.777,
+    "type": "word",
+    "src": "w777"
+  },
+  {
+    "id": "w778",
+    "text": "Anthropic",
+    "start": 332.099,
+    "end": 332.684,
+    "type": "word",
+    "src": "w778"
+  },
+  {
+    "id": "w779",
+    "text": "has",
+    "start": 332.684,
+    "end": 332.838,
+    "type": "word",
+    "src": "w779"
+  },
+  {
+    "id": "w780",
+    "text": "acquired",
+    "start": 332.838,
+    "end": 333.338,
+    "type": "word",
+    "src": "w780"
+  },
+  {
+    "id": "w781",
+    "text": "Mithril",
+    "start": 333.338,
+    "end": 333.769,
+    "type": "word",
+    "src": "w781"
+  },
+  {
+    "id": "w782",
+    "text": "Medicine,",
+    "start": 333.769,
+    "end": 334.384,
+    "type": "word",
+    "src": "w782"
+  },
+  {
+    "id": "w783",
+    "text": "a",
+    "start": 334.71,
+    "end": 334.988,
+    "type": "word",
+    "src": "w783"
+  },
+  {
+    "id": "w784",
+    "text": "one-person",
+    "start": 334.988,
+    "end": 335.485,
+    "type": "word",
+    "src": "w784"
+  },
+  {
+    "id": "w785",
+    "text": "company",
+    "start": 335.485,
+    "end": 335.983,
+    "type": "word",
+    "src": "w785"
+  },
+  {
+    "id": "w786",
+    "text": "working",
+    "start": 336.347,
+    "end": 336.689,
+    "type": "word",
+    "src": "w786"
+  },
+  {
+    "id": "w787",
+    "text": "on",
+    "start": 336.689,
+    "end": 336.781,
+    "type": "word",
+    "src": "w787"
+  },
+  {
+    "id": "w788",
+    "text": "treatments",
+    "start": 336.781,
+    "end": 337.316,
+    "type": "word",
+    "src": "w788"
+  },
+  {
+    "id": "w789",
+    "text": "for",
+    "start": 337.316,
+    "end": 337.616,
+    "type": "word",
+    "src": "w789"
+  },
+  {
+    "id": "w790",
+    "text": "two",
+    "start": 337.817,
+    "end": 337.85,
+    "type": "word",
+    "src": "w790"
+  },
+  {
+    "id": "w791",
+    "text": "rare",
+    "start": 337.85,
+    "end": 338.159,
+    "type": "word",
+    "src": "w791"
+  },
+  {
+    "id": "w792",
+    "text": "forms",
+    "start": 338.159,
+    "end": 338.552,
+    "type": "word",
+    "src": "w792"
+  },
+  {
+    "id": "w793",
+    "text": "of",
+    "start": 338.552,
+    "end": 338.803,
+    "type": "word",
+    "src": "w793"
+  },
+  {
+    "id": "w794",
+    "text": "muscular",
+    "start": 338.803,
+    "end": 339.329,
+    "type": "word",
+    "src": "w794"
+  },
+  {
+    "id": "w795",
+    "text": "dystrophy.",
+    "start": 339.329,
+    "end": 340.407,
+    "type": "word",
+    "src": "w795"
+  },
+  {
+    "id": "w796",
+    "text": "Its",
+    "start": 340.717,
+    "end": 340.785,
+    "type": "word",
+    "src": "w796"
+  },
+  {
+    "id": "w797",
+    "text": "founder,",
+    "start": 340.785,
+    "end": 341.342,
+    "type": "word",
+    "src": "w797"
+  },
+  {
+    "id": "w798",
+    "text": "Cody",
+    "start": 341.661,
+    "end": 341.905,
+    "type": "word",
+    "src": "w798"
+  },
+  {
+    "id": "w799",
+    "text": "Tranbarger,",
+    "start": 341.905,
+    "end": 342.697,
+    "type": "word",
+    "src": "w799"
+  },
+  {
+    "id": "w800",
+    "text": "used",
+    "start": 343.018,
+    "end": 343.57,
+    "type": "word",
+    "src": "w800"
+  },
+  {
+    "id": "w801",
+    "text": "Claude",
+    "start": 343.57,
+    "end": 343.697,
+    "type": "word",
+    "src": "w801"
+  },
+  {
+    "id": "w802",
+    "text": "to",
+    "start": 343.697,
+    "end": 343.833,
+    "type": "word",
+    "src": "w802"
+  },
+  {
+    "id": "w803",
+    "text": "manage",
+    "start": 343.833,
+    "end": 344.241,
+    "type": "word",
+    "src": "w803"
+  },
+  {
+    "id": "w804",
+    "text": "contracts,",
+    "start": 344.241,
+    "end": 345.055,
+    "type": "word",
+    "src": "w804"
+  },
+  {
+    "id": "w805",
+    "text": "logistics,",
+    "start": 345.392,
+    "end": 345.99,
+    "type": "word",
+    "src": "w805"
+  },
+  {
+    "id": "w806",
+    "text": "and",
+    "start": 345.99,
+    "end": 346.131,
+    "type": "word",
+    "src": "w806"
+  },
+  {
+    "id": "w807",
+    "text": "experiments",
+    "start": 346.131,
+    "end": 346.721,
+    "type": "word",
+    "src": "w807"
+  },
+  {
+    "id": "w808",
+    "text": "with",
+    "start": 346.721,
+    "end": 346.981,
+    "type": "word",
+    "src": "w808"
+  },
+  {
+    "id": "w809",
+    "text": "11",
+    "start": 346.981,
+    "end": 347.256,
+    "type": "word",
+    "src": "w809"
+  },
+  {
+    "id": "w810",
+    "text": "outside",
+    "start": 347.256,
+    "end": 347.846,
+    "type": "word",
+    "src": "w810"
+  },
+  {
+    "id": "w811",
+    "text": "labs.",
+    "start": 347.846,
+    "end": 348.035,
+    "type": "word",
+    "src": "w811"
+  },
+  {
+    "id": "w812",
+    "text": "He",
+    "start": 348.035,
+    "end": 348.168,
+    "type": "word",
+    "src": "w812"
+  },
+  {
+    "id": "w813",
+    "text": "now",
+    "start": 348.168,
+    "end": 348.373,
+    "type": "word",
+    "src": "w813"
+  },
+  {
+    "id": "w814",
+    "text": "works",
+    "start": 348.373,
+    "end": 348.711,
+    "type": "word",
+    "src": "w814"
+  },
+  {
+    "id": "w815",
+    "text": "at",
+    "start": 349.034,
+    "end": 349.204,
+    "type": "word",
+    "src": "w815"
+  },
+  {
+    "id": "w816",
+    "text": "Anthropic.",
+    "start": 349.204,
+    "end": 350.254,
+    "type": "word",
+    "src": "w816"
+  },
+  {
+    "id": "w817",
+    "text": "Anthropic",
+    "start": 350.602,
+    "end": 350.827,
+    "type": "word",
+    "src": "w817"
+  },
+  {
+    "id": "w818",
+    "text": "says",
+    "start": 350.827,
+    "end": 351.033,
+    "type": "word",
+    "src": "w818"
+  },
+  {
+    "id": "w819",
+    "text": "a",
+    "start": 351.033,
+    "end": 351.089,
+    "type": "word",
+    "src": "w819"
+  },
+  {
+    "id": "w820",
+    "text": "possible",
+    "start": 351.089,
+    "end": 351.93,
+    "type": "word",
+    "src": "w820"
+  },
+  {
+    "id": "w821",
+    "text": "treatment",
+    "start": 351.93,
+    "end": 352.753,
+    "type": "word",
+    "src": "w821"
+  },
+  {
+    "id": "w822",
+    "text": "went",
+    "start": 352.753,
+    "end": 353.053,
+    "type": "word",
+    "src": "w822"
+  },
+  {
+    "id": "w823",
+    "text": "from",
+    "start": 353.053,
+    "end": 353.735,
+    "type": "word",
+    "src": "w823"
+  },
+  {
+    "id": "w824",
+    "text": "idea",
+    "start": 353.735,
+    "end": 354.035,
+    "type": "word",
+    "src": "w824"
+  },
+  {
+    "id": "w825",
+    "text": "to",
+    "start": 354.035,
+    "end": 354.343,
+    "type": "word",
+    "src": "w825"
+  },
+  {
+    "id": "w826",
+    "text": "promising",
+    "start": 354.343,
+    "end": 354.886,
+    "type": "word",
+    "src": "w826"
+  },
+  {
+    "id": "w827",
+    "text": "mouse",
+    "start": 354.886,
+    "end": 355.185,
+    "type": "word",
+    "src": "w827"
+  },
+  {
+    "id": "w828",
+    "text": "results",
+    "start": 355.185,
+    "end": 355.615,
+    "type": "word",
+    "src": "w828"
+  },
+  {
+    "id": "w829",
+    "text": "in",
+    "start": 355.615,
+    "end": 355.886,
+    "type": "word",
+    "src": "w829"
+  },
+  {
+    "id": "w830",
+    "text": "under",
+    "start": 355.886,
+    "end": 356.064,
+    "type": "word",
+    "src": "w830"
+  },
+  {
+    "id": "w831",
+    "text": "18",
+    "start": 356.064,
+    "end": 356.672,
+    "type": "word",
+    "src": "w831"
+  },
+  {
+    "id": "w832",
+    "text": "months.",
+    "start": 356.672,
+    "end": 357.112,
+    "type": "word",
+    "src": "w832"
+  },
+  {
+    "id": "w833",
+    "text": "A",
+    "start": 357.449,
+    "end": 357.665,
+    "type": "word",
+    "src": "w833"
+  },
+  {
+    "id": "w834",
+    "text": "human",
+    "start": 357.665,
+    "end": 357.918,
+    "type": "word",
+    "src": "w834"
+  },
+  {
+    "id": "w835",
+    "text": "trial",
+    "start": 357.918,
+    "end": 358.316,
+    "type": "word",
+    "src": "w835"
+  },
+  {
+    "id": "w836",
+    "text": "could",
+    "start": 358.316,
+    "end": 358.731,
+    "type": "word",
+    "src": "w836"
+  },
+  {
+    "id": "w837",
+    "text": "come",
+    "start": 358.731,
+    "end": 359.029,
+    "type": "word",
+    "src": "w837"
+  },
+  {
+    "id": "w838",
+    "text": "as",
+    "start": 359.029,
+    "end": 359.273,
+    "type": "word",
+    "src": "w838"
+  },
+  {
+    "id": "w839",
+    "text": "soon",
+    "start": 359.273,
+    "end": 359.526,
+    "type": "word",
+    "src": "w839"
+  },
+  {
+    "id": "w840",
+    "text": "as",
+    "start": 359.526,
+    "end": 359.652,
+    "type": "word",
+    "src": "w840"
+  },
+  {
+    "id": "w841",
+    "text": "late",
+    "start": 359.652,
+    "end": 359.977,
+    "type": "word",
+    "src": "w841"
+  },
+  {
+    "id": "w842",
+    "text": "2028",
+    "start": 359.977,
+    "end": 360.989,
+    "type": "word",
+    "src": "w842"
+  },
+  {
+    "id": "w843",
+    "text": "if",
+    "start": 360.989,
+    "end": 361.142,
+    "type": "word",
+    "src": "w843"
+  },
+  {
+    "id": "w844",
+    "text": "results",
+    "start": 361.142,
+    "end": 361.675,
+    "type": "word",
+    "src": "w844"
+  },
+  {
+    "id": "w845",
+    "text": "hold.",
+    "start": 361.675,
+    "end": 362.217,
+    "type": "word",
+    "src": "w845"
+  },
+  {
+    "id": "w846",
+    "text": "Terms",
+    "start": 362.537,
+    "end": 362.796,
+    "type": "word",
+    "src": "w846"
+  },
+  {
+    "id": "w847",
+    "text": "were",
+    "start": 362.796,
+    "end": 362.874,
+    "type": "word",
+    "src": "w847"
+  },
+  {
+    "id": "w848",
+    "text": "not",
+    "start": 362.874,
+    "end": 363.386,
+    "type": "word",
+    "src": "w848"
+  },
+  {
+    "id": "w849",
+    "text": "disclosed.",
+    "start": 363.386,
+    "end": 363.771,
+    "type": "word",
+    "src": "w849"
+  },
+  {
+    "id": "w850",
+    "text": "Anthropic",
+    "start": 364.106,
+    "end": 364.396,
+    "type": "word",
+    "src": "w850"
+  },
+  {
+    "id": "w851",
+    "text": "also",
+    "start": 364.396,
+    "end": 364.63,
+    "type": "word",
+    "src": "w851"
+  },
+  {
+    "id": "w852",
+    "text": "announced",
+    "start": 364.63,
+    "end": 365.211,
+    "type": "word",
+    "src": "w852"
+  },
+  {
+    "id": "w853",
+    "text": "drug",
+    "start": 365.211,
+    "end": 365.389,
+    "type": "word",
+    "src": "w853"
+  },
+  {
+    "id": "w854",
+    "text": "discovery",
+    "start": 365.389,
+    "end": 365.913,
+    "type": "word",
+    "src": "w854"
+  },
+  {
+    "id": "w855",
+    "text": "partnerships",
+    "start": 365.913,
+    "end": 366.952,
+    "type": "word",
+    "src": "w855"
+  },
+  {
+    "id": "w856",
+    "text": "with",
+    "start": 366.952,
+    "end": 367.026,
+    "type": "word",
+    "src": "w856"
+  },
+  {
+    "id": "w857",
+    "text": "six",
+    "start": 367.026,
+    "end": 367.176,
+    "type": "word",
+    "src": "w857"
+  },
+  {
+    "id": "w858",
+    "text": "organizations,",
+    "start": 367.176,
+    "end": 368.299,
+    "type": "word",
+    "src": "w858"
+  },
+  {
+    "id": "w859",
+    "text": "including",
+    "start": 368.625,
+    "end": 369.094,
+    "type": "word",
+    "src": "w859"
+  },
+  {
+    "id": "w860",
+    "text": "Bristol",
+    "start": 369.094,
+    "end": 369.46,
+    "type": "word",
+    "src": "w860"
+  },
+  {
+    "id": "w861",
+    "text": "Myers",
+    "start": 369.46,
+    "end": 369.722,
+    "type": "word",
+    "src": "w861"
+  },
+  {
+    "id": "w862",
+    "text": "Squibb.",
+    "start": 369.722,
+    "end": 370.2,
+    "type": "word",
+    "src": "w862"
+  },
+  {
+    "id": "w863",
+    "text": "That",
+    "start": 370.808,
+    "end": 370.972,
+    "type": "word",
+    "src": "w863"
+  },
+  {
+    "id": "w864",
+    "text": "was",
+    "start": 370.972,
+    "end": 371.094,
+    "type": "word",
+    "src": "w864"
+  },
+  {
+    "id": "w865",
+    "text": "tech.",
+    "start": 371.094,
+    "end": 371.38,
+    "type": "word",
+    "src": "w865"
+  },
+  {
+    "id": "w866",
+    "text": "In",
+    "start": 371.63,
+    "end": 371.745,
+    "type": "word",
+    "src": "w866"
+  },
+  {
+    "id": "w867",
+    "text": "the",
+    "start": 371.745,
+    "end": 371.916,
+    "type": "word",
+    "src": "w867"
+  },
+  {
+    "id": "w868",
+    "text": "last",
+    "start": 371.916,
+    "end": 372.147,
+    "type": "word",
+    "src": "w868"
+  },
+  {
+    "id": "w869",
+    "text": "24",
+    "start": 372.147,
+    "end": 372.533,
+    "type": "word",
+    "src": "w869"
+  },
+  {
+    "id": "w870",
+    "text": "hours,",
+    "start": 372.533,
+    "end": 372.95,
+    "type": "word",
+    "src": "w870"
+  },
+  {
+    "id": "w871",
+    "text": "AI",
+    "start": 373.277,
+    "end": 373.654,
+    "type": "word",
+    "src": "w871"
+  },
+  {
+    "id": "w872",
+    "text": "is",
+    "start": 373.654,
+    "end": 373.685,
+    "type": "word",
+    "src": "w872"
+  },
+  {
+    "id": "w873",
+    "text": "moving",
+    "start": 373.662,
+    "end": 373.9,
+    "type": "word",
+    "src": "w873"
+  },
+  {
+    "id": "w874",
+    "text": "into",
+    "start": 373.9,
+    "end": 374.147,
+    "type": "word",
+    "src": "w874"
+  },
+  {
+    "id": "w875",
+    "text": "everything,",
+    "start": 374.147,
+    "end": 374.763,
+    "type": "word",
+    "src": "w875"
+  },
+  {
+    "id": "w876",
+    "text": "from",
+    "start": 374.763,
+    "end": 375.009,
+    "type": "word",
+    "src": "w876"
+  },
+  {
+    "id": "w877",
+    "text": "business",
+    "start": 375.327,
+    "end": 375.886,
+    "type": "word",
+    "src": "w877"
+  },
+  {
+    "id": "w878",
+    "text": "software",
+    "start": 375.886,
+    "end": 376.445,
+    "type": "word",
+    "src": "w878"
+  },
+  {
+    "id": "w879",
+    "text": "to",
+    "start": 376.445,
+    "end": 376.582,
+    "type": "word",
+    "src": "w879"
+  },
+  {
+    "id": "w880",
+    "text": "simulated",
+    "start": 376.582,
+    "end": 377.21,
+    "type": "word",
+    "src": "w880"
+  },
+  {
+    "id": "w881",
+    "text": "worlds,",
+    "start": 377.21,
+    "end": 377.932,
+    "type": "word",
+    "src": "w881"
+  },
+  {
+    "id": "w882",
+    "text": "and",
+    "start": 377.932,
+    "end": 378.009,
+    "type": "word",
+    "src": "w882"
+  },
+  {
+    "id": "w883",
+    "text": "the",
+    "start": 378.347,
+    "end": 378.553,
+    "type": "word",
+    "src": "w883"
+  },
+  {
+    "id": "w884",
+    "text": "costs",
+    "start": 378.553,
+    "end": 378.887,
+    "type": "word",
+    "src": "w884"
+  },
+  {
+    "id": "w885",
+    "text": "and",
+    "start": 378.887,
+    "end": 379.093,
+    "type": "word",
+    "src": "w885"
+  },
+  {
+    "id": "w886",
+    "text": "risks",
+    "start": 379.093,
+    "end": 379.428,
+    "type": "word",
+    "src": "w886"
+  },
+  {
+    "id": "w887",
+    "text": "are",
+    "start": 379.428,
+    "end": 379.634,
+    "type": "word",
+    "src": "w887"
+  },
+  {
+    "id": "w888",
+    "text": "following",
+    "start": 379.634,
+    "end": 380.242,
+    "type": "word",
+    "src": "w888"
+  },
+  {
+    "id": "w889",
+    "text": "it.",
+    "start": 380.242,
+    "end": 380.611,
+    "type": "word",
+    "src": "w889"
+  },
+  {
+    "id": "w890",
+    "text": "Here's",
+    "start": 380.925,
+    "end": 381.174,
+    "type": "word",
+    "src": "w890"
+  },
+  {
+    "id": "w891",
+    "text": "today's",
+    "start": 381.174,
+    "end": 381.465,
+    "type": "word",
+    "src": "w891"
+  },
+  {
+    "id": "w892",
+    "text": "question.",
+    "start": 381.465,
+    "end": 381.954,
+    "type": "word",
+    "src": "w892"
+  },
+  {
+    "id": "w893",
+    "text": "Should",
+    "start": 382.29,
+    "end": 383.014,
+    "type": "word",
+    "src": "w893"
+  },
+  {
+    "id": "w894",
+    "text": "AI",
+    "start": 383.014,
+    "end": 383.257,
+    "type": "word",
+    "src": "w894"
+  },
+  {
+    "id": "w895",
+    "text": "chatbots",
+    "start": 383.257,
+    "end": 384.24,
+    "type": "word",
+    "src": "w895"
+  },
+  {
+    "id": "w896",
+    "text": "be",
+    "start": 384.24,
+    "end": 384.303,
+    "type": "word",
+    "src": "w896"
+  },
+  {
+    "id": "w897",
+    "text": "allowed",
+    "start": 384.303,
+    "end": 384.539,
+    "type": "word",
+    "src": "w897"
+  },
+  {
+    "id": "w898",
+    "text": "to",
+    "start": 384.539,
+    "end": 384.617,
+    "type": "word",
+    "src": "w898"
+  },
+  {
+    "id": "w899",
+    "text": "give",
+    "start": 384.617,
+    "end": 384.806,
+    "type": "word",
+    "src": "w899"
+  },
+  {
+    "id": "w900",
+    "text": "medical",
+    "start": 384.806,
+    "end": 385.12,
+    "type": "word",
+    "src": "w900"
+  },
+  {
+    "id": "w901",
+    "text": "advice",
+    "start": 385.12,
+    "end": 385.435,
+    "type": "word",
+    "src": "w901"
+  },
+  {
+    "id": "w902",
+    "text": "at",
+    "start": 385.435,
+    "end": 385.576,
+    "type": "word",
+    "src": "w902"
+  },
+  {
+    "id": "w903",
+    "text": "all?",
+    "start": 385.576,
+    "end": 386.001,
+    "type": "word",
+    "src": "w903"
+  },
+  {
+    "id": "w904",
+    "text": "Tell",
+    "start": 386.347,
+    "end": 386.385,
+    "type": "word",
+    "src": "w904"
+  },
+  {
+    "id": "w905",
+    "text": "us",
+    "start": 386.385,
+    "end": 386.515,
+    "type": "word",
+    "src": "w905"
+  },
+  {
+    "id": "w906",
+    "text": "in",
+    "start": 386.515,
+    "end": 386.599,
+    "type": "word",
+    "src": "w906"
+  },
+  {
+    "id": "w907",
+    "text": "the",
+    "start": 386.599,
+    "end": 386.767,
+    "type": "word",
+    "src": "w907"
+  },
+  {
+    "id": "w908",
+    "text": "comments.",
+    "start": 386.767,
+    "end": 387.378,
+    "type": "word",
+    "src": "w908"
+  },
+  {
+    "id": "w909",
+    "text": "Subscribe",
+    "start": 387.743,
+    "end": 388.309,
+    "type": "word",
+    "src": "w909"
+  },
+  {
+    "id": "w910",
+    "text": "for",
+    "start": 388.309,
+    "end": 388.445,
+    "type": "word",
+    "src": "w910"
+  },
+  {
+    "id": "w911",
+    "text": "tomorrow's",
+    "start": 388.445,
+    "end": 389.155,
+    "type": "word",
+    "src": "w911"
+  },
+  {
+    "id": "w912",
+    "text": "roundup.",
+    "start": 389.155,
+    "end": 389.602,
+    "type": "word",
+    "src": "w912"
+  },
+  {
+    "id": "w913",
+    "text": "Thanks",
+    "start": 389.925,
+    "end": 390.23,
+    "type": "word",
+    "src": "w913"
+  },
+  {
+    "id": "w914",
+    "text": "for",
+    "start": 390.23,
+    "end": 390.383,
+    "type": "word",
+    "src": "w914"
+  },
+  {
+    "id": "w915",
+    "text": "watching.",
+    "start": 390.383,
+    "end": 390.967,
+    "type": "word",
+    "src": "w915"
+  }
+]
