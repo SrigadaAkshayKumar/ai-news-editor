@@ -1,0 +1,1000 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 5.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 5.6,
+   "end": 10.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 10.6,
+   "end": 15.84,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 15.84,
+   "end": 20.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 20.2,
+   "end": 30.3,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+   "source": "TechCrunch",
+   "headline": "Microsoft just shared Azure\u2019s actual revenue in dollars: $33.2 billion",
+   "date": "28 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 30.3,
+   "end": 39.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 39.0,
+   "end": 44.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 44.4,
+   "end": 53.25,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 53.25,
+   "end": 58.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 58.0,
+   "end": 66.9,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+   "source": "TechCrunch",
+   "headline": "Google expands AI search ads globally as core ad growth slows",
+   "date": "28 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 66.9,
+   "end": 74.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 74.6,
+   "end": 82.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 82.5,
+   "end": 89.76,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 89.76,
+   "end": 94.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 94.0,
+   "end": 101.3,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+   "source": "TechCrunch",
+   "headline": "Apple launches its new touchscreen MacBook Pro",
+   "date": "28 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 101.3,
+   "end": 108.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 108.2,
+   "end": 118.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 118.0,
+   "end": 127.97,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 127.97,
+   "end": 132.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 132.5,
+   "end": 142.0,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+   "source": "TechCrunch",
+   "headline": "Microsoft offers buyouts to around 60,000 employees, reports say",
+   "date": "26 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 142.0,
+   "end": 151.3,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 151.3,
+   "end": 157.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 157.6,
+   "end": 164.51,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 164.51,
+   "end": 169.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 169.0,
+   "end": 178.0,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+   "source": "TechCrunch",
+   "headline": "Anthropic just launched tools to show companies what their AI spending is buying",
+   "date": "28 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 178.0,
+   "end": 186.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 186.0,
+   "end": 189.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 189.4,
+   "end": 193.3,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 193.3,
+   "end": 199.15,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 199.15,
+   "end": 203.7,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 203.7,
+   "end": 212.4,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+   "source": "TechCrunch",
+   "headline": "Hacker stole personnel data about thousands of Homeland Security employees",
+   "date": "28 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 212.4,
+   "end": 223.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 223.5,
+   "end": 228.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 228.4,
+   "end": 234.59,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 234.59,
+   "end": 239.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 239.0,
+   "end": 246.0,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+   "source": "TechCrunch",
+   "headline": "Voice AI in vogue: Nvidia releases new open transcription model",
+   "date": "28 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.403,
+    "w": 0.36,
+    "h": 0.022
+   }
+  },
+  {
+   "start": 246.0,
+   "end": 254.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 254.0,
+   "end": 258.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 258.6,
+   "end": 265.86,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 265.86,
+   "end": 270.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 270.5,
+   "end": 279.6,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
+   "source": "TechCrunch",
+   "headline": "Xreal Aura is a new wired headset powered by Android XR",
+   "date": "28 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 279.6,
+   "end": 284.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 284.0,
+   "end": 291.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 291.4,
+   "end": 296.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 296.2,
+   "end": 300.55,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 300.55,
+   "end": 305.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 305.4,
+   "end": 310.8,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 310.8,
+   "end": 313.16,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Thursday \u00b7 29 Oct 2026",
+   "style_hint": "Software \u00b7 AI \u00b7 Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.2,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Microsoft + Google earnings",
+   "side": "right"
+  },
+  {
+   "start": 7.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Touchscreen MacBook Pro",
+   "side": "left"
+  },
+  {
+   "start": 11.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Microsoft buyouts \u00b7 ~60,000",
+   "side": "right"
+  },
+  {
+   "start": 15.95,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Microsoft Azure hits $33.2B",
+   "eyebrow": "Story 1 of 8",
+   "railLabel": "of 8 \u00b7 Azure",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 20.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Azure $33.2B \u00b7 up 48%",
+   "side": "right"
+  },
+  {
+   "start": 26.7,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "First time shown in dollars",
+   "side": "left"
+  },
+  {
+   "start": 30.4,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "",
+   "value": 92.3,
+   "text": "Microsoft total revenue, billion \u00b7"
+  },
+  {
+   "start": 34.5,
+   "duration": 4.0,
+   "type": "keyword_chip",
+   "text": "~$10B from OpenAI deals",
+   "side": "right"
+  },
+  {
+   "start": 41.5,
+   "duration": 3.4,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 11,
+   "text": "of Microsoft\u2019s quarter came from OpenAI \u00b7 nearly"
+  },
+  {
+   "start": 45.4,
+   "duration": 7.0,
+   "type": "big_statement",
+   "text": "The AI boom is visible in the biggest cloud business",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 53.35,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Alphabet cloud doubles",
+   "eyebrow": "Story 2 of 8",
+   "railLabel": "of 8 \u00b7 Alphabet",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 58.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Revenue $127.6B \u00b7 up 25%",
+   "side": "right"
+  },
+  {
+   "start": 62.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Google Cloud $30.7B",
+   "side": "left"
+  },
+  {
+   "start": 67.0,
+   "duration": 3.8,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 12,
+   "text": "Google Search growth \u00b7 slower than last two quarters"
+  },
+  {
+   "start": 71.0,
+   "duration": 3.4,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 8,
+   "text": "Alphabet shares after results \u00b7 about \u2212"
+  },
+  {
+   "start": 74.9,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Ads in AI Overviews + AI Mode",
+   "side": "right"
+  },
+  {
+   "start": 78.6,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "More countries, first time",
+   "side": "left"
+  },
+  {
+   "start": 83.0,
+   "duration": 6.4,
+   "type": "big_statement",
+   "text": "Can AI answers carry ads like the old list of links?",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 89.86,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Touchscreen MacBook Pro",
+   "eyebrow": "Story 3 of 8",
+   "railLabel": "of 8 \u00b7 MacBook Pro",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 94.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "14-inch from $2,899",
+   "side": "right"
+  },
+  {
+   "start": 97.7,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "16-inch from $3,399",
+   "side": "left"
+  },
+  {
+   "start": 101.5,
+   "duration": 4.8,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Starting price, dollars",
+   "items": [
+    {
+     "label": "14-inch",
+     "value": 2899
+    },
+    {
+     "label": "16-inch",
+     "value": 3399
+    }
+   ]
+  },
+  {
+   "start": 106.4,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "M5 Pro / M5 Max \u00b7 128 GB",
+   "side": "left"
+  },
+  {
+   "start": 109.6,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Dynamic Island-style cutout",
+   "side": "right"
+  },
+  {
+   "start": 112.5,
+   "duration": 5.0,
+   "type": "timeline",
+   "side": "left",
+   "text": "Availability",
+   "current": 0,
+   "items": [
+    {
+     "label": "30 Oct",
+     "sublabel": "Preorders begin"
+    },
+    {
+     "label": "6 Nov",
+     "sublabel": "Sales start"
+    }
+   ]
+  },
+  {
+   "start": 119.0,
+   "duration": 7.0,
+   "type": "big_statement",
+   "text": "A touchscreen Mac, at some of Apple\u2019s highest prices",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 128.07,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Microsoft buyouts: 60,000",
+   "eyebrow": "Story 4 of 8 \u00b7 reported",
+   "railLabel": "of 8 \u00b7 Buyouts",
+   "numeral": "04",
+   "section": 0
+  },
+  {
+   "start": 132.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Voluntary buyouts \u00b7 ~60,000 (reported)",
+   "side": "right"
+  },
+  {
+   "start": 138.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "VP level and below",
+   "side": "left"
+  },
+  {
+   "start": 142.2,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "US \u00b7 Canada \u00b7 India \u00b7 UK",
+   "side": "right"
+  },
+  {
+   "start": 145.4,
+   "duration": 5.6,
+   "type": "checklist",
+   "text": "Teams taking part (Bloomberg)",
+   "items": [
+    {
+     "label": "Xbox",
+     "state": "yes"
+    },
+    {
+     "label": "Windows",
+     "state": "yes"
+    },
+    {
+     "label": "Copilot",
+     "state": "yes"
+    },
+    {
+     "label": "Finance",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 151.4,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "value": 223000,
+   "text": "Microsoft employees \u00b7 about"
+  },
+  {
+   "start": 155.1,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Cut headcount, no mass layoffs",
+   "side": "right"
+  },
+  {
+   "start": 158.4,
+   "duration": 6.0,
+   "type": "big_statement",
+   "text": "Record cloud revenue, and a workforce reshaped around AI",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 164.61,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Anthropic AI spend reports",
+   "eyebrow": "Story 5 of 8",
+   "railLabel": "of 8 \u00b7 AI spend",
+   "numeral": "05",
+   "section": 1
+  },
+  {
+   "start": 169.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Output \u00b7 cost \u00b7 broken workflows",
+   "side": "right"
+  },
+  {
+   "start": 175.5,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Not used for training by default",
+   "side": "left"
+  },
+  {
+   "start": 179.4,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Jellyfish survey \u00b7 276,000 customers",
+   "side": "right"
+  },
+  {
+   "start": 186.2,
+   "duration": 3.0,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "\u00d7",
+   "value": 10,
+   "text": "Anthropic coding-tool spend since January"
+  },
+  {
+   "start": 189.5,
+   "duration": 3.2,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 2,
+   "text": "of engineering cost \u00b7 about"
+  },
+  {
+   "start": 193.6,
+   "duration": 5.2,
+   "type": "big_statement",
+   "text": "Finance teams want proof the money is working",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 199.25,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "DHS staff data leaked",
+   "eyebrow": "Story 6 of 8",
+   "railLabel": "of 8 \u00b7 DHS leak",
+   "numeral": "06",
+   "section": 2
+  },
+  {
+   "start": 204.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "40,000+ staff",
+   "side": "right"
+  },
+  {
+   "start": 208.4,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Names \u00b7 titles \u00b7 emails \u00b7 phones",
+   "side": "left"
+  },
+  {
+   "start": 212.5,
+   "duration": 10.6,
+   "type": "flow_diagram",
+   "text": "Who says what",
+   "items": [
+    {
+     "label": "Hacker",
+     "sublabel": "says data came from DHS\u2019s Okta login"
+    },
+    {
+     "label": "Okta",
+     "sublabel": "no evidence its systems were compromised"
+    },
+    {
+     "label": "DHS",
+     "sublabel": "aware of a potential breach"
+    }
+   ]
+  },
+  {
+   "start": 224.0,
+   "duration": 4.0,
+   "type": "keyword_chip",
+   "text": "TechCrunch: data appears authentic",
+   "side": "right"
+  },
+  {
+   "start": 228.6,
+   "duration": 5.6,
+   "type": "big_statement",
+   "text": "Second breach this year tied to the same hacker",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 234.69,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Nvidia Nemotron Transcribe",
+   "eyebrow": "Story 7 of 8",
+   "railLabel": "of 8 \u00b7 Nemotron",
+   "numeral": "07",
+   "section": 0
+  },
+  {
+   "start": 239.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Free \u00b7 open weight",
+   "side": "right"
+  },
+  {
+   "start": 242.7,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "30B parameters \u00b7 40 languages",
+   "side": "left"
+  },
+  {
+   "start": 246.1,
+   "duration": 7.8,
+   "type": "checklist",
+   "text": "What it handles",
+   "items": [
+    {
+     "label": "Up to 40 languages",
+     "state": "yes"
+    },
+    {
+     "label": "Recordings up to 1 hour",
+     "state": "yes"
+    },
+    {
+     "label": "Up to 8 speakers",
+     "state": "yes"
+    },
+    {
+     "label": "Live streams",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 254.0,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "Beats rivals on Open ASR (Nvidia claims)",
+   "side": "right"
+  },
+  {
+   "start": 259.0,
+   "duration": 6.4,
+   "type": "big_statement",
+   "text": "Meeting and medical transcription apps, no API bill",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 265.96,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Xreal Aura XR glasses",
+   "eyebrow": "Story 8 of 8",
+   "railLabel": "of 8 \u00b7 Xreal Aura",
+   "numeral": "08",
+   "section": 1
+  },
+  {
+   "start": 270.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Wired \u00b7 Android XR",
+   "side": "right"
+  },
+  {
+   "start": 274.3,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Micro OLED \u00b7 95\u00b0 \u00b7 95 g",
+   "side": "left"
+  },
+  {
+   "start": 279.8,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Gemini built in",
+   "side": "right"
+  },
+  {
+   "start": 281.0,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "Separate processing puck",
+   "side": "left"
+  },
+  {
+   "start": 284.1,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "",
+   "value": 1279,
+   "text": "Starting price"
+  },
+  {
+   "start": 288.2,
+   "duration": 3.3,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "",
+   "value": 1099,
+   "text": "Launch price through December"
+  },
+  {
+   "start": 291.6,
+   "duration": 4.3,
+   "type": "keyword_chip",
+   "text": "Preorders: US \u00b7 Canada \u00b7 Japan \u00b7 S. Korea",
+   "side": "right"
+  },
+  {
+   "start": 296.4,
+   "duration": 3.9,
+   "type": "big_statement",
+   "text": "Google\u2019s glasses push gets real hardware",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 300.7,
+   "duration": 4.3,
+   "type": "big_statement",
+   "text": "Cloud money is flowing. What do companies get back?",
+   "eyebrow": "Today in tech"
+  },
+  {
+   "start": 305.5,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "Would you pay nearly $3,000 for a touchscreen MacBook Pro?",
+   "eyebrow": "Tell us in the comments"
+  },
+  {
+   "start": 310.9,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Subscribe \u00b7 24 Hours in Tech",
+   "side": "left"
+  }
+ ],
+ "camera_moves": []
+}

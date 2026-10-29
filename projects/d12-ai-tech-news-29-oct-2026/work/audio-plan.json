@@ -1,0 +1,372 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open"
+  },
+  {
+   "time": 3.2,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Microsoft + Google earnings"
+  },
+  {
+   "time": 7.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Touchscreen MacBook Pro"
+  },
+  {
+   "time": 11.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Microsoft buyouts \u00b7 ~60,000"
+  },
+  {
+   "time": 15.85,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 1 of 8"
+  },
+  {
+   "time": 16.25,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 8"
+  },
+  {
+   "time": 20.8,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Azure $33.2B \u00b7 up 48%"
+  },
+  {
+   "time": 26.7,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip First time shown in dollars"
+  },
+  {
+   "time": 30.4,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Microsoft total revenue, billion \u00b7"
+  },
+  {
+   "time": 34.5,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip ~$10B from OpenAI deals"
+  },
+  {
+   "time": 41.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: of Microsoft\u2019s quarter came from OpenAI \u00b7 nearly"
+  },
+  {
+   "time": 53.25,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 2 of 8"
+  },
+  {
+   "time": 53.65,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 8"
+  },
+  {
+   "time": 58.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Revenue $127.6B \u00b7 up 25%"
+  },
+  {
+   "time": 62.0,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Google Cloud $30.7B"
+  },
+  {
+   "time": 67.0,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Google Search growth \u00b7 slower than last two quarters"
+  },
+  {
+   "time": 71.0,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Alphabet shares after results \u00b7 about \u2212"
+  },
+  {
+   "time": 74.9,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Ads in AI Overviews + AI Mode"
+  },
+  {
+   "time": 78.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip More countries, first time"
+  },
+  {
+   "time": 89.76,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 3 of 8"
+  },
+  {
+   "time": 90.16,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 8"
+  },
+  {
+   "time": 94.3,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip 14-inch from $2,899"
+  },
+  {
+   "time": 97.7,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip 16-inch from $3,399"
+  },
+  {
+   "time": 101.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "bar_chart: Starting price, dollars"
+  },
+  {
+   "time": 106.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip M5 Pro / M5 Max \u00b7 128 GB"
+  },
+  {
+   "time": 109.6,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Dynamic Island-style cutout"
+  },
+  {
+   "time": 112.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "timeline: Availability"
+  },
+  {
+   "time": 127.97,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 4 of 8 \u00b7 reported"
+  },
+  {
+   "time": 128.37,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 8 \u00b7 reported"
+  },
+  {
+   "time": 132.8,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Voluntary buyouts \u00b7 ~60,000 (reported)"
+  },
+  {
+   "time": 138.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip VP level and below"
+  },
+  {
+   "time": 142.2,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip US \u00b7 Canada \u00b7 India \u00b7 UK"
+  },
+  {
+   "time": 145.4,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "checklist: Teams taking part (Bloomberg)"
+  },
+  {
+   "time": 151.4,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Microsoft employees \u00b7 about"
+  },
+  {
+   "time": 155.1,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Cut headcount, no mass layoffs"
+  },
+  {
+   "time": 164.51,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 5 of 8"
+  },
+  {
+   "time": 164.91,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 8"
+  },
+  {
+   "time": 169.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Output \u00b7 cost \u00b7 broken workflows"
+  },
+  {
+   "time": 175.5,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Not used for training by default"
+  },
+  {
+   "time": 179.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Jellyfish survey \u00b7 276,000 customers"
+  },
+  {
+   "time": 186.2,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Anthropic coding-tool spend since January"
+  },
+  {
+   "time": 189.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: of engineering cost \u00b7 about"
+  },
+  {
+   "time": 199.15,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 6 of 8"
+  },
+  {
+   "time": 199.55,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 8"
+  },
+  {
+   "time": 204.0,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip 40,000+ staff"
+  },
+  {
+   "time": 208.4,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Names \u00b7 titles \u00b7 emails \u00b7 phones"
+  },
+  {
+   "time": 212.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "flow_diagram: Who says what"
+  },
+  {
+   "time": 224.0,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip TechCrunch: data appears authentic"
+  },
+  {
+   "time": 234.59,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 7 of 8"
+  },
+  {
+   "time": 234.99,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 8"
+  },
+  {
+   "time": 239.4,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Free \u00b7 open weight"
+  },
+  {
+   "time": 242.7,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip 30B parameters \u00b7 40 languages"
+  },
+  {
+   "time": 246.1,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "checklist: What it handles"
+  },
+  {
+   "time": 254.0,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Beats rivals on Open ASR (Nvidia claims)"
+  },
+  {
+   "time": 265.86,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 8 of 8"
+  },
+  {
+   "time": 266.26,
+   "sfx": "impact",
+   "reason": "story change hit: Story 8 of 8"
+  },
+  {
+   "time": 270.8,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Wired \u00b7 Android XR"
+  },
+  {
+   "time": 274.3,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Micro OLED \u00b7 95\u00b0 \u00b7 95 g"
+  },
+  {
+   "time": 279.8,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Gemini built in"
+  },
+  {
+   "time": 281.0,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Separate processing puck"
+  },
+  {
+   "time": 284.1,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Starting price"
+  },
+  {
+   "time": 288.2,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Launch price through December"
+  },
+  {
+   "time": 291.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Preorders: US \u00b7 Canada \u00b7 Japan \u00b7 S. Korea"
+  },
+  {
+   "time": 310.9,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Subscribe \u00b7 24 Hours in Tech"
+  }
+ ]
+}

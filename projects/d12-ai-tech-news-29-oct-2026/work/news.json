@@ -1,0 +1,66 @@
+{
+  "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/": {
+    "source": "TechCrunch",
+    "headline": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+    "date": "28 Oct 2026",
+    "path": "assets/news/techcrunch_com_microsoft_just_shared_azures_actual_revenue_in_dollars_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_microsoft_just_shared_azures_actual_revenue_in_dollars__mobile.png"
+  },
+  "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/": {
+    "source": "TechCrunch",
+    "headline": "Google expands AI search ads globally as core ad growth slows",
+    "date": "28 Oct 2026",
+    "path": "assets/news/techcrunch_com_google_expands_ai_search_ads_globally_as_core_ad_growth.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_google_expands_ai_search_ads_globally_as_core_ad_growth_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/": {
+    "source": "TechCrunch",
+    "headline": "Apple launches its new touchscreen MacBook Pro",
+    "date": "28 Oct 2026",
+    "path": "assets/news/techcrunch_com_apple_launches_its_new_touchscreen_macbook_pro.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_apple_launches_its_new_touchscreen_macbook_pro_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/": {
+    "source": "TechCrunch",
+    "headline": "Microsoft offers buyouts to around 60,000 employees, reports say",
+    "date": "26 Oct 2026",
+    "path": "assets/news/techcrunch_com_microsoft_offers_buyouts_to_around_60000_employees_repo.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_microsoft_offers_buyouts_to_around_60000_employees_repo_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/": {
+    "source": "TechCrunch",
+    "headline": "Anthropic just launched tools to show companies what their AI spending is buying",
+    "date": "28 Oct 2026",
+    "path": "assets/news/techcrunch_com_anthropic_just_launched_tools_to_show_companies_what_th.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_anthropic_just_launched_tools_to_show_companies_what_th_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/": {
+    "source": "TechCrunch",
+    "headline": "Hacker stole personnel data about thousands of Homeland Security employees",
+    "date": "28 Oct 2026",
+    "path": "assets/news/techcrunch_com_hacker_stole_personnel_data_about_thousands_of_homeland.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_hacker_stole_personnel_data_about_thousands_of_homeland_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/": {
+    "source": "TechCrunch",
+    "headline": "Voice AI in vogue: Nvidia releases new open transcription model",
+    "date": "28 Oct 2026",
+    "path": "assets/news/techcrunch_com_voice_ai_in_vogue_nvidia_releases_new_open_transcriptio.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_voice_ai_in_vogue_nvidia_releases_new_open_transcriptio_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/": {
+    "source": "TechCrunch",
+    "headline": "Xreal Aura is a new wired headset powered by Android XR",
+    "date": "28 Oct 2026",
+    "path": "assets/news/techcrunch_com_xreal_aura_is_a_new_wired_headset_powered_by_android_xr.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_xreal_aura_is_a_new_wired_headset_powered_by_android_xr_mobile.png"
+  }
+}

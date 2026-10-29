@@ -1,0 +1,67 @@
+[
+  {
+    "file": "assets/library/microsoft.svg",
+    "title": "File:Microsoft logo (2012).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg",
+    "license": "Public domain",
+    "author": "Microsoft Corporation — Jason Wells",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/google.svg",
+    "title": "File:Google 2026 logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Google_2026_logo.svg",
+    "license": "Public domain",
+    "author": "Google LLC",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/apple.svg",
+    "title": "File:Apple logo black.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+    "license": "Public domain",
+    "author": "Original: Rob Janoff",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/satya-nadella.png",
+    "title": "File:MS-Exec-Nadella-Satya-2017-08-31-22 (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-22_(cropped).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Brian Smale and Microsoft",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/library/sundar-pichai.png",
+    "title": "File:Sundar Pichai - 2023 (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sundar_Pichai_-_2023_(cropped).jpg",
+    "license": "CC BY 4.0",
+    "author": "Photographer: Lukasz Kobus (European Commission)",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/library/john-ternus.png",
+    "title": "File:John Ternus at the Apple 50th Anniversary Kickoff (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Ternus_at_the_Apple_50th_Anniversary_Kickoff_(cropped).jpg",
+    "license": "CC BY 4.0",
+    "author": "Tessa Bury",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/stills/thumb-bg.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/technology-network-storage-industry-8118380/",
+    "creator": "cookieone",
+    "creatorUrl": "https://pixabay.com/users/cookieone-14478386/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/library/openai.svg",
+    "title": "File:OpenAI logo 2025 (wordmark).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg",
+    "license": "Public domain",
+    "author": "OpenAI",
+    "note": "trademark of its owner; editorial use"
+  }
+]

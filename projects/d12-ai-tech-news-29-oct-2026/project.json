@@ -1,0 +1,122 @@
+{
+  "name": "d12-ai-tech-news-29-oct-2026",
+  "createdAt": "2026-10-29T09:39:48.150Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d12-ai-tech-news-29-oct-2026/source/raw.wav",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d12/d12-voice.wav",
+    "duration": 343.96,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d12-ai-tech-news-29-oct-2026/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d12/d12_ai_tech_news_29_oct_2026_voiceover.txt",
+    "words": 853,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d12-ai-tech-news-29-oct-2026/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Microsoft",
+    "Google",
+    "Apple",
+    "MacBook",
+    "Pro",
+    "And Microsoft",
+    "Azure",
+    "Open",
+    "Alphabet",
+    "Google Cloud",
+    "But Google Search",
+    "Dynamic Island",
+    "Preorders",
+    "Business Insider",
+    "Canada",
+    "Anthropic",
+    "Homeland Security",
+    "Okta",
+    "TechCrunch",
+    "Nvidia",
+    "Hugging Face",
+    "South Korea"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "24 Hours in Tech roundup: 16:9 YouTube, no captions, a story counter (chapter rail 'Story 3 of 8'), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English; daily news-desk look, news screenshots and NewsCards lead, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; a wipe whoosh + hit on every story change, soft ticks elsewhere",
+  "brand": "ai-news",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-10-29T09:42:16.340Z",
+      "words": 777,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-10-29T09:43:53.794Z",
+      "segments": 92,
+      "kept": 313.167
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-10-29T10:32:35.908Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d12-ai-tech-news-29-oct-2026/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-10-29T10:32:36.030Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-10-29T10:32:36.063Z",
+      "groups": 220
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-10-29T10:32:37.752Z",
+      "music": 0,
+      "sfx": 64
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-10-29T10:33:03.144Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d12-ai-tech-news-29-oct-2026/output/final-16x9.mp4",
+      "duration": 313.166667
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.998761,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d12-ai-tech-news-29-oct-2026/work/cleancut.wav",
+    "duration": 313.15975,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

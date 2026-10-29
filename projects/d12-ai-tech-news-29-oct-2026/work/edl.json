@@ -1,0 +1,11 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes; script-diff extras are numeral/acronym spelling only. Dead air trimmed to 0.33s; 0.6s held beats at each story change. w391-393 'now the eye' is whisper's mishearing of 'A.I.' (low confidence); left uncut.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {"w92": "ten", "w161": "Google", "w279": "sixth", "w451": "ten", "w594": "thirty", "w603": "forty", "w637": "Face's"},
+ "holds": [
+  {"after": "w42", "max": 0.6}, {"after": "w135", "max": 0.6}, {"after": "w220", "max": 0.6},
+  {"after": "w310", "max": 0.6}, {"after": "w393", "max": 0.6}, {"after": "w482", "max": 0.6},
+  {"after": "w581", "max": 0.6}, {"after": "w661", "max": 0.6}, {"after": "w739", "max": 0.6}
+ ]
+}
