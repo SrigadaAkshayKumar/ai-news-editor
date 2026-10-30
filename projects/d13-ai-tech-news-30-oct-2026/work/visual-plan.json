@@ -1,0 +1,1118 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 5.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 5.2,
+   "end": 10.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 10.0,
+   "end": 15.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 15.4,
+   "end": 21.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 21.0,
+   "end": 24.3,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 24.3,
+   "end": 34.0,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+   "source": "TechCrunch",
+   "headline": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+   "date": "29 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 34.0,
+   "end": 39.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 39.0,
+   "end": 44.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 44.4,
+   "end": 48.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 48.2,
+   "end": 53.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 53.2,
+   "end": 58.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 58.6,
+   "end": 62.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 62.0,
+   "end": 70.0,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+   "source": "TechCrunch",
+   "headline": "Amazon reported booming cloud revenue but otherwise missed expectations",
+   "date": "29 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 70.0,
+   "end": 74.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 74.0,
+   "end": 80.3,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 80.3,
+   "end": 85.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 85.6,
+   "end": 90.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 90.6,
+   "end": 95.8,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 95.8,
+   "end": 99.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 99.2,
+   "end": 107.0,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+   "source": "TechCrunch",
+   "headline": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+   "date": "29 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 107.0,
+   "end": 111.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 111.2,
+   "end": 116.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 116.0,
+   "end": 121.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 121.0,
+   "end": 129.7,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 129.7,
+   "end": 134.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 134.4,
+   "end": 141.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 141.0,
+   "end": 144.8,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 144.8,
+   "end": 150.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 150.2,
+   "end": 157.0,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+   "source": "Samsung Newsroom",
+   "headline": "Samsung Electronics Announces Earnings Guidance for Third Quarter 2026",
+   "date": "8 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.08,
+    "w": 0.58,
+    "h": 0.07
+   }
+  },
+  {
+   "start": 157.0,
+   "end": 161.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 161.0,
+   "end": 166.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 166.6,
+   "end": 170.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 170.0,
+   "end": 180.5,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+   "source": "TechCrunch",
+   "headline": "US investigated Chinese spy plot aimed at Nvidia CEO",
+   "date": "29 Oct 2026",
+   "highlight": {
+    "x": 0.155,
+    "y": 0.455,
+    "w": 0.47,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 180.5,
+   "end": 187.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 187.5,
+   "end": 196.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 196.0,
+   "end": 201.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 201.5,
+   "end": 205.8,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 205.8,
+   "end": 208.9,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 208.9,
+   "end": 213.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 213.2,
+   "end": 217.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 217.4,
+   "end": 225.5,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+   "source": "TechCrunch",
+   "headline": "GM reaches $220M settlement over selling drivers’ private data",
+   "date": "29 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 225.5,
+   "end": 230.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 230.0,
+   "end": 237.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 237.5,
+   "end": 243.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 243.2,
+   "end": 246.8,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 246.8,
+   "end": 256.0,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+   "source": "TechCrunch",
+   "headline": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+   "date": "29 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.27,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 256.0,
+   "end": 260.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 260.4,
+   "end": 265.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 265.4,
+   "end": 269.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 269.0,
+   "end": 272.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 272.6,
+   "end": 277.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 277.0,
+   "end": 282.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 282.2,
+   "end": 286.0,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 286.0,
+   "end": 289.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 289.2,
+   "end": 294.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 294.5,
+   "end": 297.37,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Friday · 30 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.5,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "AWS up 39%",
+   "side": "right"
+  },
+  {
+   "start": 7.0,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Free cash flow: deeply negative",
+   "side": "left"
+  },
+  {
+   "start": 10.5,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Binance pauses withdrawals",
+   "side": "right"
+  },
+  {
+   "start": 13.2,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Billions reported drained",
+   "side": "left"
+  },
+  {
+   "start": 15.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Mistral opens a trillion-parameter model",
+   "side": "right"
+  },
+  {
+   "start": 18.2,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Built for cybersecurity",
+   "side": "left"
+  },
+  {
+   "start": 21.1,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Binance pauses withdrawals",
+   "eyebrow": "Story 1 of 7",
+   "railLabel": "of 7 · Binance",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 26.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Withdrawals suspended on multiple networks",
+   "side": "left"
+  },
+  {
+   "start": 31.0,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Binance: user funds are safe",
+   "side": "left"
+  },
+  {
+   "start": 34.6,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "B+",
+   "value": 2,
+   "text": "Reported drained from hot wallets, crypto watchers (unconfirmed) ·"
+  },
+  {
+   "start": 39.4,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 5.7,
+   "text": "CoinDesk’s highest estimate (unconfirmed) ·"
+  },
+  {
+   "start": 44.5,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "None of it confirmed. The theft may still be going on.",
+   "eyebrow": "Reported"
+  },
+  {
+   "start": 48.5,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 2,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 1.56,
+   "text": "Tether reportedly froze, tied to the hack ·"
+  },
+  {
+   "start": 53.9,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Among the largest crypto breaches ever, if confirmed",
+   "eyebrow": "If confirmed"
+  },
+  {
+   "start": 58.7,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Amazon cloud +39%",
+   "eyebrow": "Story 2 of 7",
+   "railLabel": "of 7 · Amazon",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 63.0,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "AWS sales $45.98B",
+   "side": "left"
+  },
+  {
+   "start": 66.4,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Up 39% on a year ago",
+   "side": "left"
+  },
+  {
+   "start": 70.2,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 17.8,
+   "text": "AWS operating income ·"
+  },
+  {
+   "start": 74.3,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 201.9,
+   "text": "Total sales, just under forecasts ·"
+  },
+  {
+   "start": 81.0,
+   "duration": 3.8,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "−$",
+   "suffix": "B",
+   "value": 42.4,
+   "text": "Free cash flow, last 12 months ·"
+  },
+  {
+   "start": 85.7,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "The reason is spending",
+   "side": "left"
+  },
+  {
+   "start": 88.6,
+   "duration": 3.4,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 220,
+   "text": "Capital spending planned this year ·"
+  },
+  {
+   "start": 91.4,
+   "duration": 4.0,
+   "type": "big_statement",
+   "text": "Money going into A.I. capacity",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 95.9,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Mistral opens a 1T model",
+   "eyebrow": "Story 3 of 7",
+   "railLabel": "of 7 · Mistral",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 100.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Mistral Large 4 · ~1T parameters",
+   "side": "left"
+  },
+  {
+   "start": 103.4,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Coding + cybersecurity agents",
+   "side": "left"
+  },
+  {
+   "start": 107.1,
+   "duration": 4.0,
+   "type": "checklist",
+   "text": "Mistral says it is for",
+   "items": [
+    {
+     "label": "Detect threats",
+     "state": "yes"
+    },
+    {
+     "label": "Respond to threats",
+     "state": "yes"
+    },
+    {
+     "label": "Run on own servers",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 111.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Weights on Hugging Face",
+   "side": "left"
+  },
+  {
+   "start": 114.0,
+   "duration": 2.0,
+   "type": "keyword_chip",
+   "text": "Also via Mistral’s API",
+   "side": "right"
+  },
+  {
+   "start": 116.3,
+   "duration": 4.2,
+   "type": "timeline",
+   "side": "left",
+   "text": "Mistral Large 4",
+   "current": 1,
+   "items": [
+    {
+     "label": "Earlier in Oct",
+     "sublabel": "Model introduced"
+    },
+    {
+     "label": "Thu 29 Oct",
+     "sublabel": "Weights released"
+    }
+   ]
+  },
+  {
+   "start": 121.3,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Claims parity with Chinese open model GLM 5.3",
+   "side": "left"
+  },
+  {
+   "start": 125.2,
+   "duration": 3.8,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 47,
+   "text": "fewer tokens per task, company claim ·"
+  },
+  {
+   "start": 129.9,
+   "duration": 4.0,
+   "type": "big_statement",
+   "text": "Company’s own benchmark claim, not an independent test",
+   "eyebrow": "Claimed"
+  },
+  {
+   "start": 135.0,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "A frontier-scale model you can run in-house",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 141.1,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Samsung’s record quarter",
+   "eyebrow": "Story 4 of 7",
+   "railLabel": "of 7 · Samsung",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 145.2,
+   "duration": 4.0,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "₩",
+   "suffix": "T",
+   "value": 107.4,
+   "text": "Q3 operating profit, trillion won (~$80B) ·"
+  },
+  {
+   "start": 150.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Korea Times: 4th record quarter in a row",
+   "side": "right"
+  },
+  {
+   "start": 154.2,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Samsung guidance dated 8 Oct",
+   "side": "right"
+  },
+  {
+   "start": 157.1,
+   "duration": 3.8,
+   "type": "flow_diagram",
+   "text": "Samsung boom",
+   "items": [
+    {
+     "label": "A.I. data centres",
+     "sublabel": "buy in bulk"
+    },
+    {
+     "label": "Memory chips",
+     "sublabel": "reported driver"
+    },
+    {
+     "label": "Samsung profit",
+     "sublabel": "record quarter"
+    }
+   ]
+  },
+  {
+   "start": 161.0,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "The A.I. build-out is moving money through hardware makers",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 166.7,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Reported spy plot at Nvidia",
+   "eyebrow": "Story 5 of 7",
+   "railLabel": "of 7 · Nvidia",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 172.4,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "NYT report · anonymous sources",
+   "side": "right"
+  },
+  {
+   "start": 176.2,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Megaspeed exec Alice Huang",
+   "side": "right"
+  },
+  {
+   "start": 179.0,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Alleged spy",
+   "side": "right"
+  },
+  {
+   "start": 181.0,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Megaspeed: earlier chip-resale probe",
+   "side": "left"
+  },
+  {
+   "start": 184.6,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Allegedly resold restricted Nvidia chips",
+   "side": "right"
+  },
+  {
+   "start": 188.4,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "~",
+   "suffix": " yr",
+   "value": 1,
+   "text": "year U.S. intelligence reportedly watched her ·"
+  },
+  {
+   "start": 192.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Reportedly close to Jensen Huang",
+   "side": "left"
+  },
+  {
+   "start": 196.6,
+   "duration": 5.2,
+   "type": "flow_diagram",
+   "text": "Who says what",
+   "items": [
+    {
+     "label": "NYT",
+     "sublabel": "anon. sources: possible spy"
+    },
+    {
+     "label": "Nvidia",
+     "sublabel": "denies any concern"
+    },
+    {
+     "label": "Status",
+     "sublabel": "not independently confirmed"
+    }
+   ]
+  },
+  {
+   "start": 202.6,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Spokesperson: “not unusual or unexpected”",
+   "side": "left"
+  },
+  {
+   "start": 206.2,
+   "duration": 2.5,
+   "type": "big_statement",
+   "text": "These allegations are unconfirmed",
+   "eyebrow": "Reported"
+  },
+  {
+   "start": 209.0,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "GM pays $220M over data",
+   "eyebrow": "Story 6 of 7",
+   "railLabel": "of 7 · GM",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 213.6,
+   "duration": 3.4,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "value": 36,
+   "text": "state attorneys general brought the case ·"
+  },
+  {
+   "start": 218.5,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Location + driving data sold to brokers",
+   "side": "left"
+  },
+  {
+   "start": 222.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Brokers passed it to insurers",
+   "side": "left"
+  },
+  {
+   "start": 225.6,
+   "duration": 4.0,
+   "type": "timeline",
+   "side": "right",
+   "text": "Smart Driver",
+   "current": 2,
+   "items": [
+    {
+     "label": "Smart Driver",
+     "sublabel": "data collected"
+    },
+    {
+     "label": "2024",
+     "sublabel": "Feature ended"
+    },
+    {
+     "label": "2026",
+     "sublabel": "$220M settlement"
+    }
+   ]
+  },
+  {
+   "start": 230.5,
+   "duration": 6.0,
+   "type": "checklist",
+   "text": "What GM must now do",
+   "items": [
+    {
+     "label": "Express consent to collect",
+     "state": "yes"
+    },
+    {
+     "label": "Express consent to share",
+     "state": "yes"
+    },
+    {
+     "label": "Third-party compliance check",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 238.1,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Your driving habits can be a product",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 243.3,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Reddit moves behind a login",
+   "eyebrow": "Story 7 of 7",
+   "railLabel": "of 7 · Reddit",
+   "numeral": "07",
+   "section": 6
+  },
+  {
+   "start": 248.4,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Announced on the earnings call",
+   "side": "left"
+  },
+  {
+   "start": 252.0,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Goal: protect data from A.I. scraping",
+   "side": "left"
+  },
+  {
+   "start": 256.2,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Tests begin outside the U.S. this quarter",
+   "side": "left"
+  },
+  {
+   "start": 260.9,
+   "duration": 3.8,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "−",
+   "suffix": "M+",
+   "value": 1,
+   "text": "million+ fewer search referrals a week, October ·"
+  },
+  {
+   "start": 265.8,
+   "duration": 3.2,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "",
+   "suffix": "M",
+   "value": 50.7,
+   "text": "U.S. daily users ·"
+  },
+  {
+   "start": 269.2,
+   "duration": 3.3,
+   "type": "big_statement",
+   "text": "Warned of a possible double-digit user drop next quarter",
+   "eyebrow": "Warning"
+  },
+  {
+   "start": 272.9,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Logging in won’t require giving up anonymity",
+   "side": "left"
+  },
+  {
+   "start": 277.3,
+   "duration": 2.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "+",
+   "suffix": "%",
+   "value": 53,
+   "text": "Revenue still up ·"
+  },
+  {
+   "start": 280.0,
+   "duration": 2.1,
+   "type": "keyword_chip",
+   "text": "Revenue $895M",
+   "side": "right"
+  },
+  {
+   "start": 282.5,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Big money into A.I. infrastructure",
+   "eyebrow": "Today in tech"
+  },
+  {
+   "start": 286.2,
+   "duration": 3.0,
+   "type": "big_statement",
+   "text": "The open web is working out how to charge",
+   "eyebrow": "Today in tech"
+  },
+  {
+   "start": 289.5,
+   "duration": 4.6,
+   "type": "big_statement",
+   "text": "Would you log in to Reddit just to read it?",
+   "eyebrow": "Tell us in the comments"
+  },
+  {
+   "start": 294.9,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Subscribe · 24 Hours in Tech",
+   "side": "left"
+  }
+ ],
+ "camera_moves": []
+}

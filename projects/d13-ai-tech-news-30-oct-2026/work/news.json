@@ -1,0 +1,57 @@
+{
+  "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_binance_pauses_withdrawals_as_hackers_suspected_of_stea.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_binance_pauses_withdrawals_as_hackers_suspected_of_stea_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_amazon_reported_booming_cloud_revenue_but_otherwise_mis.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_amazon_reported_booming_cloud_revenue_but_otherwise_mis_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_mistral_releases_weights_for_its_trillion_parameter_ai_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_mistral_releases_weights_for_its_trillion_parameter_ai__mobile.png"
+  },
+  "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_u_s_investigated_chinese_spy_plot_aimed_at_nvidia_ceo.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_u_s_investigated_chinese_spy_plot_aimed_at_nvidia_ceo_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_gm_reaches_220m_settlement_over_selling_drivers_private.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_gm_reaches_220m_settlement_over_selling_drivers_private_mobile.png"
+  },
+  "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_as_search_traffic_dries_up_reddit_announces_its_shiftin.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_as_search_traffic_dries_up_reddit_announces_its_shiftin_mobile.png"
+  },
+  "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026": {
+    "source": "Samsung Newsroom",
+    "headline": "Samsung Electronics Announces Earnings Guidance for Third Quarter 2026",
+    "date": "8 Oct 2026",
+    "path": "assets/news/news_samsung_com_samsung_electronics_announces_earnings_guidance_for_t.png",
+    "captured_via": "browser"
+  }
+}

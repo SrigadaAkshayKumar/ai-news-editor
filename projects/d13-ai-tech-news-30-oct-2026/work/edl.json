@@ -1,0 +1,11 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes; script-diff extras are numeral/acronym spelling only. Dead air trimmed to 0.33s; 0.6s held beats at each story change. whisper hears 'Huang' as 'Wang' (TTS pronunciation) - spoken audio untouched, no captions.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {"w219": "twelve", "w387": "won,", "w416": "centres", "w465": "Huang,", "w514": "Huang.", "w564": "states", "w568": "drivers", "w572": "behaviour"},
+ "holds": [
+  {"after": "w54", "max": 0.6}, {"after": "w158", "max": 0.6}, {"after": "w254", "max": 0.6},
+  {"after": "w371", "max": 0.6}, {"after": "w441", "max": 0.6}, {"after": "w539", "max": 0.6},
+  {"after": "w637", "max": 0.6}, {"after": "w740", "max": 0.6}
+ ]
+}
