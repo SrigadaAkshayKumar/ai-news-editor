@@ -1,0 +1,43 @@
+[
+  {
+    "file": "assets/library/intel.svg",
+    "title": "File:Intel logo 2023.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Intel_logo_2023.svg",
+    "license": "Public domain",
+    "author": "Intel",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/binance.svg",
+    "title": "File:Binance Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+    "license": "Public domain",
+    "author": "Binance",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/google.svg",
+    "title": "File:Google 2026 logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Google_2026_logo.svg",
+    "license": "Public domain",
+    "author": "Google LLC",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/lip-bu-tan.png",
+    "title": "File:Intel CEO Lip-Bu Tan (2025) (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Intel_CEO_Lip-Bu_Tan_(2025)_(cropped).jpg",
+    "license": "Public domain",
+    "author": "United States Department of Commerce",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/stills/thumb-bg.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/pins-cpu-processor-macro-pen-564775/",
+    "creator": "blickpixel",
+    "creatorUrl": "https://pixabay.com/users/blickpixel-52945/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  }
+]

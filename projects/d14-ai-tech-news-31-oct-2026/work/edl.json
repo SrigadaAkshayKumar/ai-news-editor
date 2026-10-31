@@ -1,0 +1,11 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes; script-diff extras are numeral/acronym spelling only. Dead air trimmed to 0.33s; 0.6s held beats at each story change. whisper mishears Rune/Roon, Xu/Su (TTS pronunciation) - spoken audio untouched, no captions.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {},
+ "holds": [
+  {"after": "w47", "max": 0.6}, {"after": "w159", "max": 0.6}, {"after": "w260", "max": 0.6},
+  {"after": "w356", "max": 0.6}, {"after": "w433", "max": 0.6}, {"after": "w511", "max": 0.6},
+  {"after": "w596", "max": 0.6}, {"after": "w659", "max": 0.6}
+ ]
+}

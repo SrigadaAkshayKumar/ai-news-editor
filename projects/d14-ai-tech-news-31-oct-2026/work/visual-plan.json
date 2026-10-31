@@ -1,0 +1,1110 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 3.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 3.4,
+   "end": 7.4,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 7.4,
+   "end": 11.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 11.6,
+   "end": 15,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 15,
+   "end": 18.27,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 18.27,
+   "end": 21.67,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 21.67,
+   "end": 27.52,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+   "source": "TechCrunch",
+   "headline": "Intel’s stock crashes, knocking $12B from government’s stake",
+   "date": "30 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 27.52,
+   "end": 35.11,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 35.11,
+   "end": 43.02,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 43.02,
+   "end": 48.24,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 48.24,
+   "end": 53.75,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 53.75,
+   "end": 60.43,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 60.43,
+   "end": 68.12,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 68.12,
+   "end": 71.52,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 71.52,
+   "end": 80.52,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+   "source": "TechCrunch",
+   "headline": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+   "date": "30 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 80.52,
+   "end": 84.75,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 84.75,
+   "end": 88.25,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 88.25,
+   "end": 94.48,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 94.48,
+   "end": 98.28,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 98.28,
+   "end": 103.24,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 103.24,
+   "end": 106.39,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 106.39,
+   "end": 109.79,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 109.79,
+   "end": 118.79,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+   "source": "TechCrunch",
+   "headline": "Google’s first data center satellite is online and writing poetry",
+   "date": "30 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 118.79,
+   "end": 121.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 121.2,
+   "end": 131.24,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 131.24,
+   "end": 136.79,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 136.79,
+   "end": 142.19,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 142.19,
+   "end": 145.59,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 145.59,
+   "end": 151.44,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "source": "TechCrunch",
+   "headline": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, report says",
+   "date": "30 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 151.44,
+   "end": 155.19,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 155.19,
+   "end": 163.94,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 163.94,
+   "end": 166.84,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 166.84,
+   "end": 170.34,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 170.34,
+   "end": 172.84,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 172.84,
+   "end": 176.24,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 176.24,
+   "end": 182.09,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
+   "source": "TechCrunch",
+   "headline": "Waymo taps Toyota to supply robotaxis for Japan and the UK",
+   "date": "30 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 182.09,
+   "end": 192.11,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 192.11,
+   "end": 196.69,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 196.69,
+   "end": 201.27,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 201.27,
+   "end": 204.67,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 204.67,
+   "end": 211.63,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+   "source": "TechCrunch",
+   "headline": "Applebee’s exposed customers’ personal data after leaving database password in app",
+   "date": "30 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 211.63,
+   "end": 219.16,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 219.16,
+   "end": 222.86,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 222.86,
+   "end": 225.76,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 225.76,
+   "end": 231.26,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 231.26,
+   "end": 234.27,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 234.27,
+   "end": 237.67,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 237.67,
+   "end": 244.72,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+   "source": "TechCrunch",
+   "headline": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+   "date": "30 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 244.72,
+   "end": 248.47,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 248.47,
+   "end": 251.77,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 251.77,
+   "end": 255.68,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 255.68,
+   "end": 261.47,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 261.47,
+   "end": 264.87,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 264.87,
+   "end": 268.7,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+   "source": "TechCrunch",
+   "headline": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+   "date": "30 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.42,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 268.7,
+   "end": 275.63,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 275.63,
+   "end": 279.73,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 279.73,
+   "end": 282.63,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 282.63,
+   "end": 288.24,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 288.24,
+   "end": 291.81,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 291.81,
+   "end": 298.06,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 298.06,
+   "end": 307.13,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Saturday · 31 Oct 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.1,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Intel down 28%",
+   "side": "right"
+  },
+  {
+   "start": 7.05,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Binance hack: $6B+",
+   "side": "left"
+  },
+  {
+   "start": 13.48,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Google: data center in orbit",
+   "side": "right"
+  },
+  {
+   "start": 18.37,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Intel stock crashes 28%",
+   "eyebrow": "Story 1 of 8",
+   "railLabel": "of 8 · Intel",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 21.77,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Down 28% on Friday",
+   "side": "right"
+  },
+  {
+   "start": 24.67,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "One of its worst days ever",
+   "side": "left"
+  },
+  {
+   "start": 27.57,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Q4 revenue guide: $15B–$16B",
+   "eyebrow": "Analysts expected ~$17B"
+  },
+  {
+   "start": 35.11,
+   "duration": 5,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Gross margin (%)",
+   "items": [
+    {
+     "label": "Before",
+     "value": 43
+    },
+    {
+     "label": "Guided",
+     "value": 37
+    }
+   ]
+  },
+  {
+   "start": 43.02,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "CEO Lip-Bu Tan: PC slowdown",
+   "side": "right"
+  },
+  {
+   "start": 48.24,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "AI demand lifts memory prices",
+   "side": "left"
+  },
+  {
+   "start": 53.75,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "+",
+   "suffix": "%",
+   "value": 78,
+   "text": "Data center revenue, year on year"
+  },
+  {
+   "start": 60.43,
+   "duration": 4.2,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "−$",
+   "suffix": "B",
+   "value": 12,
+   "text": "Cut from US government’s ~10% stake (per CNBC)"
+  },
+  {
+   "start": 68.22,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Binance hack: $6.3B",
+   "eyebrow": "Story 2 of 8",
+   "railLabel": "of 8 · Binance",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 71.62,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "At least $6.3B taken",
+   "side": "right"
+  },
+  {
+   "start": 76.35,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Largest hack ever, per TRM Labs",
+   "side": "left"
+  },
+  {
+   "start": 81.85,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "TRM Labs + Elliptic",
+   "side": "right"
+  },
+  {
+   "start": 84.75,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Both blame North Korea",
+   "eyebrow": "Attribution"
+  },
+  {
+   "start": 88.25,
+   "duration": 4.6,
+   "type": "flow_diagram",
+   "text": "How they got in",
+   "items": [
+    {
+     "label": "Engineer’s laptop",
+     "sublabel": "compromised"
+    },
+    {
+     "label": "Attackers in",
+     "sublabel": "per Binance"
+    },
+    {
+     "label": "$6.3B+ taken",
+     "sublabel": "TechCrunch"
+    }
+   ]
+  },
+  {
+   "start": 94.48,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 3,
+   "text": "Frozen, per Binance spokesperson"
+  },
+  {
+   "start": 98.28,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Deposits and withdrawals suspended",
+   "eyebrow": "Binance"
+  },
+  {
+   "start": 103.24,
+   "duration": 3,
+   "type": "big_statement",
+   "text": "User funds safe, says Binance. No proof yet.",
+   "eyebrow": "Not yet verified"
+  },
+  {
+   "start": 106.49,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Google's satellite data center",
+   "eyebrow": "Story 3 of 8",
+   "railLabel": "of 8 · Google",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 110.79,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Suncatcher prototype",
+   "side": "right"
+  },
+  {
+   "start": 113.69,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Launched on SpaceX Falcon 9",
+   "side": "left"
+  },
+  {
+   "start": 116.59,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "~3 weeks of testing",
+   "side": "right"
+  },
+  {
+   "start": 121.2,
+   "duration": 8,
+   "type": "stat_trio",
+   "text": "Suncatcher",
+   "items": [
+    {
+     "label": "TPU chips",
+     "value": 4
+    },
+    {
+     "label": "kilowatt",
+     "value": 1
+    },
+    {
+     "label": "min per run",
+     "value": 20
+    }
+   ]
+  },
+  {
+   "start": 131.24,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "First prompt to Gemma 4: a haiku about space",
+   "eyebrow": "Google’s open model"
+  },
+  {
+   "start": 136.79,
+   "duration": 5,
+   "type": "timeline",
+   "side": "left",
+   "text": "Suncatcher",
+   "current": 0,
+   "items": [
+    {
+     "label": "Oct 2026",
+     "sublabel": "Prototype launched"
+    },
+    {
+     "label": "2027",
+     "sublabel": "Two more satellites"
+    }
+   ]
+  },
+  {
+   "start": 142.29,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Anthropic's credit rating",
+   "eyebrow": "Story 4 of 8",
+   "railLabel": "of 8 · Anthropic",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 145.69,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Reported · Financial Times",
+   "side": "right"
+  },
+  {
+   "start": 148.59,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Expected: high ‘junk’ rating",
+   "side": "left"
+  },
+  {
+   "start": 151.49,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 63,
+   "text": "Chip financing deal, Blackstone anchor"
+  },
+  {
+   "start": 155.19,
+   "duration": 6,
+   "type": "flow_diagram",
+   "text": "Credit rating",
+   "items": [
+    {
+     "label": "Earlier view",
+     "sublabel": "investment grade by 2027"
+    },
+    {
+     "label": "Now expected",
+     "sublabel": "double-B, reported"
+    }
+   ]
+  },
+  {
+   "start": 163.94,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "IPO filed this week",
+   "side": "right"
+  },
+  {
+   "start": 166.84,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Investors worry about huge compute commitments",
+   "eyebrow": "Reported"
+  },
+  {
+   "start": 170.34,
+   "duration": 2.35,
+   "type": "keyword_chip",
+   "text": "Anthropic, Blackstone: no comment",
+   "side": "left"
+  },
+  {
+   "start": 172.94,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Waymo + Toyota robotaxis",
+   "eyebrow": "Story 5 of 8",
+   "railLabel": "of 8 · Waymo",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 176.34,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Waymo × Toyota",
+   "side": "right"
+  },
+  {
+   "start": 179.24,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "2027 bZ4X",
+   "side": "left"
+  },
+  {
+   "start": 182.14,
+   "duration": 5,
+   "type": "flow_diagram",
+   "text": "The plan",
+   "items": [
+    {
+     "label": "Toyota builds",
+     "sublabel": "2027 bZ4X · Takaoka plant"
+    },
+    {
+     "label": "Waymo driver",
+     "sublabel": "self-driving system"
+    },
+    {
+     "label": "Japan testing",
+     "sublabel": "next year"
+    }
+   ]
+  },
+  {
+   "start": 192.11,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "Next: left-driving countries",
+   "eyebrow": "Like the UK"
+  },
+  {
+   "start": 196.69,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Waymo testing in London",
+   "side": "right"
+  },
+  {
+   "start": 201.37,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Applebee's app leak",
+   "eyebrow": "Story 6 of 8",
+   "railLabel": "of 8 · Applebee's",
+   "numeral": "06",
+   "section": 5
+  },
+  {
+   "start": 205.88,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Found by Robert Wiggins",
+   "side": "right"
+  },
+  {
+   "start": 208.78,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Confirmed by TechCrunch",
+   "side": "left"
+  },
+  {
+   "start": 211.68,
+   "duration": 5,
+   "type": "checklist",
+   "text": "Anyone could read",
+   "items": [
+    {
+     "label": "Names",
+     "state": "yes"
+    },
+    {
+     "label": "Emails",
+     "state": "yes"
+    },
+    {
+     "label": "Birth dates",
+     "state": "yes"
+    },
+    {
+     "label": "Phone numbers",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 219.16,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "",
+   "suffix": "M+",
+   "value": 8.5,
+   "text": "Rewards members last year"
+  },
+  {
+   "start": 222.86,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Number affected: unknown",
+   "side": "right"
+  },
+  {
+   "start": 225.76,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Fixed. No evidence of unauthorized access, says Dine Brands.",
+   "eyebrow": "Investigation ongoing"
+  },
+  {
+   "start": 234.37,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "Salesforce buys Rune?",
+   "eyebrow": "Story 7 of 8",
+   "railLabel": "of 8 · Salesforce",
+   "numeral": "07",
+   "section": 6
+  },
+  {
+   "start": 237.77,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Reported deal",
+   "side": "right"
+  },
+  {
+   "start": 241.87,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Price per Resilience Media",
+   "side": "left"
+  },
+  {
+   "start": 244.77,
+   "duration": 3.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "M",
+   "value": 375,
+   "text": "Reported price, cash and stock"
+  },
+  {
+   "start": 248.47,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "Salesforce did not respond",
+   "eyebrow": "Reported"
+  },
+  {
+   "start": 251.77,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Rune: AI supply forecasting",
+   "side": "right"
+  },
+  {
+   "start": 255.68,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Joins Missionforce",
+   "side": "left"
+  },
+  {
+   "start": 261.57,
+   "duration": 3.2,
+   "type": "chapter_open",
+   "text": "DoorDash vs AI agents",
+   "eyebrow": "Story 8 of 8",
+   "railLabel": "of 8 · DoorDash",
+   "numeral": "08",
+   "section": 7
+  },
+  {
+   "start": 265.85,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Q3 earnings call",
+   "side": "right"
+  },
+  {
+   "start": 268.75,
+   "duration": 4,
+   "type": "big_statement",
+   "text": "Several hundred orders",
+   "eyebrow": "From third-party AI agents"
+  },
+  {
+   "start": 275.63,
+   "duration": 4,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "M/day",
+   "value": 3,
+   "text": "DoorDash orders a day (2025 report)"
+  },
+  {
+   "start": 279.73,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "CEO Tony Xu",
+   "side": "right"
+  },
+  {
+   "start": 282.63,
+   "duration": 4,
+   "type": "big_statement",
+   "text": "Most customers still use DoorDash’s own app",
+   "eyebrow": "Reality check"
+  },
+  {
+   "start": 288.24,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Still courting agent makers",
+   "side": "left"
+  },
+  {
+   "start": 292.56,
+   "duration": 3.4,
+   "type": "big_statement",
+   "text": "A chip giant shaken. A record hack. AI in orbit.",
+   "eyebrow": "Today in tech"
+  },
+  {
+   "start": 298.06,
+   "duration": 4.4,
+   "type": "big_statement",
+   "text": "Would you ride in a robotaxi today?",
+   "eyebrow": "Tell us in the comments"
+  },
+  {
+   "start": 304.35,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Subscribe · 24 Hours in Tech",
+   "side": "left"
+  }
+ ],
+ "camera_moves": []
+}

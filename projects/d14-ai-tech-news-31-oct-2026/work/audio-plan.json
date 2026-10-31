@@ -1,0 +1,324 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "cold open"
+  },
+  {
+   "time": 3.1,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Intel down 28%"
+  },
+  {
+   "time": 7.05,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Binance hack: $6B+"
+  },
+  {
+   "time": 13.48,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Google: data center in orbit"
+  },
+  {
+   "time": 18.27,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 1 of 8"
+  },
+  {
+   "time": 18.67,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 8"
+  },
+  {
+   "time": 21.77,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Down 28% on Friday"
+  },
+  {
+   "time": 24.67,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip One of its worst days ever"
+  },
+  {
+   "time": 43.02,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip CEO Lip-Bu Tan: PC slowdown"
+  },
+  {
+   "time": 48.24,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip AI demand lifts memory prices"
+  },
+  {
+   "time": 53.75,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Data center revenue, year on year"
+  },
+  {
+   "time": 60.43,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Cut from US government’s ~10% stake (per CNBC)"
+  },
+  {
+   "time": 68.12,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 2 of 8"
+  },
+  {
+   "time": 68.52,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 8"
+  },
+  {
+   "time": 71.62,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip At least $6.3B taken"
+  },
+  {
+   "time": 76.35,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Largest hack ever, per TRM Labs"
+  },
+  {
+   "time": 81.85,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip TRM Labs + Elliptic"
+  },
+  {
+   "time": 94.48,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Frozen, per Binance spokesperson"
+  },
+  {
+   "time": 106.39,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 3 of 8"
+  },
+  {
+   "time": 106.79,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 8"
+  },
+  {
+   "time": 110.79,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Suncatcher prototype"
+  },
+  {
+   "time": 113.69,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Launched on SpaceX Falcon 9"
+  },
+  {
+   "time": 116.59,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip ~3 weeks of testing"
+  },
+  {
+   "time": 121.2,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "stat_trio: Suncatcher"
+  },
+  {
+   "time": 142.19,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 4 of 8"
+  },
+  {
+   "time": 142.59,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 8"
+  },
+  {
+   "time": 145.69,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Reported · Financial Times"
+  },
+  {
+   "time": 148.59,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Expected: high ‘junk’ rating"
+  },
+  {
+   "time": 151.49,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Chip financing deal, Blackstone anchor"
+  },
+  {
+   "time": 163.94,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip IPO filed this week"
+  },
+  {
+   "time": 170.34,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Anthropic, Blackstone: no comment"
+  },
+  {
+   "time": 172.84,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 5 of 8"
+  },
+  {
+   "time": 173.24,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 8"
+  },
+  {
+   "time": 176.34,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Waymo × Toyota"
+  },
+  {
+   "time": 179.24,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip 2027 bZ4X"
+  },
+  {
+   "time": 196.69,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Waymo testing in London"
+  },
+  {
+   "time": 201.27,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 6 of 8"
+  },
+  {
+   "time": 201.67,
+   "sfx": "impact",
+   "reason": "story change hit: Story 6 of 8"
+  },
+  {
+   "time": 205.88,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Found by Robert Wiggins"
+  },
+  {
+   "time": 208.78,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Confirmed by TechCrunch"
+  },
+  {
+   "time": 219.16,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Rewards members last year"
+  },
+  {
+   "time": 222.86,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Number affected: unknown"
+  },
+  {
+   "time": 234.27,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 7 of 8"
+  },
+  {
+   "time": 234.67,
+   "sfx": "impact",
+   "reason": "story change hit: Story 7 of 8"
+  },
+  {
+   "time": 237.77,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Reported deal"
+  },
+  {
+   "time": 241.87,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Price per Resilience Media"
+  },
+  {
+   "time": 244.77,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Reported price, cash and stock"
+  },
+  {
+   "time": 251.77,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Rune: AI supply forecasting"
+  },
+  {
+   "time": 255.68,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Joins Missionforce"
+  },
+  {
+   "time": 261.47,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 8 of 8"
+  },
+  {
+   "time": 261.87,
+   "sfx": "impact",
+   "reason": "story change hit: Story 8 of 8"
+  },
+  {
+   "time": 265.85,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Q3 earnings call"
+  },
+  {
+   "time": 275.63,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: DoorDash orders a day (2025 report)"
+  },
+  {
+   "time": 279.73,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip CEO Tony Xu"
+  },
+  {
+   "time": 288.24,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "soft tick: chip Still courting agent makers"
+  },
+  {
+   "time": 304.35,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "soft tick: chip Subscribe · 24 Hours in Tech"
+  }
+ ]
+}
