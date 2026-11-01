@@ -1,0 +1,298 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "title_slide: 24 Hours in Tech"
+  },
+  {
+   "time": 3.3,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: OpenAI funding cut"
+  },
+  {
+   "time": 8.7,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: xAI turbine lawsuit"
+  },
+  {
+   "time": 14.3,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Apple: no AI for AI's sake"
+  },
+  {
+   "time": 21.67,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 1 of 5"
+  },
+  {
+   "time": 22.07,
+   "sfx": "impact",
+   "reason": "story change hit: Story 1 of 5"
+  },
+  {
+   "time": 25.6,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: Reported · unconfirmed"
+  },
+  {
+   "time": 30,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: FT: about $20B"
+  },
+  {
+   "time": 35.1,
+   "sfx": "reveal",
+   "reason": "bar_chart: Funding target ($B)"
+  },
+  {
+   "time": 42.5,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Secured so far (per WSJ)"
+  },
+  {
+   "time": 47.99,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: Investor reaction: tepid"
+  },
+  {
+   "time": 52.3,
+   "sfx": "pop",
+   "reason": "big_statement: Both reports unconfirmed"
+  },
+  {
+   "time": 57.9,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Wall Street wary of AI spend"
+  },
+  {
+   "time": 62.2,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: Signal before any IPO"
+  },
+  {
+   "time": 64.82,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 2 of 5"
+  },
+  {
+   "time": 65.22,
+   "sfx": "impact",
+   "reason": "story change hit: Story 2 of 5"
+  },
+  {
+   "time": 69.27,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Colossus · Memphis"
+  },
+  {
+   "time": 73.17,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: Ruled Saturday"
+  },
+  {
+   "time": 75.33,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: NAACP · SELC"
+  },
+  {
+   "time": 81.33,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: No air permits, alleged"
+  },
+  {
+   "time": 84.21,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Combustion turbines named · Clean Air Act"
+  },
+  {
+   "time": 89.17,
+   "sfx": "pop",
+   "reason": "checklist: xAI's arguments"
+  },
+  {
+   "time": 99.73,
+   "sfx": "pop",
+   "reason": "big_statement: Not a verdict"
+  },
+  {
+   "time": 103.32,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: AI power demand tested in court"
+  },
+  {
+   "time": 109.03,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 3 of 5"
+  },
+  {
+   "time": 109.43,
+   "sfx": "impact",
+   "reason": "story change hit: Story 3 of 5"
+  },
+  {
+   "time": 112.76,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Interview: Wired"
+  },
+  {
+   "time": 114.6,
+   "sfx": "pop",
+   "reason": "quote_pull: ship AI for AI's sake"
+  },
+  {
+   "time": 118.43,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Good AI is invisible"
+  },
+  {
+   "time": 123.5,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: CEO since early Sept"
+  },
+  {
+   "time": 126.2,
+   "sfx": "reveal",
+   "reason": "timeline: Apple's Siri"
+  },
+  {
+   "time": 133.3,
+   "sfx": "pop",
+   "reason": "big_statement: AI only where it makes products better"
+  },
+  {
+   "time": 138.91,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Rivals: AI in everything"
+  },
+  {
+   "time": 143.44,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 4 of 5"
+  },
+  {
+   "time": 143.84,
+   "sfx": "impact",
+   "reason": "story change hit: Story 4 of 5"
+  },
+  {
+   "time": 147.97,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Midterms: Tuesday"
+  },
+  {
+   "time": 149.6,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Data center projects delayed, stalled or blocked in H1 2026 (Data Center Watch)"
+  },
+  {
+   "time": 161.32,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: Local + political opposition"
+  },
+  {
+   "time": 163.62,
+   "sfx": "pop",
+   "reason": "checklist: Residents complain about"
+  },
+  {
+   "time": 173.4,
+   "sfx": "pop",
+   "reason": "big_statement: 5 states weighing new rules"
+  },
+  {
+   "time": 181.01,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Next cost: public consent"
+  },
+  {
+   "time": 185.44,
+   "sfx": "whoosh",
+   "reason": "story change wipe: Story 5 of 5"
+  },
+  {
+   "time": 185.84,
+   "sfx": "impact",
+   "reason": "story change hit: Story 5 of 5"
+  },
+  {
+   "time": 188.9,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Must Eat: restaurant guide"
+  },
+  {
+   "time": 192.4,
+   "sfx": "reveal",
+   "gain": 1,
+   "reason": "number_roll: Posts and comments behind Must Eat"
+  },
+  {
+   "time": 199.61,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: vs Yelp · Google Maps"
+  },
+  {
+   "time": 203,
+   "sfx": "reveal",
+   "reason": "flow_diagram: TikTok's super app"
+  },
+  {
+   "time": 210.35,
+   "sfx": "pop",
+   "reason": "big_statement: TikTok Pay: reported only"
+  },
+  {
+   "time": 215.14,
+   "sfx": "click",
+   "gain": 0.85,
+   "reason": "keyword_chip: Goal: one app, start to pay"
+  },
+  {
+   "time": 219.66,
+   "sfx": "pop",
+   "gain": 0.85,
+   "reason": "keyword_chip: Like WeChat in China"
+  },
+  {
+   "time": 222.9,
+   "sfx": "pop",
+   "reason": "big_statement: AI money is harder to raise"
+  },
+  {
+   "time": 232.05,
+   "sfx": "pop",
+   "reason": "poll_prompt: Local approval before data centers are built?"
+  },
+  {
+   "time": 235.5,
+   "sfx": "impact",
+   "reason": "big_statement: 24 Hours in Tech"
+  }
+ ]
+}

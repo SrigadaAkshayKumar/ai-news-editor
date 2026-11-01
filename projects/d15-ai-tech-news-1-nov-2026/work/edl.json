@@ -1,0 +1,10 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes; script-diff extras are numeral/acronym spelling only. Dead air trimmed to 0.33s; 0.6s held beats at each story change.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {},
+ "holds": [
+  {"after": "w56", "max": 0.6}, {"after": "w167", "max": 0.6}, {"after": "w281", "max": 0.6},
+  {"after": "w380", "max": 0.6}, {"after": "w475", "max": 0.6}, {"after": "w571", "max": 0.6}
+ ]
+}

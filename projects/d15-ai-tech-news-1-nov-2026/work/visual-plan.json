@@ -1,0 +1,772 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 3.07,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 3.07,
+   "end": 8.56,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 8.56,
+   "end": 14.11,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 14.11,
+   "end": 19.11,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 19.11,
+   "end": 21.67,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 21.67,
+   "end": 25.29,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 25.29,
+   "end": 34.93,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+   "source": "TechCrunch",
+   "headline": "OpenAI reportedly lowers funding target for new round",
+   "date": "31 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.452,
+    "w": 0.34,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 34.93,
+   "end": 42.41,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 42.41,
+   "end": 52.16,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 52.16,
+   "end": 57.52,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 57.52,
+   "end": 64.82,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 64.82,
+   "end": 69.27,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 69.27,
+   "end": 77.97,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+   "source": "TechCrunch",
+   "headline": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+   "date": "31 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.277,
+    "w": 0.4,
+    "h": 0.065
+   }
+  },
+  {
+   "start": 77.97,
+   "end": 84.09,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 84.09,
+   "end": 91,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 91,
+   "end": 97.2,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 97.2,
+   "end": 103,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 103,
+   "end": 109.03,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 109.03,
+   "end": 114.49,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 114.49,
+   "end": 121.76,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 121.76,
+   "end": 126.06,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+   "source": "TechCrunch",
+   "headline": "Apple CEO says the company doesn't want to ship AI for AI's sake",
+   "date": "31 Oct 2026",
+   "highlight": {
+    "x": 0.15,
+    "y": 0.458,
+    "w": 0.46,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 126.06,
+   "end": 133.21,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 133.21,
+   "end": 138.9,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 138.9,
+   "end": 143.44,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 143.44,
+   "end": 149.5,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 149.5,
+   "end": 155.7,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 155.7,
+   "end": 163.62,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+   "source": "TechCrunch",
+   "headline": "Data centers are now a midterm issue, even in Brooklyn",
+   "date": "31 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.277,
+    "w": 0.4,
+    "h": 0.065
+   }
+  },
+  {
+   "start": 163.62,
+   "end": 172.97,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 172.97,
+   "end": 179.82,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 179.82,
+   "end": 185.44,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 185.44,
+   "end": 188.6,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 188.6,
+   "end": 192.28,
+   "transition": "cut",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
+   "source": "TechCrunch",
+   "headline": "From restaurant guides to payments, here's how TikTok is building a super app",
+   "date": "31 Oct 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.277,
+    "w": 0.42,
+    "h": 0.065
+   }
+  },
+  {
+   "start": 192.28,
+   "end": 198.86,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 198.86,
+   "end": 202.85,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 202.85,
+   "end": 210.25,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 210.25,
+   "end": 215.14,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 215.14,
+   "end": 222.76,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 222.76,
+   "end": 228,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "warm"
+  },
+  {
+   "start": 228,
+   "end": 231.9,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  },
+  {
+   "start": 231.9,
+   "end": 235.3,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "noir"
+  },
+  {
+   "start": 235.3,
+   "end": 238.57,
+   "transition": "cut",
+   "kind": "graphic",
+   "grade": "cool"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Sunday · 1 Nov 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.3,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "OpenAI funding cut",
+   "side": "right"
+  },
+  {
+   "start": 8.7,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "xAI turbine lawsuit",
+   "side": "left"
+  },
+  {
+   "start": 14.3,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Apple: no AI for AI's sake",
+   "side": "right"
+  },
+  {
+   "start": 21.67,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "OpenAI cuts its funding target",
+   "eyebrow": "Story 1 of 5",
+   "railLabel": "of 5 · OpenAI",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 25.6,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Reported · unconfirmed",
+   "side": "left"
+  },
+  {
+   "start": 30,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "FT: about $20B",
+   "side": "right"
+  },
+  {
+   "start": 35.1,
+   "duration": 5,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Funding target ($B)",
+   "items": [
+    {
+     "label": "Sept",
+     "value": 30
+    },
+    {
+     "label": "Now",
+     "value": 20
+    }
+   ]
+  },
+  {
+   "start": 42.5,
+   "duration": 4.3,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 11,
+   "text": "Secured so far (per WSJ)"
+  },
+  {
+   "start": 47.99,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Investor reaction: tepid",
+   "side": "left"
+  },
+  {
+   "start": 52.3,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "Both reports unconfirmed",
+   "eyebrow": "OpenAI has not commented"
+  },
+  {
+   "start": 57.9,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Wall Street wary of AI spend",
+   "side": "right"
+  },
+  {
+   "start": 62.2,
+   "duration": 2.52,
+   "type": "keyword_chip",
+   "text": "Signal before any IPO",
+   "side": "left"
+  },
+  {
+   "start": 64.82,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Judge lets xAI turbine suit go forward",
+   "eyebrow": "Story 2 of 5",
+   "railLabel": "of 5 · xAI",
+   "numeral": "02",
+   "section": 1
+  },
+  {
+   "start": 69.27,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Colossus · Memphis",
+   "side": "right"
+  },
+  {
+   "start": 73.17,
+   "duration": 2.06,
+   "type": "keyword_chip",
+   "text": "Ruled Saturday",
+   "side": "left"
+  },
+  {
+   "start": 75.33,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "NAACP · SELC",
+   "side": "right"
+  },
+  {
+   "start": 81.33,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "No air permits, alleged",
+   "side": "left"
+  },
+  {
+   "start": 84.21,
+   "duration": 4.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "+",
+   "value": 35,
+   "text": "Combustion turbines named · Clean Air Act"
+  },
+  {
+   "start": 89.17,
+   "duration": 5.2,
+   "type": "checklist",
+   "text": "xAI's arguments",
+   "items": [
+    {
+     "label": "Turbines are mobile",
+     "state": "no"
+    },
+    {
+     "label": "Plaintiffs lack standing",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 99.73,
+   "duration": 3.49,
+   "type": "big_statement",
+   "text": "Not a verdict",
+   "eyebrow": "The case goes forward"
+  },
+  {
+   "start": 103.32,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "AI power demand tested in court",
+   "side": "right"
+  },
+  {
+   "start": 109.03,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Apple CEO: no AI for AI's sake",
+   "eyebrow": "Story 3 of 5",
+   "railLabel": "of 5 · Apple",
+   "numeral": "03",
+   "section": 2
+  },
+  {
+   "start": 112.76,
+   "duration": 1.74,
+   "type": "keyword_chip",
+   "text": "Interview: Wired",
+   "side": "right"
+  },
+  {
+   "start": 114.6,
+   "duration": 3.73,
+   "type": "quote_pull",
+   "text": "ship AI for AI's sake",
+   "eyebrow": "John Ternus, Apple CEO"
+  },
+  {
+   "start": 118.43,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Good AI is invisible",
+   "side": "left"
+  },
+  {
+   "start": 123.5,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "CEO since early Sept",
+   "side": "right"
+  },
+  {
+   "start": 126.2,
+   "duration": 5.4,
+   "type": "timeline",
+   "side": "left",
+   "text": "Apple's Siri",
+   "current": 1,
+   "items": [
+    {
+     "label": "Delayed",
+     "sublabel": "Apple seen as behind on AI"
+    },
+    {
+     "label": "Summer 2026",
+     "sublabel": "More powerful Siri launched"
+    }
+   ]
+  },
+  {
+   "start": 133.3,
+   "duration": 4.4,
+   "type": "big_statement",
+   "text": "AI only where it makes products better",
+   "eyebrow": "Ternus's message"
+  },
+  {
+   "start": 138.91,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Rivals: AI in everything",
+   "side": "right"
+  },
+  {
+   "start": 143.44,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Data centers go political",
+   "eyebrow": "Story 4 of 5",
+   "railLabel": "of 5 · Data centers",
+   "numeral": "04",
+   "section": 3
+  },
+  {
+   "start": 147.97,
+   "duration": 1.53,
+   "type": "keyword_chip",
+   "text": "Midterms: Tuesday",
+   "side": "right"
+  },
+  {
+   "start": 149.6,
+   "duration": 5.4,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "~$",
+   "suffix": "B",
+   "value": 200,
+   "text": "Data center projects delayed, stalled or blocked in H1 2026 (Data Center Watch)"
+  },
+  {
+   "start": 161.32,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Local + political opposition",
+   "side": "left"
+  },
+  {
+   "start": 163.62,
+   "duration": 8,
+   "type": "checklist",
+   "text": "Residents complain about",
+   "items": [
+    {
+     "label": "Secret deals with officials",
+     "state": "no"
+    },
+    {
+     "label": "Noise and pollution",
+     "state": "no"
+    },
+    {
+     "label": "Jobs gone after construction",
+     "state": "no"
+    }
+   ]
+  },
+  {
+   "start": 173.4,
+   "duration": 5.4,
+   "type": "big_statement",
+   "text": "5 states weighing new rules",
+   "eyebrow": "PA · GA · TX · NY · VA"
+  },
+  {
+   "start": 181.01,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Next cost: public consent",
+   "side": "right"
+  },
+  {
+   "start": 185.44,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "TikTok's super app push",
+   "eyebrow": "Story 5 of 5",
+   "railLabel": "of 5 · TikTok",
+   "numeral": "05",
+   "section": 4
+  },
+  {
+   "start": 188.9,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Must Eat: restaurant guide",
+   "side": "right"
+  },
+  {
+   "start": 192.4,
+   "duration": 5,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "M+",
+   "value": 40,
+   "text": "Posts and comments behind Must Eat"
+  },
+  {
+   "start": 199.61,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "vs Yelp · Google Maps",
+   "side": "left"
+  },
+  {
+   "start": 203,
+   "duration": 6.4,
+   "type": "flow_diagram",
+   "text": "TikTok's super app",
+   "items": [
+    {
+     "label": "Must Eat",
+     "sublabel": "restaurant guide"
+    },
+    {
+     "label": "TikTok Go",
+     "sublabel": "hotels · attractions"
+    },
+    {
+     "label": "TikTok Pay",
+     "sublabel": "reported only"
+    }
+   ]
+  },
+  {
+   "start": 210.35,
+   "duration": 4.4,
+   "type": "big_statement",
+   "text": "TikTok Pay: reported only",
+   "eyebrow": "Bloomberg, Aug 2026 · not confirmed"
+  },
+  {
+   "start": 215.14,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Goal: one app, start to pay",
+   "side": "right"
+  },
+  {
+   "start": 219.66,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Like WeChat in China",
+   "side": "left"
+  },
+  {
+   "start": 222.9,
+   "duration": 4.4,
+   "type": "big_statement",
+   "text": "AI money is harder to raise",
+   "eyebrow": "And its cost now reaches courtrooms and ballot boxes"
+  },
+  {
+   "start": 232.05,
+   "duration": 3.35,
+   "type": "poll_prompt",
+   "text": "Local approval before data centers are built?",
+   "eyebrow": "Tell us in the comments",
+   "items": [
+    {
+     "label": "Yes",
+     "value": 50
+    },
+    {
+     "label": "No",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "start": 235.5,
+   "duration": 3,
+   "type": "big_statement",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Subscribe for tomorrow's roundup"
+  }
+ ],
+ "camera_moves": []
+}

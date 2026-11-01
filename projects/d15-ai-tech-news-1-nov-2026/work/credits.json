@@ -1,0 +1,34 @@
+[
+  {
+    "file": "assets/library/openai.svg",
+    "title": "File:OpenAI logo 2025 (wordmark).svg",
+    "source": "https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025_(wordmark).svg",
+    "license": "Public domain",
+    "author": "OpenAI",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/apple.svg",
+    "title": "File:Apple logo black.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+    "license": "Public domain",
+    "author": "Original: Rob Janoff",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/xai.svg",
+    "title": "File:XAI-Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:XAI-Logo.svg",
+    "license": "Public domain",
+    "author": "X.AI Corp.",
+    "note": "trademark of its owner; editorial use"
+  },
+  {
+    "file": "assets/library/john-ternus.png",
+    "title": "File:John Ternus at the Apple 50th Anniversary Kickoff (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Ternus_at_the_Apple_50th_Anniversary_Kickoff_(cropped).jpg",
+    "license": "CC BY 4.0",
+    "author": "Tessa Bury",
+    "note": "photo of a public figure; editorial use, background removed"
+  }
+]
