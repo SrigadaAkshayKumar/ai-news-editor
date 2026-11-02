@@ -1,0 +1,367 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "title_slide"
+  },
+  {
+   "time": 3.3,
+   "sfx": "click",
+   "reason": "chip: Binance: $6.3B hack",
+   "gain": 0.85
+  },
+  {
+   "time": 10.3,
+   "sfx": "click",
+   "reason": "chip: OpenAI: policy push (reported)",
+   "gain": 0.85
+  },
+  {
+   "time": 15.6,
+   "sfx": "pop",
+   "reason": "chip: Kioxia shares fall",
+   "gain": 0.85
+  },
+  {
+   "time": 18.5,
+   "sfx": "click",
+   "reason": "chip: Today: 7 stories",
+   "gain": 0.85
+  },
+  {
+   "time": 22.24,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 1"
+  },
+  {
+   "time": 22.64,
+   "sfx": "impact",
+   "reason": "story change hit: 1"
+  },
+  {
+   "time": 26.2,
+   "sfx": "click",
+   "reason": "chip: Source: TechCrunch · 1 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 30.6,
+   "sfx": "click",
+   "reason": "chip: 95% of stolen assets covered",
+   "gain": 0.85
+  },
+  {
+   "time": 35.2,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Binance bears the loss"
+  },
+  {
+   "time": 40.5,
+   "sfx": "click",
+   "reason": "chip: FBI: North Korea’s TraderTraitor",
+   "gain": 0.85
+  },
+  {
+   "time": 47.9,
+   "sfx": "click",
+   "reason": "chip: Phased by network and asset",
+   "gain": 0.85
+  },
+  {
+   "time": 51.3,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 56.0,
+   "sfx": "pop",
+   "reason": "chip: vs $1.0B deposits",
+   "gain": 0.85
+  },
+  {
+   "time": 59.08,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 65.4,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Incident report to follow"
+  },
+  {
+   "time": 69.9,
+   "sfx": "click",
+   "reason": "chip: Question: how fast does trust return?",
+   "gain": 0.85
+  },
+  {
+   "time": 74.02,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 2"
+  },
+  {
+   "time": 74.42,
+   "sfx": "impact",
+   "reason": "story change hit: 2"
+  },
+  {
+   "time": 78.0,
+   "sfx": "pop",
+   "reason": "chip: Reported by Axios",
+   "gain": 0.85
+  },
+  {
+   "time": 83.5,
+   "sfx": "click",
+   "reason": "chip: Midterms: Tue 3 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 88.5,
+   "sfx": "click",
+   "reason": "chip: Chris Lehane, chief global affairs",
+   "gain": 0.85
+  },
+  {
+   "time": 90.9,
+   "sfx": "click",
+   "reason": "chip: “A movie trailer for 2028”",
+   "gain": 0.85
+  },
+  {
+   "time": 94.0,
+   "sfx": "reveal",
+   "reason": "checklist"
+  },
+  {
+   "time": 108.0,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Data center pushback is growing"
+  },
+  {
+   "time": 118.0,
+   "sfx": "sub_drop",
+   "reason": "big_statement: A report, not a published plan"
+  },
+  {
+   "time": 124.05,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 3"
+  },
+  {
+   "time": 124.45,
+   "sfx": "impact",
+   "reason": "story change hit: 3"
+  },
+  {
+   "time": 128.0,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 133.5,
+   "sfx": "click",
+   "reason": "chip: Source: Bloomberg · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 139.0,
+   "sfx": "click",
+   "reason": "chip: Guidance: slight profit growth",
+   "gain": 0.85
+  },
+  {
+   "time": 142.5,
+   "sfx": "click",
+   "reason": "chip: Dec quarter, below estimates",
+   "gain": 0.85
+  },
+  {
+   "time": 150.0,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Orders shifted between quarters"
+  },
+  {
+   "time": 158.0,
+   "sfx": "pop",
+   "reason": "chip: CFO: strong growth back by March",
+   "gain": 0.85
+  },
+  {
+   "time": 162.0,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Is AI memory demand cooling?"
+  },
+  {
+   "time": 166.63,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 4"
+  },
+  {
+   "time": 167.03,
+   "sfx": "impact",
+   "reason": "story change hit: 4"
+  },
+  {
+   "time": 171.0,
+   "sfx": "click",
+   "reason": "chip: Source: ABC News / AP",
+   "gain": 0.85
+  },
+  {
+   "time": 175.0,
+   "sfx": "click",
+   "reason": "chip: Agreed with AFT · in effect 1 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 185.0,
+   "sfx": "reveal",
+   "reason": "checklist"
+  },
+  {
+   "time": 196.8,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Contract terms, not federal law"
+  },
+  {
+   "time": 201.0,
+   "sfx": "click",
+   "reason": "chip: OpenAI expects its own deal",
+   "gain": 0.85
+  },
+  {
+   "time": 203.41,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 5"
+  },
+  {
+   "time": 203.81,
+   "sfx": "impact",
+   "reason": "story change hit: 5"
+  },
+  {
+   "time": 208.0,
+   "sfx": "pop",
+   "reason": "chip: Review: TechCrunch · 1 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 215.0,
+   "sfx": "click",
+   "reason": "chip: 5 mm unfolded · 3x durability",
+   "gain": 0.85
+  },
+  {
+   "time": 219.5,
+   "sfx": "click",
+   "reason": "chip: Outer screen: 3,600 nits",
+   "gain": 0.85
+  },
+  {
+   "time": 221.6,
+   "sfx": "pop",
+   "reason": "chip: Main camera: 48 MP",
+   "gain": 0.85
+  },
+  {
+   "time": 224.0,
+   "sfx": "reveal",
+   "reason": "bar_chart"
+  },
+  {
+   "time": 233.0,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Verdict: mostly for Pixel fans"
+  },
+  {
+   "time": 241.6,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 6"
+  },
+  {
+   "time": 242.0,
+   "sfx": "impact",
+   "reason": "story change hit: 6"
+  },
+  {
+   "time": 246.0,
+   "sfx": "pop",
+   "reason": "chip: Source: TechCrunch Mobility",
+   "gain": 0.85
+  },
+  {
+   "time": 250.0,
+   "sfx": "pop",
+   "reason": "chip: Trucks VC: 81 pitches in 2026",
+   "gain": 0.85
+  },
+  {
+   "time": 256.0,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 260.4,
+   "sfx": "pop",
+   "reason": "chip: ~2/3 more than last year",
+   "gain": 0.85
+  },
+  {
+   "time": 263.0,
+   "sfx": "click",
+   "reason": "chip: More than 2016–2017",
+   "gain": 0.85
+  },
+  {
+   "time": 264.7,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 7"
+  },
+  {
+   "time": 265.1,
+   "sfx": "impact",
+   "reason": "story change hit: 7"
+  },
+  {
+   "time": 269.0,
+   "sfx": "click",
+   "reason": "chip: Source: TechCrunch · 1 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 273.0,
+   "sfx": "click",
+   "reason": "chip: Cashmere substitute",
+   "gain": 0.85
+  },
+  {
+   "time": 277.0,
+   "sfx": "click",
+   "reason": "chip: First new FTC fiber class in 25 years",
+   "gain": 0.85
+  },
+  {
+   "time": 283.0,
+   "sfx": "reveal",
+   "reason": "flow_diagram"
+  },
+  {
+   "time": 293.0,
+   "sfx": "reveal",
+   "reason": "timeline"
+  },
+  {
+   "time": 303.4,
+   "sfx": "sub_drop",
+   "reason": "big_statement: A record hack, a political push, a chip scare"
+  },
+  {
+   "time": 309,
+   "sfx": "ding",
+   "reason": "poll_prompt"
+  }
+ ]
+}

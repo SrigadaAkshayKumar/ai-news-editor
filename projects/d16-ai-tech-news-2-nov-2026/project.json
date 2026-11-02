@@ -1,0 +1,117 @@
+{
+  "name": "d16-ai-tech-news-2-nov-2026",
+  "createdAt": "2026-11-02T10:45:13.070Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d16-ai-tech-news-2-nov-2026/source/raw.wav",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d16/d16-voice.wav",
+    "duration": 346.32,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d16-ai-tech-news-2-nov-2026/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d16/d16_ai_tech_news_2_nov_2026_voiceover.txt",
+    "words": 831,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d16-ai-tech-news-2-nov-2026/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Binance",
+    "Open",
+    "Kioxia",
+    "On Saturday",
+    "North Korean",
+    "Trader Traitor",
+    "Sunday",
+    "Axios",
+    "Chris Lehane",
+    "Microsoft",
+    "March",
+    "American Federation",
+    "Google",
+    "Pixel Eleven Pro Fold",
+    "TechCrunch",
+    "New York",
+    "Federal Trade Commission"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "24 Hours in Tech roundup: 16:9 YouTube, no captions, a story counter (chapter rail), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English; daily news-desk look, news screenshots and NewsCards lead, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; a wipe whoosh + hit on every story change, soft ticks elsewhere",
+  "brand": "ai-news",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-02T10:50:01.688Z",
+      "words": 785,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-02T10:50:28.704Z",
+      "segments": 89,
+      "kept": 317.4
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-02T11:19:33.862Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d16-ai-tech-news-2-nov-2026/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-02T11:19:36.813Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-02T11:19:36.851Z",
+      "groups": 223
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-02T11:19:44.476Z",
+      "music": 0,
+      "sfx": 66
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-02T11:20:15.279Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d16-ai-tech-news-2-nov-2026/output/final-16x9.mp4",
+      "duration": 317.4
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.998118,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d16-ai-tech-news-2-nov-2026/work/cleancut.wav",
+    "duration": 317.400125,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

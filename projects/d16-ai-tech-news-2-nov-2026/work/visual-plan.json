@@ -1,0 +1,923 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "kind": "graphic",
+   "end": 2.9,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 2.9,
+   "kind": "graphic",
+   "end": 9.8,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 9.8,
+   "kind": "graphic",
+   "end": 15.1,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 15.1,
+   "kind": "graphic",
+   "end": 22.24,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 22.24,
+   "kind": "graphic",
+   "end": 25.3,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 25.3,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+   "source": "TechCrunch",
+   "headline": "Binance resumes withdrawals following $6.3 billion breach",
+   "date": "1 Nov 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.4,
+    "h": 0.05
+   },
+   "end": 34.5,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 34.5,
+   "kind": "graphic",
+   "card": {
+    "value": "95%",
+    "label": "of stolen assets covered"
+   },
+   "end": 40.2,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 40.2,
+   "kind": "graphic",
+   "end": 46.8,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 46.8,
+   "kind": "graphic",
+   "end": 53.0,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 53.0,
+   "kind": "graphic",
+   "end": 59.0,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 59.0,
+   "kind": "graphic",
+   "card": {
+    "value": "$3.6B",
+    "label": "net outflow · ~2% of assets"
+   },
+   "end": 65.0,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 65.0,
+   "kind": "graphic",
+   "end": 74.02,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 74.02,
+   "kind": "graphic",
+   "end": 77.5,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 77.5,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+   "source": "TechCrunch",
+   "headline": "OpenAI might rebrand its data centers as 'AI compute campuses'",
+   "date": "1 Nov 2026",
+   "highlight": {
+    "x": 0.155,
+    "y": 0.452,
+    "w": 0.46,
+    "h": 0.03
+   },
+   "end": 87.5,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 87.5,
+   "kind": "graphic",
+   "end": 93.8,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 93.8,
+   "kind": "graphic",
+   "end": 101.0,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 101.0,
+   "kind": "graphic",
+   "end": 108.0,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 108.0,
+   "kind": "graphic",
+   "end": 118.0,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 118.0,
+   "kind": "graphic",
+   "end": 124.05,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 124.05,
+   "kind": "graphic",
+   "end": 127.2,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 127.2,
+   "kind": "graphic",
+   "card": {
+    "value": "-15%",
+    "label": "Kioxia shares · Tokyo"
+   },
+   "end": 138.0,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 138.0,
+   "kind": "graphic",
+   "end": 150.0,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 150.0,
+   "kind": "graphic",
+   "end": 158.0,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 158.0,
+   "kind": "graphic",
+   "end": 166.63,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 166.63,
+   "kind": "graphic",
+   "end": 169.8,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 169.8,
+   "kind": "graphic",
+   "card": {
+    "value": "10",
+    "label": "protections for school AI"
+   },
+   "end": 177.5,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 177.5,
+   "kind": "graphic",
+   "end": 185.0,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 185.0,
+   "kind": "graphic",
+   "end": 197.0,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 197.0,
+   "kind": "graphic",
+   "end": 203.41,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 203.41,
+   "kind": "graphic",
+   "end": 206.6,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 206.6,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/",
+   "source": "TechCrunch",
+   "headline": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world",
+   "date": "1 Nov 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.4,
+    "h": 0.05
+   },
+   "end": 217.0,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 217.0,
+   "kind": "graphic",
+   "end": 223.0,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 223.0,
+   "kind": "graphic",
+   "card": {
+    "value": "$1,899",
+    "label": "Pixel 11 Pro Fold"
+   },
+   "end": 233.0,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 233.0,
+   "kind": "graphic",
+   "end": 241.6,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 241.6,
+   "kind": "graphic",
+   "end": 244.8,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 244.8,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+   "source": "TechCrunch",
+   "headline": "TechCrunch Mobility: A new, bigger AV boom is here",
+   "date": "1 Nov 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.285,
+    "w": 0.4,
+    "h": 0.05
+   },
+   "end": 254.5,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 254.5,
+   "kind": "graphic",
+   "end": 256.0,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 256.0,
+   "kind": "graphic",
+   "card": {
+    "value": "81",
+    "label": "new AV startup pitches in 2026"
+   },
+   "end": 264.7,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 264.7,
+   "kind": "graphic",
+   "end": 267.8,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 267.8,
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/",
+   "source": "TechCrunch",
+   "headline": "Here's what 'renoa' — the first new fiber in 25 years — feels like",
+   "date": "1 Nov 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.265,
+    "w": 0.42,
+    "h": 0.1
+   },
+   "end": 277.5,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 277.5,
+   "kind": "graphic",
+   "end": 283.0,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 283.0,
+   "kind": "graphic",
+   "end": 293.0,
+   "transition": "cut",
+   "grade": "warm"
+  },
+  {
+   "start": 293.0,
+   "kind": "graphic",
+   "end": 303.36,
+   "transition": "cut",
+   "grade": "cool"
+  },
+  {
+   "start": 303.36,
+   "kind": "graphic",
+   "end": 310.0,
+   "transition": "cut",
+   "grade": "noir"
+  },
+  {
+   "start": 310.0,
+   "kind": "graphic",
+   "end": 317.4,
+   "transition": "cut",
+   "grade": "warm"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Monday · 2 Nov 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.3,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Binance: $6.3B hack",
+   "side": "right"
+  },
+  {
+   "start": 10.3,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "OpenAI: policy push (reported)",
+   "side": "right"
+  },
+  {
+   "start": 15.6,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Kioxia shares fall",
+   "side": "right"
+  },
+  {
+   "start": 18.5,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "Today: 7 stories",
+   "side": "left"
+  },
+  {
+   "start": 22.24,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Binance reopens withdrawals",
+   "eyebrow": "Story 1 of 7",
+   "railLabel": "of 7 · Binance",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 26.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 1 Nov",
+   "side": "right"
+  },
+  {
+   "start": 30.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "95% of stolen assets covered",
+   "side": "right"
+  },
+  {
+   "start": 35.2,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Binance bears the loss",
+   "eyebrow": "Not its users"
+  },
+  {
+   "start": 40.5,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "FBI: North Korea’s TraderTraitor",
+   "side": "left"
+  },
+  {
+   "start": 47.9,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Phased by network and asset",
+   "side": "right"
+  },
+  {
+   "start": 51.3,
+   "duration": 4.5,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 4.6,
+   "text": "withdrawals in one Sunday window"
+  },
+  {
+   "start": 56.0,
+   "duration": 2.5,
+   "type": "keyword_chip",
+   "text": "vs $1.0B deposits",
+   "side": "right"
+  },
+  {
+   "start": 59.08,
+   "duration": 4.5,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 3.6,
+   "text": "net outflow · about 2% of assets"
+  },
+  {
+   "start": 65.4,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Incident report to follow",
+   "eyebrow": "After the investigation"
+  },
+  {
+   "start": 69.9,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "Question: how fast does trust return?",
+   "side": "left"
+  },
+  {
+   "start": 74.02,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "OpenAI’s post-midterm push",
+   "eyebrow": "Story 2 of 7 · Reported",
+   "railLabel": "of 7 · OpenAI",
+   "numeral": "02",
+   "section": 0
+  },
+  {
+   "start": 78.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Reported by Axios",
+   "side": "right"
+  },
+  {
+   "start": 83.5,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Midterms: Tue 3 Nov",
+   "side": "right"
+  },
+  {
+   "start": 88.5,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Chris Lehane, chief global affairs",
+   "side": "left"
+  },
+  {
+   "start": 90.9,
+   "duration": 2.9,
+   "type": "keyword_chip",
+   "text": "“A movie trailer for 2028”",
+   "side": "right"
+  },
+  {
+   "start": 94.0,
+   "duration": 6.8,
+   "type": "checklist",
+   "text": "Reported agenda",
+   "items": [
+    {
+     "label": "AI speed limits",
+     "state": "yes"
+    },
+    {
+     "label": "Global standards",
+     "state": "yes"
+    },
+    {
+     "label": "Everyday benefits",
+     "state": "yes"
+    },
+    {
+     "label": "“AI compute campuses”",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 108.0,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "Data center pushback is growing",
+   "eyebrow": "Amazon, Microsoft: no more NDAs"
+  },
+  {
+   "start": 118.0,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "A report, not a published plan",
+   "eyebrow": "OpenAI has not confirmed"
+  },
+  {
+   "start": 124.05,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Kioxia shares drop",
+   "eyebrow": "Story 3 of 7",
+   "railLabel": "of 7 · Kioxia",
+   "numeral": "03",
+   "section": 0
+  },
+  {
+   "start": 128.0,
+   "duration": 4.5,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "-",
+   "suffix": "%+",
+   "value": 15,
+   "text": "shares down in Tokyo (Bloomberg)"
+  },
+  {
+   "start": 133.5,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Source: Bloomberg · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 139.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Guidance: slight profit growth",
+   "side": "right"
+  },
+  {
+   "start": 142.5,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Dec quarter, below estimates",
+   "side": "left"
+  },
+  {
+   "start": 150.0,
+   "duration": 4.0,
+   "type": "big_statement",
+   "text": "Orders shifted between quarters",
+   "eyebrow": "Company’s explanation"
+  },
+  {
+   "start": 158.0,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "CFO: strong growth back by March",
+   "side": "right"
+  },
+  {
+   "start": 162.0,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Is AI memory demand cooling?",
+   "eyebrow": "An early test"
+  },
+  {
+   "start": 166.63,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Microsoft’s school AI rules",
+   "eyebrow": "Story 4 of 7",
+   "railLabel": "of 7 · Microsoft",
+   "numeral": "04",
+   "section": 0
+  },
+  {
+   "start": 171.0,
+   "duration": 3,
+   "type": "keyword_chip",
+   "text": "Source: ABC News / AP",
+   "side": "right"
+  },
+  {
+   "start": 175.0,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Agreed with AFT · in effect 1 Nov",
+   "side": "right"
+  },
+  {
+   "start": 185.0,
+   "duration": 7.5,
+   "type": "checklist",
+   "text": "Student protections",
+   "items": [
+    {
+     "label": "No selling student data",
+     "state": "yes"
+    },
+    {
+     "label": "72-hour breach notice",
+     "state": "yes"
+    },
+    {
+     "label": "No AI companion chatbots",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 196.8,
+   "duration": 4.0,
+   "type": "big_statement",
+   "text": "Contract terms, not federal law",
+   "eyebrow": "Google: no word yet"
+  },
+  {
+   "start": 201.0,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "OpenAI expects its own deal",
+   "side": "left"
+  },
+  {
+   "start": 203.41,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Pixel 11 Pro Fold review",
+   "eyebrow": "Story 5 of 7",
+   "railLabel": "of 7 · Google",
+   "numeral": "05",
+   "section": 0
+  },
+  {
+   "start": 208.0,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Review: TechCrunch · 1 Nov",
+   "side": "right"
+  },
+  {
+   "start": 215.0,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "5 mm unfolded · 3x durability",
+   "side": "right"
+  },
+  {
+   "start": 219.5,
+   "duration": 2.0,
+   "type": "keyword_chip",
+   "text": "Outer screen: 3,600 nits",
+   "side": "left"
+  },
+  {
+   "start": 221.6,
+   "duration": 2.3,
+   "type": "keyword_chip",
+   "text": "Main camera: 48 MP",
+   "side": "right"
+  },
+  {
+   "start": 224.0,
+   "duration": 5.0,
+   "type": "bar_chart",
+   "side": "right",
+   "text": "Price ($)",
+   "items": [
+    {
+     "label": "Pixel 11 Pro Fold",
+     "value": 1899
+    },
+    {
+     "label": "Galaxy Z Fold 8",
+     "value": 1899
+    }
+   ]
+  },
+  {
+   "start": 233.0,
+   "duration": 4.5,
+   "type": "big_statement",
+   "text": "Verdict: mostly for Pixel fans",
+   "eyebrow": "Visible crease · minor Gemini updates"
+  },
+  {
+   "start": 241.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Self-driving startup boom",
+   "eyebrow": "Story 6 of 7",
+   "railLabel": "of 7 · AVs",
+   "numeral": "06",
+   "section": 0
+  },
+  {
+   "start": 246.0,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch Mobility",
+   "side": "right"
+  },
+  {
+   "start": 250.0,
+   "duration": 3.4,
+   "type": "keyword_chip",
+   "text": "Trucks VC: 81 pitches in 2026",
+   "side": "right"
+  },
+  {
+   "start": 256.0,
+   "duration": 4.2,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "value": 81,
+   "text": "new AV startup pitches in 2026"
+  },
+  {
+   "start": 260.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "~2/3 more than last year",
+   "side": "right"
+  },
+  {
+   "start": 263.0,
+   "duration": 1.6,
+   "type": "keyword_chip",
+   "text": "More than 2016–2017",
+   "side": "left"
+  },
+  {
+   "start": 264.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Renoa, a new fiber",
+   "eyebrow": "Story 7 of 7",
+   "railLabel": "of 7 · Everbloom",
+   "numeral": "07",
+   "section": 0
+  },
+  {
+   "start": 269.0,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 1 Nov",
+   "side": "right"
+  },
+  {
+   "start": 273.0,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Cashmere substitute",
+   "side": "right"
+  },
+  {
+   "start": 277.0,
+   "duration": 3.6,
+   "type": "keyword_chip",
+   "text": "First new FTC fiber class in 25 years",
+   "side": "left"
+  },
+  {
+   "start": 283.0,
+   "duration": 8.0,
+   "type": "flow_diagram",
+   "text": "How renoa is made",
+   "items": [
+    {
+     "label": "Wool + cashmere scraps",
+     "sublabel": "and feather lint"
+    },
+    {
+     "label": "Ground to powder",
+     "sublabel": "+ biodegradable polymer"
+    },
+    {
+     "label": "Spun into fiber",
+     "sublabel": "AI-designed"
+    }
+   ]
+  },
+  {
+   "start": 293.0,
+   "duration": 7.6,
+   "type": "timeline",
+   "side": "left",
+   "text": "Renoa",
+   "current": 2,
+   "items": [
+    {
+     "label": "Developed",
+     "sublabel": "Everbloom, with its own AI model"
+    },
+    {
+     "label": "FTC classification",
+     "sublabel": "First new fiber in 25 years"
+    },
+    {
+     "label": "First product, Q2 2027",
+     "sublabel": "A blend"
+    }
+   ]
+  },
+  {
+   "start": 303.4,
+   "duration": 4,
+   "type": "big_statement",
+   "text": "A record hack, a political push, a chip scare"
+  },
+  {
+   "start": 309.0,
+   "duration": 8.0,
+   "type": "poll_prompt",
+   "text": "Should the law require exchanges to repay users after a hack?",
+   "eyebrow": "Tell us in the comments",
+   "items": [
+    {
+     "label": "Yes",
+     "value": 50
+    },
+    {
+     "label": "No",
+     "value": 50
+    }
+   ]
+  }
+ ],
+ "camera_moves": []
+}

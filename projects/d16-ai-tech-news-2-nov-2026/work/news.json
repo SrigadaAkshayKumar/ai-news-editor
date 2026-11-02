@@ -1,0 +1,58 @@
+{
+  "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_binance_resumes_withdrawals_following_6_3_billion_breac.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_binance_resumes_withdrawals_following_6_3_billion_breac_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_openai_might_rebrand_its_data_centers_as_ai_compute_cam.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_openai_might_rebrand_its_data_centers_as_ai_compute_cam_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_pixel_11_pro_fold_sturdy_rectengale_in_a_wide_wide_worl.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_pixel_11_pro_fold_sturdy_rectengale_in_a_wide_wide_worl_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_techcrunch_mobility_a_new_bigger_av_boom_is_here.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_techcrunch_mobility_a_new_bigger_av_boom_is_here_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/techcrunch_com_heres_what_renoa_the_first_new_fiber_in_25_years_feels_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_heres_what_renoa_the_first_new_fiber_in_25_years_feels__mobile.png"
+  },
+  "https://www.bloomberg.com/news/articles/2026-11-02/kioxia-shares-tumble-after-outlook-suggests-demand-leveling-off": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/bloomberg_com_kioxia_shares_tumble_after_outlook_suggests_demand_level.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/bloomberg_com_kioxia_shares_tumble_after_outlook_suggests_demand_level_mobile.png"
+  },
+  "https://abcnews.com/Technology/wireStory/microsoft-commits-sweeping-ai-privacy-rules-students-tech-136452246": {
+    "source": "",
+    "headline": "",
+    "date": "",
+    "path": "assets/news/abcnews_com_microsoft_commits_sweeping_ai_privacy_rules_students_tech_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/abcnews_com_microsoft_commits_sweeping_ai_privacy_rules_students_tech__mobile.png"
+  }
+}
