@@ -1,0 +1,1113 @@
+{
+ "style": "broadcast",
+ "rail": "top",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 2.9,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 2.9,
+   "end": 8.9,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 8.9,
+   "end": 18.6,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 18.6,
+   "end": 22.0,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 22.0,
+   "end": 31.0,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
+   "source": "TechCrunch",
+   "headline": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
+   "date": "2 Nov 2026",
+   "highlight": {
+    "x": 0.157,
+    "y": 0.5,
+    "w": 0.42,
+    "h": 0.025
+   }
+  },
+  {
+   "start": 31.0,
+   "end": 36.3,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic",
+   "card": {
+    "value": "$115B",
+    "label": "Lumentum, incl. debt"
+   }
+  },
+  {
+   "start": 36.3,
+   "end": 40.2,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 40.2,
+   "end": 48.8,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 48.8,
+   "end": 58.1,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 58.1,
+   "end": 61.5,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 61.5,
+   "end": 72.8,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
+   "source": "TechCrunch",
+   "headline": "Apple's inventory surges 154% as memory chip costs climb",
+   "date": "2 Nov 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.29,
+    "w": 0.38,
+    "h": 0.055
+   }
+  },
+  {
+   "start": 72.8,
+   "end": 78.9,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic",
+   "card": {
+    "value": "$14.5B",
+    "label": "Apple inventory · +154%"
+   }
+  },
+  {
+   "start": 78.9,
+   "end": 89.5,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 89.5,
+   "end": 99.9,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 99.9,
+   "end": 103.3,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 103.3,
+   "end": 111.7,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
+   "source": "TechCrunch",
+   "headline": "Apple says it's hard to predict when iPhone Duo constraints will improve",
+   "date": "2 Nov 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 111.7,
+   "end": 121.4,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 121.4,
+   "end": 127.4,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 127.4,
+   "end": 131.0,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 131.0,
+   "end": 141.0,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+   "source": "TechCrunch",
+   "headline": "Anthropic warns that it's very close to RSI capability, aka self-building AI",
+   "date": "2 Nov 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 141.0,
+   "end": 150.3,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 150.3,
+   "end": 157.5,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 157.5,
+   "end": 164.0,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 164.0,
+   "end": 173.2,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 173.2,
+   "end": 176.6,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 176.6,
+   "end": 186.3,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/",
+   "source": "TechCrunch",
+   "headline": "Germany says lawmakers' iPhones may have been hacked with spyware",
+   "date": "2 Nov 2026",
+   "highlight": {
+    "x": 0.5,
+    "y": 0.28,
+    "w": 0.4,
+    "h": 0.075
+   }
+  },
+  {
+   "start": 186.3,
+   "end": 197.2,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 197.2,
+   "end": 208.1,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic",
+   "card": {
+    "value": "99",
+    "label": "countries warned"
+   }
+  },
+  {
+   "start": 208.1,
+   "end": 211.5,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 211.5,
+   "end": 221.0,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
+   "source": "TechCrunch",
+   "headline": "A fresh wave of cyberattacks has hit Europe's supermarket refrigerators",
+   "date": "2 Nov 2026",
+   "highlight": {
+    "x": 0.157,
+    "y": 0.462,
+    "w": 0.46,
+    "h": 0.03
+   }
+  },
+  {
+   "start": 221.0,
+   "end": 229.0,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 229.0,
+   "end": 241.0,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 241.0,
+   "end": 248.1,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 248.1,
+   "end": 251.5,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 251.5,
+   "end": 259.4,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+   "source": "TechCrunch",
+   "headline": "Elon Musk throttles Grok bot limits due to 'unsustainably high' costs",
+   "date": "2 Nov 2026",
+   "highlight": {
+    "x": 0.157,
+    "y": 0.462,
+    "w": 0.4,
+    "h": 0.02
+   }
+  },
+  {
+   "start": 259.4,
+   "end": 267.7,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 267.7,
+   "end": 277.7,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic",
+   "card": {
+    "value": "52%",
+    "label": "of SpaceX income from AI"
+   }
+  },
+  {
+   "start": 277.7,
+   "end": 281.1,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  },
+  {
+   "start": 281.1,
+   "end": 291.0,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "news",
+   "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+   "source": "TechCrunch",
+   "headline": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+   "date": "2 Nov 2026",
+   "highlight": {
+    "x": 0.157,
+    "y": 0.46,
+    "w": 0.46,
+    "h": 0.04
+   }
+  },
+  {
+   "start": 291.0,
+   "end": 301.1,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic"
+  },
+  {
+   "start": 301.1,
+   "end": 307.0,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic",
+   "card": {
+    "value": "30B+",
+    "label": "pages indexed · alleged"
+   }
+  },
+  {
+   "start": 307.0,
+   "end": 314.1,
+   "transition": "cut",
+   "grade": "warm",
+   "kind": "graphic",
+   "card": {
+    "value": "30B+",
+    "label": "pages indexed · alleged"
+   }
+  },
+  {
+   "start": 314.1,
+   "end": 322.4,
+   "transition": "cut",
+   "grade": "noir",
+   "kind": "graphic"
+  },
+  {
+   "start": 322.4,
+   "end": 331.53,
+   "transition": "cut",
+   "grade": "cool",
+   "kind": "graphic"
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 3,
+   "type": "title_slide",
+   "text": "24 Hours in Tech",
+   "eyebrow": "Tuesday · 3 Nov 2026",
+   "style_hint": "Software · AI · Hardware",
+   "value": "24"
+  },
+  {
+   "start": 3.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Marvell buys Lumentum",
+   "side": "right"
+  },
+  {
+   "start": 9.2,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Apple: memory squeeze",
+   "side": "right"
+  },
+  {
+   "start": 12.6,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Anthropic: self-building AI",
+   "side": "left"
+  },
+  {
+   "start": 15.2,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Today: 8 stories",
+   "side": "right"
+  },
+  {
+   "start": 18.6,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Marvell buys Lumentum",
+   "eyebrow": "Story 1 of 8",
+   "railLabel": "of 8 · Marvell",
+   "numeral": "01",
+   "section": 0
+  },
+  {
+   "start": 22.3,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 26.0,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "All-stock deal",
+   "side": "right"
+  },
+  {
+   "start": 31.0,
+   "duration": 5.0,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 115,
+   "text": "billion dollars · incl. debt"
+  },
+  {
+   "start": 36.5,
+   "duration": 3.5,
+   "type": "keyword_chip",
+   "text": "4.5 Marvell shares per Lumentum share",
+   "side": "left"
+  },
+  {
+   "start": 40.4,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Nvidia: $2B in each, March",
+   "side": "right"
+  },
+  {
+   "start": 43.0,
+   "duration": 5.4,
+   "type": "timeline",
+   "side": "left",
+   "text": "Deal timeline",
+   "current": 2,
+   "items": [
+    {
+     "label": "March 2026",
+     "sublabel": "Nvidia invests $2B in each"
+    },
+    {
+     "label": "2 Nov 2026",
+     "sublabel": "All-stock deal announced"
+    },
+    {
+     "label": "First half 2028",
+     "sublabel": "Expected close"
+    }
+   ]
+  },
+  {
+   "start": 49.0,
+   "duration": 4.4,
+   "type": "big_statement",
+   "text": "Light links AI chips",
+   "eyebrow": "Why it matters"
+  },
+  {
+   "start": 54.2,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Marvell buys its supplier",
+   "eyebrow": "Optical lasers → data centres"
+  },
+  {
+   "start": 58.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Apple’s memory squeeze",
+   "eyebrow": "Story 2 of 8",
+   "railLabel": "of 8 · Apple",
+   "numeral": "02",
+   "section": 0
+  },
+  {
+   "start": 61.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 63.6,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Gross margin: 47.9%",
+   "side": "right"
+  },
+  {
+   "start": 67.0,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "Guidance: 45-46% (Dec quarter)",
+   "side": "left"
+  },
+  {
+   "start": 71.0,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "Higher memory costs",
+   "side": "right"
+  },
+  {
+   "start": 73.0,
+   "duration": 5.0,
+   "type": "number_roll",
+   "decimals": 1,
+   "prefix": "$",
+   "suffix": "B",
+   "value": 14.5,
+   "text": "inventory · up 154% year on year"
+  },
+  {
+   "start": 79.2,
+   "duration": 3.2,
+   "type": "quote_pull",
+   "text": "unprecedented",
+   "eyebrow": "John Ternus, Apple CEO, on memory pricing"
+  },
+  {
+   "start": 83.0,
+   "duration": 3.3,
+   "type": "keyword_chip",
+   "text": "Expects even higher costs",
+   "side": "right"
+  },
+  {
+   "start": 86.8,
+   "duration": 5.0,
+   "type": "checklist",
+   "text": "Price rises so far",
+   "items": [
+    {
+     "label": "Some Macs",
+     "state": "yes"
+    },
+    {
+     "label": "Some iPads",
+     "state": "yes"
+    },
+    {
+     "label": "Some iPhones",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 92.2,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "More rises not ruled out",
+   "eyebrow": "COO Sabih Khan"
+  },
+  {
+   "start": 96.0,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "Expect prices to keep climbing",
+   "eyebrow": "For buyers"
+  },
+  {
+   "start": 99.9,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "iPhone Duo supply",
+   "eyebrow": "Story 3 of 8",
+   "railLabel": "of 8 · iPhone Duo",
+   "numeral": "03",
+   "section": 0
+  },
+  {
+   "start": 103.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 106.8,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Foldable still supply constrained",
+   "side": "left"
+  },
+  {
+   "start": 109.6,
+   "duration": 2.0,
+   "type": "keyword_chip",
+   "text": "Sabih Khan, COO",
+   "side": "right"
+  },
+  {
+   "start": 111.8,
+   "duration": 4.5,
+   "type": "quote_pull",
+   "text": "really hard to predict when supply and demand will be in balance",
+   "eyebrow": "Sabih Khan, Apple COO"
+  },
+  {
+   "start": 116.8,
+   "duration": 3.6,
+   "type": "big_statement",
+   "text": "Ship times stretch into next year",
+   "eyebrow": "No pre-order"
+  },
+  {
+   "start": 120.6,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "Verizon apologised, offered gift cards",
+   "eyebrow": "Delays"
+  },
+  {
+   "start": 124.5,
+   "duration": 2.8,
+   "type": "big_statement",
+   "text": "Revenue waiting on the shelf",
+   "eyebrow": "Strong demand"
+  },
+  {
+   "start": 127.4,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Anthropic’s S-1 warning",
+   "eyebrow": "Story 4 of 8",
+   "railLabel": "of 8 · Anthropic",
+   "numeral": "04",
+   "section": 0
+  },
+  {
+   "start": 131.3,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 134.8,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Revised S-1 filing, Monday",
+   "side": "right"
+  },
+  {
+   "start": 138.2,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "May “imminently” hit its own threshold",
+   "side": "left"
+  },
+  {
+   "start": 141.3,
+   "duration": 4.0,
+   "type": "big_statement",
+   "text": "No current model has passed it",
+   "eyebrow": "Per the filing"
+  },
+  {
+   "start": 146.2,
+   "duration": 5.2,
+   "type": "quote_pull",
+   "text": "We have not designated any of our current models as exceeding this threshold.",
+   "eyebrow": "Anthropic, S-1/A"
+  },
+  {
+   "start": 151.5,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "No full AI-built successors without oversight",
+   "side": "right"
+  },
+  {
+   "start": 154.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Safety policy changes considered",
+   "side": "left"
+  },
+  {
+   "start": 160.8,
+   "duration": 3.2,
+   "type": "big_statement",
+   "text": "A filing is partly marketing",
+   "eyebrow": "Skeptics note"
+  },
+  {
+   "start": 164.6,
+   "duration": 3.8,
+   "type": "big_statement",
+   "text": "The company’s own statement",
+   "eyebrow": "On how fast work is moving"
+  },
+  {
+   "start": 168.6,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "Self-building AI is a stated risk",
+   "eyebrow": "Anthropic S-1/A"
+  },
+  {
+   "start": 173.2,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Germany’s iPhone warning",
+   "eyebrow": "Story 5 of 8",
+   "railLabel": "of 8 · Germany",
+   "numeral": "05",
+   "section": 0
+  },
+  {
+   "start": 176.9,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 180.0,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "BSI: cybersecurity office",
+   "side": "left"
+  },
+  {
+   "start": 183.2,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Assume the device may be compromised",
+   "side": "right"
+  },
+  {
+   "start": 187.0,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Berlin takes it very seriously",
+   "side": "left"
+  },
+  {
+   "start": 190.8,
+   "duration": 5.0,
+   "type": "big_statement",
+   "text": "Spyware and sponsor not named",
+   "eyebrow": "Per the article"
+  },
+  {
+   "start": 197.2,
+   "duration": 4.0,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "value": 99,
+   "text": "countries in Apple’s latest batch"
+  },
+  {
+   "start": 201.6,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Update your phone",
+   "side": "right"
+  },
+  {
+   "start": 204.8,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Consider Lockdown Mode",
+   "side": "left"
+  },
+  {
+   "start": 208.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Fridge cyberattacks",
+   "eyebrow": "Story 6 of 8",
+   "railLabel": "of 8 · Fridges",
+   "numeral": "06",
+   "section": 0
+  },
+  {
+   "start": 211.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 214.5,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "Belgium · Ireland · Luxembourg · Sweden",
+   "side": "left"
+  },
+  {
+   "start": 217.4,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Ahold Delhaize, Colruyt hit",
+   "side": "right"
+  },
+  {
+   "start": 219.9,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Settings changed so freezers defrosted",
+   "side": "left"
+  },
+  {
+   "start": 223.2,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Dozens of stores lost food",
+   "side": "right"
+  },
+  {
+   "start": 229.2,
+   "duration": 5.8,
+   "type": "keyword_chip",
+   "text": "Danfoss controllers: no security updates",
+   "side": "right"
+  },
+  {
+   "start": 235.4,
+   "duration": 5.4,
+   "type": "timeline",
+   "side": "left",
+   "text": "Fridge attacks",
+   "current": 1,
+   "items": [
+    {
+     "label": "Early October",
+     "sublabel": "Hundreds of stores, France"
+    },
+    {
+     "label": "Now",
+     "sublabel": "Belgium, Ireland, Luxembourg, Sweden"
+    }
+   ]
+  },
+  {
+   "start": 241.3,
+   "duration": 6.3,
+   "type": "big_statement",
+   "text": "No updates is a door left open",
+   "eyebrow": "Even for a freezer"
+  },
+  {
+   "start": 248.1,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "Musk throttles Grok Bot",
+   "eyebrow": "Story 7 of 8",
+   "railLabel": "of 8 · Grok",
+   "numeral": "07",
+   "section": 0
+  },
+  {
+   "start": 251.8,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 253.2,
+   "duration": 3.0,
+   "type": "keyword_chip",
+   "text": "Weekly limits maxed out",
+   "side": "left"
+  },
+  {
+   "start": 257.0,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Musk on X, 1 Nov",
+   "side": "right"
+  },
+  {
+   "start": 259.6,
+   "duration": 4.8,
+   "type": "quote_pull",
+   "text": "unsustainably high relative to revenue",
+   "eyebrow": "Elon Musk, on Grok Bot costs"
+  },
+  {
+   "start": 264.9,
+   "duration": 2.6,
+   "type": "keyword_chip",
+   "text": "No word on new limits",
+   "side": "right"
+  },
+  {
+   "start": 267.7,
+   "duration": 5.0,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "%",
+   "value": 52,
+   "text": "of SpaceX income from AI"
+  },
+  {
+   "start": 273.3,
+   "duration": 4.2,
+   "type": "big_statement",
+   "text": "AI economics: a core business question",
+   "eyebrow": "Cost to serve"
+  },
+  {
+   "start": 277.7,
+   "duration": 3,
+   "type": "chapter_open",
+   "text": "NYT sues Brave",
+   "eyebrow": "Story 8 of 8",
+   "railLabel": "of 8 · Brave",
+   "numeral": "08",
+   "section": 0
+  },
+  {
+   "start": 281.4,
+   "duration": 2.8,
+   "type": "keyword_chip",
+   "text": "Source: TechCrunch · 2 Nov",
+   "side": "right"
+  },
+  {
+   "start": 283.0,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Federal court, Manhattan",
+   "side": "left"
+  },
+  {
+   "start": 285.8,
+   "duration": 3.2,
+   "type": "keyword_chip",
+   "text": "Daily News, Chicago Tribune, Orlando Sentinel",
+   "side": "right"
+  },
+  {
+   "start": 289.8,
+   "duration": 1.2,
+   "type": "keyword_chip",
+   "text": "Similar suit",
+   "side": "left"
+  },
+  {
+   "start": 291.0,
+   "duration": 4.3,
+   "type": "big_statement",
+   "text": "Alleged scraping for AI firms",
+   "eyebrow": "Alleged, not proven"
+  },
+  {
+   "start": 295.6,
+   "duration": 5.2,
+   "type": "checklist",
+   "text": "Named in the suits (alleged)",
+   "items": [
+    {
+     "label": "Anthropic",
+     "state": "yes"
+    },
+    {
+     "label": "Perplexity",
+     "state": "yes"
+    },
+    {
+     "label": "Mistral",
+     "state": "yes"
+    },
+    {
+     "label": "xAI",
+     "state": "yes"
+    },
+    {
+     "label": "Cohere",
+     "state": "yes"
+    }
+   ]
+  },
+  {
+   "start": 301.4,
+   "duration": 4.6,
+   "type": "number_roll",
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "B+",
+   "value": 30,
+   "text": "billion pages indexed · alleged"
+  },
+  {
+   "start": 306.2,
+   "duration": 2.4,
+   "type": "keyword_chip",
+   "text": "Times seeks injunction, damages",
+   "side": "left"
+  },
+  {
+   "start": 309.0,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "Brave: no comment yet",
+   "side": "right"
+  },
+  {
+   "start": 311.6,
+   "duration": 2.5,
+   "type": "big_statement",
+   "text": "Allegations, not findings",
+   "eyebrow": "Per the suits"
+  },
+  {
+   "start": 314.3,
+   "duration": 6.8,
+   "type": "big_statement",
+   "text": "Chips, memory and light",
+   "eyebrow": "Now the constraint on AI"
+  },
+  {
+   "start": 321.6,
+   "duration": 9.0,
+   "type": "poll_prompt",
+   "text": "Pay more for a phone, or keep yours longer?",
+   "eyebrow": "Tell us in the comments",
+   "items": [
+    {
+     "label": "Pay more",
+     "value": 50
+    },
+    {
+     "label": "Keep mine longer",
+     "value": 50
+    }
+   ]
+  }
+ ],
+ "camera_moves": []
+}

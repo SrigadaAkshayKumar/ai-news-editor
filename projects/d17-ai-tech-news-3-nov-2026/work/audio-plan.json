@@ -1,0 +1,416 @@
+{
+ "music_cues": [],
+ "sfx_events": [
+  {
+   "time": 0,
+   "sfx": "impact",
+   "reason": "title_slide"
+  },
+  {
+   "time": 3.2,
+   "sfx": "click",
+   "reason": "chip: Marvell buys Lumentum",
+   "gain": 0.85
+  },
+  {
+   "time": 12.6,
+   "sfx": "click",
+   "reason": "chip: Anthropic: self-building AI",
+   "gain": 0.85
+  },
+  {
+   "time": 18.6,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 1"
+  },
+  {
+   "time": 19.0,
+   "sfx": "impact",
+   "reason": "story change hit: 1"
+  },
+  {
+   "time": 22.3,
+   "sfx": "click",
+   "reason": "chip: Source: TechCrunch · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 31.0,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 36.5,
+   "sfx": "pop",
+   "reason": "chip: 4.5 Marvell shares per Lumentum share",
+   "gain": 0.85
+  },
+  {
+   "time": 43.0,
+   "sfx": "pop",
+   "reason": "timeline",
+   "gain": 0.85
+  },
+  {
+   "time": 49.0,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Light links AI chips"
+  },
+  {
+   "time": 54.2,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Marvell buys its supplier"
+  },
+  {
+   "time": 58.1,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 2"
+  },
+  {
+   "time": 58.5,
+   "sfx": "impact",
+   "reason": "story change hit: 2"
+  },
+  {
+   "time": 61.8,
+   "sfx": "click",
+   "reason": "chip: Source: TechCrunch · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 67.0,
+   "sfx": "click",
+   "reason": "chip: Guidance: 45-46% (Dec quarter)",
+   "gain": 0.85
+  },
+  {
+   "time": 73.0,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 79.2,
+   "sfx": "click",
+   "reason": "quote_pull",
+   "gain": 0.85
+  },
+  {
+   "time": 83.0,
+   "sfx": "click",
+   "reason": "chip: Expects even higher costs",
+   "gain": 0.85
+  },
+  {
+   "time": 86.8,
+   "sfx": "pop",
+   "reason": "checklist",
+   "gain": 0.85
+  },
+  {
+   "time": 92.2,
+   "sfx": "sub_drop",
+   "reason": "big_statement: More rises not ruled out"
+  },
+  {
+   "time": 96.0,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Expect prices to keep climbing"
+  },
+  {
+   "time": 99.9,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 3"
+  },
+  {
+   "time": 100.3,
+   "sfx": "impact",
+   "reason": "story change hit: 3"
+  },
+  {
+   "time": 103.8,
+   "sfx": "click",
+   "reason": "chip: Source: TechCrunch · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 106.8,
+   "sfx": "pop",
+   "reason": "chip: Foldable still supply constrained",
+   "gain": 0.85
+  },
+  {
+   "time": 111.8,
+   "sfx": "click",
+   "reason": "quote_pull",
+   "gain": 0.85
+  },
+  {
+   "time": 116.8,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Ship times stretch into next year"
+  },
+  {
+   "time": 120.6,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Verizon apologised, offered gift cards"
+  },
+  {
+   "time": 124.5,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Revenue waiting on the shelf"
+  },
+  {
+   "time": 127.4,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 4"
+  },
+  {
+   "time": 127.8,
+   "sfx": "impact",
+   "reason": "story change hit: 4"
+  },
+  {
+   "time": 131.3,
+   "sfx": "pop",
+   "reason": "chip: Source: TechCrunch · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 138.2,
+   "sfx": "pop",
+   "reason": "chip: May “imminently” hit its own threshold",
+   "gain": 0.85
+  },
+  {
+   "time": 141.3,
+   "sfx": "sub_drop",
+   "reason": "big_statement: No current model has passed it"
+  },
+  {
+   "time": 146.2,
+   "sfx": "click",
+   "reason": "quote_pull",
+   "gain": 0.85
+  },
+  {
+   "time": 154.8,
+   "sfx": "pop",
+   "reason": "chip: Safety policy changes considered",
+   "gain": 0.85
+  },
+  {
+   "time": 160.8,
+   "sfx": "sub_drop",
+   "reason": "big_statement: A filing is partly marketing"
+  },
+  {
+   "time": 164.6,
+   "sfx": "sub_drop",
+   "reason": "big_statement: The company’s own statement"
+  },
+  {
+   "time": 168.6,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Self-building AI is a stated risk"
+  },
+  {
+   "time": 173.2,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 5"
+  },
+  {
+   "time": 173.6,
+   "sfx": "impact",
+   "reason": "story change hit: 5"
+  },
+  {
+   "time": 176.9,
+   "sfx": "pop",
+   "reason": "chip: Source: TechCrunch · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 180.0,
+   "sfx": "click",
+   "reason": "chip: BSI: cybersecurity office",
+   "gain": 0.85
+  },
+  {
+   "time": 187.0,
+   "sfx": "click",
+   "reason": "chip: Berlin takes it very seriously",
+   "gain": 0.85
+  },
+  {
+   "time": 190.8,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Spyware and sponsor not named"
+  },
+  {
+   "time": 197.2,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 204.8,
+   "sfx": "click",
+   "reason": "chip: Consider Lockdown Mode",
+   "gain": 0.85
+  },
+  {
+   "time": 208.1,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 6"
+  },
+  {
+   "time": 208.5,
+   "sfx": "impact",
+   "reason": "story change hit: 6"
+  },
+  {
+   "time": 211.8,
+   "sfx": "pop",
+   "reason": "chip: Source: TechCrunch · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 214.5,
+   "sfx": "click",
+   "reason": "chip: Belgium · Ireland · Luxembourg · Sweden",
+   "gain": 0.85
+  },
+  {
+   "time": 219.9,
+   "sfx": "click",
+   "reason": "chip: Settings changed so freezers defrosted",
+   "gain": 0.85
+  },
+  {
+   "time": 229.2,
+   "sfx": "click",
+   "reason": "chip: Danfoss controllers: no security updates",
+   "gain": 0.85
+  },
+  {
+   "time": 235.4,
+   "sfx": "pop",
+   "reason": "timeline",
+   "gain": 0.85
+  },
+  {
+   "time": 241.3,
+   "sfx": "sub_drop",
+   "reason": "big_statement: No updates is a door left open"
+  },
+  {
+   "time": 248.1,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 7"
+  },
+  {
+   "time": 248.5,
+   "sfx": "impact",
+   "reason": "story change hit: 7"
+  },
+  {
+   "time": 251.8,
+   "sfx": "pop",
+   "reason": "chip: Source: TechCrunch · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 253.2,
+   "sfx": "click",
+   "reason": "chip: Weekly limits maxed out",
+   "gain": 0.85
+  },
+  {
+   "time": 259.6,
+   "sfx": "click",
+   "reason": "quote_pull",
+   "gain": 0.85
+  },
+  {
+   "time": 264.9,
+   "sfx": "pop",
+   "reason": "chip: No word on new limits",
+   "gain": 0.85
+  },
+  {
+   "time": 267.7,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 273.3,
+   "sfx": "sub_drop",
+   "reason": "big_statement: AI economics: a core business question"
+  },
+  {
+   "time": 277.7,
+   "sfx": "whoosh",
+   "reason": "story change wipe: 8"
+  },
+  {
+   "time": 278.1,
+   "sfx": "impact",
+   "reason": "story change hit: 8"
+  },
+  {
+   "time": 281.4,
+   "sfx": "click",
+   "reason": "chip: Source: TechCrunch · 2 Nov",
+   "gain": 0.85
+  },
+  {
+   "time": 283.0,
+   "sfx": "pop",
+   "reason": "chip: Federal court, Manhattan",
+   "gain": 0.85
+  },
+  {
+   "time": 289.8,
+   "sfx": "pop",
+   "reason": "chip: Similar suit",
+   "gain": 0.85
+  },
+  {
+   "time": 291.0,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Alleged scraping for AI firms"
+  },
+  {
+   "time": 295.6,
+   "sfx": "pop",
+   "reason": "checklist",
+   "gain": 0.85
+  },
+  {
+   "time": 301.4,
+   "sfx": "reveal",
+   "reason": "number_roll"
+  },
+  {
+   "time": 309.0,
+   "sfx": "click",
+   "reason": "chip: Brave: no comment yet",
+   "gain": 0.85
+  },
+  {
+   "time": 311.6,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Allegations, not findings"
+  },
+  {
+   "time": 314.3,
+   "sfx": "sub_drop",
+   "reason": "big_statement: Chips, memory and light"
+  },
+  {
+   "time": 321.6,
+   "sfx": "pop",
+   "reason": "poll_prompt",
+   "gain": 0.85
+  }
+ ]
+}

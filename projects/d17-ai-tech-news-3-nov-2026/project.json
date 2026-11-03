@@ -1,0 +1,121 @@
+{
+  "name": "d17-ai-tech-news-3-nov-2026",
+  "createdAt": "2026-11-03T10:49:17.108Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d17-ai-tech-news-3-nov-2026/source/raw.wav",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d17/d17-voice.wav",
+    "duration": 362.14,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "pcm_s16le",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d17-ai-tech-news-3-nov-2026/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/faceless/AI_News_Daily/d17/d17_ai_tech_news_3_nov_2026_voiceover.txt",
+    "words": 890,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d17-ai-tech-news-3-nov-2026/source/screen-script.md"
+  },
+  "language": null,
+  "keyterms": [
+    "Marvell",
+    "Lumentum",
+    "Apple",
+    "And Anthropic",
+    "Marvell Technology",
+    "Monday",
+    "John Ternus",
+    "Sabih Khan",
+    "For Apple",
+    "Anthropic",
+    "Lockdown Mode",
+    "Ahold Delhaize",
+    "Elon Musk",
+    "Grok Bot",
+    "SpaceX",
+    "The New York Times",
+    "Brave",
+    "The Daily News",
+    "Chicago Tribune",
+    "Orlando Sentinel",
+    "The Times"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "16:9"
+  ],
+  "fps": 30,
+  "brief": "24 Hours in Tech roundup: 16:9 YouTube, no captions, a story counter (chapter rail), a NewsCard with the real source for every story, SFX on story changes, cut audio mistakes; no BGM; English; daily news-desk look, news screenshots and NewsCards lead, split-screen framing, high-contrast accent; punchy pace, a beat every 3-5 s; a wipe whoosh + hit on every story change, soft ticks elsewhere",
+  "brand": "ai-news",
+  "noCaptions": true,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-03T10:53:36.165Z",
+      "words": 859,
+      "engine": "whisper.cpp small.en"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-03T10:53:52.203Z",
+      "segments": 98,
+      "kept": 331.533
+    },
+    "visuals@16x9": {
+      "done": true,
+      "at": "2026-11-03T11:24:35.059Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d17-ai-tech-news-3-nov-2026/work/visuals-16x9.mp4"
+    },
+    "scaffold@16x9": {
+      "done": true,
+      "at": "2026-11-03T11:24:46.946Z"
+    },
+    "captions@16x9": {
+      "done": true,
+      "at": "2026-11-03T11:24:46.984Z",
+      "groups": 237
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-03T11:24:56.629Z",
+      "music": 0,
+      "sfx": 75
+    },
+    "finalize@16x9": {
+      "done": true,
+      "at": "2026-11-03T11:25:28.161Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d17-ai-tech-news-3-nov-2026/output/final-16x9.mp4",
+      "duration": 331.534
+    }
+  },
+  "detectedLanguage": {
+    "code": "en",
+    "probability": 0.997809,
+    "by": "whisper"
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/d17-ai-tech-news-3-nov-2026/work/cleancut.wav",
+    "duration": 331.533792,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#FFD400",
+    "uppercase": false,
+    "16x9": {
+      "maxWords": 5,
+      "position": "bottom"
+    }
+  }
+}

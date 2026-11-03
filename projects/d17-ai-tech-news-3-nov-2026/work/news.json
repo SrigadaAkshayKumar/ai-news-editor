@@ -1,0 +1,66 @@
+{
+  "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/": {
+    "source": "TechCrunch",
+    "headline": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
+    "date": "2 Nov 2026",
+    "path": "assets/news/techcrunch_com_in_one_of_the_largest_deals_in_tech_history_marvell_buy.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_in_one_of_the_largest_deals_in_tech_history_marvell_buy_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/": {
+    "source": "TechCrunch",
+    "headline": "Apple's inventory surges 154% as memory chip costs climb",
+    "date": "2 Nov 2026",
+    "path": "assets/news/techcrunch_com_apples_inventory_surges_154_as_memory_chip_costs_climb.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_apples_inventory_surges_154_as_memory_chip_costs_climb_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/": {
+    "source": "TechCrunch",
+    "headline": "Apple says it's hard to predict when iPhone Duo constraints will improve",
+    "date": "2 Nov 2026",
+    "path": "assets/news/techcrunch_com_apple_says_its_hard_to_predict_when_iphone_duo_constrai.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_apple_says_its_hard_to_predict_when_iphone_duo_constrai_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/": {
+    "source": "TechCrunch",
+    "headline": "Anthropic warns that it's very close to RSI capability, aka self-building AI",
+    "date": "2 Nov 2026",
+    "path": "assets/news/techcrunch_com_anthropic_warns_that_its_very_close_to_rsi_capability_a.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_anthropic_warns_that_its_very_close_to_rsi_capability_a_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/": {
+    "source": "TechCrunch",
+    "headline": "Germany says lawmakers' iPhones may have been hacked with spyware",
+    "date": "2 Nov 2026",
+    "path": "assets/news/techcrunch_com_germany_says_lawmakers_iphones_may_have_been_hacked_wit.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_germany_says_lawmakers_iphones_may_have_been_hacked_wit_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/": {
+    "source": "TechCrunch",
+    "headline": "A fresh wave of cyberattacks has hit Europe's supermarket refrigerators",
+    "date": "2 Nov 2026",
+    "path": "assets/news/techcrunch_com_a_fresh_wave_of_cyberattacks_has_hit_europes_supermarke.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_a_fresh_wave_of_cyberattacks_has_hit_europes_supermarke_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/": {
+    "source": "TechCrunch",
+    "headline": "Elon Musk throttles Grok bot limits due to 'unsustainably high' costs",
+    "date": "2 Nov 2026",
+    "path": "assets/news/techcrunch_com_elon_musk_throttles_grok_bot_limits_due_to_unsustainabl.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_elon_musk_throttles_grok_bot_limits_due_to_unsustainabl_mobile.png"
+  },
+  "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/": {
+    "source": "TechCrunch",
+    "headline": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+    "date": "2 Nov 2026",
+    "path": "assets/news/techcrunch_com_new_york_times_and_other_outlets_sue_web_browser_brave_.png",
+    "captured_via": "puppeteer",
+    "path_portrait": "assets/news/techcrunch_com_new_york_times_and_other_outlets_sue_web_browser_brave__mobile.png"
+  }
+}

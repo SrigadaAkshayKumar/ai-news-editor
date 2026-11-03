@@ -1,0 +1,11 @@
+{
+ "notes": "Clean TTS read: every script line spoken once, no retakes; script-diff extras are numeral/acronym spelling only (Whisper hears 'Marvel', 'Turnis', 'Sabi' - captions are off). Dead air trimmed to 0.33s; 0.6s held beats at each story change.",
+ "keepPauseMax": 0.33,
+ "edgePad": 0.08,
+ "textFixes": {},
+ "holds": [
+  {"after": "w53", "max": 0.6}, {"after": "w154", "max": 0.6}, {"after": "w248", "max": 0.6},
+  {"after": "w324", "max": 0.6}, {"after": "w440", "max": 0.6}, {"after": "w541", "max": 0.6},
+  {"after": "w637", "max": 0.6}, {"after": "w715", "max": 0.6}, {"after": "w805", "max": 0.6}
+ ]
+}
