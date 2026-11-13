@@ -10,6 +10,7 @@
 //   "style": "glass" | "broadcast" | "liquid" | "blueprint" | "cleantech",                    // optional, defaults to project style
 //   "framing": { "9:16": "45% 40%" },                    // a-roll object-position per format (talking)
 //   "rail": true,                                        // chapter rail on/off
+//   "clear_footage": false,                              // true = stock footage fully visible: no scene floor, takeovers dim lightly, no blur
 //   "overlays":   [ { "start", "duration", "type", ... , "only": "9:16"? } ],   // see motion-graphics skill
 //   "brolls":     [ { "start", "duration", "src": "assets/broll/x.mp4", "media_start", "motion", "grade", "transition", "position" } ],
 //   "scenes":     [ { "start", "end", "kind": "broll|still|news|graphic", "src", "src_portrait", ... } ],   // faceless
@@ -185,6 +186,7 @@ for (const fmt of selectFormats(project, flags.format)) {
     fps: fmt.fps,
     durationInSeconds: round3(D),
     rail: plan.rail !== false,
+    clearFootage: plan.clear_footage === true || data.clearFootage === true,
     ...(arollRel ? { aroll: { src: arollRel, position: plan.framing?.[fmt.aspect] || plan.framing?.[fmt.key] } } : {}),
     overlays: overlays.filter(keep).map(({ only, ...o }) => o),
     brolls: (plan.brolls || []).filter(keep).map(({ only, ...b }) => ({ ...b, src: link(b.src) })),

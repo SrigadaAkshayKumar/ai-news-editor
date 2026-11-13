@@ -82,7 +82,8 @@ To use another folder name, set the repository variable `MINDTAIL_DRIVE_ROOT`.
 | Tagline | None |
 | Voice | Owner generates it in ElevenLabs from `*_voiceover.txt` and uploads it to Drive |
 | Delivery | Google Drive only. **No YouTube upload** until the owner has tested Shorts and says so; MINDTAIL then needs its own YouTube login (the `YT_*` secrets are 24 Hours in Tech's) |
-| Style | `liquid` to start (config/mindtail.json); to be judged on the first test Shorts |
+| Style | `broadcast` look, **clear footage** (no dark layer or blur over stock), karaoke captions with yellow key words; curious documentary; every Short = HOOK → BODY → END (2026-11-13, after the first sample) |
+| Topics | Always about the mind / human behaviour (the channel name) |
 
 ## Still open
 

@@ -22,6 +22,10 @@ and uploads the audio into the same Drive folder; the `mindtail-edit` skill then
 
 ## 1. Pick the topics
 
+- **Every topic must be about the MIND or human behaviour** — the channel is MINDTAIL: why the brain does what it
+  does, psychology effects, biases, habits, emotions, relationships, social behaviour, mysteries of the mind. A
+  random fact (animals, space, history) only qualifies when the Short is really about the human mind (e.g. what an
+  experiment revealed about people). Ask: "would a viewer say *this is a MINDTAIL video*?" If not, drop it.
 - One Short per ID in the prompt. The owner's note wins (a topic, a series, a count).
 - Otherwise spread the batch across `config/mindtail.json` → `topics`; evergreen over news; one idea per Short.
 - **Score each candidate** 1-5 on curiosity, evergreen, emotional/shock value, how well real stock footage can
@@ -39,13 +43,19 @@ and uploads the audio into the same Drive folder; the `mindtail-edit` skill then
 - A story that is fiction or a dramatisation says so in the script and on screen ("काल्पनिक कहानी").
 - Relatable/opinion Shorts (friendship, college life) need no sources but must not be presented as science.
 
-## 3. Shape (40-80 seconds)
+## 3. Shape: the reel template (35-75 seconds), curious documentary voice
 
-- **Hook (first line, 0-2 s):** a contradiction, a question, a surprising true statement. No greeting, no
-  "दोस्तों", no channel name. Write 3 hook options in the script; use the strongest.
-- **Setup → escalation:** short spoken sentences; every line adds a detail or raises the stakes.
-- **Payoff:** deliver exactly what the hook promised: the reveal, the explanation, the twist, the takeaway.
-- **Optional ending:** one natural comment question. No "like share subscribe" begging, no fake cliffhanger.
+The narrator is a curious investigator uncovering how the mind works ("ऐसा क्यों होता है?", "और यहीं से कहानी
+बदलती है..."), never a lecturer. Every Short has exactly three parts, written as `## HOOK`, `## BODY`, `## END` in
+the script (the edit builds its picture and sound on them):
+
+- **HOOK (one or two lines, 0-3 s):** the most surprising true line or question, the curiosity gap. No greeting,
+  no "दोस्तों", no channel name. Write 3 hook options; use the strongest.
+- **BODY:** setup in one line, then escalation: short spoken sentences, a new detail or a raised stake every line,
+  a turn ("पर असली वजह कुछ और है...") before the reveal. Plant one held beat ("...") right before the key reveal.
+- **END:** the payoff that delivers exactly what the hook promised (the reveal, the reason, the twist), one line
+  of takeaway for the viewer's own life, then one natural comment question. No "like share subscribe" begging,
+  no fake cliffhanger.
 - **Length:** `config/mindtail.json` → `voiceoverWords` (about 2.4 Hindi words per second).
 
 ## 4. Writing the voiceover for ElevenLabs (it reads every character)
@@ -75,17 +85,23 @@ Topic: … · Type: factual | opinion | fiction · Est. length: … s
 ## Title ideas (Hindi/Hinglish, curiosity-driven, honest)
 1. … 2. … 3. …
 
-## Scenes
-### S01 · Hook
+## HOOK
+### S01 · <beat>
 ```vo
 <exactly the voiceover text for this beat>
 ```
 **Screen:** what the viewer sees. The edit is simple and footage-first (about 80% stock video and photos), so
-give **one stock search per line of narration** (a new shot every 1.5-3 s) as *search "…"*: literal and filmable
-("teenager scrolling phone in bed at night", not "addiction"); mark photos as *photo "…"*. Then on-screen text only
+give **one stock shot per line of narration** (a new shot every 1.5-3 s): video clips as *search "…"* and about a
+quarter of the shots as photos that will move, *photo "…"* — literal and filmable ("teenager scrolling phone in
+bed at night", "close-up of an anxious face", not "addiction"). The HOOK gets the most striking shot. Then on-screen text only
 where it helps (2-4 words, which word is highlighted), a number graphic only for a number the voice says, and the
 SFX moment (whoosh / riser / hit / silence).
-### S02 · …
+## BODY
+### S02 · <beat>
+…
+## END
+### S0N · Payoff
+…
 
 ## Sources
 - <claim> — <outlet/official page>, <date on the page>, <URL>

@@ -206,6 +206,8 @@ export type DocProps = {
   cameraMoves: CameraMove[];
   /** Hide the chapter rail (e.g. a short with a single section). */
   rail?: boolean;
+  /** Keep stock footage fully visible: no scene floor, takeovers dim lightly and never blur. */
+  clearFootage?: boolean;
 };
 
 /** Which stage layout each overlay type asks for. */

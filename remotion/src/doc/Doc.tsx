@@ -36,7 +36,7 @@ import {
   validCameraMoves,
 } from "./stage";
 import { rootFont, HEIGHT, PORTRAIT, WIDTH, accents, liquidRim, setFrame, PAPER, fg, shade } from "./theme";
-import { isBlueprint, isCleantech, isLiquid, setStyle } from "./style";
+import { isBlueprint, isCleantech, isLiquid, setStyle, setClearFootage } from "./style";
 import { BlueprintPictureFrame } from "./Blueprint";
 import type { DocProps } from "./types";
 
@@ -52,9 +52,11 @@ export const Doc: React.FC<DocProps> = ({
   cameraMoves,
   durationInSeconds,
   rail = true,
+  clearFootage: clear = false,
 }) => {
   // Set before any child reads a surface, rect, type size or motion curve.
   setStyle(styleVariant);
+  setClearFootage(clear);
   setFrame(width, height);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -117,7 +119,7 @@ export const Doc: React.FC<DocProps> = ({
             `0 0 0 8px rgba(255,255,255,${stage.reframed}), 0 0 0 9px rgba(15,23,42,${0.1 * stage.reframed}), 0 24px 60px ${shade(0.5 * stage.reframed)}`
           : `0 30px 90px rgba(0,0,0,${0.5 * stage.reframed})`
         : undefined,
-    filter: stage.blur > 0 ? `blur(${stage.blur * 16}px)` : undefined,
+    filter: stage.blur > 0 && !clear ? `blur(${stage.blur * 16}px)` : undefined,
   };
 
   // A card crops the picture vertically; follow the plan's framing Y (where the face is) when one is set.
@@ -210,8 +212,8 @@ export const Doc: React.FC<DocProps> = ({
           style={{
             backgroundColor: isCleantech()
               ? `rgba(244,246,249,${0.9 * stage.dim})`
-              : `rgba(5,7,12,${0.66 * stage.dim})`,
-            backdropFilter: `saturate(${1 - 0.4 * stage.dim})`,
+              : `rgba(5,7,12,${(clear ? 0.28 : 0.66) * stage.dim})`,
+            backdropFilter: clear ? undefined : `saturate(${1 - 0.4 * stage.dim})`,
           }}
         />
       ) : null}

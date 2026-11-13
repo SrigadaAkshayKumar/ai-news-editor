@@ -6,7 +6,7 @@
   "language": "hi",
   "mode": "faceless",
   "formats": "9:16",
-  "style": "liquid",
+  "style": "broadcast",
   "voiceoverWords": [
     95,
     200
@@ -14,44 +14,46 @@
   "wordsPerSecond": 2.4,
   "scriptBatch": 3,
   "editBatch": 1,
-  "brief": "MINDTAIL Hindi Short, 9:16 only. SIMPLE edit: about 80% of the runtime is full-frame stock footage (b-roll video clips, plus photos with a slow Ken-Burns move) from Pexels/Pixabay, a cut every 1.5-3 s, literal searches that match each line. Graphics stay light (at most ~20% of the runtime): word-synced Hindi captions (pop, 2-3 words, key words in cyan #00E5FF), a title over the first line at frame 0, and only the odd keyword chip or a number the voice says. No docked/split-screen cards, no busy motion-graphics. Sound is the craft: one CC0 music bed matched to the mood and ducked under the voice, sub-band whoosh on cuts, riser into the reveal, a hit on the payoff, silence before the key line; SFX clearly audible over the bed. No intro, no logo sting, no outro.",
+  "brief": "MINDTAIL Hindi Short, 9:16, curious documentary style: a narrator uncovering how the mind works. Strict reel template: HOOK (0-3 s: the most surprising line, a title over clear footage, an impact SFX on frame 0, fastest cuts) -> BODY (setup, escalation, a reveal every few seconds, a whoosh on each new idea, a riser into the key reveal) -> END (the payoff line after a short silence, a hit, the music resolving, a closing question on screen). Picture: about 85% clear, fully visible stock footage (no dark layer, no blur): real video clips mixed with photos that move (slow zoom in/out, pans), whip/flash transitions on beats, small animated callouts (keyword chips, underline/circle annotations, a number roll for a number the voice says). Broadcast look, karaoke Hindi captions with yellow #FFD700 key words. One CC0 bed (mysterious/curious), ducked under the voice; SFX clearly audible. No intro, no logo, no outro.",
   "topics": [
-    "shocking but true facts",
-    "mind-blowing facts",
-    "mind and psychology",
-    "stories and mysteries",
-    "motivation and life lessons",
-    "modern life and social media",
-    "relatable youth topics (college, friends, phones, career pressure)"
+    "why the brain does what it does (habits, memory, attention, fear, decisions)",
+    "psychology effects and cognitive biases in everyday life",
+    "human behaviour: groups, crowds, friends, strangers, social pressure",
+    "dark psychology explained responsibly: manipulation patterns and how to spot them",
+    "mysteries of the mind: dreams, deja vu, sleep, consciousness, strange real cases",
+    "the phone, social media and the brain",
+    "relationships and emotions: trust, jealousy, loneliness, why people change"
   ],
   "youtube": {
     "enabled": false,
     "_note": "No YouTube upload on this branch until the owner says so. MINDTAIL needs its own YouTube login; the YT_* secrets belong to 24 Hours in Tech."
   },
-  "footageShare": 0.8,
+  "footageShare": 0.85,
   "transcription": "align",
   "_transcriptionNote": "align = free MMS forced alignment of the *_voiceover.txt to the audio (tools/align/align.py): no ElevenLabs key or credits. elevenlabs = Scribe (paid).",
   "looks": [
     {
       "label": "A",
-      "name": "cinematic",
-      "style": "liquid",
-      "captions": "pop",
-      "accent": "#00e5ff"
-    },
-    {
-      "label": "B",
       "name": "bold",
       "style": "broadcast",
       "captions": "karaoke",
       "accent": "#ffd700"
     },
     {
+      "label": "B",
+      "name": "bold-cyan",
+      "style": "broadcast",
+      "captions": "pop",
+      "accent": "#00e5ff"
+    },
+    {
       "label": "C",
-      "name": "clean",
-      "style": "glass",
-      "captions": "clean",
-      "accent": "#ffffff"
+      "name": "cinematic",
+      "style": "liquid",
+      "captions": "pop",
+      "accent": "#00e5ff"
     }
-  ]
+  ],
+  "clearFootage": true,
+  "_topicsNote": "Every MINDTAIL Short must connect to the mind or human behaviour (the channel name). Animal or random trivia only when it says something about the human mind."
 }

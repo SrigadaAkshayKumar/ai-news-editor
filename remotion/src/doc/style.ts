@@ -58,3 +58,13 @@ export const isLiquid = (): boolean => CURRENT === "liquid";
 export const isBlueprint = (): boolean => CURRENT === "blueprint";
 
 export const isCleantech = (): boolean => CURRENT === "cleantech";
+
+/**
+ * Clear footage (MINDTAIL Shorts): stock footage stays fully visible. No dark floor over every scene, and a
+ * takeover only lightly dims the picture without blurring it. Text keeps its own shadow/outline for contrast.
+ */
+let CLEAR = false;
+export const setClearFootage = (on: boolean | undefined | null): void => {
+  CLEAR = Boolean(on);
+};
+export const clearFootage = (): boolean => CLEAR;

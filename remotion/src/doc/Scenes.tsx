@@ -26,7 +26,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { CAPTION_SAFE_Y, EDGE, HEIGHT, PORTRAIT, SAFE_TOP, TEXT, TEXT_FAINT, TYPE, WIDTH, withAlpha, liquidRim, RAISED, fg, PAPER, shade, CT_PAPER } from "./theme";
-import { isBlueprint, isCleantech, isLiquid } from "./style";
+import { clearFootage, isBlueprint, isCleantech, isLiquid } from "./style";
 import type { Scene, SceneGrade, SceneMotion, SceneTransition } from "./types";
 
 /** Height of the cropped headline band inside the browser frame. */
@@ -409,13 +409,13 @@ const SceneBody: React.FC<{ scene: Scene; accent: string; p: number }> = ({
         {media}
       </AbsoluteFill>
       {/* A permanent floor under the picture: overlay text sits on top of
-          arbitrary stock footage and cannot rely on it being dark. */}
-      <AbsoluteFill
+          arbitrary stock footage and cannot rely on it being dark. Clear footage: none. */}
+      {clearFootage() ? null : <AbsoluteFill
         style={{
           background:
             "linear-gradient(180deg, rgba(5,7,12,0.46) 0%, rgba(5,7,12,0.10) 34%, rgba(5,7,12,0.14) 62%, rgba(5,7,12,0.62) 100%)",
         }}
-      />
+      />}
     </AbsoluteFill>
   );
 };
