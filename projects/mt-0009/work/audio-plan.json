@@ -1,0 +1,13 @@
+{"music_cues":[{"start":0,"end":51.67,"file":"assets/music/bed.mp3","gain_rel":1.0,"fade_in":0.1,"fade_out":2.5,"music_start":0,"mood":"mystery"}],
+"sfx_events":[
+{"time":0.0,"sfx":"impact","reason":"hit on frame 0"},
+{"time":1.4,"sfx":"whoosh","reason":"first cut"},
+{"time":7.0,"sfx":"whoosh","reason":"new idea: the experiment"},
+{"time":16.7,"sfx":"sub_drop","reason":"new idea: the question"},
+{"time":25.3,"sfx":"sub_drop","reason":"new idea: the wheel was irrelevant -> results"},
+{"time":30.4,"sfx":"riser","reason":"riser into the key reveal"},
+{"time":33.0,"sfx":"impact","reason":"reveal 45%"},
+{"time":35.56,"sfx":"impact","reason":"hit on the payoff"},
+{"time":37.8,"sfx":"sub_drop","reason":"new idea: the lesson"},
+{"time":42.2,"sfx":"whoosh","reason":"new idea: in the shop"}
+]}

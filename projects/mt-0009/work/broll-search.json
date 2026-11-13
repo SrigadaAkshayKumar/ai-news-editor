@@ -1,0 +1,205 @@
+{
+  "provider": "pixabay",
+  "query": "customer store price",
+  "orientation": "portrait",
+  "results": [
+    {
+      "id": 166200,
+      "provider": "pixabay",
+      "duration": 23,
+      "width": 1080,
+      "height": 1920,
+      "thumb": "https://cdn.pixabay.com/video/2023/06/07/166200-834228262_medium.jpg",
+      "page": "https://pixabay.com/videos/id-166200/",
+      "creator": "blackmarketmusic",
+      "creatorUrl": "https://pixabay.com/users/blackmarketmusic-2976878/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166200-834228262_tiny.mp4",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166200-834228262_small.mp4",
+          "width": 540,
+          "height": 960
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166200-834228262_medium.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166200-834228262_large.mp4",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    },
+    {
+      "id": 166185,
+      "provider": "pixabay",
+      "duration": 7,
+      "width": 2160,
+      "height": 3840,
+      "thumb": "https://cdn.pixabay.com/video/2023/06/07/166185-834228211_medium.jpg",
+      "page": "https://pixabay.com/videos/id-166185/",
+      "creator": "blackmarketmusic",
+      "creatorUrl": "https://pixabay.com/users/blackmarketmusic-2976878/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166185-834228211_tiny.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166185-834228211_small.mp4",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166185-834228211_medium.mp4",
+          "width": 1440,
+          "height": 2560
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166185-834228211_large.mp4",
+          "width": 2160,
+          "height": 3840
+        }
+      ]
+    },
+    {
+      "id": 88139,
+      "provider": "pixabay",
+      "duration": 25,
+      "width": 1080,
+      "height": 1920,
+      "thumb": "https://cdn.pixabay.com/video/2021/09/11/88139-602895197_medium.jpg",
+      "page": "https://pixabay.com/videos/id-88139/",
+      "creator": "asimpson7543",
+      "creatorUrl": "https://pixabay.com/users/asimpson7543-16078253/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2021/09/11/88139-602895197_tiny.mp4",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2021/09/11/88139-602895197_small.mp4",
+          "width": 540,
+          "height": 960
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2021/09/11/88139-602895197_medium.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2021/09/11/88139-602895197_large.mp4",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    },
+    {
+      "id": 166194,
+      "provider": "pixabay",
+      "duration": 14,
+      "width": 2160,
+      "height": 3840,
+      "thumb": "https://cdn.pixabay.com/video/2023/06/07/166194-834228243_medium.jpg",
+      "page": "https://pixabay.com/videos/id-166194/",
+      "creator": "blackmarketmusic",
+      "creatorUrl": "https://pixabay.com/users/blackmarketmusic-2976878/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166194-834228243_tiny.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166194-834228243_small.mp4",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166194-834228243_medium.mp4",
+          "width": 1440,
+          "height": 2560
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166194-834228243_large.mp4",
+          "width": 2160,
+          "height": 3840
+        }
+      ]
+    },
+    {
+      "id": 166199,
+      "provider": "pixabay",
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "thumb": "https://cdn.pixabay.com/video/2023/06/07/166199-834228256_medium.jpg",
+      "page": "https://pixabay.com/videos/id-166199/",
+      "creator": "blackmarketmusic",
+      "creatorUrl": "https://pixabay.com/users/blackmarketmusic-2976878/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166199-834228256_tiny.mp4",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166199-834228256_small.mp4",
+          "width": 540,
+          "height": 960
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166199-834228256_medium.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166199-834228256_large.mp4",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    },
+    {
+      "id": 166186,
+      "provider": "pixabay",
+      "duration": 19,
+      "width": 2160,
+      "height": 3840,
+      "thumb": "https://cdn.pixabay.com/video/2023/06/07/166186-834228214_medium.jpg",
+      "page": "https://pixabay.com/videos/id-166186/",
+      "creator": "blackmarketmusic",
+      "creatorUrl": "https://pixabay.com/users/blackmarketmusic-2976878/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166186-834228214_tiny.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166186-834228214_small.mp4",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166186-834228214_medium.mp4",
+          "width": 1440,
+          "height": 2560
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2023/06/07/166186-834228214_large.mp4",
+          "width": 2160,
+          "height": 3840
+        }
+      ]
+    }
+  ]
+}

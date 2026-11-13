@@ -1,0 +1,42 @@
+{
+  "narration": {
+    "mean": -22.2,
+    "peak": -4.3
+  },
+  "music": {
+    "assets/music/bed.mp3": {
+      "gain": 0.15488166189124816,
+      "conditionedMean": -15
+    }
+  },
+  "sfx": {
+    "impact": {
+      "gain": 0.026369756411884018,
+      "limitedBy": "rms",
+      "trimDb": -4.7,
+      "band": "sub",
+      "seconds": 0.37
+    },
+    "whoosh": {
+      "gain": 0.6061305568607748,
+      "limitedBy": "rms",
+      "trimDb": -5.9,
+      "band": "vocal",
+      "seconds": 0.45
+    },
+    "sub_drop": {
+      "gain": 0.02191791831150569,
+      "limitedBy": "transient-floor",
+      "trimDb": -5.2,
+      "band": "sub",
+      "seconds": 0.4
+    },
+    "riser": {
+      "gain": 0.0201836636368156,
+      "limitedBy": "rms",
+      "trimDb": -8,
+      "band": "sub",
+      "seconds": 1.71
+    }
+  }
+}
