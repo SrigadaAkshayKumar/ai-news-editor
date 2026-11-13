@@ -50,7 +50,10 @@ if (existsSync(paths.transcriptRaw) && !flags.force) {
   raw = readJson(paths.transcriptRaw);
 } else {
   let lang = flags.lang || project.data.language;
+  const scriptFile = project.data.script?.file && existsSync(project.data.script.file) ? project.data.script.file : null;
   let engine = flags.engine || (lang === "en" ? "whisper" : lang ? "elevenlabs" : null);
+  // a scripted non-English voiceover with no ElevenLabs key: free forced alignment of the script (MMS)
+  if (!flags.engine && engine === "elevenlabs" && scriptFile && !process.env.ELEVENLABS_API_KEY) engine = "align";
   if (!engine) {
     const det = await detectLanguage(paths.audio, paths.work);
     console.log(`detected language: ${det.code} (p=${det.probability}) via whisper`);
@@ -63,7 +66,7 @@ if (existsSync(paths.transcriptRaw) && !flags.force) {
       if (["te", "hi"].includes(det.code) && det.probability >= 0.5) lang = det.code; // else let Scribe auto-detect
     }
   }
-  if (!["whisper", "elevenlabs"].includes(engine)) die(`unknown --engine ${engine}`);
+  if (!["whisper", "elevenlabs", "align"].includes(engine)) die(`unknown --engine ${engine}`);
   if (engine === "whisper" && lang && lang !== "en")
     die(`whisper is only used for English here (${lang} needs --engine elevenlabs) — .en models translate other languages`);
 
@@ -72,6 +75,13 @@ if (existsSync(paths.transcriptRaw) && !flags.force) {
     console.log(`transcribing locally with whisper.cpp ${model} (free)…`);
     raw = await whisperTranscribe(paths.audio, paths.work, { model, keyterms: project.data.keyterms || [] });
     alignWordsToSpeech(raw.words, silences, project.data.source.duration);
+  } else if (engine === "align") {
+    if (!scriptFile) die("--engine align needs the voiceover's script (npm run new … --script <file>)");
+    const py = process.env.ALIGN_PYTHON || (process.platform === "win32" ? "python" : "python3");
+    const out = join(paths.work, "align.raw.json");
+    console.log("aligning the script to the audio with MMS (free, local)…");
+    run(py, [join(import.meta.dirname, "align", "align.py"), paths.audio, scriptFile, out, "--language", LANGS[lang] || lang || "hin"], { inherit: true });
+    raw = readJson(out);
   } else {
     raw = await elevenLabs(lang);
   }

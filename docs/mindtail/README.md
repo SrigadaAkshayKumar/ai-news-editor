@@ -31,6 +31,10 @@ flowchart LR
 
 Task **status** lists every Short and what it is waiting for.
 
+**Comparing looks**: tick **variants** on an edit run to also get the same Short in the other looks of
+`config/mindtail.json` → `looks` (A cinematic/liquid, B bold/broadcast, C clean/glass) in
+`MINDTAIL/output/MT-XXXX-…/variants/`. Same cut, footage and sound; only the visual style and captions differ.
+
 ## Drive layout
 
 ```text
@@ -61,9 +65,10 @@ To use another folder name, set the repository variable `MINDTAIL_DRIVE_ROOT`.
 
 ## Costs to know
 
-- **ElevenLabs credits**: the voice you generate yourself, plus the edit transcribes the Hindi audio with
-  ElevenLabs Scribe (about 1.1 credit per second: roughly 70 credits for a 60 s Short) using the repo's
-  `ELEVENLABS_API_KEY`. Whisper is not usable for Hindi (docs/lessons.md).
+- **Word timings are free**: the edit force-aligns your `MT-XXXX_voiceover.txt` to the audio with Meta's MMS
+  model (`tools/align/align.py`, runs on the GitHub machine). No ElevenLabs key or credits; captions are spelled
+  exactly as the script. If the audio says something different from the text file, the report says so.
+- **ElevenLabs**: only for generating the voice yourself.
 - **Licence**: ElevenLabs' free plan is non-commercial and asks for attribution; a monetised channel needs a
   plan with commercial rights.
 - Claude runs on the same `CLAUDE_CODE_OAUTH_TOKEN` as the news channel.

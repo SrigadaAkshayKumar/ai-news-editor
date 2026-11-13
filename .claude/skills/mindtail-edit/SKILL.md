@@ -23,12 +23,17 @@ Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner revie
 ## Standing rules
 
 - **One format: 9:16**, made natively (not cut from 16:9). Shorts are 40-80 s; never pad.
-- **Language Hindi**: create with `--lang hi`. Transcription then goes to ElevenLabs Scribe (whisper is useless on
-  Hindi, see lessons) and uses a few credits from the owner's ElevenLabs quota (~1.1 credit per second of audio);
-  note the audio length in the report. The script (`*_voiceover.txt`) is the source of truth for caption spelling:
-  apply `work/script-diff.md`'s caption fixes.
-- **Captions ON**: word-synced Hindi captions, `pop` style, 2-3 words, accent `#00e5ff` on key words. Nothing
-  readable in the caption band from the picture pass (lessons).
+- **Language Hindi, free word timings**: create with `--lang hi`, then `npm run transcribe -- <p> --engine align`:
+  the script (`*_voiceover.txt`) is force-aligned to the audio with Meta's MMS model (`tools/align/align.py`), free
+  and local, no ElevenLabs key or credits. The words ARE the script, so caption spelling is exact. Read
+  `work/script-diff.md`: "never spoken" passages mean the audio and the script disagree (the owner generated a
+  different text) — say so in the report; if more than a sentence is missing, stop with status failed. Whisper is
+  useless on Hindi (lessons); use `--engine elevenlabs` only if the prompt asks for it.
+- **Captions ON**: word-synced Hindi captions, 2-3 words. Nothing readable in the caption band from the picture
+  pass (lessons).
+- **Look**: the main look is `config/mindtail.json` → `looks[0]` (visual `style`, caption style and accent) unless
+  the brief names another; create the project with that `--style` and caption with `npm run captions -- <p>
+  --style <captions> --accent <accent>`.
 - **Picture: a SIMPLE, footage-first edit (the owner's style).** About **80% of the runtime is full-frame stock
   footage**: `broll` scenes (video clips) and `still` scenes (photos, slow Ken-Burns), from Pexels with Pixabay as
   fallback, literal searches taken from the script's *search "…"* lines (`--photos` for stills). Read the thumbnails
@@ -45,8 +50,7 @@ Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner revie
   Short's mood, levelled and ducked under the voice; sub-band whoosh on cuts, a riser into the reveal, a hit on
   the payoff, a short silence before the key line; SFX audible over the bed; no effect on more than ~1/3 of cues.
   Check `work/levels.json` after the mix. You cannot hear it: say so in the report.
-- **Style**: `config/mindtail.json` → `style` unless the brief says otherwise. Palette black / white / cyan
-  `#00e5ff`; yellow and red only for warnings.
+- Palette black / white / cyan `#00e5ff`; yellow and red only for warnings.
 - No intro, no outro, no logo sting.
 
 ## Steps
@@ -55,13 +59,19 @@ Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner revie
    `source/` media is not in git: keep its `work/*.json` decisions aside, delete the folder, re-create it with the
    same command, restore what still applies (EDL/plans only if the transcript matches), and continue.
 1. **Create**: `npm run new -- <audio> --script <voiceover> --mode faceless --lang hi --formats 9:16 --brand mindtail
-   --style <style> --brief "<brief>"`. The `*_script.md` is the direction: its scenes and **Screen** lines are your
+   --style <main look's style> --brief "<brief>"`, then transcribe with `--engine align` (above). The `*_script.md` is the direction: its scenes and **Screen** lines are your
    plan (read it in full first).
 2. **Edit** with the `edit-video-faceless` skill (all stages, **no review gates**: run straight through), adapted
    to a Short: one chapter or none, no chapter rail, no polls, the hook in the first 2 s, the payoff at the end.
    Through `npm run finalize -- <p>` and `npm run verify -- <p>`; Read the verify sheet and stills yourself and fix
    anything broken. `verify` must end with `structure ok`.
-3. **Metadata** → `projects/<p>/output/metadata.md`:
+3. **Look variants** (only when the prompt has a VARIANTS line): after verify passes, render the other looks of
+   `config/mindtail.json` → `looks` from the same edit:
+   `node tools/variants.mjs <p> --format 9:16 --a-label A --looks "B:<style>:<captions>:<accent>,C:…"`.
+   It reuses the cut, footage, timing and mix and writes `output/variants/` (A = the main look, plus B, C… and a
+   README table). Grab one still per variant at the same moment and Read them. A failed variant never fails the
+   run: note it in the report and keep `"status": "ok"` when the main Short passed.
+4. **Metadata** → `projects/<p>/output/metadata.md`:
    - 3-5 title options (Hindi/Hinglish, curiosity-driven, honest, ≤ 100 characters; the first is the pick),
    - description: one line of context, a blank line, credits that must be there (CC BY sources if any; music
      credit if its licence asks), the sources block for factual claims, then `#MINDTAIL #HindiShorts` + 1-3 topic
@@ -69,7 +79,7 @@ Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner revie
    - suggested cover frame time, and the altered/synthetic content disclosure answer with a reason (AI voice:
      usually "no" when nothing realistic is faked; say why).
    Copy `work/credits.json` facts into it; never invent a credit.
-4. **Report** at the repo root:
+5. **Report** at the repo root:
    - `mindtail-run.json`: `{"short": "<folder>", "project": "<p>", "status": "ok"|"failed", "notes": "…"}`
    - `mindtail-report.md`: duration, scenes and searches used, SFX/bed choices and levels, every on-screen claim and
      its source, anything the owner must look at or listen to. Copy it into `projects/<p>/output/` too.

@@ -28,5 +28,30 @@
     "enabled": false,
     "_note": "No YouTube upload on this branch until the owner says so. MINDTAIL needs its own YouTube login; the YT_* secrets belong to 24 Hours in Tech."
   },
-  "footageShare": 0.8
+  "footageShare": 0.8,
+  "transcription": "align",
+  "_transcriptionNote": "align = free MMS forced alignment of the *_voiceover.txt to the audio (tools/align/align.py): no ElevenLabs key or credits. elevenlabs = Scribe (paid).",
+  "looks": [
+    {
+      "label": "A",
+      "name": "cinematic",
+      "style": "liquid",
+      "captions": "pop",
+      "accent": "#00e5ff"
+    },
+    {
+      "label": "B",
+      "name": "bold",
+      "style": "broadcast",
+      "captions": "karaoke",
+      "accent": "#ffd700"
+    },
+    {
+      "label": "C",
+      "name": "clean",
+      "style": "glass",
+      "captions": "clean",
+      "accent": "#ffffff"
+    }
+  ]
 }
