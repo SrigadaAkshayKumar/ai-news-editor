@@ -232,6 +232,9 @@ jobs:
           Note from the owner: ${NOTE:-none}" \
               ${CLAUDE_MODEL:+--model "$CLAUDE_MODEL"} --effort "$CLAUDE_EFFORT" --dangerously-skip-permissions --output-format stream-json --verbose > "claude-edit-$f.jsonl" || true
             rclone copy "claude-edit-$f.jsonl" "$DRIVE/output/_logs/$f-$stamp" || true
+            # Claude's own end state (error / usage limit / turns), never prompt or secret content
+            jq -rc 'select(.type=="result") | {subtype, is_error, num_turns, duration_ms, result: ((.result // "") | tostring | .[0:300])}' "claude-edit-$f.jsonl" 2>/dev/null | tail -1 || true
+            tail -c 400 "claude-edit-$f.jsonl" | grep -iE "limit|error|overloaded|unauthorized" | head -3 || true
             if node tools/mindtail.mjs check "$f" > check.json; then
               p=$(node -e 'console.log(require("./mindtail-run.json").project)')
               rclone copy "projects/$p/output" "$DRIVE/output/$f" -v
