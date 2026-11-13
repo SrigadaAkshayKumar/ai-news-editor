@@ -1,0 +1,151 @@
+{
+  "query": "ambient",
+  "results": [
+    {
+      "id": "17cd4cd6-ff63-43f6-9688-bad5c3007e0e",
+      "title": "Dark Ambient backgrounding 001",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/steaq/sounds/238251",
+      "url": "https://cdn.freesound.org/previews/238/238251_1474204-hq.mp3",
+      "creator": "steaq",
+      "creator_url": "https://freesound.org/people/steaq",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1814257,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "ambient",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "atmosphere",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "background",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "creepy",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "dark",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "deep",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "electronic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/238251/download/",
+          "bit_rate": 0,
+          "filesize": 14159510,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Dark Ambient backgrounding 001\" by steaq is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Ambient backgroundings",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/14616/",
+        "creator": "steaq",
+        "creator_url": "https://freesound.org/people/steaq/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 80267,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/17cd4cd6-ff63-43f6-9688-bad5c3007e0e/",
+      "related_url": "https://api.openverse.org/v1/audio/17cd4cd6-ff63-43f6-9688-bad5c3007e0e/related/",
+      "waveform": "https://api.openverse.org/v1/audio/17cd4cd6-ff63-43f6-9688-bad5c3007e0e/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "191e52d8-4af1-45d7-863e-f60cb91b0b1e",
+      "title": "Ambient",
+      "indexed_on": "2024-04-18T18:52:10.009444Z",
+      "foreign_landing_url": "https://freesound.org/people/jberkuta14/sounds/134888",
+      "url": "https://cdn.freesound.org/previews/134/134888_2392879-hq.mp3",
+      "creator": "jberkuta14",
+      "creator_url": "https://freesound.org/people/jberkuta14",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1658208,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "fall",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "field-recording",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "outside",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/134888/download/",
+          "bit_rate": 0,
+          "filesize": 10800022,
+          "filetype": "wav",
+          "sample_rate": 48000
+        }
+      ],
+      "attribution": "\"Ambient\" by jberkuta14 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 74986,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/191e52d8-4af1-45d7-863e-f60cb91b0b1e/",
+      "related_url": "https://api.openverse.org/v1/audio/191e52d8-4af1-45d7-863e-f60cb91b0b1e/related/",
+      "waveform": "https://api.openverse.org/v1/audio/191e52d8-4af1-45d7-863e-f60cb91b0b1e/waveform/",
+      "unstable__sensitivity": []
+    }
+  ]
+}

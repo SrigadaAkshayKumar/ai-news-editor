@@ -1,0 +1,1253 @@
+{
+  "engine": "mms forced alignment (script)",
+  "language_code": "hin",
+  "language_probability": null,
+  "words": [
+    {
+      "text": "शोर",
+      "start": 0.12,
+      "end": 0.4,
+      "type": "word",
+      "align_score": 0.686
+    },
+    {
+      "text": "में",
+      "start": 0.48,
+      "end": 0.6,
+      "type": "word",
+      "align_score": 0.861
+    },
+    {
+      "text": "सब",
+      "start": 0.801,
+      "end": 0.981,
+      "type": "word",
+      "align_score": 0.908
+    },
+    {
+      "text": "कुछ",
+      "start": 1.101,
+      "end": 1.321,
+      "type": "word",
+      "align_score": 0.885
+    },
+    {
+      "text": "गायब",
+      "start": 1.381,
+      "end": 1.681,
+      "type": "word",
+      "align_score": 0.79
+    },
+    {
+      "text": "हो",
+      "start": 1.701,
+      "end": 1.761,
+      "type": "word",
+      "align_score": 0.841
+    },
+    {
+      "text": "जाता",
+      "start": 1.861,
+      "end": 2.182,
+      "type": "word",
+      "align_score": 0.922
+    },
+    {
+      "text": "है...",
+      "start": 2.202,
+      "end": 2.342,
+      "type": "word",
+      "align_score": 0.845
+    },
+    {
+      "text": "बस",
+      "start": 3.042,
+      "end": 3.223,
+      "type": "word",
+      "align_score": 0.904
+    },
+    {
+      "text": "एक",
+      "start": 3.743,
+      "end": 3.923,
+      "type": "word",
+      "align_score": 0.966
+    },
+    {
+      "text": "शब्द",
+      "start": 4.023,
+      "end": 4.303,
+      "type": "word",
+      "align_score": 0.93
+    },
+    {
+      "text": "नहीं।",
+      "start": 4.323,
+      "end": 4.584,
+      "type": "word",
+      "align_score": 0.98
+    },
+    {
+      "text": "सोचिए,",
+      "start": 5.484,
+      "end": 5.865,
+      "type": "word",
+      "align_score": 0.953
+    },
+    {
+      "text": "आप",
+      "start": 6.525,
+      "end": 6.705,
+      "type": "word",
+      "align_score": 0.989
+    },
+    {
+      "text": "एक",
+      "start": 6.785,
+      "end": 6.865,
+      "type": "word",
+      "align_score": 0.991
+    },
+    {
+      "text": "भीड़",
+      "start": 6.985,
+      "end": 7.306,
+      "type": "word",
+      "align_score": 0.997
+    },
+    {
+      "text": "भरी",
+      "start": 7.366,
+      "end": 7.626,
+      "type": "word",
+      "align_score": 0.984
+    },
+    {
+      "text": "पार्टी",
+      "start": 7.666,
+      "end": 8.006,
+      "type": "word",
+      "align_score": 0.875
+    },
+    {
+      "text": "में",
+      "start": 8.026,
+      "end": 8.146,
+      "type": "word",
+      "align_score": 0.986
+    },
+    {
+      "text": "हैं।",
+      "start": 8.166,
+      "end": 8.326,
+      "type": "word",
+      "align_score": 0.742
+    },
+    {
+      "text": "तभी",
+      "start": 8.887,
+      "end": 9.147,
+      "type": "word",
+      "align_score": 0.934
+    },
+    {
+      "text": "दूर",
+      "start": 9.287,
+      "end": 9.648,
+      "type": "word",
+      "align_score": 0.997
+    },
+    {
+      "text": "कोई",
+      "start": 9.768,
+      "end": 9.968,
+      "type": "word",
+      "align_score": 0.992
+    },
+    {
+      "text": "आपका",
+      "start": 10.028,
+      "end": 10.308,
+      "type": "word",
+      "align_score": 0.992
+    },
+    {
+      "text": "नाम",
+      "start": 10.368,
+      "end": 10.588,
+      "type": "word",
+      "align_score": 0.923
+    },
+    {
+      "text": "लेता",
+      "start": 10.668,
+      "end": 10.949,
+      "type": "word",
+      "align_score": 0.997
+    },
+    {
+      "text": "है...",
+      "start": 10.989,
+      "end": 11.109,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "और",
+      "start": 11.749,
+      "end": 11.889,
+      "type": "word",
+      "align_score": 0.99
+    },
+    {
+      "text": "आपका",
+      "start": 11.949,
+      "end": 12.27,
+      "type": "word",
+      "align_score": 0.989
+    },
+    {
+      "text": "सिर",
+      "start": 12.37,
+      "end": 12.63,
+      "type": "word",
+      "align_score": 0.98
+    },
+    {
+      "text": "अपने",
+      "start": 12.89,
+      "end": 13.19,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "आप",
+      "start": 13.31,
+      "end": 13.45,
+      "type": "word",
+      "align_score": 0.927
+    },
+    {
+      "text": "घूम",
+      "start": 13.531,
+      "end": 13.731,
+      "type": "word",
+      "align_score": 0.989
+    },
+    {
+      "text": "जाता",
+      "start": 13.811,
+      "end": 14.111,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "है।",
+      "start": 14.151,
+      "end": 14.271,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "आपने",
+      "start": 15.012,
+      "end": 15.312,
+      "type": "word",
+      "align_score": 0.946
+    },
+    {
+      "text": "तो",
+      "start": 15.352,
+      "end": 15.412,
+      "type": "word",
+      "align_score": 0.988
+    },
+    {
+      "text": "उस",
+      "start": 15.492,
+      "end": 15.572,
+      "type": "word",
+      "align_score": 0.975
+    },
+    {
+      "text": "तरफ",
+      "start": 15.612,
+      "end": 15.832,
+      "type": "word",
+      "align_score": 0.992
+    },
+    {
+      "text": "ध्यान",
+      "start": 15.852,
+      "end": 16.093,
+      "type": "word",
+      "align_score": 0.947
+    },
+    {
+      "text": "दिया",
+      "start": 16.173,
+      "end": 16.413,
+      "type": "word",
+      "align_score": 0.952
+    },
+    {
+      "text": "ही",
+      "start": 16.413,
+      "end": 16.513,
+      "type": "word",
+      "align_score": 0.948
+    },
+    {
+      "text": "नहीं",
+      "start": 16.553,
+      "end": 16.753,
+      "type": "word",
+      "align_score": 0.929
+    },
+    {
+      "text": "था।",
+      "start": 16.753,
+      "end": 16.933,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "फिर",
+      "start": 17.434,
+      "end": 17.574,
+      "type": "word",
+      "align_score": 0.982
+    },
+    {
+      "text": "दिमाग",
+      "start": 17.674,
+      "end": 17.994,
+      "type": "word",
+      "align_score": 0.97
+    },
+    {
+      "text": "ने",
+      "start": 18.074,
+      "end": 18.134,
+      "type": "word",
+      "align_score": 0.989
+    },
+    {
+      "text": "सुना",
+      "start": 18.234,
+      "end": 18.494,
+      "type": "word",
+      "align_score": 0.991
+    },
+    {
+      "text": "कैसे?",
+      "start": 18.534,
+      "end": 18.815,
+      "type": "word",
+      "align_score": 0.767
+    },
+    {
+      "text": "इसे",
+      "start": 19.695,
+      "end": 19.875,
+      "type": "word",
+      "align_score": 0.992
+    },
+    {
+      "text": "कहते",
+      "start": 19.976,
+      "end": 20.296,
+      "type": "word",
+      "align_score": 0.972
+    },
+    {
+      "text": "हैं",
+      "start": 20.376,
+      "end": 20.536,
+      "type": "word",
+      "align_score": 0.946
+    },
+    {
+      "text": "cocktail",
+      "start": 20.836,
+      "end": 21.297,
+      "type": "word",
+      "align_score": 0.474
+    },
+    {
+      "text": "party",
+      "start": 21.377,
+      "end": 21.717,
+      "type": "word",
+      "align_score": 0.599
+    },
+    {
+      "text": "effect।",
+      "start": 21.757,
+      "end": 22.157,
+      "type": "word",
+      "align_score": 0.324
+    },
+    {
+      "text": "उन्नीस",
+      "start": 22.738,
+      "end": 23.038,
+      "type": "word",
+      "align_score": 0.002
+    },
+    {
+      "text": "सौ",
+      "start": 23.058,
+      "end": 23.318,
+      "type": "word",
+      "align_score": 0.001
+    },
+    {
+      "text": "उनसठ",
+      "start": 23.338,
+      "end": 23.698,
+      "type": "word",
+      "align_score": 0.009
+    },
+    {
+      "text": "में",
+      "start": 23.759,
+      "end": 23.899,
+      "type": "word",
+      "align_score": 0.98
+    },
+    {
+      "text": "वैज्ञानिक",
+      "start": 24.179,
+      "end": 24.739,
+      "type": "word",
+      "align_score": 0.792
+    },
+    {
+      "text": "Neville",
+      "start": 24.899,
+      "end": 25.22,
+      "type": "word",
+      "align_score": 0.638
+    },
+    {
+      "text": "Moray",
+      "start": 25.28,
+      "end": 25.56,
+      "type": "word",
+      "align_score": 0.599
+    },
+    {
+      "text": "ने",
+      "start": 25.64,
+      "end": 25.72,
+      "type": "word",
+      "align_score": 0.991
+    },
+    {
+      "text": "एक",
+      "start": 25.92,
+      "end": 26.04,
+      "type": "word",
+      "align_score": 0.988
+    },
+    {
+      "text": "प्रयोग",
+      "start": 26.1,
+      "end": 26.441,
+      "type": "word",
+      "align_score": 0.998
+    },
+    {
+      "text": "किया।",
+      "start": 26.501,
+      "end": 26.741,
+      "type": "word",
+      "align_score": 0.987
+    },
+    {
+      "text": "लोगों",
+      "start": 27.421,
+      "end": 27.742,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "के",
+      "start": 27.802,
+      "end": 27.882,
+      "type": "word",
+      "align_score": 0.985
+    },
+    {
+      "text": "एक",
+      "start": 28.142,
+      "end": 28.302,
+      "type": "word",
+      "align_score": 0.985
+    },
+    {
+      "text": "कान",
+      "start": 28.382,
+      "end": 28.602,
+      "type": "word",
+      "align_score": 0.971
+    },
+    {
+      "text": "में",
+      "start": 28.682,
+      "end": 28.822,
+      "type": "word",
+      "align_score": 0.86
+    },
+    {
+      "text": "एक",
+      "start": 28.983,
+      "end": 29.083,
+      "type": "word",
+      "align_score": 0.99
+    },
+    {
+      "text": "आवाज़",
+      "start": 29.223,
+      "end": 29.563,
+      "type": "word",
+      "align_score": 0.809
+    },
+    {
+      "text": "चल",
+      "start": 29.643,
+      "end": 29.783,
+      "type": "word",
+      "align_score": 0.997
+    },
+    {
+      "text": "रही",
+      "start": 29.823,
+      "end": 30.003,
+      "type": "word",
+      "align_score": 0.874
+    },
+    {
+      "text": "थी,",
+      "start": 30.083,
+      "end": 30.244,
+      "type": "word",
+      "align_score": 0.335
+    },
+    {
+      "text": "जिस",
+      "start": 30.624,
+      "end": 30.784,
+      "type": "word",
+      "align_score": 0.747
+    },
+    {
+      "text": "पर",
+      "start": 30.864,
+      "end": 30.984,
+      "type": "word",
+      "align_score": 0.99
+    },
+    {
+      "text": "उन्हें",
+      "start": 31.104,
+      "end": 31.344,
+      "type": "word",
+      "align_score": 0.993
+    },
+    {
+      "text": "पूरा",
+      "start": 31.545,
+      "end": 31.865,
+      "type": "word",
+      "align_score": 0.963
+    },
+    {
+      "text": "ध्यान",
+      "start": 31.885,
+      "end": 32.145,
+      "type": "word",
+      "align_score": 0.956
+    },
+    {
+      "text": "देना",
+      "start": 32.185,
+      "end": 32.445,
+      "type": "word",
+      "align_score": 0.985
+    },
+    {
+      "text": "था।",
+      "start": 32.485,
+      "end": 32.665,
+      "type": "word",
+      "align_score": 0.894
+    },
+    {
+      "text": "दूसरे",
+      "start": 33.306,
+      "end": 33.666,
+      "type": "word",
+      "align_score": 0.946
+    },
+    {
+      "text": "कान",
+      "start": 33.766,
+      "end": 33.966,
+      "type": "word",
+      "align_score": 0.942
+    },
+    {
+      "text": "की",
+      "start": 34.027,
+      "end": 34.147,
+      "type": "word",
+      "align_score": 0.989
+    },
+    {
+      "text": "आवाज़",
+      "start": 34.187,
+      "end": 34.547,
+      "type": "word",
+      "align_score": 0.801
+    },
+    {
+      "text": "को",
+      "start": 34.627,
+      "end": 34.707,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "उन्हें",
+      "start": 34.947,
+      "end": 35.187,
+      "type": "word",
+      "align_score": 0.997
+    },
+    {
+      "text": "अनसुना",
+      "start": 35.348,
+      "end": 35.808,
+      "type": "word",
+      "align_score": 0.772
+    },
+    {
+      "text": "करना",
+      "start": 35.828,
+      "end": 36.148,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "था।",
+      "start": 36.168,
+      "end": 36.348,
+      "type": "word",
+      "align_score": 0.923
+    },
+    {
+      "text": "उसी",
+      "start": 36.949,
+      "end": 37.229,
+      "type": "word",
+      "align_score": 0.939
+    },
+    {
+      "text": "में",
+      "start": 37.269,
+      "end": 37.409,
+      "type": "word",
+      "align_score": 0.88
+    },
+    {
+      "text": "चुपके",
+      "start": 37.589,
+      "end": 37.99,
+      "type": "word",
+      "align_score": 0.962
+    },
+    {
+      "text": "से",
+      "start": 38.13,
+      "end": 38.23,
+      "type": "word",
+      "align_score": 0.993
+    },
+    {
+      "text": "उनका",
+      "start": 38.47,
+      "end": 38.79,
+      "type": "word",
+      "align_score": 0.992
+    },
+    {
+      "text": "अपना",
+      "start": 38.95,
+      "end": 39.291,
+      "type": "word",
+      "align_score": 0.975
+    },
+    {
+      "text": "नाम",
+      "start": 39.331,
+      "end": 39.511,
+      "type": "word",
+      "align_score": 0.98
+    },
+    {
+      "text": "डाल",
+      "start": 39.571,
+      "end": 39.791,
+      "type": "word",
+      "align_score": 0.958
+    },
+    {
+      "text": "दिया",
+      "start": 39.831,
+      "end": 40.031,
+      "type": "word",
+      "align_score": 0.994
+    },
+    {
+      "text": "गया।",
+      "start": 40.071,
+      "end": 40.291,
+      "type": "word",
+      "align_score": 0.937
+    },
+    {
+      "text": "पर",
+      "start": 40.912,
+      "end": 41.052,
+      "type": "word",
+      "align_score": 0.992
+    },
+    {
+      "text": "असली",
+      "start": 41.192,
+      "end": 41.572,
+      "type": "word",
+      "align_score": 0.989
+    },
+    {
+      "text": "बात",
+      "start": 41.612,
+      "end": 41.833,
+      "type": "word",
+      "align_score": 0.99
+    },
+    {
+      "text": "कुछ",
+      "start": 41.913,
+      "end": 42.113,
+      "type": "word",
+      "align_score": 0.982
+    },
+    {
+      "text": "और",
+      "start": 42.253,
+      "end": 42.433,
+      "type": "word",
+      "align_score": 0.991
+    },
+    {
+      "text": "है...",
+      "start": 42.513,
+      "end": 42.653,
+      "type": "word",
+      "align_score": 0.993
+    },
+    {
+      "text": "लगभग",
+      "start": 43.314,
+      "end": 43.694,
+      "type": "word",
+      "align_score": 0.937
+    },
+    {
+      "text": "हर",
+      "start": 43.834,
+      "end": 44.034,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "तीन",
+      "start": 44.194,
+      "end": 44.415,
+      "type": "word",
+      "align_score": 0.994
+    },
+    {
+      "text": "में",
+      "start": 44.495,
+      "end": 44.615,
+      "type": "word",
+      "align_score": 0.991
+    },
+    {
+      "text": "से",
+      "start": 44.675,
+      "end": 44.755,
+      "type": "word",
+      "align_score": 0.991
+    },
+    {
+      "text": "एक",
+      "start": 44.995,
+      "end": 45.155,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "इंसान",
+      "start": 45.215,
+      "end": 45.636,
+      "type": "word",
+      "align_score": 0.852
+    },
+    {
+      "text": "ने",
+      "start": 45.716,
+      "end": 45.816,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "अपना",
+      "start": 45.996,
+      "end": 46.296,
+      "type": "word",
+      "align_score": 0.993
+    },
+    {
+      "text": "नाम",
+      "start": 46.336,
+      "end": 46.536,
+      "type": "word",
+      "align_score": 0.976
+    },
+    {
+      "text": "पकड़",
+      "start": 46.636,
+      "end": 46.937,
+      "type": "word",
+      "align_score": 0.99
+    },
+    {
+      "text": "लिया।",
+      "start": 46.997,
+      "end": 47.217,
+      "type": "word",
+      "align_score": 0.928
+    },
+    {
+      "text": "यानी",
+      "start": 47.697,
+      "end": 47.977,
+      "type": "word",
+      "align_score": 0.898
+    },
+    {
+      "text": "आपका",
+      "start": 48.118,
+      "end": 48.478,
+      "type": "word",
+      "align_score": 0.935
+    },
+    {
+      "text": "दिमाग",
+      "start": 48.498,
+      "end": 48.878,
+      "type": "word",
+      "align_score": 0.888
+    },
+    {
+      "text": "उस",
+      "start": 49.138,
+      "end": 49.258,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "आवाज़",
+      "start": 49.419,
+      "end": 49.799,
+      "type": "word",
+      "align_score": 0.826
+    },
+    {
+      "text": "को",
+      "start": 49.879,
+      "end": 49.959,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "भी",
+      "start": 50.039,
+      "end": 50.179,
+      "type": "word",
+      "align_score": 0.905
+    },
+    {
+      "text": "चुपचाप",
+      "start": 50.319,
+      "end": 50.9,
+      "type": "word",
+      "align_score": 0.92
+    },
+    {
+      "text": "सुन",
+      "start": 51,
+      "end": 51.14,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "रहा",
+      "start": 51.22,
+      "end": 51.44,
+      "type": "word",
+      "align_score": 0.932
+    },
+    {
+      "text": "था,",
+      "start": 51.48,
+      "end": 51.66,
+      "type": "word",
+      "align_score": 0.941
+    },
+    {
+      "text": "जिसे",
+      "start": 52.041,
+      "end": 52.241,
+      "type": "word",
+      "align_score": 0.991
+    },
+    {
+      "text": "आपने",
+      "start": 52.421,
+      "end": 52.721,
+      "type": "word",
+      "align_score": 0.945
+    },
+    {
+      "text": "सुना",
+      "start": 52.861,
+      "end": 53.121,
+      "type": "word",
+      "align_score": 0.956
+    },
+    {
+      "text": "ही",
+      "start": 53.141,
+      "end": 53.242,
+      "type": "word",
+      "align_score": 0.994
+    },
+    {
+      "text": "नहीं",
+      "start": 53.282,
+      "end": 53.502,
+      "type": "word",
+      "align_score": 0.994
+    },
+    {
+      "text": "था।",
+      "start": 53.502,
+      "end": 53.682,
+      "type": "word",
+      "align_score": 0.985
+    },
+    {
+      "text": "हाँ,",
+      "start": 54.262,
+      "end": 54.502,
+      "type": "word",
+      "align_score": 0.972
+    },
+    {
+      "text": "हर",
+      "start": 54.983,
+      "end": 55.163,
+      "type": "word",
+      "align_score": 0.935
+    },
+    {
+      "text": "किसी",
+      "start": 55.243,
+      "end": 55.503,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "के",
+      "start": 55.543,
+      "end": 55.603,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "साथ",
+      "start": 55.663,
+      "end": 55.904,
+      "type": "word",
+      "align_score": 0.959
+    },
+    {
+      "text": "ऐसा",
+      "start": 55.964,
+      "end": 56.184,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "नहीं",
+      "start": 56.224,
+      "end": 56.484,
+      "type": "word",
+      "align_score": 0.997
+    },
+    {
+      "text": "हुआ।",
+      "start": 56.504,
+      "end": 56.724,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "दो",
+      "start": 57.245,
+      "end": 57.325,
+      "type": "word",
+      "align_score": 0.986
+    },
+    {
+      "text": "तिहाई",
+      "start": 57.485,
+      "end": 57.845,
+      "type": "word",
+      "align_score": 0.944
+    },
+    {
+      "text": "लोग",
+      "start": 57.885,
+      "end": 58.085,
+      "type": "word",
+      "align_score": 0.994
+    },
+    {
+      "text": "चूक",
+      "start": 58.205,
+      "end": 58.446,
+      "type": "word",
+      "align_score": 0.658
+    },
+    {
+      "text": "गए।",
+      "start": 58.506,
+      "end": 58.686,
+      "type": "word",
+      "align_score": 0.988
+    },
+    {
+      "text": "तो",
+      "start": 59.246,
+      "end": 59.326,
+      "type": "word",
+      "align_score": 0.914
+    },
+    {
+      "text": "अगली",
+      "start": 59.506,
+      "end": 59.827,
+      "type": "word",
+      "align_score": 0.851
+    },
+    {
+      "text": "बार",
+      "start": 59.867,
+      "end": 60.127,
+      "type": "word",
+      "align_score": 0.704
+    },
+    {
+      "text": "जब",
+      "start": 60.327,
+      "end": 60.467,
+      "type": "word",
+      "align_score": 0.997
+    },
+    {
+      "text": "शोर",
+      "start": 60.607,
+      "end": 60.887,
+      "type": "word",
+      "align_score": 0.988
+    },
+    {
+      "text": "में",
+      "start": 60.948,
+      "end": 61.068,
+      "type": "word",
+      "align_score": 0.991
+    },
+    {
+      "text": "आपका",
+      "start": 61.228,
+      "end": 61.568,
+      "type": "word",
+      "align_score": 0.933
+    },
+    {
+      "text": "नाम",
+      "start": 61.608,
+      "end": 61.788,
+      "type": "word",
+      "align_score": 0.938
+    },
+    {
+      "text": "सुनाई",
+      "start": 61.868,
+      "end": 62.229,
+      "type": "word",
+      "align_score": 0.924
+    },
+    {
+      "text": "दे,",
+      "start": 62.229,
+      "end": 62.329,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "तो",
+      "start": 62.669,
+      "end": 62.749,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "समझिए",
+      "start": 62.869,
+      "end": 63.309,
+      "type": "word",
+      "align_score": 0.934
+    },
+    {
+      "text": "कि",
+      "start": 63.69,
+      "end": 63.75,
+      "type": "word",
+      "align_score": 0.997
+    },
+    {
+      "text": "आपका",
+      "start": 63.95,
+      "end": 64.31,
+      "type": "word",
+      "align_score": 0.959
+    },
+    {
+      "text": "दिमाग",
+      "start": 64.35,
+      "end": 64.71,
+      "type": "word",
+      "align_score": 0.91
+    },
+    {
+      "text": "हमेशा",
+      "start": 64.911,
+      "end": 65.411,
+      "type": "word",
+      "align_score": 0.982
+    },
+    {
+      "text": "जाग",
+      "start": 65.451,
+      "end": 65.671,
+      "type": "word",
+      "align_score": 0.954
+    },
+    {
+      "text": "रहा",
+      "start": 65.731,
+      "end": 65.951,
+      "type": "word",
+      "align_score": 0.984
+    },
+    {
+      "text": "है।",
+      "start": 65.991,
+      "end": 66.132,
+      "type": "word",
+      "align_score": 0.863
+    },
+    {
+      "text": "आपके",
+      "start": 66.692,
+      "end": 66.972,
+      "type": "word",
+      "align_score": 0.976
+    },
+    {
+      "text": "साथ",
+      "start": 67.032,
+      "end": 67.272,
+      "type": "word",
+      "align_score": 0.999
+    },
+    {
+      "text": "ऐसा",
+      "start": 67.413,
+      "end": 67.693,
+      "type": "word",
+      "align_score": 0.861
+    },
+    {
+      "text": "कब",
+      "start": 67.773,
+      "end": 67.913,
+      "type": "word",
+      "align_score": 0.995
+    },
+    {
+      "text": "हुआ",
+      "start": 67.993,
+      "end": 68.193,
+      "type": "word",
+      "align_score": 0.996
+    },
+    {
+      "text": "था?",
+      "start": 68.233,
+      "end": 68.413,
+      "type": "word",
+      "align_score": 0.907
+    },
+    {
+      "text": "कमेंट",
+      "start": 68.854,
+      "end": 69.174,
+      "type": "word",
+      "align_score": 0.603
+    },
+    {
+      "text": "में",
+      "start": 69.234,
+      "end": 69.334,
+      "type": "word",
+      "align_score": 0.917
+    },
+    {
+      "text": "बताइए।",
+      "start": 69.354,
+      "end": 69.754,
+      "type": "word",
+      "align_score": 0.994
+    }
+  ]
+}

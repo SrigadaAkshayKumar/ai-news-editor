@@ -1,0 +1,205 @@
+{
+  "provider": "pixabay",
+  "query": "girl smiling",
+  "orientation": "portrait",
+  "results": [
+    {
+      "id": 203733,
+      "provider": "pixabay",
+      "duration": 5,
+      "width": 1080,
+      "height": 1920,
+      "thumb": "https://cdn.pixabay.com/video/2024/03/11/203733-922186814_medium.jpg",
+      "page": "https://pixabay.com/videos/id-203733/",
+      "creator": "mehranbiabani",
+      "creatorUrl": "https://pixabay.com/users/mehranbiabani-29712053/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203733-922186814_tiny.mp4",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203733-922186814_small.mp4",
+          "width": 540,
+          "height": 960
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203733-922186814_medium.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203733-922186814_large.mp4",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    },
+    {
+      "id": 203731,
+      "provider": "pixabay",
+      "duration": 6,
+      "width": 1080,
+      "height": 1920,
+      "thumb": "https://cdn.pixabay.com/video/2024/03/11/203731-922186798_medium.jpg",
+      "page": "https://pixabay.com/videos/id-203731/",
+      "creator": "mehranbiabani",
+      "creatorUrl": "https://pixabay.com/users/mehranbiabani-29712053/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203731-922186798_tiny.mp4",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203731-922186798_small.mp4",
+          "width": 540,
+          "height": 960
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203731-922186798_medium.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203731-922186798_large.mp4",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    },
+    {
+      "id": 254004,
+      "provider": "pixabay",
+      "duration": 13,
+      "width": 2160,
+      "height": 3840,
+      "thumb": "https://cdn.pixabay.com/video/2025/01/22/254004_medium.jpg",
+      "page": "https://pixabay.com/videos/id-254004/",
+      "creator": "iddea_photo",
+      "creatorUrl": "https://pixabay.com/users/iddea_photo-45788187/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2025/01/22/254004_tiny.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2025/01/22/254004_small.mp4",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2025/01/22/254004_medium.mp4",
+          "width": 1440,
+          "height": 2560
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2025/01/22/254004_large.mp4",
+          "width": 2160,
+          "height": 3840
+        }
+      ]
+    },
+    {
+      "id": 234922,
+      "provider": "pixabay",
+      "duration": 29,
+      "width": 1080,
+      "height": 1920,
+      "thumb": "https://cdn.pixabay.com/video/2024/10/06/234922_medium.jpg",
+      "page": "https://pixabay.com/videos/id-234922/",
+      "creator": "xBriantcx",
+      "creatorUrl": "https://pixabay.com/users/xBriantcx-36275440/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2024/10/06/234922_tiny.mp4",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/10/06/234922_small.mp4",
+          "width": 540,
+          "height": 960
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/10/06/234922_medium.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/10/06/234922_large.mp4",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    },
+    {
+      "id": 288894,
+      "provider": "pixabay",
+      "duration": 16,
+      "width": 1080,
+      "height": 1920,
+      "thumb": "https://cdn.pixabay.com/video/2025/07/01/288894_medium.jpg",
+      "page": "https://pixabay.com/videos/id-288894/",
+      "creator": "viktoriastasik",
+      "creatorUrl": "https://pixabay.com/users/viktoriastasik-41467482/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2025/07/01/288894_tiny.mp4",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2025/07/01/288894_small.mp4",
+          "width": 540,
+          "height": 960
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2025/07/01/288894_medium.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2025/07/01/288894_large.mp4",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    },
+    {
+      "id": 203732,
+      "provider": "pixabay",
+      "duration": 10,
+      "width": 1080,
+      "height": 1920,
+      "thumb": "https://cdn.pixabay.com/video/2024/03/11/203732-922186806_medium.jpg",
+      "page": "https://pixabay.com/videos/id-203732/",
+      "creator": "mehranbiabani",
+      "creatorUrl": "https://pixabay.com/users/mehranbiabani-29712053/",
+      "files": [
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203732-922186806_tiny.mp4",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203732-922186806_small.mp4",
+          "width": 540,
+          "height": 960
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203732-922186806_medium.mp4",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://cdn.pixabay.com/video/2024/03/11/203732-922186806_large.mp4",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    }
+  ]
+}

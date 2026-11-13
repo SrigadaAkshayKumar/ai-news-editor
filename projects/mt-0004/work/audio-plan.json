@@ -1,0 +1,11 @@
+{"music_cues":[{"start":0,"end":65.2,"file":"assets/music/bed.mp3","gain_rel":1.0,"fade_in":0.1,"fade_out":2.0,"music_start":0,"mood":"dark ambient, curious mystery"}],
+"sfx_events":[
+{"time":0.0,"sfx":"impact","reason":"hit on frame 0"},
+{"time":2.4,"sfx":"whoosh","reason":"first cut/whip"},
+{"time":7.4,"sfx":"whoosh","reason":"new idea: name called"},
+{"time":16.7,"sfx":"sub_drop","reason":"the name of the effect"},
+{"time":19.9,"sfx":"whoosh","reason":"1959 experiment"},
+{"time":29.9,"sfx":"sub_drop","reason":"the unattended ear"},
+{"time":35.2,"sfx":"riser","reason":"into the reveal"},
+{"time":39.4,"sfx":"impact","reason":"hit on the payoff line"},
+{"time":49.9,"sfx":"sub_drop","reason":"but not everyone"}]}

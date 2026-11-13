@@ -1,0 +1,100 @@
+{
+  "name": "mt-0004",
+  "createdAt": "2026-11-13T07:02:46.210Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0004/source/raw.mp3",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/shorts/MT-0004-own-name-noise/MT-0004_voiceover.mp3",
+    "duration": 70.03425,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "mp3",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0004/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/shorts/MT-0004-own-name-noise/MT-0004_voiceover.txt",
+    "words": 178,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0004/source/screen-script.md"
+  },
+  "language": "hi",
+  "keyterms": [
+    "Neville Moray"
+  ],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "9:16"
+  ],
+  "fps": 30,
+  "brief": "MINDTAIL Hindi Short, curious documentary, clear footage, karaoke captions",
+  "brand": "mindtail",
+  "noCaptions": false,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-13T07:03:17.694Z",
+      "words": 178,
+      "engine": "mms forced alignment (script)"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-13T07:03:26.691Z",
+      "segments": 23,
+      "kept": 65.2
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-13T07:08:06.212Z",
+      "music": 1,
+      "sfx": 9
+    },
+    "visuals@9x16": {
+      "done": true,
+      "at": "2026-11-13T07:28:51.420Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0004/work/visuals-9x16.mp4"
+    },
+    "scaffold@9x16": {
+      "done": true,
+      "at": "2026-11-13T07:28:51.574Z"
+    },
+    "captions@9x16": {
+      "done": true,
+      "at": "2026-11-13T07:28:51.767Z",
+      "groups": 69
+    },
+    "finalize@9x16": {
+      "done": true,
+      "at": "2026-11-13T07:32:50.555Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0004/output/final-9x16.mp4",
+      "duration": 65.2
+    }
+  },
+  "detectedLanguage": {
+    "code": "hin",
+    "probability": null
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0004/work/cleancut.wav",
+    "duration": 65.200125,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "karaoke",
+    "accent": "#ffd700",
+    "uppercase": false,
+    "9x16": {
+      "maxWords": 3,
+      "position": "bottom"
+    }
+  }
+}
