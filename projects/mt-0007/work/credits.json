@@ -1,0 +1,263 @@
+[
+  {
+    "file": "assets/library/loftus.png",
+    "title": "File:Elizabeth Loftus-TAM 9-July 2011.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Loftus-TAM_9-July_2011.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "BDEngler",
+    "note": "photo of a public figure; editorial use, background removed"
+  },
+  {
+    "file": "assets/broll/pixabay-272238.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-272238/",
+    "creator": "DespiertaYa",
+    "creatorUrl": "https://pixabay.com/users/DespiertaYa-49743582/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-215474.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-215474/",
+    "creator": "Vacampbe",
+    "creatorUrl": "https://pixabay.com/users/Vacampbe-44247746/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-136554.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-136554/",
+    "creator": "UreñaFilms",
+    "creatorUrl": "https://pixabay.com/users/UreñaFilms-22044723/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-187050.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-187050/",
+    "creator": "Matthias_Groeneveld",
+    "creatorUrl": "https://pixabay.com/users/Matthias_Groeneveld-4535957/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-136462.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-136462/",
+    "creator": "Matthias_Groeneveld",
+    "creatorUrl": "https://pixabay.com/users/Matthias_Groeneveld-4535957/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-145566.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-145566/",
+    "creator": "shanu_vlog_yt",
+    "creatorUrl": "https://pixabay.com/users/shanu_vlog_yt-19856443/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-218954.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-218954/",
+    "creator": "xBriantcx",
+    "creatorUrl": "https://pixabay.com/users/xBriantcx-36275440/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-1246910.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/old-photo-damaged-photo-1940s-women-1246910/",
+    "creator": "Robindo",
+    "creatorUrl": "https://pixabay.com/users/Robindo-2036510/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-1317978.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/family-anno-anno-family-19-year-1317978/",
+    "creator": "ha11ok",
+    "creatorUrl": "https://pixabay.com/users/ha11ok-1785462/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-791757.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/old-vintage-retro-pic-picture-791757/",
+    "creator": "kaboompics",
+    "creatorUrl": "https://pixabay.com/users/kaboompics-1013994/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-2208593.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/broken-glass-shattered-glass-broken-2208593/",
+    "creator": "LunarSeaArt",
+    "creatorUrl": "https://pixabay.com/users/LunarSeaArt-4038246/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-1497233.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/glass-pane-glass-broken-splintered-1497233/",
+    "creator": "kirahoffmann",
+    "creatorUrl": "https://pixabay.com/users/kirahoffmann-1855684/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-2407292.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/mirror-frame-mirrors-broken-2407292/",
+    "creator": "anaterate",
+    "creatorUrl": "https://pixabay.com/users/anaterate-2348028/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-5827839.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/old-cars-road-rally-traffic-street-5827839/",
+    "creator": "Lakeblog",
+    "creatorUrl": "https://pixabay.com/users/Lakeblog-885905/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-6515286.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/car-ferrari-roma-super-car-6515286/",
+    "creator": "carpassionwarsaw",
+    "creatorUrl": "https://pixabay.com/users/carpassionwarsaw-20636729/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/stills/pixabay-7300881.jpg",
+    "kind": "still",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/photos/vintage-car-classic-car-car-vehicle-7300881/",
+    "creator": "yunusemrelca",
+    "creatorUrl": "https://pixabay.com/users/yunusemrelca-18466237/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-202753.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-202753/",
+    "creator": "Matthias_Groeneveld",
+    "creatorUrl": "https://pixabay.com/users/Matthias_Groeneveld-4535957/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-240659.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-240659/",
+    "creator": "u_bz9cn6vat4",
+    "creatorUrl": "https://pixabay.com/users/u_bz9cn6vat4-46994669/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-139650.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-139650/",
+    "creator": "PicturalU",
+    "creatorUrl": "https://pixabay.com/users/PicturalU-28526676/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-251587.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-251587/",
+    "creator": "xBriantcx",
+    "creatorUrl": "https://pixabay.com/users/xBriantcx-36275440/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-156157.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-156157/",
+    "creator": "Engin_Akyurt",
+    "creatorUrl": "https://pixabay.com/users/Engin_Akyurt-3656355/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-188591.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-188591/",
+    "creator": "thuanvo",
+    "creatorUrl": "https://pixabay.com/users/thuanvo-14686516/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-156156.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-156156/",
+    "creator": "Engin_Akyurt",
+    "creatorUrl": "https://pixabay.com/users/Engin_Akyurt-3656355/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-136460.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-136460/",
+    "creator": "Matthias_Groeneveld",
+    "creatorUrl": "https://pixabay.com/users/Matthias_Groeneveld-4535957/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-178472.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-178472/",
+    "creator": "Acatroxen",
+    "creatorUrl": "https://pixabay.com/users/Acatroxen-38919333/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-253997.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-253997/",
+    "creator": "iddea_photo",
+    "creatorUrl": "https://pixabay.com/users/iddea_photo-45788187/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/broll/pixabay-299930.mp4",
+    "kind": "broll",
+    "source": "Pixabay",
+    "url": "https://pixabay.com/videos/id-299930/",
+    "creator": "LynX_BGW",
+    "creatorUrl": "https://pixabay.com/users/LynX_BGW-38804944/",
+    "license": "Pixabay Content License (free to use, no attribution required)"
+  },
+  {
+    "file": "assets/music/bed.mp3",
+    "kind": "music",
+    "source": "Openverse/freesound",
+    "title": "Mystery And Thriller Music",
+    "url": "https://freesound.org/people/akisloukas/sounds/418210",
+    "creator": "akisloukas",
+    "license": "CC CC0 1.0",
+    "attribution": null
+  }
+]

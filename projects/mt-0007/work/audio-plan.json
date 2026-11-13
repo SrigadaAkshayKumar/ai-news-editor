@@ -1,0 +1,13 @@
+{"music_cues":[{"start":0,"end":56.43,"file":"assets/music/bed.mp3","gain_rel":1.0,"fade_in":0.1,"fade_out":2.5,"music_start":0,"mood":"mystery"}],
+"sfx_events":[
+{"time":0.0,"sfx":"impact","reason":"hit on frame 0"},
+{"time":1.4,"sfx":"whoosh","reason":"first cut"},
+{"time":5.7,"sfx":"whoosh","reason":"new idea: experiment"},
+{"time":11.4,"sfx":"sub_drop","reason":"new idea: the question"},
+{"time":22.2,"sfx":"sub_drop","reason":"numbers"},
+{"time":29.4,"sfx":"riser","reason":"into the broken-glass turn"},
+{"time":34.3,"sfx":"impact","reason":"reveal: no glass at all"},
+{"time":42.4,"sfx":"sub_drop","reason":"new idea: memory is not a recording"},
+{"time":47.0,"sfx":"riser","reason":"into the payoff"},
+{"time":48.5,"sfx":"impact","reason":"hit on the payoff line"}
+]}
