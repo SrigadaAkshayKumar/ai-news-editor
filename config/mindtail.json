@@ -14,7 +14,7 @@
   "wordsPerSecond": 2.4,
   "scriptBatch": 3,
   "editBatch": 1,
-  "brief": "MINDTAIL Hindi Short, 9:16, curious documentary style: a narrator uncovering how the mind works. Strict reel template: HOOK (0-3 s: the most surprising line, a title over clear footage, an impact SFX on frame 0, fastest cuts) -> BODY (setup, escalation, a reveal every few seconds, a whoosh on each new idea, a riser into the key reveal) -> END (the payoff line after a short silence, a hit, the music resolving, a closing question on screen). Picture: about 85% clear, fully visible stock footage (no dark layer, no blur): real video clips mixed with photos that move (slow zoom in/out, pans), whip/flash transitions on beats, small animated callouts (keyword chips, underline/circle annotations, a number roll for a number the voice says). Broadcast look, karaoke Hindi captions with yellow #FFD700 key words. One CC0 bed (mysterious/curious), ducked under the voice; SFX clearly audible. No intro, no logo, no outro.",
+  "brief": "MINDTAIL Hindi Short, 9:16, curious documentary style: a narrator uncovering how the mind works. Strict reel template: HOOK (0-3 s: the most surprising line, a title over clear footage, an impact SFX on frame 0, fastest cuts) -> BODY (setup, escalation, a reveal every few seconds, a whoosh on each new idea, a riser into the key reveal) -> END (the payoff line after a short silence, a hit, the music resolving, a closing question on screen). Picture: about 80% clear, fully visible stock VIDEO clips (no dark layer, no blur) and about 20% animation and other material: motion-graphic beats (kinetic type, number rolls, diagrams, study results), freely licensed portraits of the scientists named, photos that move (slow zoom in/out, pans), whip/flash transitions on beats, small animated callouts (keyword chips, underline/circle annotations, a number roll for a number the voice says). Broadcast look, karaoke Hindi captions with yellow #FFD700 key words. One CC0 bed (mysterious/curious), ducked under the voice; SFX clearly audible. No intro, no logo, no outro.",
   "topics": [
     "why the brain does what it does (habits, memory, attention, fear, decisions)",
     "psychology effects and cognitive biases in everyday life",
@@ -28,7 +28,7 @@
     "enabled": false,
     "_note": "No YouTube upload on this branch until the owner says so. MINDTAIL needs its own YouTube login; the YT_* secrets belong to 24 Hours in Tech."
   },
-  "footageShare": 0.85,
+  "footageShare": 0.8,
   "transcription": "align",
   "_transcriptionNote": "align = free MMS forced alignment of the *_voiceover.txt to the audio (tools/align/align.py): no ElevenLabs key or credits. elevenlabs = Scribe (paid).",
   "looks": [
@@ -57,5 +57,6 @@
   "clearFootage": true,
   "_topicsNote": "Every MINDTAIL Short must connect to the mind or human behaviour (the channel name). Animal or random trivia only when it says something about the human mind.",
   "speed": 1.15,
-  "_speedNote": "Every edit also makes final-9x16-fast-<speed>x.mp4 (picture + voice together, pitch kept). The owner publishes the fast one. The workflow's speed input overrides; 1 or 'none' = no fast copy."
+  "_speedNote": "Every edit also makes final-9x16-fast-<speed>x.mp4 (picture + voice together, pitch kept). The owner publishes the fast one. The workflow's speed input overrides; 1 or 'none' = no fast copy.",
+  "_mixNote": "80% stock video clips; 20% animation (graphic motion beats), moving photos and real portraits (free licences only)."
 }

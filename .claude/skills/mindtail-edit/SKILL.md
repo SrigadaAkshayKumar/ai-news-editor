@@ -53,30 +53,45 @@ Map the script's `## HOOK`, `## BODY`, `## END` sections onto the clean-cut time
 
 Name the three parts and their times in the report.
 
-## Picture: curious documentary, footage first
+## Picture: attractive curious documentary — 80% clips, 20% animation and other material
 
-- **About 85% of the runtime is clear stock footage**, a mix of:
-  - `broll` scenes (video clips): most of the Short; literal searches from the script's *search "…"* lines.
-  - `still` scenes (photos, `--photos`) that **move**: `ken_in`, `ken_out`, `pan_left`, `pan_right`, 2-3 s each:
-    about a quarter of the shots, for close-ups, faces, objects, archival-feeling moments.
-  - Pexels first, Pixabay fallback. **Read the thumbnails before every `get`**: the shot must show what the line says.
-    No clip or photo twice.
-  - **Good footage only (the owner asked for better stock).** For every shot run 2-3 differently worded searches
-    and pick the best candidate, not the first hit. Prefer: native portrait clips (they fill 9:16 without
-    cropping), cinematic light and shallow depth of field, real-looking people and places, a clear single
-    subject, smooth camera movement. Reject: watermarks or logos, cheesy staged "stock acting", cluttered or
-    badly lit frames, shaky phone footage, dated low-resolution clips, anything with on-screen text.
-    `broll get` prints a note when a clip must be upscaled to fill the frame: above ~1.35x it is visibly soft,
-    so choose another clip. After each `get`, Read a frame and replace anything that looks weak.
-- `graphic` scenes (no footage) ≤ 10%, only for a number or a diagram footage cannot show.
-- **Small animations, not heavy graphics**: `keyword_chip`, `annotation` (underline/circle) and `side_note` on key
-  words, one `number_roll` per number said, camera `punch_in` on the reveal, `whip`/`flash` transitions on the
-  turns. **No `dock`, `band` or `corner` layouts** (they shrink the footage into a card), no rail, no polls, no
-  marquee/glitch.
-- Documentary tone: the picture *investigates* (close-ups, slow pushes, people's reactions), it does not decorate.
+The owner's split, by runtime:
+- **About 80%: stock VIDEO clips** (`broll`), clear and fully visible. Pexels first, Pixabay fallback, literal
+  searches from the script's *search "…"* lines. These carry the story.
+- **About 20%: animation and other material**, spread through the Short (never all at the end), at least one beat
+  every 8-10 s:
+  - **Motion-graphic beats** on `graphic` scenes (2-3 s each): kinetic type (`big_statement`, `word_swap`,
+    `quote_pull` for a real sourced quote), `number_roll` / `stat_trio` for numbers the voice says, `flow_diagram`
+    or `checklist` for a process or the "how it works" step, `bar_chart` / `comparison` for a study's result. On a
+    `graphic` scene the corner/dock layouts are fine (there is no footage to shrink); give the scene a `card` when a
+    layout docks.
+  - **Real people the script names** (the scientist, the researcher): a portrait from the library (below) as a
+    `still` scene with a slow `ken_in` and a `lower_third` with name + role + year ("Elizabeth Loftus · psychologist
+    · 1974"). Only real, freely licensed photos; if none exists, skip the portrait and show the study instead
+    (a graphic, the setting in stock footage). Never a stand-in stock face presented as the real person.
+  - **Moving photos** (`still` scenes with `ken_in`/`ken_out`/`pan_*`) for close-ups or objects video can't find.
+- **Small animations over the clips** keep the 80% lively: `keyword_chip`, `annotation` underline/circle on the key
+  word, `side_note`, camera `punch_in` on reveals, `whip`/`flash` transitions on the turns. Vary them: never the same
+  overlay type twice in a row. Over FOOTAGE scenes no `dock`/`band`/`corner` layouts (they shrink the clip).
+- **Good footage only.** For every shot run 2-3 differently worded searches and pick the best candidate, not the
+  first hit. Prefer native portrait clips, cinematic light, real-looking people and places, one clear subject, smooth
+  camera moves. Reject watermarks/logos, cheesy staged "stock acting", cluttered or badly lit frames, shaky phone
+  footage, low-resolution clips, on-screen text. `broll get` warns when a clip must be upscaled: above ~1.35x it is
+  visibly soft, choose another. Read a frame after each `get`. No clip or photo twice.
 - Stock footage never pretends to be evidence of a named person or real event. Fiction or dramatisation gets an
   on-screen label.
-- In the report give the share of runtime that is clear footage, and video vs photo; below ~75% footage, fix the plan.
+- In the report give the runtime split: video clips / graphic beats / photos and portraits. Video below ~70% or
+  animation+other above ~30% means fix the plan first.
+
+### Photos of real people (free licences only)
+
+`node tools/library.mjs search person "Elizabeth Loftus"` → Read `inbox/library/_candidates/sheet.png` → `pick <n>
+--name loftus` → `node tools/library.mjs use <p> loftus` (copies it into the project and adds the credit). Commons
+holds free files only and the tool rejects anything else. If Commons has nothing, an Openverse image search (CC BY,
+CC BY-SA, CC0, public domain only; record creator, licence and source page in `work/credits.json`) is the only other
+source. **Never** download a person's photo from a news site, a university page, Google Images or any other website:
+those photos are copyrighted and can get the channel a strike. Not found → skip it, no question asked. Every
+portrait's credit goes into `metadata.md` (CC BY / BY-SA require it).
 
 ## Sound is the craft
 
