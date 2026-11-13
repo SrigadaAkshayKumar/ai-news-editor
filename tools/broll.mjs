@@ -166,9 +166,14 @@ if (cmd === "search") {
   const fmts = selectFormats(project);
   const v = photos ? await p.getPhoto(p.key, rawId) : await p.get(p.key, rawId);
   const target = Math.max(...fmts.map((f) => Math.max(f.width, f.height)));
-  // Smallest rendition that still covers the largest output frame; avoids hauling 4K files around.
-  const files = [...v.files].sort((a, b) => a.width * a.height - b.width * b.height);
-  const file = files.find((f) => Math.max(f.width, f.height) >= target) || files.at(-1);
+  // A rendition's real height (photo renditions may only state a width).
+  const hOf = (f) => f.height || (v.width ? Math.round((f.width * v.height) / v.width) : 0);
+  // Upscale needed to COVER a frame (cropping, as the scenes do): a landscape clip in a 9:16 frame must be
+  // 1920 tall, so a 1920x1080 file is upscaled 1.8x (soft). Pick the smallest rendition that covers every
+  // output frame without upscaling; else the largest one.
+  const upscale = (f) => Math.max(...fmts.map((o) => Math.max(o.width / f.width, o.height / Math.max(1, hOf(f)))));
+  const files = [...v.files].sort((a, b) => a.width * hOf(a) - b.width * hOf(b));
+  const file = files.find((f) => upscale(f) <= 1.0001) || files.at(-1);
   if (!file) die(`no rendition for ${p.name}:${rawId}`);
   const name = slugify(flags.name || `${p.name}-${v.id}`);
   const rel = photos ? `assets/stills/${name}.jpg` : `assets/broll/${name}.mp4`;
@@ -177,7 +182,8 @@ if (cmd === "search") {
     file: rel, kind: photos ? "still" : "broll", source: p.name === "pexels" ? "Pexels" : "Pixabay",
     url: v.page, creator: v.creator, creatorUrl: v.creatorUrl, license: p.license,
   });
-  if (!photos && Math.max(file.width, file.height) < target) console.log(`note: best rendition ${file.width}x${file.height} is below ${target}px — it will be upscaled`);
+  const up = upscale(file);
+  if (up > 1.0001) console.log(`note: best rendition ${file.width}x${hOf(file)} is upscaled ${up.toFixed(2)}x to fill the frame${up > 1.35 ? " — visibly soft: prefer another clip" : ""}`);
   console.log(`saved ${rel}  (${p.name}, ${file.width}x${file.height || "?"}${photos ? "" : `, ${v.duration}s`})`);
   console.log(
     photos

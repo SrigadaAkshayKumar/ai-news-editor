@@ -22,7 +22,9 @@ Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner revie
 
 ## Standing rules
 
-- **One format: 9:16**, made natively (not cut from 16:9). Shorts are 35-75 s; never pad.
+- **One format: 9:16**, made natively (not cut from 16:9). Shorts are 35-75 s; never pad. The workflow also makes
+  a 1.15x fast copy after your edit (the one the owner publishes): pace the picture so it still reads at that
+  speed (no on-screen text shorter than ~1.2 s).
 - **Language Hindi, free word timings**: create with `--lang hi`, then `npm run transcribe -- <p> --engine align`:
   the script (`*_voiceover.txt`) is force-aligned to the audio with Meta's MMS model (`tools/align/align.py`), free
   and local, no ElevenLabs key or credits. The words ARE the script, so caption spelling is exact. Read
@@ -59,6 +61,13 @@ Name the three parts and their times in the report.
     about a quarter of the shots, for close-ups, faces, objects, archival-feeling moments.
   - Pexels first, Pixabay fallback. **Read the thumbnails before every `get`**: the shot must show what the line says.
     No clip or photo twice.
+  - **Good footage only (the owner asked for better stock).** For every shot run 2-3 differently worded searches
+    and pick the best candidate, not the first hit. Prefer: native portrait clips (they fill 9:16 without
+    cropping), cinematic light and shallow depth of field, real-looking people and places, a clear single
+    subject, smooth camera movement. Reject: watermarks or logos, cheesy staged "stock acting", cluttered or
+    badly lit frames, shaky phone footage, dated low-resolution clips, anything with on-screen text.
+    `broll get` prints a note when a clip must be upscaled to fill the frame: above ~1.35x it is visibly soft,
+    so choose another clip. After each `get`, Read a frame and replace anything that looks weak.
 - `graphic` scenes (no footage) ≤ 10%, only for a number or a diagram footage cannot show.
 - **Small animations, not heavy graphics**: `keyword_chip`, `annotation` (underline/circle) and `side_note` on key
   words, one `number_roll` per number said, camera `punch_in` on the reveal, `whip`/`flash` transitions on the

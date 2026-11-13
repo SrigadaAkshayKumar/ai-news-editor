@@ -55,5 +55,7 @@
     }
   ],
   "clearFootage": true,
-  "_topicsNote": "Every MINDTAIL Short must connect to the mind or human behaviour (the channel name). Animal or random trivia only when it says something about the human mind."
+  "_topicsNote": "Every MINDTAIL Short must connect to the mind or human behaviour (the channel name). Animal or random trivia only when it says something about the human mind.",
+  "speed": 1.15,
+  "_speedNote": "Every edit also makes final-9x16-fast-<speed>x.mp4 (picture + voice together, pitch kept). The owner publishes the fast one. The workflow's speed input overrides; 1 or 'none' = no fast copy."
 }
