@@ -31,7 +31,7 @@ on:
         type: boolean
         default: false
       speed:
-        description: "edit only: also make a faster copy at this speed, e.g. 1.15 (voice pitch kept; empty = none)"
+        description: "edit only: speed of the fast copy (empty = config/mindtail.json, 1.15; none = no fast copy)"
         required: false
 
 concurrency:
@@ -238,7 +238,8 @@ jobs:
               git commit -q -m "mindtail: $f"
               echo "- **$f** → Drive MINDTAIL/output/$f" >> "$GITHUB_STEP_SUMMARY"
               # a faster copy: picture and voice together (captions/cuts/SFX stay in sync), pitch kept by atempo
-              if [ -n "$SPEED" ]; then
+              SPEED=${SPEED:-$(node -e 'console.log(require("./config/mindtail.json").speed||"")')}
+              if [ -n "$SPEED" ] && [ "$SPEED" != "1" ] && [ "$SPEED" != "none" ]; then
                 if node tools/speed.mjs "projects/$p/output/final-9x16.mp4" "$SPEED"; then
                   rclone copy "projects/$p/output" "$DRIVE/output/$f" --include "final-9x16-fast-*.mp4" -v
                   echo "  - fast copy (${SPEED}x) → Drive MINDTAIL/output/$f" >> "$GITHUB_STEP_SUMMARY"
