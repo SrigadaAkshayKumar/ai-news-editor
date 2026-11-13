@@ -140,7 +140,21 @@ jobs:
         run: |
           [ -f mindtail-script.json ] || exit 0
           for f in $(node -e 'console.log((require("./mindtail-script.json").shorts||[]).join(" "))'); do
-            [ -d "inbox/shorts/$f" ] && rclone copy "inbox/shorts/$f" "$DRIVE/inbox/shorts/$f" -v
+            [ -d "inbox/shorts/$f" ] || continue
+            id=${f:0:7}
+            cat > "inbox/shorts/$f/HOW_TO.txt" <<EOF
+          $f
+
+          1. Open ${id}_voiceover.txt, copy ALL of it, paste it into ElevenLabs and generate the Hindi voice.
+          2. Download the audio and upload it into THIS folder (mp3 or wav, any name, only one audio file).
+          3. Run GitHub Actions -> MINDTAIL -> Run workflow -> branch mindtail -> task edit.
+             The finished Short appears in MINDTAIL/output/$f/
+
+          ${id}_script.md has the scenes, the stock footage plan, the sources and title ideas.
+          Optional: add brief.txt here with style words for this Short only.
+          EOF
+            sed -i 's/^          //' "inbox/shorts/$f/HOW_TO.txt"
+            rclone copy "inbox/shorts/$f" "$DRIVE/inbox/shorts/$f" -v
           done
           if [ -f mindtail-script-report.md ]; then rclone copyto mindtail-script-report.md "$DRIVE/output/_script-reports/$(TZ=Asia/Kolkata date +%Y-%m-%d-%H%M).md" -v; fi
           { echo '### New scripts in Drive (MINDTAIL/inbox/shorts/)'; node -e 'for (const s of require("./mindtail-script.json").shorts||[]) console.log("- " + s)'; echo; echo 'Next: paste each MT-XXXX_voiceover.txt into ElevenLabs, upload the audio into the same folder, then run task=edit.'; } >> "$GITHUB_STEP_SUMMARY"

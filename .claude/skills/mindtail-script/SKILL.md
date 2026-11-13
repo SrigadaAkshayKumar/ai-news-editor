@@ -80,9 +80,11 @@ Topic: … · Type: factual | opinion | fiction · Est. length: … s
 ```vo
 <exactly the voiceover text for this beat>
 ```
-**Screen:** what the viewer sees — stock searches as *search "…"* (literal, visual: "teenager scrolling phone in
-bed at night"), on-screen text (2-4 words, which word is highlighted), any motion graphic (a number, a
-comparison), the SFX moment (whoosh / riser / hit / silence).
+**Screen:** what the viewer sees. The edit is simple and footage-first (about 80% stock video and photos), so
+give **one stock search per line of narration** (a new shot every 1.5-3 s) as *search "…"*: literal and filmable
+("teenager scrolling phone in bed at night", not "addiction"); mark photos as *photo "…"*. Then on-screen text only
+where it helps (2-4 words, which word is highlighted), a number graphic only for a number the voice says, and the
+SFX moment (whoosh / riser / hit / silence).
 ### S02 · …
 
 ## Sources

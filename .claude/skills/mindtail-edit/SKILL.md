@@ -29,11 +29,18 @@ Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner revie
   apply `work/script-diff.md`'s caption fixes.
 - **Captions ON**: word-synced Hindi captions, `pop` style, 2-3 words, accent `#00e5ff` on key words. Nothing
   readable in the caption band from the picture pass (lessons).
-- **Picture**: real stock b-roll leads (Pexels, falls back to Pixabay), literal searches taken from the script's
-  *search "…"* lines; Read the thumbnails before `get`. A visual change every 1.5-3 s; a title over the first line
-  at frame 0. Motion graphics only when they carry information (a number the voice says, a comparison, a list).
-  Stock footage never pretends to be evidence of a named person or real event. Fiction or dramatisation gets an
-  on-screen label.
+- **Picture: a SIMPLE, footage-first edit (the owner's style).** About **80% of the runtime is full-frame stock
+  footage**: `broll` scenes (video clips) and `still` scenes (photos, slow Ken-Burns), from Pexels with Pixabay as
+  fallback, literal searches taken from the script's *search "…"* lines (`--photos` for stills). Read the thumbnails
+  before every `get`; the clip must show what the line says. A cut every 1.5-3 s; no clip repeated.
+  - `graphic` scenes (no footage) at most ~20% of the runtime, only where footage can't show it.
+  - Overlays stay light: the `title_slide` over the first line at frame 0, then mostly `full`-layout ones
+    (`keyword_chip`, `side_note`) and at most one or two `number_roll`/`big_statement` beats for the key number
+    or the reveal. **No `dock`, `band` or `corner` layouts** (they shrink the footage into a card), no chapter rail,
+    no polls, no marquee/glitch.
+  - In the report, give the share of runtime that is full-frame footage; below ~75% means fix the plan first.
+  - Stock footage never pretends to be evidence of a named person or real event. Fiction or dramatisation gets an
+    on-screen label.
 - **Sound is the craft**: one CC0 bed (`npm run bgm -- … --cc0`, Freesound wants 1-2 word queries) matched to the
   Short's mood, levelled and ducked under the voice; sub-band whoosh on cuts, a riser into the reveal, a hit on
   the payoff, a short silence before the key line; SFX audible over the bed; no effect on more than ~1/3 of cues.

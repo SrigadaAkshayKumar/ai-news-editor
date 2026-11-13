@@ -7,11 +7,14 @@
   "mode": "faceless",
   "formats": "9:16",
   "style": "liquid",
-  "voiceoverWords": [95, 200],
+  "voiceoverWords": [
+    95,
+    200
+  ],
   "wordsPerSecond": 2.4,
   "scriptBatch": 3,
   "editBatch": 1,
-  "brief": "MINDTAIL Hindi Short, 9:16 only: fast, punchy, cinematic. Real stock b-roll leads the picture (a cut every 1.5-3 s, literal searches), bold word-synced Hindi captions (pop, 2-3 words, key words in the brand cyan #00E5FF), light motion graphics only where they add information (a number, a comparison, a reveal), a title over the first line at frame 0. Sound is the craft: one CC0 music bed matched to the mood and ducked under the voice, sub-band whoosh on cuts, riser into the reveal, a hit on the payoff, silence before the key line; SFX clearly audible over the bed. No intro, no logo sting, no outro.",
+  "brief": "MINDTAIL Hindi Short, 9:16 only. SIMPLE edit: about 80% of the runtime is full-frame stock footage (b-roll video clips, plus photos with a slow Ken-Burns move) from Pexels/Pixabay, a cut every 1.5-3 s, literal searches that match each line. Graphics stay light (at most ~20% of the runtime): word-synced Hindi captions (pop, 2-3 words, key words in cyan #00E5FF), a title over the first line at frame 0, and only the odd keyword chip or a number the voice says. No docked/split-screen cards, no busy motion-graphics. Sound is the craft: one CC0 music bed matched to the mood and ducked under the voice, sub-band whoosh on cuts, riser into the reveal, a hit on the payoff, silence before the key line; SFX clearly audible over the bed. No intro, no logo sting, no outro.",
   "topics": [
     "shocking but true facts",
     "mind-blowing facts",
@@ -24,5 +27,6 @@
   "youtube": {
     "enabled": false,
     "_note": "No YouTube upload on this branch until the owner says so. MINDTAIL needs its own YouTube login; the YT_* secrets belong to 24 Hours in Tech."
-  }
+  },
+  "footageShare": 0.8
 }
