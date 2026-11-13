@@ -44,3 +44,13 @@ daily-script-report.md
 claude-script-log.jsonl
 pick.json
 __pycache__/
+
+# MINDTAIL runs (tools/mindtail.mjs): per-run results go to Drive, not git
+mindtail-run.json
+mindtail-report.md
+mindtail-script.json
+mindtail-script-report.md
+claude-edit-*.jsonl
+info.json
+check.json
+status.txt

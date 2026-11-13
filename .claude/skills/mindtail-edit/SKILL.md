@@ -1,0 +1,70 @@
+---
+name: mindtail-edit
+description: The UNATTENDED MINDTAIL edit in GitHub Actions (branch mindtail) — turn one Short's Hindi ElevenLabs voiceover into a finished 9:16 YouTube Short (real stock b-roll, Hindi captions, motion graphics, music + SFX), verify it and write its metadata, for the workflow to put in Google Drive. Never uploads to YouTube. Use only when the prompt says it is the MINDTAIL edit (or the user asks to rehearse it locally).
+---
+
+# MINDTAIL edit (no human in the loop)
+
+The workflow pulled `MINDTAIL/inbox/` from Drive, picked one Short (`node tools/mindtail.mjs ready`), installed
+everything and wrote `.env`. Your prompt names the Short's folder, its audio, voiceover, script and brief. After you
+stop, `node tools/mindtail.mjs check <folder>` must pass, then the workflow copies `projects/<p>/output/` to
+Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner reviews every Short first.
+
+## Ground rules
+
+- **Nobody will answer a question.** Decide and write it in `mindtail-report.md`. If the job is impossible (no
+  audio, audio that does not match the script, a claim on screen you cannot source), stop and write
+  `mindtail-run.json` with `"status": "failed"` and the reason.
+- **Read `docs/lessons.md` first**, then `config/mindtail.json` (standing brief), `config/brands/mindtail.json`,
+  `docs/mindtail/brand-guidelines.md`. A `brief.txt` in the Short's folder (in the prompt) overrides the standing
+  brief where they clash.
+- 4 vCPU / 16 GB runner: one render at a time, never in parallel. Never alter the voice. Never print `.env`.
+
+## Standing rules
+
+- **One format: 9:16**, made natively (not cut from 16:9). Shorts are 40-80 s; never pad.
+- **Language Hindi**: create with `--lang hi`. Transcription then goes to ElevenLabs Scribe (whisper is useless on
+  Hindi, see lessons) and uses a few credits from the owner's ElevenLabs quota (~1.1 credit per second of audio);
+  note the audio length in the report. The script (`*_voiceover.txt`) is the source of truth for caption spelling:
+  apply `work/script-diff.md`'s caption fixes.
+- **Captions ON**: word-synced Hindi captions, `pop` style, 2-3 words, accent `#00e5ff` on key words. Nothing
+  readable in the caption band from the picture pass (lessons).
+- **Picture**: real stock b-roll leads (Pexels, falls back to Pixabay), literal searches taken from the script's
+  *search "…"* lines; Read the thumbnails before `get`. A visual change every 1.5-3 s; a title over the first line
+  at frame 0. Motion graphics only when they carry information (a number the voice says, a comparison, a list).
+  Stock footage never pretends to be evidence of a named person or real event. Fiction or dramatisation gets an
+  on-screen label.
+- **Sound is the craft**: one CC0 bed (`npm run bgm -- … --cc0`, Freesound wants 1-2 word queries) matched to the
+  Short's mood, levelled and ducked under the voice; sub-band whoosh on cuts, a riser into the reveal, a hit on
+  the payoff, a short silence before the key line; SFX audible over the bed; no effect on more than ~1/3 of cues.
+  Check `work/levels.json` after the mix. You cannot hear it: say so in the report.
+- **Style**: `config/mindtail.json` → `style` unless the brief says otherwise. Palette black / white / cyan
+  `#00e5ff`; yellow and red only for warnings.
+- No intro, no outro, no logo sting.
+
+## Steps
+
+0. **Existing project?** If `projects/` already has a project for this Short (an earlier failed run), its
+   `source/` media is not in git: keep its `work/*.json` decisions aside, delete the folder, re-create it with the
+   same command, restore what still applies (EDL/plans only if the transcript matches), and continue.
+1. **Create**: `npm run new -- <audio> --script <voiceover> --mode faceless --lang hi --formats 9:16 --brand mindtail
+   --style <style> --brief "<brief>"`. The `*_script.md` is the direction: its scenes and **Screen** lines are your
+   plan (read it in full first).
+2. **Edit** with the `edit-video-faceless` skill (all stages, **no review gates**: run straight through), adapted
+   to a Short: one chapter or none, no chapter rail, no polls, the hook in the first 2 s, the payoff at the end.
+   Through `npm run finalize -- <p>` and `npm run verify -- <p>`; Read the verify sheet and stills yourself and fix
+   anything broken. `verify` must end with `structure ok`.
+3. **Metadata** → `projects/<p>/output/metadata.md`:
+   - 3-5 title options (Hindi/Hinglish, curiosity-driven, honest, ≤ 100 characters; the first is the pick),
+   - description: one line of context, a blank line, credits that must be there (CC BY sources if any; music
+     credit if its licence asks), the sources block for factual claims, then `#MINDTAIL #HindiShorts` + 1-3 topic
+     hashtags,
+   - suggested cover frame time, and the altered/synthetic content disclosure answer with a reason (AI voice:
+     usually "no" when nothing realistic is faked; say why).
+   Copy `work/credits.json` facts into it; never invent a credit.
+4. **Report** at the repo root:
+   - `mindtail-run.json`: `{"short": "<folder>", "project": "<p>", "status": "ok"|"failed", "notes": "…"}`
+   - `mindtail-report.md`: duration, scenes and searches used, SFX/bed choices and levels, every on-screen claim and
+     its source, anything the owner must look at or listen to. Copy it into `projects/<p>/output/` too.
+
+Do not commit, push or upload: the workflow does that after `check` passes.
