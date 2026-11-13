@@ -1,0 +1,262 @@
+{
+ "style": "broadcast",
+ "rail": false,
+ "clear_footage": true,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 1.4,
+   "kind": "broll",
+   "src": "assets/broll/c36510.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 1.4,
+   "end": 3.0,
+   "kind": "broll",
+   "src": "assets/broll/c1630.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 2
+  },
+  {
+   "start": 3.0,
+   "end": 5.5,
+   "kind": "still",
+   "src": "assets/stills/p5431169.jpg",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "flash"
+  },
+  {
+   "start": 5.5,
+   "end": 9.2,
+   "kind": "broll",
+   "src": "assets/broll/c129093.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 0.5
+  },
+  {
+   "start": 9.2,
+   "end": 13.3,
+   "kind": "broll",
+   "src": "assets/broll/c288894.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 13.3,
+   "end": 15.77,
+   "kind": "still",
+   "src": "assets/stills/p873511.jpg",
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "start": 15.77,
+   "end": 20.0,
+   "kind": "broll",
+   "src": "assets/broll/c215470.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 20.0,
+   "end": 22.7,
+   "kind": "broll",
+   "src": "assets/broll/c215475.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 22.7,
+   "end": 25.3,
+   "kind": "broll",
+   "src": "assets/broll/c251589.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 25.3,
+   "end": 28.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "transition": "whip"
+  },
+  {
+   "start": 28.2,
+   "end": 29.4,
+   "kind": "broll",
+   "src": "assets/broll/c215471.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 29.4,
+   "end": 32.9,
+   "kind": "graphic",
+   "grade": "neutral",
+   "transition": "flash"
+  },
+  {
+   "start": 32.9,
+   "end": 35.4,
+   "kind": "broll",
+   "src": "assets/broll/c215472.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 35.4,
+   "end": 40.0,
+   "kind": "broll",
+   "src": "assets/broll/c363873.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 0.5
+  },
+  {
+   "start": 40.0,
+   "end": 44.0,
+   "kind": "broll",
+   "src": "assets/broll/c202753.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 44.0,
+   "end": 47.07,
+   "kind": "still",
+   "src": "assets/stills/p2634974.jpg",
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "whip"
+  },
+  {
+   "start": 47.07,
+   "end": 51.17,
+   "kind": "broll",
+   "src": "assets/broll/c257851.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 2.4,
+   "type": "title_slide",
+   "text": "सब देख रहे हैं?",
+   "eyebrow": "MINDTAIL"
+  },
+  {
+   "start": 6.2,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "प्रयोग",
+   "side": "right"
+  },
+  {
+   "start": 10.2,
+   "duration": 2.2,
+   "type": "side_note",
+   "text": "शर्मनाक t-shirt",
+   "side": "left"
+  },
+  {
+   "start": 13.5,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "प्रतीकात्मक",
+   "side": "right"
+  },
+  {
+   "start": 22.8,
+   "duration": 2.4,
+   "type": "annotation",
+   "text": "कितनों ने नोटिस की?",
+   "shape": "underline"
+  },
+  {
+   "start": 25.5,
+   "duration": 2.5,
+   "type": "number_roll",
+   "value": 50,
+   "suffix": "%",
+   "text": "उनका अंदाज़ा"
+  },
+  {
+   "start": 29.5,
+   "duration": 3.2,
+   "type": "number_roll",
+   "value": 25,
+   "suffix": "%",
+   "text": "असल में"
+  },
+  {
+   "start": 33.0,
+   "duration": 2.3,
+   "type": "big_statement",
+   "text": "SPOTLIGHT EFFECT"
+  },
+  {
+   "start": 36.5,
+   "duration": 2.2,
+   "type": "side_note",
+   "text": "खुद पर ज़्यादा ध्यान",
+   "side": "left"
+  },
+  {
+   "start": 40.6,
+   "duration": 2.2,
+   "type": "keyword_chip",
+   "text": "डर लगे तो?",
+   "side": "right"
+  },
+  {
+   "start": 47.3,
+   "duration": 3.5,
+   "type": "lower_third",
+   "text": "आप किस बात से सबसे ज़्यादा झिझकते हो?",
+   "eyebrow": "कमेंट में बताओ"
+  }
+ ],
+ "camera_moves": [
+  {
+   "start": 28.4,
+   "duration": 2.0,
+   "kind": "punch_in",
+   "scale": 1.1
+  },
+  {
+   "start": 47.5,
+   "duration": 3.6,
+   "kind": "drift_in",
+   "scale": 1.08
+  }
+ ]
+}
