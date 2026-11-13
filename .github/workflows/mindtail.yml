@@ -178,7 +178,13 @@ jobs:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           OPENVERSE_TOKEN: ${{ secrets.OPENVERSE_TOKEN }}
         run: |
-          for k in ELEVENLABS_API_KEY PEXELS_API_KEY PIXABAY_API_KEY OPENVERSE_TOKEN; do echo "$k=${!k}" >> .env; done
+          for k in ELEVENLABS_API_KEY PEXELS_API_KEY PIXABAY_API_KEY OPENVERSE_TOKEN; do
+            echo "$k=${!k}" >> .env
+            echo "- $k: $([ -n "${!k}" ] && echo set || echo missing)" >> "$GITHUB_STEP_SUMMARY"
+          done
+          # Hindi captions need ElevenLabs Scribe; footage needs Pexels or Pixabay
+          [ -n "$ELEVENLABS_API_KEY" ] || { echo "::error::secret ELEVENLABS_API_KEY is missing: Hindi transcription (captions) cannot run"; exit 1; }
+          [ -n "$PEXELS_API_KEY$PIXABAY_API_KEY" ] || { echo "::error::secrets PEXELS_API_KEY and PIXABAY_API_KEY are both missing: no stock footage"; exit 1; }
 
       - name: Edit, check and deliver each Short
         if: inputs.task == 'edit' && steps.plan.outputs.count != '0'
