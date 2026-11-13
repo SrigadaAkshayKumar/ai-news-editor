@@ -65,13 +65,7 @@ Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner revie
    to a Short: one chapter or none, no chapter rail, no polls, the hook in the first 2 s, the payoff at the end.
    Through `npm run finalize -- <p>` and `npm run verify -- <p>`; Read the verify sheet and stills yourself and fix
    anything broken. `verify` must end with `structure ok`.
-3. **Look variants** (only when the prompt has a VARIANTS line): after verify passes, render the other looks of
-   `config/mindtail.json` → `looks` from the same edit:
-   `node tools/variants.mjs <p> --format 9:16 --a-label A --looks "B:<style>:<captions>:<accent>,C:…"`.
-   It reuses the cut, footage, timing and mix and writes `output/variants/` (A = the main look, plus B, C… and a
-   README table). Grab one still per variant at the same moment and Read them. A failed variant never fails the
-   run: note it in the report and keep `"status": "ok"` when the main Short passed.
-4. **Metadata** → `projects/<p>/output/metadata.md`:
+3. **Metadata** → `projects/<p>/output/metadata.md`:
    - 3-5 title options (Hindi/Hinglish, curiosity-driven, honest, ≤ 100 characters; the first is the pick),
    - description: one line of context, a blank line, credits that must be there (CC BY sources if any; music
      credit if its licence asks), the sources block for factual claims, then `#MINDTAIL #HindiShorts` + 1-3 topic
@@ -79,9 +73,10 @@ Drive `MINDTAIL/output/<folder>/`. **There is no YouTube step**: the owner revie
    - suggested cover frame time, and the altered/synthetic content disclosure answer with a reason (AI voice:
      usually "no" when nothing realistic is faked; say why).
    Copy `work/credits.json` facts into it; never invent a credit.
-5. **Report** at the repo root:
+4. **Report** at the repo root:
    - `mindtail-run.json`: `{"short": "<folder>", "project": "<p>", "status": "ok"|"failed", "notes": "…"}`
    - `mindtail-report.md`: duration, scenes and searches used, SFX/bed choices and levels, every on-screen claim and
      its source, anything the owner must look at or listen to. Copy it into `projects/<p>/output/` too.
 
-Do not commit, push or upload: the workflow does that after `check` passes.
+Do not commit, push or upload: the workflow does that after `check` passes. Do not render look variants: when
+the owner asks for them, the workflow runs `tools/variants.mjs` itself after the main Short is in Drive.

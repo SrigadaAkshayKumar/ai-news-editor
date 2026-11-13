@@ -206,7 +206,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SHORTS: ${{ steps.plan.outputs.shorts }}
           NOTE: ${{ inputs.note }}
-          VARIANTS_LINE: "${{ inputs.variants && 'VARIANTS - after the main Short passes, also render the other looks (skill step 3).' || '' }}"
+          VARIANTS: ${{ inputs.variants }}
         run: |
           failed=0
           git config user.name "mindtail bot"
@@ -223,8 +223,7 @@ jobs:
           Voiceover text (source of truth): $(get voiceover)
           Script with scenes and Screen directions: $(get script)
           Brief: $(get brief | sed 's/^$/none, use config\/mindtail.json/')
-          Note from the owner: ${NOTE:-none}
-          ${VARIANTS_LINE}" \
+          Note from the owner: ${NOTE:-none}" \
               ${CLAUDE_MODEL:+--model "$CLAUDE_MODEL"} --effort "$CLAUDE_EFFORT" --dangerously-skip-permissions --output-format stream-json --verbose > "claude-edit-$f.jsonl" || true
             rclone copy "claude-edit-$f.jsonl" "$DRIVE/output/_logs/$f-$stamp" || true
             if node tools/mindtail.mjs check "$f" > check.json; then
@@ -234,6 +233,19 @@ jobs:
               git add "projects/$p" config/mindtail-state.json
               git commit -q -m "mindtail: $f"
               echo "- **$f** → Drive MINDTAIL/output/$f" >> "$GITHUB_STEP_SUMMARY"
+              # the main Short is in Drive already; the other looks follow (a failure here never fails the Short)
+              if [ "$VARIANTS" = "true" ]; then
+                looks=$(node -e 'const l=require("./config/mindtail.json").looks||[];console.log(l.slice(1).map(x=>[x.label,x.style,x.captions,x.accent].join(":")).join(","))')
+                a=$(node -e 'console.log((require("./config/mindtail.json").looks||[])[0]?.label||"A")')
+                if node tools/variants.mjs "$p" --format 9:16 --a-label "$a" --looks "$looks"; then
+                  rclone copy "projects/$p/output/variants" "$DRIVE/output/$f/variants" --exclude ".main-*" -v
+                  echo "  - variants → Drive MINDTAIL/output/$f/variants" >> "$GITHUB_STEP_SUMMARY"
+                else
+                  echo "::warning::$f: the look variants failed; the main Short is in Drive"
+                  echo "  - variants failed (main Short is fine)" >> "$GITHUB_STEP_SUMMARY"
+                fi
+                git checkout -q -- "projects/$p" 2>/dev/null || true
+              fi
             else
               failed=1
               cat check.json || true
