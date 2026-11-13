@@ -1,0 +1,12 @@
+{"music_cues":[{"start":0,"end":53.0,"file":"assets/music/bed.mp3","gain_rel":1.0,"fade_in":0.1,"fade_out":2.5,"music_start":0,"mood":"mystery"}],
+"sfx_events":[
+{"time":0.0,"sfx":"impact","reason":"hit on frame 0"},
+{"time":1.3,"sfx":"whoosh","reason":"first cut"},
+{"time":5.67,"sfx":"whoosh","reason":"new idea: foot in the door"},
+{"time":11.7,"sfx":"sub_drop","reason":"new idea: the experiment"},
+{"time":22.9,"sfx":"sub_drop","reason":"the number"},
+{"time":28.2,"sfx":"riser","reason":"into the turn/small ask"},
+{"time":34.0,"sfx":"impact","reason":"reveal 76%"},
+{"time":38.0,"sfx":"sub_drop","reason":"new idea: the lesson"},
+{"time":43.4,"sfx":"impact","reason":"hit on the payoff"}
+]}

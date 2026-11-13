@@ -1,0 +1,737 @@
+{
+  "query": "mystery",
+  "results": [
+    {
+      "id": "c27604ab-9d2d-4235-8179-cd09f4ce3434",
+      "title": "Mystery And Thriller Music",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/akisloukas/sounds/418210",
+      "url": "https://cdn.freesound.org/previews/418/418210_2316649-hq.mp3",
+      "creator": "akisloukas",
+      "creator_url": "https://freesound.org/people/akisloukas",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 3940456,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "horror",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "movie",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "mystery",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "thriller",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/418210/download/",
+          "bit_rate": 256000,
+          "filesize": 5617288,
+          "filetype": "mp3",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Mystery And Thriller Music\" by akisloukas is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 175400,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/c27604ab-9d2d-4235-8179-cd09f4ce3434/",
+      "related_url": "https://api.openverse.org/v1/audio/c27604ab-9d2d-4235-8179-cd09f4ce3434/related/",
+      "waveform": "https://api.openverse.org/v1/audio/c27604ab-9d2d-4235-8179-cd09f4ce3434/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "57204239-8927-42f4-b182-eab1327c6976",
+      "title": "Mysterious Horror Theme Song",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/emrebugday/sounds/488108",
+      "url": "https://cdn.freesound.org/previews/488/488108_9661007-hq.mp3",
+      "creator": "emrebugday",
+      "creator_url": "https://freesound.org/people/emrebugday",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1921724,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Horror",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Intense",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Mysterious",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Mystery",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Song",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Tense",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Theme",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/488108/download/",
+          "bit_rate": 320000,
+          "filesize": 3334268,
+          "filetype": "mp3",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Mysterious Horror Theme Song\" by emrebugday is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 83344,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/57204239-8927-42f4-b182-eab1327c6976/",
+      "related_url": "https://api.openverse.org/v1/audio/57204239-8927-42f4-b182-eab1327c6976/related/",
+      "waveform": "https://api.openverse.org/v1/audio/57204239-8927-42f4-b182-eab1327c6976/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "4437f228-c632-41fb-af66-52dc719111f4",
+      "title": "Bells Mystery Eerie",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/smokinghotdog/sounds/584232",
+      "url": "https://cdn.freesound.org/previews/584/584232_3115103-hq.mp3",
+      "creator": "smokinghotdog",
+      "creator_url": "https://freesound.org/people/smokinghotdog",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1706352,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "bell",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "bells",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "chime",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "eerie",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "gothic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "haunted",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "horror",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "mystery",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "ring",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/584232/download/",
+          "bit_rate": 0,
+          "filesize": 28843528,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Bells Mystery Eerie\" by smokinghotdog is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 81750,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/4437f228-c632-41fb-af66-52dc719111f4/",
+      "related_url": "https://api.openverse.org/v1/audio/4437f228-c632-41fb-af66-52dc719111f4/related/",
+      "waveform": "https://api.openverse.org/v1/audio/4437f228-c632-41fb-af66-52dc719111f4/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "2ada4cf1-9b96-4d79-9ab2-810612b810e2",
+      "title": "voice,ancient,arcane,sacred,mystical,mysterious,phrase,chant,incantation_01_M10.wav",
+      "indexed_on": "2022-06-01T12:00:12.608809Z",
+      "foreign_landing_url": "https://freesound.org/people/frosthardr/sounds/553453",
+      "url": "https://cdn.freesound.org/previews/553/553453_2196245-hq.mp3",
+      "creator": "frosthardr",
+      "creator_url": "https://freesound.org/people/frosthardr",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1655232,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "ancient",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "arcane",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "chant",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "elders",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "incantation",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "mysterious",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "mystical",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "phrase",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "sacred",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "spiritual",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "voice",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/553453/download/",
+          "bit_rate": 0,
+          "filesize": 51608000,
+          "filetype": "wav",
+          "sample_rate": 96000
+        }
+      ],
+      "attribution": "\"voice,ancient,arcane,sacred,mystical,mysterious,phrase,chant,incantation_01_M10.wav\" by frosthardr is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Professional Recordings",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/31049/",
+        "creator": "frosthardr",
+        "creator_url": "https://freesound.org/people/frosthardr/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 89597,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/2ada4cf1-9b96-4d79-9ab2-810612b810e2/",
+      "related_url": "https://api.openverse.org/v1/audio/2ada4cf1-9b96-4d79-9ab2-810612b810e2/related/",
+      "waveform": "https://api.openverse.org/v1/audio/2ada4cf1-9b96-4d79-9ab2-810612b810e2/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "7fa8aff2-1498-4aa7-b432-4d8df721333b",
+      "title": "Mystery strings",
+      "indexed_on": "2022-06-01T12:00:12.608809Z",
+      "foreign_landing_url": "https://freesound.org/people/obscureterminus/sounds/511215",
+      "url": "https://cdn.freesound.org/previews/511/511215_850060-hq.mp3",
+      "creator": "obscureterminus",
+      "creator_url": "https://freesound.org/people/obscureterminus",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1393418,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "electronic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "garageband",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "ipad",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "mysterious",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "mystery",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "violin",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/511215/download/",
+          "bit_rate": 195000,
+          "filesize": 1496359,
+          "filetype": "m4a",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Mystery strings\" by obscureterminus is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 61138,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/7fa8aff2-1498-4aa7-b432-4d8df721333b/",
+      "related_url": "https://api.openverse.org/v1/audio/7fa8aff2-1498-4aa7-b432-4d8df721333b/related/",
+      "waveform": "https://api.openverse.org/v1/audio/7fa8aff2-1498-4aa7-b432-4d8df721333b/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "71f91c89-eaba-44c0-8f9c-d58979646bc4",
+      "title": "Myst Temple Mystery Cave Atmo Atmosphere Sound-design Sound Cinematic.wav",
+      "indexed_on": "2022-06-01T12:00:12.608809Z",
+      "foreign_landing_url": "https://freesound.org/people/szegvari/sounds/620666",
+      "url": "https://cdn.freesound.org/previews/620/620666_2282212-hq.mp3",
+      "creator": "szegvari",
+      "creator_url": "https://freesound.org/people/szegvari",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1774512,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Atmo",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Atmosphere",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Cave",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Myst",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Mystery",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Sound",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Sound-design",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Temple",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/620666/download/",
+          "bit_rate": 0,
+          "filesize": 23892530,
+          "filetype": "wav",
+          "sample_rate": 48000
+        }
+      ],
+      "attribution": "\"Myst Temple Mystery Cave Atmo Atmosphere Sound-design Sound Cinematic.wav\" by szegvari is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 82960,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/71f91c89-eaba-44c0-8f9c-d58979646bc4/",
+      "related_url": "https://api.openverse.org/v1/audio/71f91c89-eaba-44c0-8f9c-d58979646bc4/related/",
+      "waveform": "https://api.openverse.org/v1/audio/71f91c89-eaba-44c0-8f9c-d58979646bc4/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "0dee7d60-e0aa-4b3e-8868-fdc6a55a798c",
+      "title": "Dark Myst Mystery Asian Asia Oriental Sad Mood Fantasy Wind Thriller Cinematic Atmo.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/szegvari/sounds/619908",
+      "url": "https://cdn.freesound.org/previews/619/619908_2282212-hq.mp3",
+      "creator": "szegvari",
+      "creator_url": "https://freesound.org/people/szegvari",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 4236576,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Ambient",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Asia",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Asian",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Atmo",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Atmosphere",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Dark",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Fantasy",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Film",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Horror",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Mood",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Movie",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Myst",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Mystery",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Oriental",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Sad",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Thriller",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Wind",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/619908/download/",
+          "bit_rate": 0,
+          "filesize": 52707884,
+          "filetype": "wav",
+          "sample_rate": 48000
+        }
+      ],
+      "attribution": "\"Dark Myst Mystery Asian Asia Oriental Sad Mood Fantasy Wind Thriller Cinematic Atmo.wav\" by szegvari is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 183013,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/0dee7d60-e0aa-4b3e-8868-fdc6a55a798c/",
+      "related_url": "https://api.openverse.org/v1/audio/0dee7d60-e0aa-4b3e-8868-fdc6a55a798c/related/",
+      "waveform": "https://api.openverse.org/v1/audio/0dee7d60-e0aa-4b3e-8868-fdc6a55a798c/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "e0441531-4ec3-4e3d-8ecd-91578517b009",
+      "title": "mysterious electronic music",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/mehraniiii/sounds/588235",
+      "url": "https://cdn.freesound.org/previews/588/588235_8646358-hq.mp3",
+      "creator": "mehraniiii",
+      "creator_url": "https://freesound.org/people/mehraniiii",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 2924173,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Mystery",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "dark",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "mysterious",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "swelling",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "thriller",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/588235/download/",
+          "bit_rate": 128000,
+          "filesize": 1984470,
+          "filetype": "mp3",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"mysterious electronic music\" by mehraniiii is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 124017,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/e0441531-4ec3-4e3d-8ecd-91578517b009/",
+      "related_url": "https://api.openverse.org/v1/audio/e0441531-4ec3-4e3d-8ecd-91578517b009/related/",
+      "waveform": "https://api.openverse.org/v1/audio/e0441531-4ec3-4e3d-8ecd-91578517b009/waveform/",
+      "unstable__sensitivity": []
+    }
+  ]
+}
