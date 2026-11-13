@@ -95,6 +95,8 @@ jobs:
           COUNT: ${{ inputs.count }}
           SHORT: ${{ inputs.short }}
         run: |
+          # a run queued behind another starts from an older commit: read the newest record of finished Shorts
+          git fetch -q --depth 1 origin mindtail && git checkout FETCH_HEAD -- config/mindtail-state.json || true
           if [ "$TASK" = scripts ]; then
             node tools/mindtail.mjs next-ids $COUNT
           else
@@ -268,6 +270,8 @@ jobs:
             fi
             echo "::endgroup::"
           done
+          # portraits fetched for these Shorts: keep them for the next runs (Drive, never git)
+          if [ -d inbox/library ]; then rclone copy inbox/library "$DRIVE/inbox/library" --exclude "_candidates/**" -v || true; fi
           # the edit leaves other tracked files modified: keep them out of the rebase
           git pull --rebase --autostash -q origin mindtail && git push origin HEAD:mindtail
           exit $failed
