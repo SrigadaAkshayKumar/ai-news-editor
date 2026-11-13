@@ -1,0 +1,98 @@
+{
+  "name": "mt-0006",
+  "createdAt": "2026-11-13T15:33:20.437Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0006/source/raw.mp3",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/shorts/MT-0006-invisible-gorilla/MT-0006-voiceover.mp3",
+    "duration": 56.999125,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "mp3",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0006/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/shorts/MT-0006-invisible-gorilla/MT-0006_voiceover.txt",
+    "words": 137,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0006/source/screen-script.md"
+  },
+  "language": "hi",
+  "keyterms": [],
+  "mode": "faceless",
+  "style": "broadcast",
+  "sourceAspect": null,
+  "formats": [
+    "9:16"
+  ],
+  "fps": 30,
+  "brief": "MINDTAIL Hindi Short 9:16 curious documentary, see config/mindtail.json",
+  "brand": "mindtail",
+  "noCaptions": false,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-13T15:33:41.054Z",
+      "words": 137,
+      "engine": "mms forced alignment (script)"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-13T15:33:47.191Z",
+      "segments": 19,
+      "kept": 52.2
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-13T15:38:04.195Z",
+      "music": 1,
+      "sfx": 10
+    },
+    "visuals@9x16": {
+      "done": true,
+      "at": "2026-11-13T15:43:45.784Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0006/work/visuals-9x16.mp4"
+    },
+    "scaffold@9x16": {
+      "done": true,
+      "at": "2026-11-13T15:43:45.886Z"
+    },
+    "captions@9x16": {
+      "done": true,
+      "at": "2026-11-13T15:43:46.023Z",
+      "groups": 55
+    },
+    "finalize@9x16": {
+      "done": true,
+      "at": "2026-11-13T15:45:54.917Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0006/output/final-9x16.mp4",
+      "duration": 52.2
+    }
+  },
+  "detectedLanguage": {
+    "code": "hin",
+    "probability": null
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0006/work/cleancut.wav",
+    "duration": 52.200125,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "karaoke",
+    "accent": "#ffd700",
+    "uppercase": false,
+    "9x16": {
+      "maxWords": 3,
+      "position": "bottom"
+    }
+  }
+}

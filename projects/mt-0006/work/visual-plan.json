@@ -1,0 +1,283 @@
+{
+ "style": "broadcast",
+ "rail": false,
+ "clear_footage": true,
+ "scenes": [
+  {
+   "start": 0,
+   "end": 1.3,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-164517.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 1.3,
+   "end": 2.6,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-128698.mp4",
+   "motion": "pan_left",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 2.6,
+   "end": 3.9,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-49785.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "flash",
+   "media_start": 1
+  },
+  {
+   "start": 3.9,
+   "end": 5.55,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-178472.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 0.5
+  },
+  {
+   "start": 5.55,
+   "end": 7.6,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-139533.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 0.3
+  },
+  {
+   "start": 7.6,
+   "end": 9.7,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-42305.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 9.7,
+   "end": 12.2,
+   "kind": "graphic",
+   "grade": "neutral",
+   "transition": "cut",
+   "card": {
+    "value": "2",
+    "label": "टीमें"
+   }
+  },
+  {
+   "start": 12.2,
+   "end": 15.2,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-224387.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 15.2,
+   "end": 17.0,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-272238.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 17.0,
+   "end": 19.2,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-87157.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 19.2,
+   "end": 23.2,
+   "kind": "still",
+   "src": "assets/stills/pixabay-625286.jpg",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "start": 23.2,
+   "end": 26.2,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-3630.mp4",
+   "motion": "ken_out",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 26.2,
+   "end": 29.2,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-145566.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "flash",
+   "media_start": 1
+  },
+  {
+   "start": 29.2,
+   "end": 31.4,
+   "kind": "graphic",
+   "grade": "neutral",
+   "transition": "cut"
+  },
+  {
+   "start": 31.4,
+   "end": 34.4,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-176207.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "whip",
+   "media_start": 1
+  },
+  {
+   "start": 34.4,
+   "end": 38.2,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-86867.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 38.2,
+   "end": 41.0,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-314346.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 1
+  },
+  {
+   "start": 41.0,
+   "end": 47.1,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-202753.mp4",
+   "motion": "ken_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 2
+  },
+  {
+   "start": 47.1,
+   "end": 52.2,
+   "kind": "broll",
+   "src": "assets/broll/pixabay-149452.mp4",
+   "motion": "drift_in",
+   "grade": "neutral",
+   "transition": "cut",
+   "media_start": 2
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0,
+   "duration": 2.4,
+   "type": "title_slide",
+   "text": "दिखा क्या?",
+   "eyebrow": "MINDTAIL",
+   "style_hint": "गोरिल्ला"
+  },
+  {
+   "start": 6.3,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "प्रयोग",
+   "side": "right"
+  },
+  {
+   "start": 12.9,
+   "duration": 2.0,
+   "type": "keyword_chip",
+   "text": "पास गिनो",
+   "side": "right"
+  },
+  {
+   "start": 17.3,
+   "duration": 2.0,
+   "type": "side_note",
+   "text": "प्रतीकात्मक footage",
+   "side": "left"
+  },
+  {
+   "start": 26.4,
+   "duration": 2.0,
+   "type": "keyword_chip",
+   "text": "चौंकाने वाला",
+   "side": "left"
+  },
+  {
+   "start": 29.3,
+   "duration": 2.1,
+   "type": "number_roll",
+   "value": 50,
+   "suffix": "%",
+   "text": "ने गोरिल्ला नहीं देखा",
+   "no_reframe": true
+  },
+  {
+   "start": 34.5,
+   "duration": 1.8,
+   "type": "keyword_chip",
+   "text": "ध्यान = टॉर्च",
+   "side": "right"
+  },
+  {
+   "start": 38.5,
+   "duration": 2.2,
+   "type": "annotation",
+   "text": "जिस पर ध्यान जाता है",
+   "shape": "underline"
+  },
+  {
+   "start": 43.4,
+   "duration": 2.0,
+   "type": "side_note",
+   "text": "फोन + सड़क = ?",
+   "side": "right"
+  },
+  {
+   "start": 47.3,
+   "duration": 4.2,
+   "type": "keyword_chip",
+   "text": "आपके साथ कब हुआ?",
+   "side": "right"
+  }
+ ],
+ "camera_moves": [
+  {
+   "start": 31.4,
+   "duration": 1.6,
+   "kind": "punch_in",
+   "scale": 1.12
+  },
+  {
+   "start": 47.1,
+   "duration": 4.5,
+   "kind": "drift_in",
+   "scale": 1.08
+  }
+ ]
+}

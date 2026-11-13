@@ -1,0 +1,1098 @@
+[
+  {
+    "id": "w0",
+    "text": "एक",
+    "start": 0.067,
+    "end": 0.207,
+    "type": "word",
+    "src": "w0"
+  },
+  {
+    "id": "w1",
+    "text": "गोरिल्ला",
+    "start": 0.327,
+    "end": 0.807,
+    "type": "word",
+    "src": "w1"
+  },
+  {
+    "id": "w2",
+    "text": "स्क्रीन",
+    "start": 1.007,
+    "end": 1.388,
+    "type": "word",
+    "src": "w2"
+  },
+  {
+    "id": "w3",
+    "text": "के",
+    "start": 1.468,
+    "end": 1.528,
+    "type": "word",
+    "src": "w3"
+  },
+  {
+    "id": "w4",
+    "text": "बीच",
+    "start": 1.688,
+    "end": 1.908,
+    "type": "word",
+    "src": "w4"
+  },
+  {
+    "id": "w5",
+    "text": "से",
+    "start": 2.008,
+    "end": 2.068,
+    "type": "word",
+    "src": "w5"
+  },
+  {
+    "id": "w6",
+    "text": "गुज़रा...",
+    "start": 2.128,
+    "end": 2.488,
+    "type": "word",
+    "src": "w6"
+  },
+  {
+    "id": "w7",
+    "text": "और",
+    "start": 2.888,
+    "end": 3.028,
+    "type": "word",
+    "src": "w7"
+  },
+  {
+    "id": "w8",
+    "text": "करीब",
+    "start": 3.108,
+    "end": 3.409,
+    "type": "word",
+    "src": "w8"
+  },
+  {
+    "id": "w9",
+    "text": "आधे",
+    "start": 3.589,
+    "end": 3.869,
+    "type": "word",
+    "src": "w9"
+  },
+  {
+    "id": "w10",
+    "text": "लोगों",
+    "start": 3.949,
+    "end": 4.229,
+    "type": "word",
+    "src": "w10"
+  },
+  {
+    "id": "w11",
+    "text": "को",
+    "start": 4.249,
+    "end": 4.309,
+    "type": "word",
+    "src": "w11"
+  },
+  {
+    "id": "w12",
+    "text": "दिखा",
+    "start": 4.429,
+    "end": 4.729,
+    "type": "word",
+    "src": "w12"
+  },
+  {
+    "id": "w13",
+    "text": "ही",
+    "start": 4.749,
+    "end": 4.869,
+    "type": "word",
+    "src": "w13"
+  },
+  {
+    "id": "w14",
+    "text": "नहीं।",
+    "start": 4.889,
+    "end": 5.149,
+    "type": "word",
+    "src": "w14"
+  },
+  {
+    "id": "w15",
+    "text": "Simons",
+    "start": 5.549,
+    "end": 6.009,
+    "type": "word",
+    "src": "w15"
+  },
+  {
+    "id": "w16",
+    "text": "और",
+    "start": 6.069,
+    "end": 6.169,
+    "type": "word",
+    "src": "w16"
+  },
+  {
+    "id": "w17",
+    "text": "Chabris",
+    "start": 6.229,
+    "end": 6.649,
+    "type": "word",
+    "src": "w17"
+  },
+  {
+    "id": "w18",
+    "text": "ने",
+    "start": 6.729,
+    "end": 6.829,
+    "type": "word",
+    "src": "w18"
+  },
+  {
+    "id": "w19",
+    "text": "लोगों",
+    "start": 7.009,
+    "end": 7.33,
+    "type": "word",
+    "src": "w19"
+  },
+  {
+    "id": "w20",
+    "text": "को",
+    "start": 7.39,
+    "end": 7.47,
+    "type": "word",
+    "src": "w20"
+  },
+  {
+    "id": "w21",
+    "text": "एक",
+    "start": 7.69,
+    "end": 7.79,
+    "type": "word",
+    "src": "w21"
+  },
+  {
+    "id": "w22",
+    "text": "छोटा",
+    "start": 7.91,
+    "end": 8.35,
+    "type": "word",
+    "src": "w22"
+  },
+  {
+    "id": "w23",
+    "text": "सा",
+    "start": 8.39,
+    "end": 8.51,
+    "type": "word",
+    "src": "w23"
+  },
+  {
+    "id": "w24",
+    "text": "वीडियो",
+    "start": 8.55,
+    "end": 8.83,
+    "type": "word",
+    "src": "w24"
+  },
+  {
+    "id": "w25",
+    "text": "दिखाया।",
+    "start": 8.87,
+    "end": 9.31,
+    "type": "word",
+    "src": "w25"
+  },
+  {
+    "id": "w26",
+    "text": "उसमें",
+    "start": 9.705,
+    "end": 10.025,
+    "type": "word",
+    "src": "w26"
+  },
+  {
+    "id": "w27",
+    "text": "दो",
+    "start": 10.145,
+    "end": 10.245,
+    "type": "word",
+    "src": "w27"
+  },
+  {
+    "id": "w28",
+    "text": "टीमें",
+    "start": 10.365,
+    "end": 10.725,
+    "type": "word",
+    "src": "w28"
+  },
+  {
+    "id": "w29",
+    "text": "basketball",
+    "start": 10.945,
+    "end": 11.546,
+    "type": "word",
+    "src": "w29"
+  },
+  {
+    "id": "w30",
+    "text": "पास",
+    "start": 11.666,
+    "end": 11.886,
+    "type": "word",
+    "src": "w30"
+  },
+  {
+    "id": "w31",
+    "text": "कर",
+    "start": 11.946,
+    "end": 12.066,
+    "type": "word",
+    "src": "w31"
+  },
+  {
+    "id": "w32",
+    "text": "रही",
+    "start": 12.106,
+    "end": 12.306,
+    "type": "word",
+    "src": "w32"
+  },
+  {
+    "id": "w33",
+    "text": "थीं।",
+    "start": 12.366,
+    "end": 12.566,
+    "type": "word",
+    "src": "w33"
+  },
+  {
+    "id": "w34",
+    "text": "लोगों",
+    "start": 12.953,
+    "end": 13.233,
+    "type": "word",
+    "src": "w34"
+  },
+  {
+    "id": "w35",
+    "text": "से",
+    "start": 13.273,
+    "end": 13.333,
+    "type": "word",
+    "src": "w35"
+  },
+  {
+    "id": "w36",
+    "text": "कहा",
+    "start": 13.393,
+    "end": 13.634,
+    "type": "word",
+    "src": "w36"
+  },
+  {
+    "id": "w37",
+    "text": "गया,",
+    "start": 13.654,
+    "end": 13.894,
+    "type": "word",
+    "src": "w37"
+  },
+  {
+    "id": "w38",
+    "text": "एक",
+    "start": 14.314,
+    "end": 14.454,
+    "type": "word",
+    "src": "w38"
+  },
+  {
+    "id": "w39",
+    "text": "टीम",
+    "start": 14.514,
+    "end": 14.714,
+    "type": "word",
+    "src": "w39"
+  },
+  {
+    "id": "w40",
+    "text": "के",
+    "start": 14.794,
+    "end": 14.854,
+    "type": "word",
+    "src": "w40"
+  },
+  {
+    "id": "w41",
+    "text": "पास",
+    "start": 14.914,
+    "end": 15.134,
+    "type": "word",
+    "src": "w41"
+  },
+  {
+    "id": "w42",
+    "text": "गिनो।",
+    "start": 15.194,
+    "end": 15.374,
+    "type": "word",
+    "src": "w42"
+  },
+  {
+    "id": "w43",
+    "text": "बस",
+    "start": 15.768,
+    "end": 15.968,
+    "type": "word",
+    "src": "w43"
+  },
+  {
+    "id": "w44",
+    "text": "इतना।",
+    "start": 16.328,
+    "end": 16.648,
+    "type": "word",
+    "src": "w44"
+  },
+  {
+    "id": "w45",
+    "text": "वीडियो",
+    "start": 17.048,
+    "end": 17.349,
+    "type": "word",
+    "src": "w45"
+  },
+  {
+    "id": "w46",
+    "text": "के",
+    "start": 17.429,
+    "end": 17.489,
+    "type": "word",
+    "src": "w46"
+  },
+  {
+    "id": "w47",
+    "text": "बीच",
+    "start": 17.609,
+    "end": 17.829,
+    "type": "word",
+    "src": "w47"
+  },
+  {
+    "id": "w48",
+    "text": "में",
+    "start": 17.949,
+    "end": 18.089,
+    "type": "word",
+    "src": "w48"
+  },
+  {
+    "id": "w49",
+    "text": "गोरिल्ला",
+    "start": 18.309,
+    "end": 18.769,
+    "type": "word",
+    "src": "w49"
+  },
+  {
+    "id": "w50",
+    "text": "सूट",
+    "start": 18.829,
+    "end": 19.049,
+    "type": "word",
+    "src": "w50"
+  },
+  {
+    "id": "w51",
+    "text": "पहना",
+    "start": 19.109,
+    "end": 19.47,
+    "type": "word",
+    "src": "w51"
+  },
+  {
+    "id": "w52",
+    "text": "एक",
+    "start": 19.59,
+    "end": 19.69,
+    "type": "word",
+    "src": "w52"
+  },
+  {
+    "id": "w53",
+    "text": "इंसान",
+    "start": 19.81,
+    "end": 20.21,
+    "type": "word",
+    "src": "w53"
+  },
+  {
+    "id": "w54",
+    "text": "आता",
+    "start": 20.27,
+    "end": 20.53,
+    "type": "word",
+    "src": "w54"
+  },
+  {
+    "id": "w55",
+    "text": "है,",
+    "start": 20.55,
+    "end": 20.69,
+    "type": "word",
+    "src": "w55"
+  },
+  {
+    "id": "w56",
+    "text": "और",
+    "start": 21.103,
+    "end": 21.243,
+    "type": "word",
+    "src": "w56"
+  },
+  {
+    "id": "w57",
+    "text": "कोर्ट",
+    "start": 21.363,
+    "end": 21.664,
+    "type": "word",
+    "src": "w57"
+  },
+  {
+    "id": "w58",
+    "text": "के",
+    "start": 21.684,
+    "end": 21.764,
+    "type": "word",
+    "src": "w58"
+  },
+  {
+    "id": "w59",
+    "text": "बीच",
+    "start": 21.884,
+    "end": 22.104,
+    "type": "word",
+    "src": "w59"
+  },
+  {
+    "id": "w60",
+    "text": "से",
+    "start": 22.204,
+    "end": 22.284,
+    "type": "word",
+    "src": "w60"
+  },
+  {
+    "id": "w61",
+    "text": "गुज़र",
+    "start": 22.464,
+    "end": 22.744,
+    "type": "word",
+    "src": "w61"
+  },
+  {
+    "id": "w62",
+    "text": "जाता",
+    "start": 22.804,
+    "end": 23.124,
+    "type": "word",
+    "src": "w62"
+  },
+  {
+    "id": "w63",
+    "text": "है।",
+    "start": 23.144,
+    "end": 23.284,
+    "type": "word",
+    "src": "w63"
+  },
+  {
+    "id": "w64",
+    "text": "पर",
+    "start": 23.705,
+    "end": 23.845,
+    "type": "word",
+    "src": "w64"
+  },
+  {
+    "id": "w65",
+    "text": "नतीजा",
+    "start": 23.945,
+    "end": 24.485,
+    "type": "word",
+    "src": "w65"
+  },
+  {
+    "id": "w66",
+    "text": "चौंकाने",
+    "start": 24.765,
+    "end": 25.325,
+    "type": "word",
+    "src": "w66"
+  },
+  {
+    "id": "w67",
+    "text": "वाला",
+    "start": 25.385,
+    "end": 25.645,
+    "type": "word",
+    "src": "w67"
+  },
+  {
+    "id": "w68",
+    "text": "था।",
+    "start": 25.685,
+    "end": 25.865,
+    "type": "word",
+    "src": "w68"
+  },
+  {
+    "id": "w69",
+    "text": "ज़्यादातर",
+    "start": 26.273,
+    "end": 26.773,
+    "type": "word",
+    "src": "w69"
+  },
+  {
+    "id": "w70",
+    "text": "समूहों",
+    "start": 26.853,
+    "end": 27.293,
+    "type": "word",
+    "src": "w70"
+  },
+  {
+    "id": "w71",
+    "text": "में",
+    "start": 27.333,
+    "end": 27.473,
+    "type": "word",
+    "src": "w71"
+  },
+  {
+    "id": "w72",
+    "text": "करीब",
+    "start": 27.673,
+    "end": 27.954,
+    "type": "word",
+    "src": "w72"
+  },
+  {
+    "id": "w73",
+    "text": "पचास",
+    "start": 28.094,
+    "end": 28.534,
+    "type": "word",
+    "src": "w73"
+  },
+  {
+    "id": "w74",
+    "text": "प्रतिशत",
+    "start": 28.614,
+    "end": 29.074,
+    "type": "word",
+    "src": "w74"
+  },
+  {
+    "id": "w75",
+    "text": "लोगों",
+    "start": 29.174,
+    "end": 29.454,
+    "type": "word",
+    "src": "w75"
+  },
+  {
+    "id": "w76",
+    "text": "ने",
+    "start": 29.494,
+    "end": 29.574,
+    "type": "word",
+    "src": "w76"
+  },
+  {
+    "id": "w77",
+    "text": "उसे",
+    "start": 29.774,
+    "end": 29.954,
+    "type": "word",
+    "src": "w77"
+  },
+  {
+    "id": "w78",
+    "text": "देखा",
+    "start": 30.114,
+    "end": 30.495,
+    "type": "word",
+    "src": "w78"
+  },
+  {
+    "id": "w79",
+    "text": "ही",
+    "start": 30.515,
+    "end": 30.635,
+    "type": "word",
+    "src": "w79"
+  },
+  {
+    "id": "w80",
+    "text": "नहीं।",
+    "start": 30.655,
+    "end": 30.915,
+    "type": "word",
+    "src": "w80"
+  },
+  {
+    "id": "w81",
+    "text": "आँखें",
+    "start": 31.302,
+    "end": 31.622,
+    "type": "word",
+    "src": "w81"
+  },
+  {
+    "id": "w82",
+    "text": "खुली",
+    "start": 31.682,
+    "end": 31.982,
+    "type": "word",
+    "src": "w82"
+  },
+  {
+    "id": "w83",
+    "text": "थीं।",
+    "start": 32.002,
+    "end": 32.223,
+    "type": "word",
+    "src": "w83"
+  },
+  {
+    "id": "w84",
+    "text": "पर",
+    "start": 32.649,
+    "end": 32.789,
+    "type": "word",
+    "src": "w84"
+  },
+  {
+    "id": "w85",
+    "text": "ध्यान",
+    "start": 32.869,
+    "end": 33.269,
+    "type": "word",
+    "src": "w85"
+  },
+  {
+    "id": "w86",
+    "text": "गिनती",
+    "start": 33.589,
+    "end": 33.969,
+    "type": "word",
+    "src": "w86"
+  },
+  {
+    "id": "w87",
+    "text": "में",
+    "start": 33.989,
+    "end": 34.089,
+    "type": "word",
+    "src": "w87"
+  },
+  {
+    "id": "w88",
+    "text": "डूबा",
+    "start": 34.109,
+    "end": 34.409,
+    "type": "word",
+    "src": "w88"
+  },
+  {
+    "id": "w89",
+    "text": "था।",
+    "start": 34.449,
+    "end": 34.63,
+    "type": "word",
+    "src": "w89"
+  },
+  {
+    "id": "w90",
+    "text": "दिमाग",
+    "start": 35.037,
+    "end": 35.437,
+    "type": "word",
+    "src": "w90"
+  },
+  {
+    "id": "w91",
+    "text": "एक",
+    "start": 35.637,
+    "end": 35.797,
+    "type": "word",
+    "src": "w91"
+  },
+  {
+    "id": "w92",
+    "text": "समय",
+    "start": 35.877,
+    "end": 36.137,
+    "type": "word",
+    "src": "w92"
+  },
+  {
+    "id": "w93",
+    "text": "पर",
+    "start": 36.197,
+    "end": 36.337,
+    "type": "word",
+    "src": "w93"
+  },
+  {
+    "id": "w94",
+    "text": "सब",
+    "start": 36.518,
+    "end": 36.678,
+    "type": "word",
+    "src": "w94"
+  },
+  {
+    "id": "w95",
+    "text": "कुछ",
+    "start": 36.758,
+    "end": 36.938,
+    "type": "word",
+    "src": "w95"
+  },
+  {
+    "id": "w96",
+    "text": "नहीं",
+    "start": 36.978,
+    "end": 37.198,
+    "type": "word",
+    "src": "w96"
+  },
+  {
+    "id": "w97",
+    "text": "पकड़",
+    "start": 37.198,
+    "end": 37.438,
+    "type": "word",
+    "src": "w97"
+  },
+  {
+    "id": "w98",
+    "text": "पाता।",
+    "start": 37.498,
+    "end": 37.818,
+    "type": "word",
+    "src": "w98"
+  },
+  {
+    "id": "w99",
+    "text": "यानी",
+    "start": 38.231,
+    "end": 38.491,
+    "type": "word",
+    "src": "w99"
+  },
+  {
+    "id": "w100",
+    "text": "हम",
+    "start": 38.572,
+    "end": 38.732,
+    "type": "word",
+    "src": "w100"
+  },
+  {
+    "id": "w101",
+    "text": "जो",
+    "start": 38.812,
+    "end": 38.912,
+    "type": "word",
+    "src": "w101"
+  },
+  {
+    "id": "w102",
+    "text": "देखते",
+    "start": 39.032,
+    "end": 39.432,
+    "type": "word",
+    "src": "w102"
+  },
+  {
+    "id": "w103",
+    "text": "हैं,",
+    "start": 39.512,
+    "end": 39.692,
+    "type": "word",
+    "src": "w103"
+  },
+  {
+    "id": "w104",
+    "text": "वो",
+    "start": 40.092,
+    "end": 40.152,
+    "type": "word",
+    "src": "w104"
+  },
+  {
+    "id": "w105",
+    "text": "सिर्फ़",
+    "start": 40.352,
+    "end": 40.672,
+    "type": "word",
+    "src": "w105"
+  },
+  {
+    "id": "w106",
+    "text": "वही",
+    "start": 40.712,
+    "end": 41.013,
+    "type": "word",
+    "src": "w106"
+  },
+  {
+    "id": "w107",
+    "text": "है",
+    "start": 41.073,
+    "end": 41.213,
+    "type": "word",
+    "src": "w107"
+  },
+  {
+    "id": "w108",
+    "text": "जिस",
+    "start": 41.553,
+    "end": 41.713,
+    "type": "word",
+    "src": "w108"
+  },
+  {
+    "id": "w109",
+    "text": "पर",
+    "start": 41.793,
+    "end": 41.913,
+    "type": "word",
+    "src": "w109"
+  },
+  {
+    "id": "w110",
+    "text": "ध्यान",
+    "start": 42.013,
+    "end": 42.333,
+    "type": "word",
+    "src": "w110"
+  },
+  {
+    "id": "w111",
+    "text": "जाता",
+    "start": 42.393,
+    "end": 42.733,
+    "type": "word",
+    "src": "w111"
+  },
+  {
+    "id": "w112",
+    "text": "है।",
+    "start": 42.753,
+    "end": 42.893,
+    "type": "word",
+    "src": "w112"
+  },
+  {
+    "id": "w113",
+    "text": "तो",
+    "start": 43.294,
+    "end": 43.374,
+    "type": "word",
+    "src": "w113"
+  },
+  {
+    "id": "w114",
+    "text": "फोन",
+    "start": 43.514,
+    "end": 43.774,
+    "type": "word",
+    "src": "w114"
+  },
+  {
+    "id": "w115",
+    "text": "चलाते",
+    "start": 43.854,
+    "end": 44.254,
+    "type": "word",
+    "src": "w115"
+  },
+  {
+    "id": "w116",
+    "text": "हुए",
+    "start": 44.334,
+    "end": 44.534,
+    "type": "word",
+    "src": "w116"
+  },
+  {
+    "id": "w117",
+    "text": "सड़क",
+    "start": 44.694,
+    "end": 44.954,
+    "type": "word",
+    "src": "w117"
+  },
+  {
+    "id": "w118",
+    "text": "पर",
+    "start": 45.034,
+    "end": 45.134,
+    "type": "word",
+    "src": "w118"
+  },
+  {
+    "id": "w119",
+    "text": "चलना...",
+    "start": 45.195,
+    "end": 45.615,
+    "type": "word",
+    "src": "w119"
+  },
+  {
+    "id": "w120",
+    "text": "सोच",
+    "start": 46.102,
+    "end": 46.342,
+    "type": "word",
+    "src": "w120"
+  },
+  {
+    "id": "w121",
+    "text": "लेना।",
+    "start": 46.442,
+    "end": 46.722,
+    "type": "word",
+    "src": "w121"
+  },
+  {
+    "id": "w122",
+    "text": "आपके",
+    "start": 47.136,
+    "end": 47.436,
+    "type": "word",
+    "src": "w122"
+  },
+  {
+    "id": "w123",
+    "text": "साथ",
+    "start": 47.496,
+    "end": 47.736,
+    "type": "word",
+    "src": "w123"
+  },
+  {
+    "id": "w124",
+    "text": "ऐसा",
+    "start": 47.856,
+    "end": 48.116,
+    "type": "word",
+    "src": "w124"
+  },
+  {
+    "id": "w125",
+    "text": "कब",
+    "start": 48.216,
+    "end": 48.376,
+    "type": "word",
+    "src": "w125"
+  },
+  {
+    "id": "w126",
+    "text": "हुआ",
+    "start": 48.456,
+    "end": 48.696,
+    "type": "word",
+    "src": "w126"
+  },
+  {
+    "id": "w127",
+    "text": "कि",
+    "start": 48.996,
+    "end": 49.076,
+    "type": "word",
+    "src": "w127"
+  },
+  {
+    "id": "w128",
+    "text": "सामने",
+    "start": 49.217,
+    "end": 49.597,
+    "type": "word",
+    "src": "w128"
+  },
+  {
+    "id": "w129",
+    "text": "की",
+    "start": 49.657,
+    "end": 49.777,
+    "type": "word",
+    "src": "w129"
+  },
+  {
+    "id": "w130",
+    "text": "चीज़",
+    "start": 49.817,
+    "end": 50.037,
+    "type": "word",
+    "src": "w130"
+  },
+  {
+    "id": "w131",
+    "text": "दिखी",
+    "start": 50.177,
+    "end": 50.497,
+    "type": "word",
+    "src": "w131"
+  },
+  {
+    "id": "w132",
+    "text": "ही",
+    "start": 50.517,
+    "end": 50.637,
+    "type": "word",
+    "src": "w132"
+  },
+  {
+    "id": "w133",
+    "text": "नहीं?",
+    "start": 50.657,
+    "end": 50.877,
+    "type": "word",
+    "src": "w133"
+  },
+  {
+    "id": "w134",
+    "text": "कमेंट",
+    "start": 51.259,
+    "end": 51.579,
+    "type": "word",
+    "src": "w134"
+  },
+  {
+    "id": "w135",
+    "text": "में",
+    "start": 51.619,
+    "end": 51.699,
+    "type": "word",
+    "src": "w135"
+  },
+  {
+    "id": "w136",
+    "text": "बताओ।",
+    "start": 51.719,
+    "end": 52.039,
+    "type": "word",
+    "src": "w136"
+  }
+]
