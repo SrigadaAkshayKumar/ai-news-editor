@@ -276,7 +276,21 @@ jobs:
           # portraits fetched for these Shorts: keep them for the next runs (Drive, never git)
           if [ -d inbox/library ]; then rclone copy inbox/library "$DRIVE/inbox/library" --exclude "_candidates/**" -v || true; fi
           # the edit leaves other tracked files modified: keep them out of the rebase
-          git pull --rebase --autostash -q origin mindtail && git push origin HEAD:mindtail
+          # a run that waited in the queue started from an older commit: the state file can conflict with
+          # what the run before it pushed. Resolve it as the union of both done lists, never lose a Short.
+          git stash -q --include-untracked || true
+          git fetch -q origin mindtail
+          if ! git rebase -q FETCH_HEAD; then
+            while [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; do
+              s=config/mindtail-state.json
+              git show :2:$s > /tmp/s2.json 2>/dev/null || echo '{"done":[]}' > /tmp/s2.json
+              git show :3:$s > /tmp/s3.json 2>/dev/null || echo '{"done":[]}' > /tmp/s3.json
+              jq -s '{done: ((.[0].done + .[1].done) | unique_by(.short) | sort_by(.short))}' /tmp/s2.json /tmp/s3.json > $s
+              git add -A
+              GIT_EDITOR=true git rebase --continue || true
+            done
+          fi
+          git push origin HEAD:mindtail
           exit $failed
 
       - name: Keep the script log (Drive)
