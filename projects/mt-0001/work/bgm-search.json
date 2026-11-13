@@ -1,0 +1,724 @@
+{
+  "query": "cinematic",
+  "results": [
+    {
+      "id": "93aae8a0-c969-4f73-920d-a6cf77c4019d",
+      "title": "Cinematic Dramatic Buildup",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/BurghRecords/sounds/456102",
+      "url": "https://cdn.freesound.org/previews/456/456102_7241289-hq.mp3",
+      "creator": "BurghRecords",
+      "creator_url": "https://freesound.org/people/BurghRecords",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1328400,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "build-up",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "buildup",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "climax",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "creepy",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "drama",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "dramatic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "film",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "haunted",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "horror",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "movie",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "phantom",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "scary",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "sinister",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "suspense",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "thrill",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "thriller",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/456102/download/",
+          "bit_rate": 0,
+          "filesize": 33829020,
+          "filetype": "wav",
+          "sample_rate": 96000
+        }
+      ],
+      "attribution": "\"Cinematic Dramatic Buildup\" by BurghRecords is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Cinematic Futuristic Background",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/25716/",
+        "creator": "BurghRecords",
+        "creator_url": "https://freesound.org/people/BurghRecords/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 58729,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/93aae8a0-c969-4f73-920d-a6cf77c4019d/",
+      "related_url": "https://api.openverse.org/v1/audio/93aae8a0-c969-4f73-920d-a6cf77c4019d/related/",
+      "waveform": "https://api.openverse.org/v1/audio/93aae8a0-c969-4f73-920d-a6cf77c4019d/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "c5c4a846-a8f0-4bae-847c-221a62468f49",
+      "title": "Slow Cinematic Music.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/DeVern/sounds/384202",
+      "url": "https://cdn.freesound.org/previews/384/384202_2866779-hq.mp3",
+      "creator": "DeVern",
+      "creator_url": "https://freesound.org/people/DeVern",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1190112,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Epic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Film",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Hollywood",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Movie",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "ambient",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "melody",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "pad",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "pads",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "piano",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "slow",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "strings",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/384202/download/",
+          "bit_rate": 0,
+          "filesize": 20408714,
+          "filetype": "wav",
+          "sample_rate": 48000
+        }
+      ],
+      "attribution": "\"Slow Cinematic Music.wav\" by DeVern is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": {
+        "title": "Cinematic Music Clips",
+        "foreign_landing_url": "https://freesound.org/apiv2/packs/23363/",
+        "creator": "DeVern",
+        "creator_url": "https://freesound.org/people/DeVern/",
+        "url": null,
+        "filesize": null,
+        "filetype": null
+      },
+      "duration": 53147,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/c5c4a846-a8f0-4bae-847c-221a62468f49/",
+      "related_url": "https://api.openverse.org/v1/audio/c5c4a846-a8f0-4bae-847c-221a62468f49/related/",
+      "waveform": "https://api.openverse.org/v1/audio/c5c4a846-a8f0-4bae-847c-221a62468f49/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "4f19eb05-a7bd-4ada-973a-d865a91158df",
+      "title": "CINEMATIC BG ATMOSPHERIC #0055H.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/metrostock99/sounds/350955",
+      "url": "https://cdn.freesound.org/previews/350/350955_1256155-hq.mp3",
+      "creator": "metrostock99",
+      "creator_url": "https://freesound.org/people/metrostock99",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 3283252,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Atmospheric",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Thriller",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "atmosphere",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "bg",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "breathy",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "dark",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "drama",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "dramatic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "film",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "movie",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "ominous",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "spooky",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "supernatural",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "suspense",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "tension",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/350955/download/",
+          "bit_rate": 0,
+          "filesize": 25401644,
+          "filetype": "wav",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"CINEMATIC BG ATMOSPHERIC #0055H.wav\" by metrostock99 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 144000,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/4f19eb05-a7bd-4ada-973a-d865a91158df/",
+      "related_url": "https://api.openverse.org/v1/audio/4f19eb05-a7bd-4ada-973a-d865a91158df/related/",
+      "waveform": "https://api.openverse.org/v1/audio/4f19eb05-a7bd-4ada-973a-d865a91158df/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "f835fdc9-c572-4afe-a06f-8e4065296f64",
+      "title": "Cinematic Trance World",
+      "indexed_on": "2023-03-10T13:20:18.216530Z",
+      "foreign_landing_url": "https://freesound.org/people/High3eam/sounds/270842",
+      "url": "https://cdn.freesound.org/previews/270/270842_2730756-hq.mp3",
+      "creator": "High3eam",
+      "creator_url": "https://freesound.org/people/High3eam",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 3099048,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "bass",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "deep",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "low",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "subbass",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "trance",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "world",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/270842/download/",
+          "bit_rate": 320000,
+          "filesize": 5147363,
+          "filetype": "mp3",
+          "sample_rate": 44100
+        }
+      ],
+      "attribution": "\"Cinematic Trance World\" by High3eam is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 128625,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/f835fdc9-c572-4afe-a06f-8e4065296f64/",
+      "related_url": "https://api.openverse.org/v1/audio/f835fdc9-c572-4afe-a06f-8e4065296f64/related/",
+      "waveform": "https://api.openverse.org/v1/audio/f835fdc9-c572-4afe-a06f-8e4065296f64/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "4270d27d-68f5-475a-8450-0854cd91e105",
+      "title": "Retro Vintage Synth Pop Dance Cinematic Music.wav",
+      "indexed_on": "2025-07-03T01:17:50.306821Z",
+      "foreign_landing_url": "https://freesound.org/people/szegvari/sounds/614197",
+      "url": "https://cdn.freesound.org/previews/614/614197_2282212-hq.mp3",
+      "creator": "szegvari",
+      "creator_url": "https://freesound.org/people/szegvari",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 1968720,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Dance",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Euro",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Film",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Happy",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Italio",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Italio-Music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Mastered",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Movie",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Pop",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Retro",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Scene",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Sound",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Synth",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Vintage",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/614197/download/",
+          "bit_rate": 2250000,
+          "filesize": 22464044,
+          "filetype": "wav",
+          "sample_rate": 48000
+        }
+      ],
+      "attribution": "\"Retro Vintage Synth Pop Dance Cinematic Music.wav\" by szegvari is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 78000,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/4270d27d-68f5-475a-8450-0854cd91e105/",
+      "related_url": "https://api.openverse.org/v1/audio/4270d27d-68f5-475a-8450-0854cd91e105/related/",
+      "waveform": "https://api.openverse.org/v1/audio/4270d27d-68f5-475a-8450-0854cd91e105/waveform/",
+      "unstable__sensitivity": []
+    },
+    {
+      "id": "bda8d31d-804a-441e-a720-4c5124a826a4",
+      "title": "Cuban Ensemble Mood Style Happy Band Dance Cinematic Music.wav",
+      "indexed_on": "2024-05-21T15:00:07.873258Z",
+      "foreign_landing_url": "https://freesound.org/people/szegvari/sounds/619557",
+      "url": "https://cdn.freesound.org/previews/619/619557_2282212-hq.mp3",
+      "creator": "szegvari",
+      "creator_url": "https://freesound.org/people/szegvari",
+      "license": "cc0",
+      "license_version": "1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "freesound",
+      "source": "freesound",
+      "category": null,
+      "genres": null,
+      "filesize": 2357088,
+      "filetype": "mp3",
+      "tags": [
+        {
+          "name": "Ambient",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Band",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Cinematic",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Cuban",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Dance",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Ensemble",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Film",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Happy",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Latin",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Latino",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Mood",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Movie",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Music",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Rythm",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Style",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Summer",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Sun",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        },
+        {
+          "name": "Travel",
+          "accuracy": null,
+          "unstable__provider": "freesound"
+        }
+      ],
+      "alt_files": [
+        {
+          "url": "https://freesound.org/apiv2/sounds/619557/download/",
+          "bit_rate": 0,
+          "filesize": 26907692,
+          "filetype": "wav",
+          "sample_rate": 48000
+        }
+      ],
+      "attribution": "\"Cuban Ensemble Mood Style Happy Band Dance Cinematic Music.wav\" by szegvari is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "fields_matched": [
+        "description",
+        "title",
+        "tags.name"
+      ],
+      "mature": false,
+      "audio_set": null,
+      "duration": 93429,
+      "bit_rate": 128000,
+      "sample_rate": null,
+      "thumbnail": null,
+      "detail_url": "https://api.openverse.org/v1/audio/bda8d31d-804a-441e-a720-4c5124a826a4/",
+      "related_url": "https://api.openverse.org/v1/audio/bda8d31d-804a-441e-a720-4c5124a826a4/related/",
+      "waveform": "https://api.openverse.org/v1/audio/bda8d31d-804a-441e-a720-4c5124a826a4/waveform/",
+      "unstable__sensitivity": []
+    }
+  ]
+}

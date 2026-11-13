@@ -1,0 +1,98 @@
+{
+  "name": "mt-0001",
+  "createdAt": "2026-11-13T05:42:57.519Z",
+  "source": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0001/source/raw.mp3",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/shorts/MT-0001-octopus-hearts/MT-0001_voiceover.mp3",
+    "duration": 46.8375,
+    "width": 0,
+    "height": 0,
+    "fps": 0,
+    "vfr": false,
+    "hasAudio": true,
+    "videoCodec": null,
+    "audioCodec": "mp3",
+    "rotation": 0
+  },
+  "script": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0001/source/script.txt",
+    "original": "/home/runner/work/ai-news-editor/ai-news-editor/inbox/shorts/MT-0001-octopus-hearts/MT-0001_voiceover.txt",
+    "words": 107,
+    "directions": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0001/source/screen-script.md"
+  },
+  "language": "hi",
+  "keyterms": [],
+  "mode": "faceless",
+  "style": "liquid",
+  "sourceAspect": null,
+  "formats": [
+    "9:16"
+  ],
+  "fps": 30,
+  "brief": "MINDTAIL Hindi Short, 9:16 only. SIMPLE edit: about 80% of the runtime is full-frame stock footage (b-roll video clips, plus photos with a slow Ken-Burns move) from Pexels/Pixabay, a cut every 1.5-3 s, literal searches that match each line. Graphics stay light (at most ~20% of the runtime): word-synced Hindi captions (pop, 2-3 words, key words in cyan #00E5FF), a title over the first line at frame 0, and only the odd keyword chip or a number the voice says. No docked/split-screen cards, no busy motion-graphics. Sound is the craft: one CC0 music bed matched to the mood and ducked under the voice, sub-band whoosh on cuts, riser into the reveal, a hit on the payoff, silence before the key line; SFX clearly audible over the bed. No intro, no logo sting, no outro.",
+  "brand": "mindtail",
+  "noCaptions": false,
+  "intro": null,
+  "introAt": null,
+  "outro": null,
+  "stages": {
+    "transcribe": {
+      "done": true,
+      "at": "2026-11-13T05:43:17.562Z",
+      "words": 107,
+      "engine": "mms forced alignment (script)"
+    },
+    "cut": {
+      "done": true,
+      "at": "2026-11-13T05:43:26.211Z",
+      "segments": 16,
+      "kept": 44.6
+    },
+    "mix": {
+      "done": true,
+      "at": "2026-11-13T05:46:03.061Z",
+      "music": 1,
+      "sfx": 9
+    },
+    "visuals@9x16": {
+      "done": true,
+      "at": "2026-11-13T06:11:15.990Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0001/work/visuals-9x16.mp4"
+    },
+    "scaffold@9x16": {
+      "done": true,
+      "at": "2026-11-13T06:11:16.074Z"
+    },
+    "captions@9x16": {
+      "done": true,
+      "at": "2026-11-13T06:13:42.694Z",
+      "groups": 42
+    },
+    "finalize@9x16": {
+      "done": true,
+      "at": "2026-11-13T06:13:42.290Z",
+      "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0001/output/final-9x16.mp4",
+      "duration": 44.6
+    }
+  },
+  "detectedLanguage": {
+    "code": "hin",
+    "probability": null
+  },
+  "cleancut": {
+    "file": "/home/runner/work/ai-news-editor/ai-news-editor/projects/mt-0001/work/cleancut.wav",
+    "duration": 44.600125,
+    "width": 0,
+    "height": 0,
+    "fps": 30
+  },
+  "captions": {
+    "style": "pop",
+    "accent": "#00e5ff",
+    "uppercase": false,
+    "9x16": {
+      "maxWords": 3,
+      "position": "bottom"
+    }
+  }
+}

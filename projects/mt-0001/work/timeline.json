@@ -1,0 +1,98 @@
+[
+  {
+    "raw_start": 0,
+    "raw_end": 3.433,
+    "start": 0,
+    "end": 3.433
+  },
+  {
+    "raw_start": 3.567,
+    "raw_end": 4.567,
+    "start": 3.433,
+    "end": 4.433
+  },
+  {
+    "raw_start": 4.733,
+    "raw_end": 6.5,
+    "start": 4.433,
+    "end": 6.2
+  },
+  {
+    "raw_start": 6.733,
+    "raw_end": 8.767,
+    "start": 6.2,
+    "end": 8.233
+  },
+  {
+    "raw_start": 8.9,
+    "raw_end": 10.2,
+    "start": 8.233,
+    "end": 9.533
+  },
+  {
+    "raw_start": 10.433,
+    "raw_end": 13.3,
+    "start": 9.533,
+    "end": 12.4
+  },
+  {
+    "raw_start": 13.433,
+    "raw_end": 15.6,
+    "start": 12.4,
+    "end": 14.567
+  },
+  {
+    "raw_start": 15.767,
+    "raw_end": 20.367,
+    "start": 14.567,
+    "end": 19.167
+  },
+  {
+    "raw_start": 20.467,
+    "raw_end": 22.567,
+    "start": 19.167,
+    "end": 21.267
+  },
+  {
+    "raw_start": 22.767,
+    "raw_end": 25.733,
+    "start": 21.267,
+    "end": 24.233
+  },
+  {
+    "raw_start": 25.8,
+    "raw_end": 29.667,
+    "start": 24.233,
+    "end": 28.1
+  },
+  {
+    "raw_start": 29.767,
+    "raw_end": 36.833,
+    "start": 28.1,
+    "end": 35.167
+  },
+  {
+    "raw_start": 36.933,
+    "raw_end": 39.767,
+    "start": 35.167,
+    "end": 38
+  },
+  {
+    "raw_start": 39.9,
+    "raw_end": 42.867,
+    "start": 38,
+    "end": 40.967
+  },
+  {
+    "raw_start": 42.933,
+    "raw_end": 44.167,
+    "start": 40.967,
+    "end": 42.2
+  },
+  {
+    "raw_start": 44.267,
+    "raw_end": 46.667,
+    "start": 42.2,
+    "end": 44.6
+  }
+]

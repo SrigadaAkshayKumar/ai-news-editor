@@ -1,0 +1,11 @@
+{"music_cues":[{"start":0,"end":41.9,"file":"assets/music/bed.mp3","gain_rel":1.0,"fade_in":1.0,"fade_out":0.5,"music_start":4,"mood":"dark ambient, underwater mystery"}],
+"sfx_events":[
+{"time":2.1,"sfx":"whoosh","reason":"cut from hook to octopus"},
+{"time":8.2,"sfx":"sub_drop","reason":"blue reveal 'नीला'"},
+{"time":14.6,"sfx":"whoosh","reason":"turn to octopus blood"},
+{"time":21.2,"sfx":"riser","reason":"into 'कॉपर खून को नीला रंग देता है'"},
+{"time":23.0,"sfx":"impact","gain":0.8,"reason":"why blue"},
+{"time":29.1,"sfx":"sub_drop","reason":"heart count starts"},
+{"time":33.6,"sfx":"riser","reason":"into the payoff"},
+{"time":35.8,"sfx":"impact","reason":"hit on 'तीन दिल'"},
+{"time":43.0,"sfx":"sub_drop","gain":0.7,"reason":"soft heartbeat-like thud on final 'तीन दिल'"}]}
