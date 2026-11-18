@@ -15,13 +15,13 @@ on:
       task:
         description: "scripts = write new scripts · edit = edit Shorts that have audio · status = list Shorts"
         type: choice
-        options: [scripts, edit, status]
+        options: [scripts, edit, status, clips]
         default: status
       count:
         description: "How many scripts to write, or the most Shorts to edit in this run (empty = config/mindtail.json)"
         required: false
       short:
-        description: "edit only: one Short, e.g. MT-0003 (empty = the next ones with audio)"
+        description: "edit only: one Short, e.g. MT-0003 (empty = the next ones with audio) · clips: the draft release tag to deliver"
         required: false
       note:
         description: "Note for Claude, e.g. topics for the scripts or style words for the edit"
@@ -97,11 +97,28 @@ jobs:
         run: |
           # a run queued behind another starts from an older commit: read the newest record of finished Shorts
           git fetch -q --depth 1 origin mindtail && git checkout FETCH_HEAD -- config/mindtail-state.json || true
-          if [ "$TASK" = scripts ]; then
+          if [ "$TASK" = clips ]; then
+            echo "count=0" >> "$GITHUB_OUTPUT"
+          elif [ "$TASK" = scripts ]; then
             node tools/mindtail.mjs next-ids $COUNT
           else
             node tools/mindtail.mjs ready $SHORT ${COUNT:+--max "$COUNT"}
           fi
+
+      # clips made in a Claude Code session (mindtail repo, clip-video skill) arrive as a DRAFT release of this repo
+      # (drafts are visible only to people with push access): copy them to Drive MINDTAIL/clips/<tag>/, then delete it
+      - name: Deliver clips to Drive
+        if: inputs.task == 'clips'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.short }}
+        run: |
+          test -n "$TAG" || { echo "::error::clips needs the release tag in 'short'"; exit 1; }
+          gh release view "$TAG" --json isDraft --jq .isDraft | grep -qx true || { echo "::error::$TAG is not a draft release"; exit 1; }
+          gh release download "$TAG" -D "clips/$TAG"
+          rclone copy "clips/$TAG" "$DRIVE/clips/$TAG" -v
+          gh release delete "$TAG" --yes --cleanup-tag
+          { echo "### Clips in Drive: MINDTAIL/clips/$TAG/"; ls "clips/$TAG" | sed 's/^/- /'; } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Nothing to edit
         if: inputs.task == 'edit' && steps.plan.outputs.count == '0'
@@ -232,6 +249,9 @@ jobs:
           Note from the owner: ${NOTE:-none}" \
               ${CLAUDE_MODEL:+--model "$CLAUDE_MODEL"} --effort "$CLAUDE_EFFORT" --dangerously-skip-permissions --output-format stream-json --verbose > "claude-edit-$f.jsonl" || true
             rclone copy "claude-edit-$f.jsonl" "$DRIVE/output/_logs/$f-$stamp" || true
+            # Claude's own end state (error / usage limit / turns), never prompt or secret content
+            jq -rc 'select(.type=="result") | {subtype, is_error, num_turns, duration_ms, result: ((.result // "") | tostring | .[0:300])}' "claude-edit-$f.jsonl" 2>/dev/null | tail -1 || true
+            tail -c 400 "claude-edit-$f.jsonl" | grep -iE "limit|error|overloaded|unauthorized" | head -3 || true
             if node tools/mindtail.mjs check "$f" > check.json; then
               p=$(node -e 'console.log(require("./mindtail-run.json").project)')
               rclone copy "projects/$p/output" "$DRIVE/output/$f" -v
@@ -273,7 +293,21 @@ jobs:
           # portraits fetched for these Shorts: keep them for the next runs (Drive, never git)
           if [ -d inbox/library ]; then rclone copy inbox/library "$DRIVE/inbox/library" --exclude "_candidates/**" -v || true; fi
           # the edit leaves other tracked files modified: keep them out of the rebase
-          git pull --rebase --autostash -q origin mindtail && git push origin HEAD:mindtail
+          # a run that waited in the queue started from an older commit: the state file can conflict with
+          # what the run before it pushed. Resolve it as the union of both done lists, never lose a Short.
+          git stash -q --include-untracked || true
+          git fetch -q origin mindtail
+          if ! git rebase -q FETCH_HEAD; then
+            while [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; do
+              s=config/mindtail-state.json
+              git show :2:$s > /tmp/s2.json 2>/dev/null || echo '{"done":[]}' > /tmp/s2.json
+              git show :3:$s > /tmp/s3.json 2>/dev/null || echo '{"done":[]}' > /tmp/s3.json
+              jq -s '{done: ((.[0].done + .[1].done) | unique_by(.short) | sort_by(.short))}' /tmp/s2.json /tmp/s3.json > $s
+              git add -A
+              GIT_EDITOR=true git rebase --continue || true
+            done
+          fi
+          git push origin HEAD:mindtail
           exit $failed
 
       - name: Keep the script log (Drive)
